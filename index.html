@@ -137,7 +137,7 @@ footer{background:var(--deep);color:#fff;text-align:center;padding:26px 20px;fon
   <div class="hero-sub">放浪記 沖縄版</div>
   <div class="hero-region">OKINAWA ISLAND FOOD GUIDE</div>
   <div class="hero-stats">
-    <div class="stat-pill">🍜 499店舗</div>
+    <div class="stat-pill">🍜 <span id="shop-count">499</span>店舗</div>
     <div class="stat-pill">📍 12エリア完全網羅</div>
     <div class="stat-pill">🍥 ジャンル別検索対応</div>
     <div class="stat-pill">🆕 2026そば・中華・和食追加</div>
@@ -839,6 +839,7 @@ function renderShopSections() {
   container.innerHTML = parts.join('\n');
 }
 renderShopSections();
+document.getElementById('shop-count').textContent = shops.length;
 
 const GENRE_COLORS = {
   cafe:'#2a78d6', ramen:'#eb6834', soba:'#1baf7a', washoku:'#eda100',
