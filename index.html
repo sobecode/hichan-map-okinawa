@@ -93,6 +93,10 @@ body{font-family:'Zen Maru Gothic','Noto Sans JP',sans-serif;background:var(--sa
 .hot-badge{background:linear-gradient(135deg,#FF6B6B,#FF8E53);color:#fff;font-size:9px;font-weight:900;padding:2px 6px;border-radius:8px;}
 .new-badge{background:linear-gradient(135deg,#4ECDC4,#44A08D);color:#fff;font-size:9px;font-weight:900;padding:2px 6px;border-radius:8px;}
 .sns-badge{background:linear-gradient(135deg,#E91E8C,#C2185B);color:#fff;font-size:9px;font-weight:900;padding:2px 6px;border-radius:8px;}
+.meal-badge{font-size:9px;font-weight:900;padding:2px 6px;border-radius:8px;white-space:nowrap;}
+.meal-badge-l{background:#E3F2FD;color:#1565C0;}
+.meal-badge-d{background:#FFF3E0;color:#E65100;}
+.meal-badge-ld{background:linear-gradient(135deg,#1565C0,#E65100);color:#fff;}
 .tag-group{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:5px;}
 .tag{font-size:10px;font-weight:700;padding:2px 7px;border-radius:10px;white-space:nowrap;}
 .tag-sns{background:#FFE5F3;color:#C2185B;}
@@ -778,6 +782,38 @@ const AREA_META = {
 };
 const AREA_ORDER = ['nago','onna','yomitan','chatan','kadena','ginowan','urasoe','naha','okinawacity','tomigusuku','itoman','nanjo'];
 
+const GENRE_MEAL_DEFAULT = {
+  cafe:'L', bakery:'L', sweets:'L', soba:'L',
+  ramen:'LD', washoku:'LD', seafood:'LD', chinese:'LD', other:'LD',
+  izakaya:'D', yakitori:'D', yakiniku:'D'
+};
+const MEAL_LABEL = {L:'☀️ 昼のみ', D:'🌙 夜のみ', LD:'☀️🌙 昼・夜'};
+const MEAL_CLASS = {L:'meal-badge-l', D:'meal-badge-d', LD:'meal-badge-ld'};
+
+function guessMealFromHours(h) {
+  if (!h) return null;
+  const times = [...h.matchAll(/(\d{1,2}):(\d{2})/g)].map(m => +m[1] + (+m[2]) / 60);
+  if (times.length < 2) return null;
+  const start = Math.min(...times), end = Math.max(...times);
+  if (start >= 16.5) return 'D';
+  if (end <= 16) return 'L';
+  if (times.length >= 4) {
+    const gapStart = times[1], gapEnd = times[2];
+    if (gapEnd - gapStart >= 1.5 && gapStart >= 13 && gapEnd <= 19) return 'LD';
+  }
+  if (start <= 12 && end >= 18) return 'LD';
+  return null;
+}
+
+function getMealType(s) {
+  return guessMealFromHours(s.h) || GENRE_MEAL_DEFAULT[s.g] || 'LD';
+}
+
+function mealBadgeHtml(s) {
+  const type = getMealType(s);
+  return `<span class="meal-badge ${MEAL_CLASS[type]}">${MEAL_LABEL[type]}</span>`;
+}
+
 function renderShopSections() {
   const container = document.getElementById('shop-sections');
   const parts = [];
@@ -787,7 +823,7 @@ function renderShopSections() {
     const [emoji, name] = AREA_META[areaId];
     const cardsHtml = list.map(s => `
       <div class="shop-card" onclick="flyAndOpen(${s.lat},${s.lng})" data-genre="${s.g}">
-        <div class="shop-top"><div class="shop-name">${s.n}</div>${s.badges}</div>
+        <div class="shop-top"><div class="shop-name">${s.n}</div><div class="badge-row">${mealBadgeHtml(s)}${s.badges}</div></div>
         <div class="tag-group">${s.tags}</div>
         <div class="shop-desc">${s.d}</div>
         <div class="shop-recommend">${s.r}</div>
