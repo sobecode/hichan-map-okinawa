@@ -142,7 +142,7 @@ footer{background:var(--deep);color:#fff;text-align:center;padding:26px 20px;fon
   <div class="hero-sub">放浪記 沖縄版</div>
   <div class="hero-region">OKINAWA ISLAND FOOD GUIDE</div>
   <div class="hero-stats">
-    <div class="stat-pill">🍜 <span id="shop-count">698</span>店舗</div>
+    <div class="stat-pill">🍜 <span id="shop-count">747</span>店舗</div>
     <div class="stat-pill">📍 12エリア</div>
     <div class="stat-pill">🍥 ジャンル別検索対応</div>
     <div class="stat-pill">☀️🌙 昼・夜の営業表示</div>
@@ -333,6 +333,11 @@ const shops = [
   {n:'福寿し',g:'seafood',a:'恩納村/名嘉真',area_id:'onna',lat:26.515274,lng:127.924507,d:'毎日仕入れる新鮮魚が自慢、地元でも愛される寿司・沖縄料理店。',r:'寿司 / 沖縄料理',h:'',tags:'<span class="tag tag-dinner">寿司</span><span class="tag tag-local">評価4.24★</span>',badges:''},
   {n:'恩納そば',g:'soba',a:'恩納村/冨着',area_id:'onna',lat:26.4538428,lng:127.8068065,d:'ホテルモントレ近くの老舗沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">評価4.5★</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'島時間',g:'soba',a:'恩納村/恩納',area_id:'onna',lat:26.483886,lng:127.859391,d:'赤瓦の琉球古民家。昼は沖縄そば、夜は郷土料理居酒屋になる一軒。',r:'沖縄そば / 郷土料理',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">古民家</span>',badges:''},
+  {n:'沖縄炭火料理店 うむさんの庭',g:'soba',a:'恩納村/冨着',area_id:'onna',lat:26.4552,lng:127.8207,d:'恩納村冨着の炭火料理店。沖縄そばも味わえる。',r:'沖縄そば / 炭火料理',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-dinner">炭火</span>',badges:''},
+  {n:'恩菜食房 ぴぱら おんなの駅',g:'soba',a:'恩納村/おんなの駅',area_id:'onna',lat:26.434395,lng:127.798828,d:'「おんなの駅なかゆくい市場」内の食堂。地元野菜を使った料理と沖縄そばが並ぶ。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">おんなの駅</span>',badges:''},
+  {n:'金月そば 恩納店',g:'soba',a:'恩納村/名嘉真',area_id:'onna',lat:26.5164,lng:127.9256,d:'読谷に本店を置く金月そばの恩納店。自家製麺が看板。',r:'金月そば / 自家製麺',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">自家製麺</span>',badges:''},
+  {n:'沖縄そば 崎濱製麺',g:'soba',a:'恩納村/山田',area_id:'onna',lat:26.4299,lng:127.7826,d:'恩納村山田の製麺所直営の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">製麺所直営</span>',badges:''},
+  {n:'ふくぎ',g:'soba',a:'恩納村/恩納',area_id:'onna',lat:26.4865,lng:127.8595,d:'恩納村恩納の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
   // 読谷
   {n:'バンタカフェ by 星野リゾート',g:'cafe',a:'読谷村',area_id:'yomitan',lat:26.4177,lng:127.714,d:'崖（バンタ）の上に立ち、珊瑚の大海原が広がる沖縄最大の絶景カフェ。夕焼け時が格別。',r:'ぶくぶくジュレソーダ / ポークたまごおにぎり',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">絶景</span><span class="tag tag-sns">SNS映え</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'ぱん工房おとなりや',g:'bakery',a:'読谷村/座喜味',area_id:'yomitan',lat:26.4202833,lng:127.7320653,d:'グルービーな雰囲気の人気パン工房。座喜味のガジュマルの木のそば。',r:'黒糖チーズパン（¥320） / 季節のマフィン',h:'',tags:'<span class="tag tag-cafe">パン屋</span><span class="tag tag-local">地元人気</span>',badges:''},
@@ -376,6 +381,11 @@ const shops = [
   {n:'パン屋 水円',g:'bakery',a:'読谷村/座喜味',area_id:'yomitan',lat:26.404699,lng:127.741943,d:'古民家を改装した店内で天然酵母を使い石窯で焼き上げるパンが評判。イートインも可能。',r:'石窯焼きパン各種',h:'',tags:'<span class="tag tag-local">天然酵母パン</span><span class="tag tag-cafe">イートイン</span>',badges:''},
   {n:'鶴亀堂ぜんざい',g:'sweets',a:'読谷村/座喜味',area_id:'yomitan',lat:26.406166,lng:127.742432,d:'座喜味城跡そばにある沖縄ぜんざいの名店。抹茶みるくぜんざいや紅芋黒糖ぜんざいが名物。',r:'紅芋黒糖ぜんざい',h:'',tags:'<span class="tag tag-sweets">ぜんざい</span><span class="tag tag-local">座喜味城跡近く</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'アジアン食堂シロクマ',g:'other',a:'読谷村/都屋',area_id:'yomitan',lat:26.392237,lng:127.726662,d:'都屋漁港近く、タイ人シェフによる本格タイ料理店。屋台風の手作り内装が雰囲気を盛り上げる。',r:'タイ料理各種',h:'',tags:'<span class="tag tag-dinner">タイ料理</span><span class="tag tag-local">都屋漁港近く</span>',badges:'<span class="new-badge">NEW</span>'},
+  {n:'花笠',g:'soba',a:'読谷村/宇座',area_id:'yomitan',lat:26.432261,lng:127.71833,d:'「御菓子御殿 読谷本店」1階の食事処。買い物とあわせて沖縄そばが味わえる。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">御菓子御殿</span>',badges:''},
+  {n:'にくや 読谷店',g:'soba',a:'読谷村/伊良皆',area_id:'yomitan',lat:26.389183,lng:127.753754,d:'読谷村伊良皆の食堂。肉料理と沖縄そばがそろう。',r:'沖縄そば / 肉料理',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">伊良皆</span>',badges:''},
+  {n:'おきなわポークビレッジ',g:'soba',a:'読谷村/渡具知',area_id:'yomitan',lat:26.364136,lng:127.739227,d:'読谷村渡具知の豚肉料理の店。沖縄そばも扱う。',r:'沖縄そば / 豚肉料理',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">豚肉</span>',badges:''},
+  {n:'金月そば gala青い海店',g:'soba',a:'読谷村/高志保',area_id:'yomitan',lat:26.408836,lng:127.716415,d:'体験施設「Gala青い海」内の金月そば。海沿いで自家製麺が味わえる。',r:'金月そば / 自家製麺',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-view">海沿い</span>',badges:''},
+  {n:'座喜味そば',g:'soba',a:'読谷村/座喜味',area_id:'yomitan',lat:26.399805,lng:127.742531,d:'座喜味城跡にほど近い沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">座喜味</span>',badges:''},
   // 北谷
   {n:'ZHYVAGO COFFEE WORKS',g:'cafe',a:'北谷町',area_id:'chatan',lat:26.3158,lng:127.7537,d:'アメリカンビレッジ海沿い。朝8時から営業。サンセットが絶品。',r:'ラテアートカフェラテ / 自家製チーズケーキ',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">海が見える</span><span class="tag tag-sns">SNS映え</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'Zhyvago Coffee Roastery',g:'cafe',a:'北谷町',area_id:'chatan',lat:26.3175027,lng:127.7549417,d:'北谷美浜。イエローカップが映えアイコン。本格バリスタコーヒー。',r:'紅芋チーズケーキ / スペシャルティコーヒー',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-sns">SNS映え</span>',badges:'<span class="sns-badge">SNS</span>'},
@@ -433,6 +443,11 @@ const shops = [
   {n:'小麦の奴隷 沖縄北谷店',g:'bakery',a:'北谷町/宮城',area_id:'chatan',lat:26.3291,lng:127.74501,d:'ザクザクのカレーパンが評判のベーカリー。',r:'カレーパン',h:'',tags:'<span class="tag tag-local">カレーパン</span><span class="tag tag-lunch">ベーカリー</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'ブルーシール 北谷店（デポアイランド店）',g:'sweets',a:'北谷町/美浜',area_id:'chatan',lat:26.316005,lng:127.754922,d:'沖縄発祥アイスクリームチェーンの人気店舗。食べログ「アイス・ジェラート百名店」選出。デポアイランドビルD館内。',r:'アイスクリーム各種',h:'',tags:'<span class="tag tag-sweets">アイスクリーム</span><span class="tag tag-local">百名店</span>',badges:''},
   {n:'氷ヲ刻メ',g:'sweets',a:'北谷町/浜川',area_id:'chatan',lat:26.327587,lng:127.751663,d:'格闘家オーナーが営むふわふわかき氷専門店。',r:'かき氷',h:'',tags:'<span class="tag tag-sweets">かき氷</span><span class="tag tag-local">浜川</span>',badges:''},
+  {n:'謝苅そば',g:'soba',a:'北谷町/吉原',area_id:'chatan',lat:26.317173,lng:127.771454,d:'北谷町吉原の高台にある沖縄そば店。北谷のそばでは最高評価。',r:'沖縄そば / ソーキそば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'みはま食堂',g:'soba',a:'北谷町/美浜',area_id:'chatan',lat:26.3113,lng:127.760735,d:'美浜の食堂。定食と沖縄そばがそろう。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">美浜</span>',badges:''},
+  {n:'キセキ 北谷店',g:'soba',a:'北谷町/美浜',area_id:'chatan',lat:26.3147,lng:127.7552,d:'浦添が本店の貝出汁沖縄そばの北谷店。貝の旨みをきかせたスープが特徴。',r:'貝出汁沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">貝出汁</span>',badges:''},
+  {n:'りんくる食堂',g:'soba',a:'北谷町/浜川',area_id:'chatan',lat:26.32925,lng:127.75145,d:'北谷町浜川の食堂。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">浜川</span>',badges:''},
+  {n:'かめぜん食堂',g:'soba',a:'北谷町/美浜',area_id:'chatan',lat:26.3163,lng:127.7535,d:'デポアイランドC棟2階の食堂。沖縄そばと定食がそろう。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">デポアイランド</span>',badges:''},
   // 嘉手納
   {n:'波之屋 嘉手納店',g:'yakiniku',a:'嘉手納町',area_id:'kadena',lat:26.3630855,lng:127.7503745,d:'嘉手納エリアの人気焼肉店。',r:'焼肉各種',h:'',tags:'<span class="tag tag-dinner">焼肉</span>',badges:''},
   {n:'エラン',g:'washoku',a:'嘉手納町/水釜',area_id:'kadena',lat:26.35,lng:127.748,d:'嘉手納町水釜の住宅街にある人気沖縄料理店。チーズがのったハンバーグが名物。',r:'チーズハンバーグ',h:'',tags:'<span class="tag tag-local">水釜</span>',badges:''},
@@ -467,6 +482,9 @@ const shops = [
   {n:'日本そば工房・せい家',g:'soba',a:'嘉手納町',area_id:'kadena',lat:26.363892,lng:127.754372,d:'沖縄では珍しい十割・田舎そばの手打ち日本蕎麦専門店。',r:'手打ち日本蕎麦',h:'',tags:'<span class="tag tag-local">手打ちそば</span><span class="tag tag-lunch">日本蕎麦</span>',badges:''},
   {n:'MORNING WORKS',g:'cafe',a:'嘉手納町/水釜',area_id:'kadena',lat:26.359924,lng:127.747917,d:'早朝から営業するハワイアンパンケーキ&コーヒーの人気カフェ。',r:'ハワイアンパンケーキ',h:'',tags:'<span class="tag tag-cafe">パンケーキ</span><span class="tag tag-local">早朝営業</span>',badges:''},
   {n:'南国製菓',g:'sweets',a:'嘉手納町/水釜',area_id:'kadena',lat:26.356546,lng:127.74202,d:'ちんすこう等の沖縄伝統菓子を製造直売する老舗菓子工房。',r:'ちんすこう',h:'',tags:'<span class="tag tag-sweets">ちんすこう</span><span class="tag tag-local">老舗</span>',badges:''},
+  {n:'亀そば',g:'soba',a:'嘉手納町/屋良',area_id:'kadena',lat:26.369703,lng:127.772682,d:'道の駅かでな内の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">道の駅</span>',badges:''},
+  {n:'琉球茶屋なーび屋',g:'soba',a:'嘉手納町/屋良',area_id:'kadena',lat:26.369703,lng:127.772682,d:'道の駅かでな1階の茶屋。沖縄そばや軽食が味わえる。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">道の駅</span>',badges:''},
+  {n:'食堂 せいうん',g:'soba',a:'嘉手納町/水釜',area_id:'kadena',lat:26.359245,lng:127.740929,d:'嘉手納町水釜の食堂。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">水釜</span>',badges:''},
   // 宜野湾
   {n:'ハッピーモア市場',g:'sweets',a:'宜野湾市',area_id:'ginowan',lat:26.2853638,lng:127.7439165,d:'サーターアンダギーの概念を覆す人気店。地元誌でも話題。',r:'新感覚サーターアンダギー各種',h:'',tags:'<span class="tag tag-sweets">スイーツ</span><span class="tag tag-local">地元人気</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'宜野湾そば',g:'soba',a:'宜野湾市/我如古',area_id:'ginowan',lat:26.253399,lng:127.75708,d:'地元民・沖縄そばファンから絶大な支持を集める名店。',r:'ぬちまーす塩かつおそば',h:'',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">地元人気</span>',badges:''},
@@ -521,8 +539,16 @@ const shops = [
   {n:'宇地泊製パン所 sourire',g:'bakery',a:'宜野湾市/宇地泊',area_id:'ginowan',lat:26.273254,lng:127.730072,d:'2009年創業、おしゃれなパン屋。',r:'バゲット / カンパーニュ / じゃがいもフォカッチャ',h:'10:30〜21:00（売切次第閉店、月火定休）',tags:'<span class="tag tag-cafe">パン屋</span><span class="tag tag-local">宇地泊</span>',badges:''},
   {n:'ドイツ菓子レーゲンス',g:'sweets',a:'宜野湾市/宇地泊',area_id:'ginowan',lat:26.273394,lng:127.731178,d:'沖縄では貴重な本格ドイツ菓子とパンが楽しめる店。',r:'ザッハートルテ / リンツァートルテ / ケーゼクーヘン',h:'10:30〜19:30頃（水木定休）',tags:'<span class="tag tag-sweets">ドイツ菓子</span><span class="tag tag-local">宇地泊</span>',badges:''},
   {n:'北海道ラーメン追風丸 大謝名店',g:'ramen',a:'宜野湾市/大謝名',area_id:'ginowan',lat:26.269749,lng:127.73555,d:'北海道仕込みの濃厚白味噌ラーメンが人気のラーメン専門店。',r:'白味噌ラーメン / 醤油ラーメン',h:'11:00〜15:00・17:00〜翌2:00（土日祝11:00〜翌3:00）',tags:'<span class="tag tag-dinner">ラーメン</span><span class="tag tag-local">大謝名</span>',badges:''},
+  {n:'沖縄そば パパイヤとスブイ',g:'soba',a:'宜野湾市/大山',area_id:'ginowan',lat:26.284184,lng:127.744133,d:'「ぎのわんゆいマルシェ」の食堂内にある沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">ゆいマルシェ</span>',badges:''},
+  {n:'介そば',g:'soba',a:'宜野湾市/嘉数',area_id:'ginowan',lat:26.261324,lng:127.728683,d:'宜野湾市嘉数の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
+  {n:'沖縄そば食堂 よねはま',g:'soba',a:'宜野湾市/大山',area_id:'ginowan',lat:26.283556,lng:127.744293,d:'大山の沖縄そば食堂。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">大山</span>',badges:''},
+  {n:'くろしお',g:'soba',a:'宜野湾市/愛知',area_id:'ginowan',lat:26.264603,lng:127.769577,d:'宜野湾市愛知の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
   // 浦添
   {n:'Bookcafe Okinawa Rail',g:'cafe',a:'国頭村',area_id:'nago',lat:26.722191,lng:128.2061,d:'森の奥に佇むモダンなブックカフェ。わざわざ訪れる価値あり。',r:'こだわりコーヒー / 静かな読書時間',h:'',tags:'<span class="tag tag-cafe">ブックカフェ</span><span class="tag tag-local">隠れ家</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'道の駅許田フードコート',g:'soba',a:'名護市/許田',area_id:'nago',lat:26.552364,lng:127.972504,d:'高速道路の出入口に近い道の駅許田のフードコート。沖縄そばをはじめ軽食がそろう。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">道の駅</span>',badges:''},
+  {n:'守良屋',g:'soba',a:'名護市/許田',area_id:'nago',lat:26.538204,lng:127.962738,d:'名護市許田の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">許田</span>',badges:''},
+  {n:'前田食堂 名護店',g:'soba',a:'名護市/宮里',area_id:'nago',lat:26.600769,lng:127.976326,d:'大宜味村の名店・前田食堂の名護店。山盛りの野菜と牛肉をのせた牛肉そばが看板。',r:'牛肉そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">名店の支店</span>',badges:''},
+  {n:'おおしろそば',g:'soba',a:'名護市/大北',area_id:'nago',lat:26.606733,lng:127.992989,d:'名護市大北の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
   {n:'炭火ホルモンふくちゃん',g:'yakiniku',a:'浦添市/港川',area_id:'urasoe',lat:26.2605785,lng:127.7178391,d:'北海道産・十勝恵牛の多彩なホルモンが自慢。上ハラミやセンマイ刺しが名物。',r:'上ハラミ / センマイ刺し',h:'17:00〜24:00（水曜定休）',tags:'<span class="tag tag-dinner">ホルモン</span><span class="tag tag-local">港川</span>',badges:''},
   {n:'高江洲そば',g:'soba',a:'浦添市/伊祖',area_id:'urasoe',lat:26.25607,lng:127.7223608,d:'浦添の老舗沖縄そば専門店。地元で長く愛される安定の味わい。',r:'ソーキそば / てびちそば',h:'10:00〜16:00（日曜定休）',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">老舗</span>',badges:''},
   {n:'麺や 和楽',g:'ramen',a:'浦添市/宮城',area_id:'urasoe',lat:26.2467255,lng:127.7025444,d:'京都出身のマスターが作る優しい醤油味の中華そば専門店。',r:'中華そば（京都風醤油）',h:'11:00〜15:00 / 18:00〜21:00（月・火曜定休）',tags:'<span class="tag tag-dinner">ラーメン</span><span class="tag tag-local">京都風</span>',badges:''},
@@ -582,6 +608,11 @@ const shops = [
   {n:'ブルーシール 牧港本店',g:'sweets',a:'浦添市/牧港',area_id:'urasoe',lat:26.266909,lng:127.721458,d:'沖縄アイスクリームの代名詞「ブルーシール」の本店・フラッグシップ店。',r:'紅いもアイス / ブルーシールサンデー',h:'',tags:'<span class="tag tag-sweets">アイスクリーム</span><span class="tag tag-local">本店</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'ほうき星 港川本店',g:'sweets',a:'浦添市/港川',area_id:'urasoe',lat:26.262714,lng:127.71566,d:'沖縄土産としても人気の黒糖カヌレ専門店。',r:'黒糖カヌレ',h:'',tags:'<span class="tag tag-sweets">カヌレ</span><span class="tag tag-local">港川</span>',badges:''},
   {n:'中華蒸炉端 チャオズ',g:'chinese',a:'浦添市/前田',area_id:'urasoe',lat:26.23806,lng:127.738441,d:'小籠包やフカヒレ焼売など本格中華をリーズナブルに楽しめる炉端スタイルの中華居酒屋。',r:'小籠包 / フカヒレ焼売',h:'18:00〜22:00',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">前田</span>',badges:''},
+  {n:'てだこ',g:'soba',a:'浦添市/仲間',area_id:'urasoe',lat:26.248295,lng:127.720642,d:'浦添市仲間の沖縄そば店。浦添のそばでは高江洲そばに次ぐ評価。',r:'沖縄そば / ソーキそば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'貝出汁沖縄そばキセキ',g:'soba',a:'浦添市/仲間',area_id:'urasoe',lat:26.243784,lng:127.726196,d:'貝出汁を使った沖縄そばの専門店。北谷にも支店を持つ人気店。',r:'貝出汁沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">貝出汁</span>',badges:''},
+  {n:'東江そば',g:'soba',a:'浦添市/勢理客',area_id:'urasoe',lat:26.243595,lng:127.698387,d:'浦添市勢理客の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">勢理客</span>',badges:''},
+  {n:'宮良そば 浦添店',g:'soba',a:'浦添市/当山',area_id:'urasoe',lat:26.25527,lng:127.731773,d:'浦添市当山の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">当山</span>',badges:''},
+  {n:'つきしろそば',g:'soba',a:'浦添市/前田',area_id:'urasoe',lat:26.243118,lng:127.731148,d:'浦添市前田の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">前田</span>',badges:''},
   // 那覇
   {n:'ジャッキーステーキハウス',g:'yakiniku',a:'那覇市',area_id:'naha',lat:26.2129,lng:127.6725,d:'沖縄ステーキの元祖・創業1953年。常に行列の老舗。',r:'テンダーロインステーキ200g（¥3,400）ミディアムレアがおすすめ',h:'11:00〜22:30（水曜定休）',tags:'<span class="tag tag-steak">ステーキ</span><span class="tag tag-local">創業1953年</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'ピパーチキッチン',g:'washoku',a:'那覇市',area_id:'naha',lat:26.214,lng:127.6704,d:'八重山産島こしょう「ピパーチ」を使った料理が自慢。旭橋駅近く。',r:'県産豚肩ロースのステーキ定食（¥950）',h:'11:00〜15:30 / 17:30〜21:30',tags:'<span class="tag tag-lunch">ランチ</span><span class="tag tag-local">評価4.7★</span>',badges:'<span class="hot-badge">HOT</span>'},
@@ -671,6 +702,11 @@ const shops = [
   {n:'楚辺',g:'seafood',a:'那覇市/楚辺',area_id:'naha',lat:26.203871,lng:127.684761,d:'古民家をリノベした広々空間で沖縄そばと海鮮丼を楽しめる店。',r:'海鮮丼 / 沖縄そば',h:'',tags:'<span class="tag tag-lunch">海鮮丼</span><span class="tag tag-local">古民家</span>',badges:''},
   {n:'エーデルワイス沖縄 デパートリウボウ店',g:'sweets',a:'那覇市/久茂地',area_id:'naha',lat:26.213209,lng:127.678604,d:'沖縄を代表する洋菓子店。ヒラミーレモンケーキや紅芋ケーキが名物。',r:'ヒラミーレモンケーキ',h:'10:00〜20:30',tags:'<span class="tag tag-sweets">洋菓子</span><span class="tag tag-local">老舗ブランド</span>',badges:''},
   {n:'asian cafe 琉球美ら雪 那覇国際通り店',g:'sweets',a:'那覇市/牧志',area_id:'naha',lat:26.218054,lng:127.689713,d:'国際通り裏手、台湾風ふわふわかき氷「美ら冰」が話題のカフェ。',r:'美ら冰（台湾かき氷）',h:'',tags:'<span class="tag tag-sweets">かき氷</span><span class="tag tag-local">国際通り</span>',badges:''},
+  {n:'首里 ほりかわ',g:'soba',a:'那覇市/首里真和志町',area_id:'naha',lat:26.219494,lng:127.716133,d:'首里の沖縄そば店。那覇のそばでも屈指の評価を集める。',r:'沖縄そば / ソーキそば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'ゆくい処 石だたみ',g:'soba',a:'那覇市/首里金城町',area_id:'naha',lat:26.215355,lng:127.714539,d:'首里金城町の石畳道沿いにある茶処。散策の途中に沖縄そばで一息つける。',r:'沖縄そば / ぜんざい',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-view">石畳道</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'富士家 泊本店',g:'soba',a:'那覇市/泊',area_id:'naha',lat:26.224392,lng:127.687088,d:'ぜんざいで知られる富士家の泊本店。沖縄そばとあわせて味わえる。',r:'沖縄そば / ぜんざい',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-sweets">ぜんざい</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'天龍',g:'soba',a:'那覇市/鏡水',area_id:'naha',lat:26.210526,lng:127.649277,d:'那覇空港国内線ターミナル4階の食事処。搭乗前に沖縄そばが食べられる。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">那覇空港</span>',badges:''},
+  {n:'どらえもん',g:'soba',a:'那覇市/久茂地',area_id:'naha',lat:26.214268,lng:127.681778,d:'久茂地の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">久茂地</span>',badges:''},
   // 沖縄市
   {n:'大衆とり酒場 とりいちず',g:'izakaya',a:'沖縄市',area_id:'okinawacity',lat:26.336,lng:127.8008,d:'沖縄市胡屋の人気居酒屋。親鳥タタキ・水炊きが看板メニュー。',r:'ガッツリ盛り合わせ / 泡盛ハイボール',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">コスパ</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'グランド食堂',g:'washoku',a:'沖縄市/上地',area_id:'okinawacity',lat:26.334217,lng:127.79808,d:'コザで30年以上愛される大衆食堂。名物「ほね汁」は肉・野菜・豆腐・昆布の栄養満点な一品。',r:'ほね汁 / 沖縄そば',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">ランチ</span>',badges:''},
@@ -741,6 +777,11 @@ const shops = [
   {n:'パン屋マリブ',g:'bakery',a:'沖縄市/南桃原',area_id:'okinawacity',lat:26.323185,lng:127.783279,d:'塩パンが名物の南桃原の人気ベーカリー。口コミ件数が多い。',r:'塩パン',h:'9:00〜19:00（月曜定休）',tags:'<span class="tag tag-cafe">パン屋</span><span class="tag tag-local">塩パン</span>',badges:''},
   {n:'赤いへるめっと',g:'izakaya',a:'沖縄市/比屋根',area_id:'okinawacity',lat:26.315258,lng:127.822968,d:'比屋根エリアで口コミ500件超の大衆居酒屋。',r:'一品料理各種',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">比屋根</span>',badges:''},
   {n:'砦 園田店',g:'izakaya',a:'沖縄市/園田',area_id:'okinawacity',lat:26.330566,lng:127.796928,d:'園田エリアで口コミ500件超の居酒屋。',r:'一品料理各種',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">園田</span>',badges:''},
+  {n:'宮古そば 愛',g:'soba',a:'沖縄市/上地',area_id:'okinawacity',lat:26.333071,lng:127.796707,d:'沖縄市上地の宮古そば専門店。沖縄市のそばでは最高評価。',r:'宮古そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">宮古そば</span>',badges:''},
+  {n:'当南食堂',g:'soba',a:'沖縄市/登川',area_id:'okinawacity',lat:26.36861,lng:127.820732,d:'沖縄市登川の食堂。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">登川</span>',badges:''},
+  {n:'うゎちち',g:'soba',a:'沖縄市/比屋根',area_id:'okinawacity',lat:26.315462,lng:127.823433,d:'沖縄市比屋根の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
+  {n:'だるまそば',g:'soba',a:'沖縄市/山里',area_id:'okinawacity',lat:26.322147,lng:127.789543,d:'沖縄市山里の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
+  {n:'アワセそば食堂',g:'soba',a:'沖縄市/高原',area_id:'okinawacity',lat:26.32387,lng:127.825912,d:'沖縄市高原の沖縄そば食堂。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">高原</span>',badges:''},
   // 豊見城
   {n:'イツモ月夜ニ。',g:'washoku',a:'豊見城市',area_id:'tomigusuku',lat:26.1771,lng:127.693,d:'2025年8月オープン！琉球畳の古民家をリノベーション。ランチはしまぶた丼・沖縄そば、ディナーはあぐー豚しゃぶしゃぶ（前日予約制）。',r:'満月そば＋ミニしまぶた丼セット / あぐー豚しゃぶしゃぶ',h:'ランチ11:30〜15:00 ディナー17:00〜22:00（火曜定休）',tags:'<span class="tag tag-dinner">沖縄料理</span><span class="tag tag-local">評価4.8★</span>',badges:'<span class="new-badge">NEW</span><span class="hot-badge">HOT</span>'},
   {n:'よね食堂',g:'soba',a:'豊見城市',area_id:'tomigusuku',lat:26.1646173,lng:127.6682613,d:'豊見城で美味しい沖縄そばを食べるなら外せない人気食堂。',r:'ソーキそば / ジューシー',h:'',tags:'<span class="tag tag-lunch">ランチ</span><span class="tag tag-local">地元人気</span>',badges:''},
@@ -793,6 +834,11 @@ const shops = [
   {n:'タコライスカフェ きじむなぁ ウミカジテラス店',g:'washoku',a:'豊見城市/瀬長島',area_id:'tomigusuku',lat:26.176965,lng:127.641287,d:'瀬長島ウミカジテラス、オムタコが名物のタコライス専門店。口コミ7,000件超の人気店。',r:'オムタコ',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">タコライス</span>',badges:''},
   {n:'海とギョウザと沖縄そば カプリシャス食堂',g:'chinese',a:'豊見城市/瀬長島',area_id:'tomigusuku',lat:26.176965,lng:127.641287,d:'瀬長島ウミカジテラス、餃子と沖縄そばを融合させたユニークな食堂。',r:'餃子 / 沖縄そば',h:'',tags:'<span class="tag tag-dinner">餃子</span><span class="tag tag-local">瀬長島</span>',badges:''},
   {n:'プロースト',g:'other',a:'豊見城市/瀬長島',area_id:'tomigusuku',lat:26.176965,lng:127.641287,d:'瀬長島ウミカジテラス、ドイツ風燻製バル。',r:'ソーセージ / 燻製料理各種',h:'',tags:'<span class="tag tag-dinner">ドイツ料理</span><span class="tag tag-local">瀬長島</span>',badges:''},
+  {n:'そば処玉家 豊崎店',g:'soba',a:'豊見城市/豊崎',area_id:'tomigusuku',lat:26.1593,lng:127.6541,d:'南城の名店・玉家の豊崎店。豊見城のそばでは最高評価。',r:'沖縄そば / ソーキそば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">名店の支店</span>',badges:''},
+  {n:'沖縄そば さんぐわぁー',g:'soba',a:'豊見城市/豊見城',area_id:'tomigusuku',lat:26.184488,lng:127.683647,d:'豊見城市豊見城の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
+  {n:'もとぶ熟成麺',g:'soba',a:'豊見城市/瀬長島',area_id:'tomigusuku',lat:26.176965,lng:127.641287,d:'瀬長島ウミカジテラス内の沖縄そば店。熟成させた自家製麺が売り。',r:'もとぶ熟成そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-view">ウミカジテラス</span>',badges:''},
+  {n:'うるくそば トミトン店',g:'soba',a:'豊見城市/豊崎',area_id:'tomigusuku',lat:26.1593,lng:127.6564,d:'商業施設「TOMITON」内のうるくそば。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">TOMITON</span>',badges:''},
+  {n:'わらいそば',g:'soba',a:'豊見城市/根差部',area_id:'tomigusuku',lat:26.187666,lng:127.687241,d:'豊見城市根差部の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
   // 糸満
   {n:'南部そば',g:'soba',a:'糸満市/潮崎町',area_id:'itoman',lat:26.120428,lng:127.667633,d:'自家製麺が自慢の沖縄そば専門店。晴れた日はテラス席で潮風を感じながら味わえる。',r:'自家製麺そば',h:'',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-view">テラス</span>',badges:''},
   {n:'海邦飯店',g:'chinese',a:'糸満市/西崎町',area_id:'itoman',lat:26.148495,lng:127.664368,d:'糸満市西崎町の中華料理店。',r:'中華ランチ各種',h:'11:30〜15:00 / 17:30〜22:30（水曜定休）',tags:'<span class="tag tag-dinner">中華</span>',badges:''},
@@ -856,6 +902,9 @@ const shops = [
   {n:'炭焼 みかさ 糸満',g:'izakaya',a:'糸満市',area_id:'itoman',lat:26.12899,lng:127.666321,d:'糸満ロータリー近くの炭焼きの店。',r:'炭焼き料理',h:'',tags:'<span class="tag tag-dinner">炭焼き</span><span class="tag tag-local">糸満</span>',badges:''},
   {n:'六丁目酒場 TON屋',g:'izakaya',a:'糸満市/西崎',area_id:'itoman',lat:26.14365,lng:127.670311,d:'西崎六丁目の大衆酒場。食堂使いもできる。',r:'一品料理各種',h:'',tags:'<span class="tag tag-dinner">大衆酒場</span><span class="tag tag-lunch">食堂</span>',badges:''},
   {n:'麺作',g:'chinese',a:'糸満市/潮平',area_id:'itoman',lat:26.149492,lng:127.67308,d:'潮平の中華料理店。担々麺が看板。',r:'担々麺',h:'',tags:'<span class="tag tag-lunch">担々麺</span><span class="tag tag-local">潮平</span>',badges:''},
+  {n:'優美堂',g:'soba',a:'糸満市/伊原',area_id:'itoman',lat:26.0964,lng:127.6914,d:'ひめゆりの塔にほど近い食事処。沖縄そばが味わえる。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">伊原</span>',badges:''},
+  {n:'とぅんち小 西崎店',g:'soba',a:'糸満市/西崎',area_id:'itoman',lat:26.144625,lng:127.668594,d:'糸満市西崎の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
+  {n:'桜食堂',g:'soba',a:'糸満市',area_id:'itoman',lat:26.1299,lng:127.6655,d:'糸満ロータリー近くの食堂。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">糸満</span>',badges:''},
   // 南城
   {n:'カフェくるくま',g:'cafe',a:'南城市',area_id:'nanjo',lat:26.1621,lng:127.8124,d:'太平洋を望む絶景テラスで本格タイ料理。国内最高レベルの絶景カフェのひとつ。',r:'くるくまスペシャル（チキン・ビーフ・ポーク3種カレー）',h:'',tags:'<span class="tag tag-view">絶景</span><span class="tag tag-lunch">タイ料理</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'山の茶屋 楽水',g:'washoku',a:'南城市/玉城',area_id:'nanjo',lat:26.13443,lng:127.784706,d:'石灰岩むき出しの壁が印象的な隠れ家カフェ。島野菜たっぷりのさちばる定食が名物。',r:'さちばる定食（郷土料理の膳） / 沖縄そば',h:'月火・水木定休 11:00〜14:00',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">ヴィーガン</span><span class="tag tag-view">絶景</span>',badges:'<span class="hot-badge">HOT</span>'},
