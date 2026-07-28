@@ -137,7 +137,7 @@ footer{background:var(--deep);color:#fff;text-align:center;padding:26px 20px;fon
   <div class="hero-sub">放浪記 沖縄版</div>
   <div class="hero-region">OKINAWA ISLAND FOOD GUIDE</div>
   <div class="hero-stats">
-    <div class="stat-pill">🍜 <span id="shop-count">705</span>店舗</div>
+    <div class="stat-pill">🍜 <span id="shop-count">699</span>店舗</div>
     <div class="stat-pill">📍 12エリア</div>
     <div class="stat-pill">🍥 ジャンル別検索対応</div>
     <div class="stat-pill">☀️🌙 昼・夜の営業表示</div>
@@ -411,7 +411,6 @@ const shops = [
   {n:'福久娘',g:'izakaya',a:'北谷町/美浜',area_id:'chatan',lat:26.296729,lng:127.76044,d:'アメリカンビレッジ内、デポセントラルビル2Fの居酒屋。',r:'沖縄料理各種',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">アメリカンビレッジ</span>',badges:''},
   {n:'しゃぶしゃぶ温野菜 北谷店',g:'izakaya',a:'北谷町/伊平',area_id:'chatan',lat:26.3204445,lng:127.7598718,d:'北谷町伊平のしゃぶしゃぶ食べ放題チェーン店。夜は居酒屋利用も可能。',r:'しゃぶしゃぶ食べ放題',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">伊平</span>',badges:''},
   {n:'東洋飯店 北谷店',g:'chinese',a:'北谷町/桑江',area_id:'chatan',lat:26.320738,lng:127.7607139,d:'アラハビーチ近くの純中華料理店。高級感ある店内で小籠包や四川麻婆豆腐が味わえる。',r:'エビマヨ / 小籠包 / 四川麻婆豆腐',h:'',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">桑江</span>',badges:''},
-  {n:'北谷うみんちゅ市場',g:'seafood',a:'北谷町/美浜',area_id:'chatan',lat:26.311689,lng:127.761368,d:'うみんちゅワーフ内、北谷町漁業協同組合直送の魚市場。浜川漁港で水揚げされたタマンやカーエーなどが並ぶ。',r:'直送鮮魚 / 刺身',h:'',tags:'<span class="tag tag-dinner">海鮮</span><span class="tag tag-local">美浜/うみんちゅワーフ</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'民謡ライブ酒場 しまんちゅ',g:'izakaya',a:'北谷町',area_id:'chatan',lat:26.3177706,lng:127.7559335,d:'北谷町字美浜、デポアイランド隣接。毎日3回の三線ライブが楽しめる沖縄料理居酒屋。',r:'沖縄料理各種 16:00〜22:00',h:'16:00〜22:00',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">三線ライブ</span>',badges:''},
   {n:'Thaicoon（タイクーン）',g:'other',a:'北谷町/美浜',area_id:'chatan',lat:26.322016,lng:127.7501456,d:'イサーン出身のタイ料理人による本格タイ料理。ランチはブッフェスタイルで家庭料理まで豊富。',r:'タイ料理ランチブッフェ',h:'',tags:'<span class="tag tag-dinner">タイ料理</span><span class="tag tag-lunch">ブッフェ</span>',badges:''},
   {n:'ザ カリフキッチン オキナワ',g:'cafe',a:'北谷町/美浜',area_id:'chatan',lat:26.3152,lng:127.7529,d:'ハワイアンカフェ。テラスからの海・サンセット絶景。キッズスペースあり。',r:'ふわふわかき氷 / ハワイアンプレート',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">海が見える</span>',badges:''},
@@ -442,7 +441,6 @@ const shops = [
   {n:'さしだ商店',g:'ramen',a:'嘉手納町',area_id:'kadena',lat:26.3645758,lng:127.7676325,d:'2021年オープン。モダンな雰囲気の店内で楽しむ個性的なラーメン。手頃な価格のランチセットも人気。',r:'らーめん さしだ商店特製ラーメン',h:'',tags:'<span class="tag tag-dinner">ラーメン</span><span class="tag tag-local">個性派</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'新垣ぜんざい',g:'sweets',a:'嘉手納町',area_id:'kadena',lat:26.3717919,lng:127.7566564,d:'嘉手納町の人気かき氷店。沖縄式ぜんざいが評判。',r:'ぜんざい',h:'',tags:'<span class="tag tag-sweets">かき氷</span><span class="tag tag-local">ぜんざい</span>',badges:''},
   {n:'海が見えるそば家',g:'soba',a:'嘉手納町',area_id:'kadena',lat:26.3544839,lng:127.7411051,d:'オーソドックスな沖縄そば本来の美味しさを追求。添加物を一切使わない素材重視の出汁。窓からは海を一望。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-view">海が見える</span>',badges:''},
-  {n:'ロータリードライブイン UP-KITTY',g:'other',a:'嘉手納町/屋良',area_id:'kadena',lat:26.369703,lng:127.772682,d:'道の駅かでな内。フレッシュトマトと玉ねぎの味がアクセントのジャンボチーズバーガーが名物。',r:'ジャンボチーズバーガー',h:'',tags:'<span class="tag tag-lunch">ハンバーガー</span><span class="tag tag-local">道の駅かでな</span>',badges:''},
   {n:'道の駅かでな展望カフェ',g:'cafe',a:'嘉手納町',area_id:'kadena',lat:26.367881,lng:127.774187,d:'道の駅かでな4階、嘉手納空軍基地を一望できる展望カフェ。',r:'基地滑走路ビューでのカフェタイム',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">基地一望</span>',badges:''},
   {n:'カフェ プラス',g:'cafe',a:'嘉手納町',area_id:'kadena',lat:26.3632499,lng:127.7548761,d:'嘉手納町の人気カフェ。じゃらんカフェランキングでも上位に選出。',r:'こだわりドリンク',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">人気</span>',badges:''},
   {n:'珈琲喫茶カメシマ',g:'cafe',a:'嘉手納町',area_id:'kadena',lat:26.3609716,lng:127.7529671,d:'50年前からそこに在るような懐かしさが漂う老舗珈琲喫茶。',r:'ドリップコーヒー',h:'',tags:'<span class="tag tag-cafe">喫茶店</span><span class="tag tag-local">老舗</span>',badges:''},
@@ -466,7 +464,6 @@ const shops = [
   {n:'南国製菓',g:'sweets',a:'嘉手納町/水釜',area_id:'kadena',lat:26.356546,lng:127.74202,d:'ちんすこう等の沖縄伝統菓子を製造直売する老舗菓子工房。',r:'ちんすこう',h:'',tags:'<span class="tag tag-sweets">ちんすこう</span><span class="tag tag-local">老舗</span>',badges:''},
   // 宜野湾
   {n:'ハッピーモア市場',g:'sweets',a:'宜野湾市',area_id:'ginowan',lat:26.2853638,lng:127.7439165,d:'サーターアンダギーの概念を覆す人気店。地元誌でも話題。',r:'新感覚サーターアンダギー各種',h:'',tags:'<span class="tag tag-sweets">スイーツ</span><span class="tag tag-local">地元人気</span>',badges:'<span class="hot-badge">HOT</span>'},
-  {n:'ビンビール酒場 韋駄天',g:'izakaya',a:'宜野湾市',area_id:'ginowan',lat:26.276,lng:127.77,d:'キンキンに水冷した瓶ビールが名物。県産親鳥のタタキや串カツが人気。',r:'親鳥のタタキ / デカレモンサワー',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">コスパ</span>',badges:''},
   {n:'宜野湾そば',g:'soba',a:'宜野湾市/我如古',area_id:'ginowan',lat:26.253399,lng:127.75708,d:'地元民・沖縄そばファンから絶大な支持を集める名店。',r:'ぬちまーす塩かつおそば',h:'',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">地元人気</span>',badges:''},
   {n:'孔雀楼',g:'chinese',a:'宜野湾市/大山',area_id:'ginowan',lat:26.275375,lng:127.741998,d:'古き良き時代の店内で味わう安定の美味しさ。冷めても美味しい炒飯が評判の老舗中華。',r:'天津飯 / 餃子ランチセット',h:'11:00〜22:00（水曜定休）',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">老舗</span>',badges:''},
   {n:'Gwave Cafe',g:'cafe',a:'宜野湾市/宇地泊',area_id:'ginowan',lat:26.273964,lng:127.7289466,d:'宜野湾ベイサイド情報センター内のデザイナーカフェ。フリーWi-Fi・コワーキング機能完備。',r:'ランチプレート',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">海が見える</span>',badges:''},
@@ -486,7 +483,6 @@ const shops = [
   {n:'おきなわそば ヨネハマ',g:'soba',a:'宜野湾市',area_id:'ginowan',lat:26.2858188,lng:127.7687926,d:'照喜名製麺所の波形ちぢれ麺を使用。モチモチシコシコの食感があっさりスープに絡む。',r:'特製スープそば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">特製スープ</span>',badges:''},
   {n:'あさひ',g:'soba',a:'宜野湾市',area_id:'ginowan',lat:26.2893882,lng:127.7807695,d:'かつ丼（半）と沖縄そば（小）のセット480円という圧倒的な安さとボリュームが自慢。',r:'かつ丼・そばセット（¥480）',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">激安</span>',badges:''},
   {n:'最強食堂宜野湾店',g:'washoku',a:'宜野湾市',area_id:'ginowan',lat:26.2698633,lng:127.7687189,d:'どの定食もボリューム満点なのに全て1,000円以下とリーズナブル。',r:'日替わり定食',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">定食</span>',badges:''},
-  {n:'CAFE UNIZON',g:'washoku',a:'宜野湾市/新城',area_id:'ginowan',lat:26.288397,lng:127.768097,d:'新城地区のカフェ。沖縄食材を使った台湾風ルーローハンのランチセットが人気。',r:'ルーローハンセット',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">ルーローハン</span>',badges:''},
   {n:'中華食堂ドラゴン',g:'chinese',a:'宜野湾市',area_id:'ginowan',lat:26.261951,lng:127.7572676,d:'沖縄の有名町中華店。何度も通うリピーターが多い人気店。',r:'町中華各種',h:'',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">町中華</span>',badges:''},
   {n:'中華飯店 泰林',g:'chinese',a:'宜野湾市',area_id:'ginowan',lat:26.254679,lng:127.7549394,d:'チャーハンなどのごはんもの定食が一番人気。五目あんかけ拉麺や焼き餃子も評判。',r:'チャーハン定食',h:'',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">定食</span>',badges:''},
   {n:'焼鳥酒場ふぉ〜',g:'yakitori',a:'宜野湾市/我如古',area_id:'ginowan',lat:26.254629,lng:127.763153,d:'我如古の焼き鳥店。1本40円のリーズナブルな価格。テーブル・掘りごたつ・畳の個室3タイプで歓送迎会にも。',r:'焼き鳥各種（1本40円〜）',h:'',tags:'<span class="tag tag-dinner">焼き鳥</span><span class="tag tag-local">我如古</span>',badges:''},
@@ -621,7 +617,6 @@ const shops = [
   {n:'焼肉ふくろう',g:'yakiniku',a:'那覇市/金城',area_id:'naha',lat:26.200109,lng:127.6669909,d:'金城にあり、全国からいろんな和牛を厳選し提供。ヘルシーロースターで煙が出ない高級感ある焼肉店。',r:'厳選和牛焼肉',h:'',tags:'<span class="tag tag-dinner">焼肉</span><span class="tag tag-local">金城</span>',badges:''},
   {n:'ロインズ 松山店',g:'yakiniku',a:'那覇市/松山',area_id:'naha',lat:26.2196392,lng:127.6807462,d:'美栄橋駅から徒歩5分と好立地。シャトーブリアンやとろけるユッケなど生肉がおすすめ。',r:'シャトーブリアン',h:'',tags:'<span class="tag tag-dinner">焼肉</span><span class="tag tag-local">松山</span>',badges:''},
   {n:'YAKINIKU牛門',g:'yakiniku',a:'那覇市/牧志',area_id:'naha',lat:26.217528,lng:127.689801,d:'国際通り裏路地の高級感ある焼肉店。',r:'高級焼肉コース',h:'',tags:'<span class="tag tag-dinner">焼肉</span><span class="tag tag-local">牧志裏路地</span>',badges:''},
-  {n:'琉球茶房 あしびうなぁ',g:'washoku',a:'那覇市/首里当蔵町',area_id:'naha',lat:26.218794,lng:127.720161,d:'首里城からほど近い琉球料理専門店。築60年以上の古民家を改装し琉球情緒たっぷり。夜は本格郷土料理コース。',r:'琉球郷土料理コース',h:'',tags:'<span class="tag tag-local">琉球料理</span><span class="tag tag-view">首里</span>',badges:''},
   {n:'沖縄料理 ふる里',g:'washoku',a:'那覇市/久茂地',area_id:'naha',lat:26.213209,lng:127.678604,d:'久茂地、健康志向の地元女性に人気の「豆づくし定食」。アーサ汁・ジーマーミ豆腐など豆づくしの品々。',r:'豆づくし定食',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">豆づくし</span>',badges:''},
   {n:'ゆうなんぎい',g:'washoku',a:'那覇市/国際通り',area_id:'naha',lat:26.214465,lng:127.68186,d:'国際通り入口付近、創業1970年の老舗。各種チャンプルーなど基本の沖縄家庭料理がほぼ揃う。',r:'チャンプルー各種',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-local">創業1970年</span>',badges:''},
   {n:'お食事処 きらく',g:'washoku',a:'那覇市/牧志公設市場',area_id:'naha',lat:26.2145703,lng:127.6883804,d:'牧志公設市場2階の人気大衆食堂。定番の沖縄料理から中華・海鮮まで、リーズナブルに楽しめる。',r:'沖縄料理各種',h:'',tags:'<span class="tag tag-local">大衆食堂</span><span class="tag tag-local">牧志公設市場</span>',badges:''},
@@ -772,7 +767,6 @@ const shops = [
   {n:'しゃぶしゃぶ温野菜 豊崎店',g:'izakaya',a:'豊見城市/与根',area_id:'tomigusuku',lat:26.1667,lng:127.6573,d:'豊見城市与根のしゃぶしゃぶ食べ放題チェーン店。夜は居酒屋利用も可能。',r:'しゃぶしゃぶ食べ放題',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">食べ放題</span>',badges:''},
   {n:'おばんざいと美味い酒 虹',g:'izakaya',a:'豊見城市/豊崎',area_id:'tomigusuku',lat:26.1572,lng:127.6575,d:'豊崎のレインボービル5Fにあるおばんざいと日本酒の店。',r:'おばんざい各種 / 日本酒',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">豊崎</span>',badges:''},
   {n:'海あじ O.TOSHI丸',g:'izakaya',a:'豊見城市/豊崎',area_id:'tomigusuku',lat:26.1563,lng:127.6603,d:'豊見城市豊崎、新鮮な海鮮とステーキ・沖縄料理を楽しめる居酒屋。',r:'海鮮各種',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">豊崎</span>',badges:''},
-  {n:'一石二鳥 豊崎店',g:'yakitori',a:'豊見城市/伊良波',area_id:'tomigusuku',lat:26.169,lng:127.671,d:'ゲートワン隣の焼き鳥屋台。13種類の串と馬刺し・地鶏たたき・ヤギ刺しなど珍味も揃う。',r:'串各種13種 / 馬刺し',h:'',tags:'<span class="tag tag-dinner">焼き鳥</span><span class="tag tag-local">伊良波</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'紅虎餃子房 アウトレットモールあしびなー店',g:'chinese',a:'豊見城市/豊崎',area_id:'tomigusuku',lat:26.1586274,lng:127.6573969,d:'沖縄アウトレットモールあしびなー内の本格中華料理店。出来立てアツアツの鉄鍋棒餃子が名物。',r:'鉄鍋棒餃子',h:'',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">豊崎</span>',badges:''},
   {n:'とよみそば',g:'soba',a:'豊見城市/真玉橋',area_id:'tomigusuku',lat:26.1940256,lng:127.6937279,d:'人気そば店「漫天そば」の味を受け継ぐ店。シンプルで奥深い味わい、カツオ味と塩味の2種類から選べる。',r:'カツオそば / 塩そば',h:'',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">真玉橋</span>',badges:''},
   {n:'居酒屋もりもり',g:'izakaya',a:'豊見城市/真玉橋',area_id:'tomigusuku',lat:26.1952,lng:127.6953,d:'真玉橋の住宅街にある食べ飲み放題居酒屋。軟骨ソーキのトマト煮が名物。',r:'軟骨ソーキのトマト煮',h:'17:30〜翌1:00（月休）',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">真玉橋</span>',badges:''},
