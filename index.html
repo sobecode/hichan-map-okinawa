@@ -114,8 +114,9 @@ body{font-family:'Zen Maru Gothic','Noto Sans JP',sans-serif;background:var(--sa
 .tag-steak{background:#FBE9E7;color:#BF360C;}
 .tag-soba{background:#F9FBE7;color:#558B2F;}
 .shop-desc{font-size:11px;color:#666;line-height:1.6;}
-.shop-recommend{font-size:11px;color:var(--hibiscus);font-weight:700;margin-top:5px;}
-.shop-recommend::before{content:'✦ ';}
+/* おすすめはカードの「推し」行。説明文から視線が移るよう帯状に切り出して強調する */
+.shop-recommend{font-size:12px;color:#C2185B;font-weight:800;line-height:1.45;margin-top:8px;padding:5px 9px;background:#FFEAF5;border-left:3px solid var(--hibiscus);border-radius:0 8px 8px 0;}
+.shop-recommend::before{content:'✦ ';color:var(--hibiscus);}
 .map-pin-hint{font-size:10px;color:#ccc;margin-top:4px;}
 .map-pin-hint::before{content:'📍 ';}
 .wave-divider{text-align:center;font-size:16px;letter-spacing:8px;color:var(--ocean);margin:6px 0 26px;opacity:.4;}
@@ -126,8 +127,8 @@ footer{background:var(--deep);color:#fff;text-align:center;padding:26px 20px;fon
 .p-area{font-size:10px;color:var(--hibiscus);font-weight:700;margin-bottom:3px;}
 .p-name{font-size:14px;font-weight:800;color:var(--deep);margin-bottom:4px;}
 .p-desc{font-size:11px;color:#555;line-height:1.5;margin-bottom:4px;}
-.p-rec{font-size:11px;color:var(--hibiscus);font-weight:700;}
-.p-rec::before{content:'✦ ';}
+.p-rec{font-size:11.5px;color:#C2185B;font-weight:800;line-height:1.45;margin-top:2px;padding:4px 8px;background:#FFEAF5;border-left:3px solid var(--hibiscus);border-radius:0 6px 6px 0;}
+.p-rec::before{content:'✦ ';color:var(--hibiscus);}
 .p-hours{font-size:10px;color:#888;margin-top:4px;}
 .p-link{display:inline-block;margin-top:8px;background:var(--hibiscus);color:#fff!important;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;text-decoration:none;}
 @media(max-width:500px){.shop-grid{grid-template-columns:1fr;}#map{height:320px;}}
