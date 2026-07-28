@@ -94,9 +94,13 @@ body{font-family:'Zen Maru Gothic','Noto Sans JP',sans-serif;background:var(--sa
 .new-badge{background:linear-gradient(135deg,#4ECDC4,#44A08D);color:#fff;font-size:9px;font-weight:900;padding:2px 6px;border-radius:8px;}
 .sns-badge{background:linear-gradient(135deg,#E91E8C,#C2185B);color:#fff;font-size:9px;font-weight:900;padding:2px 6px;border-radius:8px;}
 .meal-badge{font-size:9px;font-weight:900;padding:2px 6px;border-radius:8px;white-space:nowrap;}
-.meal-badge-l{background:#E3F2FD;color:#1565C0;}
-.meal-badge-d{background:#FFF3E0;color:#E65100;}
-.meal-badge-ld{background:linear-gradient(135deg,#1565C0,#E65100);color:#fff;}
+.meal-badge-l{background:#6FD2EE;color:#06384a;}
+.meal-badge-d{background:#1c1c1c;color:#fff;}
+/* 昼・夜は水色と黒を半分ずつ。1枚のグラデーションだとどちらかの文字が読めないので2分割する */
+.meal-badge-ld{display:inline-flex;padding:0;overflow:hidden;}
+.meal-badge-ld span{padding:2px 6px;}
+.meal-badge-ld .ml{background:#6FD2EE;color:#06384a;}
+.meal-badge-ld .md{background:#1c1c1c;color:#fff;}
 .tag-group{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:5px;}
 .tag{font-size:10px;font-weight:700;padding:2px 7px;border-radius:10px;white-space:nowrap;}
 .tag-sns{background:#FFE5F3;color:#C2185B;}
@@ -932,7 +936,7 @@ const GENRE_MEAL_DEFAULT = {
   ramen:'LD', washoku:'LD', seafood:'LD', chinese:'LD', other:'LD',
   izakaya:'D', yakitori:'D', yakiniku:'D'
 };
-const MEAL_LABEL = {L:'☀️ 昼のみ', D:'🌙 夜のみ', LD:'☀️🌙 昼・夜'};
+const MEAL_LABEL = {L:'☀️ 昼のみ', D:'🌙 夜のみ', LD:'<span class="ml">☀️ 昼</span><span class="md">🌙 夜</span>'};
 const MEAL_CLASS = {L:'meal-badge-l', D:'meal-badge-d', LD:'meal-badge-ld'};
 
 function guessMealFromHours(h) {
