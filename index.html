@@ -131,7 +131,37 @@ footer{background:var(--deep);color:#fff;text-align:center;padding:26px 20px;fon
 .p-rec::before{content:'✦ ';color:var(--hibiscus);}
 .p-hours{font-size:10px;color:#888;margin-top:4px;}
 .p-link{display:inline-block;margin-top:8px;background:var(--hibiscus);color:#fff!important;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;text-decoration:none;}
-@media(max-width:500px){.shop-grid{grid-template-columns:1fr;}#map{height:320px;}}
+/* ジャンルボタン・エリアボタンの件数バッジ */
+.btn-count{display:inline-block;margin-left:5px;padding:0 5px;border-radius:9px;background:rgba(0,0,0,.08);font-size:10px;font-weight:800;line-height:16px;min-width:19px;text-align:center;}
+.genre-btn.active .btn-count,.area-btn.active .btn-count{background:rgba(255,255,255,.28);}
+/* エリア見出し直下のジャンル内訳 */
+.area-breakdown{display:flex;flex-wrap:wrap;gap:5px;margin:-8px 0 16px 34px;}
+.bd-chip{display:inline-flex;align-items:center;gap:4px;background:#fff;border:1px solid #eee;border-radius:14px;padding:3px 9px;font-size:10.5px;font-weight:700;font-family:inherit;color:#666;cursor:pointer;transition:all .18s;}
+.bd-chip:hover{border-color:var(--ocean);color:var(--deep);}
+.bd-chip.on{background:var(--deep);border-color:var(--deep);color:#fff;}
+.bd-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;}
+.bd-num{font-weight:900;}
+/* エリア×ジャンル集計表 */
+.matrix-section{margin-top:8px;}
+.matrix-head{display:flex;align-items:center;gap:10px;margin-bottom:6px;}
+.matrix-head .area-name{font-size:18px;}
+.matrix-note{font-size:11px;color:#aaa;margin-bottom:12px;}
+.matrix-scroll{overflow-x:auto;background:#fff;border-radius:14px;box-shadow:0 3px 14px rgba(0,0,0,.07);padding:4px;}
+table.matrix{border-collapse:separate;border-spacing:0;font-size:11px;width:100%;}
+table.matrix th,table.matrix td{padding:6px 8px;text-align:center;white-space:nowrap;}
+table.matrix thead th{font-size:10px;font-weight:800;color:#888;border-bottom:2px solid #f0f0f0;position:relative;}
+table.matrix thead th .bd-dot{display:inline-block;margin-right:3px;vertical-align:middle;}
+table.matrix th.mx-area{text-align:left;position:sticky;left:0;background:#fff;z-index:2;font-weight:800;color:var(--deep);font-size:11px;}
+table.matrix tbody tr:nth-child(even) th.mx-area,table.matrix tbody tr:nth-child(even) td{background:#fdfaf5;}
+table.matrix tbody td{color:#555;border-bottom:1px solid #f5f5f5;cursor:pointer;transition:background .15s;}
+table.matrix tbody td:hover{background:var(--mint);}
+table.matrix td.mx-zero{color:#ddd;cursor:default;}
+table.matrix td.mx-zero:hover{background:transparent;}
+table.matrix .mx-total{font-weight:900;color:var(--hibiscus);}
+table.matrix tfoot th,table.matrix tfoot td{border-top:2px solid #f0f0f0;font-weight:900;color:var(--deep);}
+table.matrix tfoot td{cursor:pointer;}
+table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
+@media(max-width:500px){.shop-grid{grid-template-columns:1fr;}#map{height:320px;}.area-breakdown{margin-left:0;}}
 </style>
 </head>
 <body>
@@ -194,7 +224,11 @@ footer{background:var(--deep);color:#fff;text-align:center;padding:26px 20px;fon
 
   <div id="shop-sections"></div>
 
-
+  <section class="matrix-section">
+    <div class="matrix-head"><span class="area-emoji">📊</span><span class="area-name">エリア×ジャンル集計</span></div>
+    <div class="matrix-note">数字をタップするとそのエリア・ジャンルの店舗に絞り込みます。</div>
+    <div class="matrix-scroll"><table class="matrix" id="matrix-table"></table></div>
+  </section>
 </div>
 
 <footer>
@@ -981,6 +1015,19 @@ const AREA_META = {
 };
 const AREA_ORDER = ['nago','onna','yomitan','chatan','kadena','ginowan','urasoe','naha','okinawacity','tomigusuku','itoman','nanjo'];
 
+const GENRE_COLORS = {
+  cafe:'#2a78d6', ramen:'#eb6834', soba:'#1baf7a', washoku:'#eda100',
+  yakitori:'#e87ba4', other:'#008300', izakaya:'#4a3aa7', yakiniku:'#e34948',
+  seafood:'#1F6FA3', chinese:'#A8342A', bakery:'#C97A3D', sweets:'#E91E8C'
+};
+// 絞り込みボタンと同じ並び。集計表の列順・内訳チップの並びもこれに従う
+const GENRE_ORDER = ['soba','ramen','chinese','washoku','yakiniku','yakitori','seafood','izakaya','cafe','sweets','bakery','other'];
+const GENRE_LABEL = {
+  soba:'そば', ramen:'ラーメン', chinese:'中華', washoku:'和食', yakiniku:'焼肉',
+  yakitori:'焼き鳥', seafood:'海鮮', izakaya:'居酒屋', cafe:'カフェ',
+  sweets:'スイーツ', bakery:'パン', other:'洋食'
+};
+
 const GENRE_MEAL_DEFAULT = {
   cafe:'L', bakery:'L', sweets:'L', soba:'L',
   ramen:'LD', washoku:'LD', seafood:'LD', chinese:'LD', other:'LD',
@@ -1017,6 +1064,61 @@ function mealBadgeHtml(s) {
   return `<span class="meal-badge ${MEAL_CLASS[type]}">${MEAL_LABEL[type]}</span>`;
 }
 
+// エリア×ジャンルの店舗数を配列から集計する(件数表示はすべてここが出どころ)
+const AREA_TOTAL = {}, GENRE_TOTAL = {}, CROSS = {};
+AREA_ORDER.forEach(a => { AREA_TOTAL[a] = 0; CROSS[a] = {}; });
+GENRE_ORDER.forEach(g => { GENRE_TOTAL[g] = 0; });
+shops.forEach(s => {
+  AREA_TOTAL[s.area_id] = (AREA_TOTAL[s.area_id] || 0) + 1;
+  GENRE_TOTAL[s.g] = (GENRE_TOTAL[s.g] || 0) + 1;
+  const c = CROSS[s.area_id] || (CROSS[s.area_id] = {});
+  c[s.g] = (c[s.g] || 0) + 1;
+});
+
+function countBadge(n) {
+  return `<span class="btn-count">${n}</span>`;
+}
+
+// ナビのジャンル/エリアボタンに件数バッジを差し込む
+function fillNavCounts() {
+  document.querySelectorAll('.genre-btn').forEach(b => {
+    const g = b.dataset.genre;
+    b.insertAdjacentHTML('beforeend', countBadge(g === 'all' ? shops.length : (GENRE_TOTAL[g] || 0)));
+  });
+  document.querySelectorAll('.area-btn').forEach(b => {
+    const m = /jumpTo\('([a-z]+)'/.exec(b.getAttribute('onclick') || '');
+    if (m) b.insertAdjacentHTML('beforeend', countBadge(AREA_TOTAL[m[1]] || 0));
+  });
+}
+
+function breakdownHtml(areaId) {
+  const c = CROSS[areaId] || {};
+  return GENRE_ORDER.filter(g => c[g]).map(g =>
+    `<button class="bd-chip" data-genre="${g}" onclick="pickCombo('${areaId}','${g}')">` +
+    `<span class="bd-dot" style="background:${GENRE_COLORS[g]}"></span>${GENRE_LABEL[g]}` +
+    `<span class="bd-num">${c[g]}</span></button>`
+  ).join('');
+}
+
+function renderMatrix() {
+  const dot = g => `<span class="bd-dot" style="background:${GENRE_COLORS[g]}"></span>`;
+  const head = `<thead><tr><th class="mx-area">エリア</th>` +
+    GENRE_ORDER.map(g => `<th>${dot(g)}${GENRE_LABEL[g]}</th>`).join('') +
+    `<th>計</th></tr></thead>`;
+  const body = `<tbody>` + AREA_ORDER.map(a => {
+    const c = CROSS[a] || {};
+    const cells = GENRE_ORDER.map(g => c[g]
+      ? `<td onclick="pickCombo('${a}','${g}')">${c[g]}</td>`
+      : `<td class="mx-zero">–</td>`).join('');
+    return `<tr><th class="mx-area">${AREA_META[a][0]} ${AREA_META[a][1]}</th>${cells}` +
+      `<td class="mx-total" onclick="pickCombo('${a}','all')">${AREA_TOTAL[a] || 0}</td></tr>`;
+  }).join('') + `</tbody>`;
+  const foot = `<tfoot><tr><th class="mx-area">計</th>` +
+    GENRE_ORDER.map(g => `<td onclick="setGenre('${g}')">${GENRE_TOTAL[g] || 0}</td>`).join('') +
+    `<td class="mx-grand">${shops.length}</td></tr></tfoot>`;
+  document.getElementById('matrix-table').innerHTML = head + body + foot;
+}
+
 function renderShopSections() {
   const container = document.getElementById('shop-sections');
   const parts = [];
@@ -1034,6 +1136,7 @@ function renderShopSections() {
       </div>`).join('');
     parts.push(`<section class="area-section" id="${areaId}">
     <div class="area-header"><span class="area-emoji">${emoji}</span><span class="area-name">${name}</span><span class="area-count">${list.length}店舗</span></div>
+    <div class="area-breakdown">${breakdownHtml(areaId)}</div>
     <div class="shop-grid">${cardsHtml}
     </div>
   </section>`);
@@ -1042,13 +1145,9 @@ function renderShopSections() {
   container.innerHTML = parts.join('\n');
 }
 renderShopSections();
+renderMatrix();
+fillNavCounts();
 document.getElementById('shop-count').textContent = shops.length;
-
-const GENRE_COLORS = {
-  cafe:'#2a78d6', ramen:'#eb6834', soba:'#1baf7a', washoku:'#eda100',
-  yakitori:'#e87ba4', other:'#008300', izakaya:'#4a3aa7', yakiniku:'#e34948',
-  seafood:'#1F6FA3', chinese:'#A8342A', bakery:'#C97A3D', sweets:'#E91E8C'
-};
 
 function makeIcon(c) {
   return L.divIcon({
@@ -1085,6 +1184,17 @@ function flyAndOpen(i) {
   setTimeout(() => { if (markers[i]) markers[i].openPopup(); }, 1100);
 }
 
+// 集計表のセル・内訳チップから「このエリアのこのジャンル」に絞り込む
+function pickCombo(areaId, g) {
+  setGenre(g);
+  document.querySelectorAll('.area-btn').forEach(b => b.classList.remove('active'));
+  const section = document.getElementById(areaId);
+  if (section) section.scrollIntoView({behavior: 'smooth', block: 'start'});
+  const hits = shops.filter(s => s.area_id === areaId && (g === 'all' || s.g === g));
+  if (hits.length === 1) map.flyTo([hits[0].lat, hits[0].lng], 15, {animate: true, duration: 1.2});
+  else if (hits.length) map.flyToBounds(L.latLngBounds(hits.map(s => [s.lat, s.lng])), {padding: [40, 40], duration: 1.2});
+}
+
 function jumpTo(id, lat, lng, zoom, btn) {
   const section = document.getElementById(id);
   // ジャンル絞り込みでセクションが非表示だとスクロールできないので絞り込みを解除する
@@ -1097,6 +1207,7 @@ function jumpTo(id, lat, lng, zoom, btn) {
 
 function setGenre(g) {
   document.querySelectorAll('.genre-btn').forEach(b => b.classList.toggle('active', b.dataset.genre === g));
+  document.querySelectorAll('.bd-chip').forEach(c => c.classList.toggle('on', g !== 'all' && c.dataset.genre === g));
 
   document.querySelectorAll('.shop-card').forEach(card => {
     const match = g === 'all' || card.dataset.genre === g;
