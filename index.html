@@ -131,6 +131,12 @@ footer{background:var(--deep);color:#fff;text-align:center;padding:26px 20px;fon
 .p-rec::before{content:'✦ ';color:var(--hibiscus);}
 .p-hours{font-size:10px;color:#888;margin-top:4px;}
 .p-link{display:inline-block;margin-top:8px;background:var(--hibiscus);color:#fff!important;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;text-decoration:none;}
+/* Googleの☆評価(rt=評価, rc=レビュー件数)。データがある店だけ表示される */
+.rating-badge{display:inline-flex;align-items:center;gap:3px;background:#FFF6E0;border:1px solid #F5D998;border-radius:12px;padding:2px 8px;font-size:11px;font-weight:800;color:#8A6100;white-space:nowrap;}
+.rating-badge::before{content:'★';color:var(--gold);font-size:12px;}
+.rt-count{font-size:9.5px;font-weight:700;color:#B79A63;}
+.p-rating{margin-top:5px;}
+.p-rating .rating-badge{font-size:10.5px;}
 /* ジャンルボタン・エリアボタンの件数バッジ */
 .btn-count{display:inline-block;margin-left:5px;padding:0 5px;border-radius:9px;background:rgba(0,0,0,.08);font-size:10px;font-weight:800;line-height:16px;min-width:19px;text-align:center;}
 .genre-btn.active .btn-count,.area-btn.active .btn-count{background:rgba(255,255,255,.28);}
@@ -247,7 +253,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 const shops = [
   // 名護・北部
   {n:'ひがし食堂',g:'sweets',a:'名護市',area_id:'nago',lat:26.5888,lng:127.9887,d:'創業50年以上。名護を代表する行列の絶えない名店。',r:'ミルクぜんざい / 練乳たっぷりふわふわ氷',h:'',tags:'<span class="tag tag-local">老舗名店</span><span class="tag tag-sweets">スイーツ</span>',badges:'<span class="hot-badge">HOT</span>'},
-  {n:'薪火 燈（あかり）本部備瀬',g:'washoku',a:'本部町',area_id:'nago',lat:26.7043,lng:127.8812,d:'2025年7月オープン！備瀬のフクギ並木近くの古民家を改装。薪火でじっくり焼き上げる鶏料理が絶品。',r:'鶏手羽だし沖縄そば / ソーキの薪火焼き 11:30〜23:00（水曜定休）',h:'11:30〜23:00（水曜定休）',tags:'<span class="tag tag-dinner">薪火料理</span><span class="tag tag-local">評価4.4★</span>',badges:'<span class="new-badge">NEW</span>'},
+  {n:'薪火 燈（あかり）本部備瀬',g:'washoku',a:'本部町',area_id:'nago',lat:26.7043,lng:127.8812,rt:4.4,d:'2025年7月オープン！備瀬のフクギ並木近くの古民家を改装。薪火でじっくり焼き上げる鶏料理が絶品。',r:'鶏手羽だし沖縄そば / ソーキの薪火焼き 11:30〜23:00（水曜定休）',h:'11:30〜23:00（水曜定休）',tags:'<span class="tag tag-dinner">薪火料理</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'PAUL',g:'other',a:'本部町/備瀬',area_id:'nago',lat:26.69967,lng:127.88,d:'食べログ「スペイン料理 百名店2026」初選出。ヨーロッパで研鑽したシェフが沖縄食材で仕立てるスペイン×フレンチ。',r:'コース料理（要予約）',h:'18:00〜22:00',tags:'<span class="tag tag-dinner">スペイン料理</span><span class="tag tag-local">百名店2026</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'名護城公園 Subaco',g:'cafe',a:'名護市',area_id:'nago',lat:26.5912,lng:127.9957,d:'ガラス張りで亜熱帯の森と海を見渡せる。3種のオリジナルシロップが名物。',r:'クラフトソーダ「イリ・カジ・ムイ」 / かき氷',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">絶景</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'喫茶 あがち森',g:'cafe',a:'国頭村',area_id:'nago',lat:26.7334,lng:128.1774,d:'国頭村の山奥に佇む幻想的カフェ。小川の上の縁側席が大人気。',r:'かぼちゃのスパイスタルト / やんばる紅茶',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">絶景</span>',badges:'<span class="sns-badge">SNS</span>'},
@@ -288,7 +294,7 @@ const shops = [
   {n:'さしみ亭 宇茂佐店',g:'seafood',a:'名護市/宇茂佐',area_id:'nago',lat:26.595449,lng:127.958359,d:'名護漁港が近く、名護刺身持ち帰り専門店として人気。安くて旨い沖縄の魚が並ぶ。',r:'刺身各種',h:'',tags:'<span class="tag tag-dinner">海鮮</span><span class="tag tag-local">宇茂佐</span>',badges:''},
   {n:'民謡居酒屋 かなさんどー',g:'izakaya',a:'本部町',area_id:'nago',lat:26.6553,lng:127.88286,d:'本部町大浜、沖縄の家庭料理と民謡ライブが楽しめるアットホームな居酒屋。',r:'海ぶどう / 5時間煮込みのテビチ',h:'18:00〜23:00（木曜定休）',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">民謡ライブ</span>',badges:''},
   {n:'avocafe（アボカフェ）',g:'cafe',a:'名護市/饒平名',area_id:'nago',lat:26.659492,lng:128.016602,d:'アボカドをテーマにしたおしゃれカフェ。映えるアボカドスムージーが大人気。',r:'アボカドスムージー / アボカドトースト',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-sns">SNS映え</span>',badges:'<span class="sns-badge">SNS</span>'},
-  {n:'Crab noodle 3.0 名護店',g:'soba',a:'名護市',area_id:'nago',lat:26.6174,lng:127.9692,d:'2025年9月オープン！沖縄そばとフランス料理を融合した「フレンチ蟹そば」。蟹の濃厚だしが衝撃の一杯。',r:'フレンチ蟹そば / 冷製バジルチーズそば 11:00〜22:00',h:'11:00〜22:00',tags:'<span class="tag tag-soba">フレンチそば</span><span class="tag tag-local">評価4.7★</span>',badges:'<span class="new-badge">NEW</span><span class="hot-badge">HOT</span>'},
+  {n:'Crab noodle 3.0 名護店',g:'soba',a:'名護市',area_id:'nago',lat:26.6174,lng:127.9692,rt:4.7,d:'2025年9月オープン！沖縄そばとフランス料理を融合した「フレンチ蟹そば」。蟹の濃厚だしが衝撃の一杯。',r:'フレンチ蟹そば / 冷製バジルチーズそば 11:00〜22:00',h:'11:00〜22:00',tags:'<span class="tag tag-soba">フレンチそば</span>',badges:'<span class="new-badge">NEW</span><span class="hot-badge">HOT</span>'},
   {n:'古宇利cafe\' Charm（シャルム）',g:'cafe',a:'今帰仁村',area_id:'nago',lat:26.6984,lng:128.0207,d:'2025年7月今帰仁村オープン！古宇利大橋と美しい海を望む絶景カフェ。屋上テラスから夕焼け・夜景も楽しめる。',r:'ミルフィーユ古宇利タコライス / 島産ジェラート 10:00〜22:30',h:'10:00〜22:30',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">古宇利大橋</span>',badges:'<span class="new-badge">NEW</span><span class="sns-badge">SNS</span>'},
   {n:'マロード（ブセナテラス内）',g:'cafe',a:'名護市/喜瀬',area_id:'nago',lat:26.5406008,lng:127.9358271,d:'ザ・ブセナテラスのラグジュアリーなティーラウンジ。プールと海の絶景。',r:'本格英国スタイルのアフタヌーンティー',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">リゾート</span>',badges:''},
   {n:'天の群星（てぃんのむりぶし）',g:'sweets',a:'名護市/宇茂佐',area_id:'nago',lat:26.6015973,lng:127.9653739,d:'宇茂佐の森。沖縄における進化系かき氷の先駆け的存在。いつも新鮮な驚きのあるメニューが評判。',r:'進化系かき氷',h:'',tags:'<span class="tag tag-sweets">かき氷</span><span class="tag tag-local">進化系</span>',badges:''},
@@ -297,7 +303,7 @@ const shops = [
   {n:'やんばるダイニング 松の古民家',g:'washoku',a:'名護市/大南',area_id:'nago',lat:26.593922,lng:127.977295,d:'築70年の古民家を改装。食べログ「すき焼き・しゃぶしゃぶ百名店2024」選出。島黒アグー（琉球在来種）のしゃぶしゃぶが看板メニュー。',r:'島黒アグーしゃぶしゃぶ',h:'',tags:'<span class="tag tag-dinner">しゃぶしゃぶ</span><span class="tag tag-local">百名店2024</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'百年古家 大家（うふやー）',g:'washoku',a:'名護市/中山',area_id:'nago',lat:26.621187,lng:127.964134,d:'明治〜昭和初期の古民家群を移築した敷地に佇む琉球料理店。沖縄そばをはじめとした郷土料理を楽しめる観光名所的存在。',r:'琉球料理コース / 沖縄そば',h:'',tags:'<span class="tag tag-dinner">琉球料理</span><span class="tag tag-local">古民家</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'上原そば',g:'soba',a:'名護市/饒平名',area_id:'nago',lat:26.658539,lng:128.013992,d:'屋我地島の絶景を望む高台の食堂。全粒粉入り自家製麺の沖縄そばと地魚料理が評判。',r:'自家製麺沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-view">絶景</span>',badges:'<span class="new-badge">NEW</span>'},
-  {n:'幸ちゃんそば',g:'soba',a:'名護市/大南',area_id:'nago',lat:26.59399,lng:127.974701,d:'伊平屋島産のもずく麺を使ったソーキそばが名物。行列の絶えない人気沖縄そば店。',r:'もずく麺ソーキそば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">評価4.5★</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'幸ちゃんそば',g:'soba',a:'名護市/大南',area_id:'nago',lat:26.59399,lng:127.974701,rt:4.5,d:'伊平屋島産のもずく麺を使ったソーキそばが名物。行列の絶えない人気沖縄そば店。',r:'もずく麺ソーキそば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'新山そば',g:'soba',a:'名護市/大東',area_id:'nago',lat:26.588566,lng:127.98587,d:'1925年創業、名護そば発祥とされる老舗。結び昆布と揚げ豆腐がのった伝統の一杯。',r:'名護そば（結び昆布・揚げ豆腐）',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">老舗名店</span>',badges:''},
   {n:'八重食堂',g:'soba',a:'名護市/城',area_id:'nago',lat:26.590202,lng:127.982292,d:'創業50年、やかんに入ったスープを自分で注ぐ昭和レトロなスタイルの老舗沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">老舗名店</span>',badges:''},
   {n:'くるまえびキッチンTAMAYA',g:'seafood',a:'名護市/運天原',area_id:'nago',lat:26.670431,lng:128.001312,d:'古宇利大橋近く、車海老養殖場直営の車海老料理専門レストラン。獲れたて車海老を様々な調理法で。',r:'車海老料理',h:'',tags:'<span class="tag tag-dinner">車海老料理</span><span class="tag tag-local">養殖場直営</span>',badges:'<span class="new-badge">NEW</span>'},
@@ -356,16 +362,16 @@ const shops = [
   {n:'オーシャンBoo！恩納村店',g:'washoku',a:'恩納村/前兼久',area_id:'onna',lat:26.449029,lng:127.808701,d:'秘伝の自家製出汁が評判のあぐー豚しゃぶしゃぶ専門店。掘りごたつ座敷あり。',r:'あぐー豚しゃぶしゃぶ',h:'',tags:'<span class="tag tag-dinner">しゃぶしゃぶ</span><span class="tag tag-local">あぐー豚</span>',badges:''},
   {n:'青碧蒼（AOMI）',g:'washoku',a:'恩納村/名嘉真',area_id:'onna',lat:26.5266077,lng:127.923088,d:'ハレクラニ沖縄内。オーシャンフロントで夕陽を眺めながら味わう日本料理店。',r:'会席料理',h:'',tags:'<span class="tag tag-dinner">日本料理</span><span class="tag tag-view">オーシャンフロント</span>',badges:''},
   {n:'琉球BBQ Blue',g:'yakiniku',a:'恩納村/冨着',area_id:'onna',lat:26.4566945,lng:127.8117011,d:'カフーリゾートフチャク最上階。インフィニティプール併設、海を望みながら焼肉・しゃぶしゃぶを楽しめる。',r:'焼肉・しゃぶしゃぶ',h:'',tags:'<span class="tag tag-dinner">焼肉</span><span class="tag tag-view">インフィニティプール</span>',badges:'<span class="new-badge">NEW</span>'},
-  {n:'STEAKHOUSE NAKAMA',g:'other',a:'恩納村/名嘉真',area_id:'onna',lat:26.516774,lng:127.923507,d:'ハレクラニ沖縄の目の前、国道58号沿いの厚切り肉が評判のステーキハウス。',r:'厚切りステーキ',h:'',tags:'<span class="tag tag-dinner">ステーキ</span><span class="tag tag-local">評価4.1★</span>',badges:''},
+  {n:'STEAKHOUSE NAKAMA',g:'other',a:'恩納村/名嘉真',area_id:'onna',lat:26.516774,lng:127.923507,rt:4.1,d:'ハレクラニ沖縄の目の前、国道58号沿いの厚切り肉が評判のステーキハウス。',r:'厚切りステーキ',h:'',tags:'<span class="tag tag-dinner">ステーキ</span>',badges:''},
   {n:'キングダム（KINGDOM）',g:'other',a:'恩納村/名嘉真',area_id:'onna',lat:26.5266077,lng:127.923088,d:'ハレクラニ沖縄屈指のステーキハウス。ドレスコードのある高級店。',r:'高級ステーキ',h:'',tags:'<span class="tag tag-dinner">ステーキ</span><span class="tag tag-local">ハレクラニ内</span>',badges:''},
   {n:'シルー（SHIROUX）',g:'other',a:'恩納村/名嘉真',area_id:'onna',lat:26.5266077,lng:127.923088,d:'ハレクラニ沖縄のメインダイニング。沖縄食材を使ったイノベーティブイタリアン。',r:'イタリアンコース',h:'',tags:'<span class="tag tag-dinner">イタリアン</span><span class="tag tag-local">ハレクラニ内</span>',badges:''},
   {n:'House Without A Key',g:'other',a:'恩納村/名嘉真',area_id:'onna',lat:26.5266077,lng:127.923088,d:'ハレクラニ沖縄のオールデイダイニング。開放的なテラス席と和洋の朝食ビュッフェが人気。',r:'朝食ビュッフェ',h:'',tags:'<span class="tag tag-dinner">オールデイダイニング</span><span class="tag tag-local">ハレクラニ内</span>',badges:''},
   {n:'フォーシーズン',g:'other',a:'恩納村/山田',area_id:'onna',lat:26.428755,lng:127.781441,d:'ルネッサンスリゾートオキナワ内。青い海を一望する鉄板焼き・フレンチのエレガントなレストラン。',r:'鉄板焼き',h:'',tags:'<span class="tag tag-dinner">鉄板焼き</span><span class="tag tag-view">海が見える</span>',badges:''},
   {n:'おんな食堂',g:'other',a:'恩納村/前兼久',area_id:'onna',lat:26.447529,lng:127.807701,d:'自然派ワインと沖縄食材のマリアージュが楽しめるフレンチビストロ。',r:'フレンチビストロ',h:'',tags:'<span class="tag tag-dinner">フレンチ</span><span class="tag tag-local">評価3.59</span>',badges:''},
   {n:'PST OKINAWA by the sea',g:'other',a:'恩納村/瀬良垣',area_id:'onna',lat:26.5058454,lng:127.8596923,d:'東京・六本木の人気ピッツェリア「PST」の沖縄初出店。ANAインターコンチネンタル万座ビーチリゾート内。',r:'ピッツァ',h:'',tags:'<span class="tag tag-dinner">ピッツェリア</span><span class="tag tag-view">万座ビーチ</span>',badges:'<span class="new-badge">NEW</span>'},
-  {n:'THE GARLIC SHRIMP',g:'seafood',a:'恩納村/安冨祖',area_id:'onna',lat:26.497744,lng:127.890747,d:'サンゴピンクの外観が目を引くガーリックシュリンプ専門店。2026年ベストシーフード選出、評価4.8の人気店。',r:'ガーリックシュリンプ',h:'',tags:'<span class="tag tag-lunch">ガーリックシュリンプ</span><span class="tag tag-local">評価4.8★</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'THE GARLIC SHRIMP',g:'seafood',a:'恩納村/安冨祖',area_id:'onna',lat:26.497744,lng:127.890747,rt:4.8,d:'サンゴピンクの外観が目を引くガーリックシュリンプ専門店。2026年ベストシーフード選出、評価4.8の人気店。',r:'ガーリックシュリンプ',h:'',tags:'<span class="tag tag-lunch">ガーリックシュリンプ</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'福寿し',g:'seafood',a:'恩納村/名嘉真',area_id:'onna',lat:26.515274,lng:127.924507,d:'毎日仕入れる新鮮魚が自慢、地元でも愛される寿司・沖縄料理店。',r:'寿司 / 沖縄料理',h:'',tags:'<span class="tag tag-dinner">寿司</span><span class="tag tag-local">評価4.24★</span>',badges:''},
-  {n:'恩納そば',g:'soba',a:'恩納村/冨着',area_id:'onna',lat:26.4538428,lng:127.8068065,d:'ホテルモントレ近くの老舗沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">評価4.5★</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'恩納そば',g:'soba',a:'恩納村/冨着',area_id:'onna',lat:26.4538428,lng:127.8068065,rt:4.5,d:'ホテルモントレ近くの老舗沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'島時間',g:'soba',a:'恩納村/恩納',area_id:'onna',lat:26.483886,lng:127.859391,d:'赤瓦の琉球古民家。昼は沖縄そば、夜は郷土料理居酒屋になる一軒。',r:'沖縄そば / 郷土料理',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">古民家</span>',badges:''},
   {n:'沖縄炭火料理店 うむさんの庭',g:'soba',a:'恩納村/冨着',area_id:'onna',lat:26.4552,lng:127.8207,d:'恩納村冨着の炭火料理店。沖縄そばも味わえる。',r:'沖縄そば / 炭火料理',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-dinner">炭火</span>',badges:''},
   {n:'恩菜食房 ぴぱら おんなの駅',g:'soba',a:'恩納村/おんなの駅',area_id:'onna',lat:26.434395,lng:127.798828,d:'「おんなの駅なかゆくい市場」内の食堂。地元野菜を使った料理と沖縄そばが並ぶ。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">おんなの駅</span>',badges:''},
@@ -511,7 +517,7 @@ const shops = [
   {n:'みよ家',g:'soba',a:'嘉手納町/新町',area_id:'kadena',lat:26.363312,lng:127.754859,d:'化学調味料無添加のあっさりスープと自家製麺の沖縄そば専門店。てびちすーちかーも人気。具材も全て手作り。',r:'自家製麺そば / てびちすーちかー',h:'11:00〜16:00（土日祝〜17:00）',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">嘉手納</span>',badges:''},
   {n:'中華苑',g:'chinese',a:'嘉手納町/水釜',area_id:'kadena',lat:26.3601,lng:127.7437,d:'嘉手納町水釜にある中華料理店。',r:'中華料理各種',h:'',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">水釜</span>',badges:''},
   {n:'さびら 嘉手納店',g:'izakaya',a:'嘉手納町',area_id:'kadena',lat:26.3634223,lng:127.7540294,d:'嘉手納ロータリー近く、宴会プランが充実した居酒屋。',r:'宴会コース',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">嘉手納ロータリー</span>',badges:''},
-  {n:'沖縄Diner Hi31BASE（ハイサイベース）',g:'other',a:'嘉手納町',area_id:'kadena',lat:26.3581,lng:127.7466,d:'2025年オープン！嘉手納ゲート4番近くのおしゃれアメリカンダイナー。ペット同伴OK・店内広々。',r:'クラブハウスサンド / ヤンニョムチキンオーバーライス',h:'11:00〜21:00（火曜定休）',tags:'<span class="tag tag-lunch">アメリカン</span><span class="tag tag-local">評価4.6★</span>',badges:'<span class="new-badge">NEW</span><span class="hot-badge">HOT</span>'},
+  {n:'沖縄Diner Hi31BASE（ハイサイベース）',g:'other',a:'嘉手納町',area_id:'kadena',lat:26.3581,lng:127.7466,rt:4.6,d:'2025年オープン！嘉手納ゲート4番近くのおしゃれアメリカンダイナー。ペット同伴OK・店内広々。',r:'クラブハウスサンド / ヤンニョムチキンオーバーライス',h:'11:00〜21:00（火曜定休）',tags:'<span class="tag tag-lunch">アメリカン</span>',badges:'<span class="new-badge">NEW</span><span class="hot-badge">HOT</span>'},
   {n:'Seaside（シーサイド）',g:'other',a:'嘉手納町/野国',area_id:'kadena',lat:26.3511591,lng:127.7445035,d:'嘉手納マリーナ内、分厚いステーキやハンバーガーなど本場アメリカンサイズの肉料理が楽しめるオーシャンビューレストラン。町内最高評価。',r:'ステーキ / ハンバーガー',h:'',tags:'<span class="tag tag-dinner">アメリカン</span><span class="tag tag-view">海が見える</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'日本そば工房・せい家',g:'soba',a:'嘉手納町',area_id:'kadena',lat:26.363892,lng:127.754372,d:'沖縄では珍しい十割・田舎そばの手打ち日本蕎麦専門店。',r:'手打ち日本蕎麦',h:'',tags:'<span class="tag tag-local">手打ちそば</span><span class="tag tag-lunch">日本蕎麦</span>',badges:''},
   {n:'MORNING WORKS',g:'cafe',a:'嘉手納町/水釜',area_id:'kadena',lat:26.359924,lng:127.747917,d:'早朝から営業するハワイアンパンケーキ&コーヒーの人気カフェ。',r:'ハワイアンパンケーキ',h:'',tags:'<span class="tag tag-cafe">パンケーキ</span><span class="tag tag-local">早朝営業</span>',badges:''},
@@ -649,11 +655,11 @@ const shops = [
   {n:'つきしろそば',g:'soba',a:'浦添市/前田',area_id:'urasoe',lat:26.243118,lng:127.731148,d:'浦添市前田の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">前田</span>',badges:''},
   // 那覇
   {n:'ジャッキーステーキハウス',g:'yakiniku',a:'那覇市',area_id:'naha',lat:26.2129,lng:127.6725,d:'沖縄ステーキの元祖・創業1953年。常に行列の老舗。',r:'テンダーロインステーキ200g（¥3,400）ミディアムレアがおすすめ',h:'11:00〜22:30（水曜定休）',tags:'<span class="tag tag-steak">ステーキ</span><span class="tag tag-local">創業1953年</span>',badges:'<span class="hot-badge">HOT</span>'},
-  {n:'ピパーチキッチン',g:'washoku',a:'那覇市',area_id:'naha',lat:26.214,lng:127.6704,d:'八重山産島こしょう「ピパーチ」を使った料理が自慢。旭橋駅近く。',r:'県産豚肩ロースのステーキ定食（¥950）',h:'11:00〜15:30 / 17:30〜21:30',tags:'<span class="tag tag-lunch">ランチ</span><span class="tag tag-local">評価4.7★</span>',badges:'<span class="hot-badge">HOT</span>'},
-  {n:'焼鳥 ごう 久茂地店',g:'yakitori',a:'那覇市',area_id:'naha',lat:26.2186,lng:127.6819,d:'2025年5月オープン！宮崎ルーツの「火柱焼き」が圧巻。ミンサー織の内装でデートや女子会にも◎。',r:'親鳥の火柱焼き / 島らっきょう巻き串 / ミドリの麻婆豆腐',h:'17:00〜翌1:00（日曜定休）',tags:'<span class="tag tag-dinner">焼き鳥</span><span class="tag tag-local">評価4.8★</span>',badges:'<span class="new-badge">NEW</span><span class="hot-badge">HOT</span>'},
-  {n:'Once a week coffee Garden',g:'cafe',a:'那覇市',area_id:'naha',lat:26.2357,lng:127.6832,d:'2025年4月那覇天久にオープン！植物に囲まれた広いお庭の隠れ家カフェ。',r:'おきなわシナモンロール / ミラノスタイルピッツァ / ティラミス',h:'9:00〜17:00（月曜定休）',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">評価4.7★</span>',badges:'<span class="new-badge">NEW</span><span class="hot-badge">HOT</span>'},
-  {n:'THE TACORICE HOUSE',g:'other',a:'那覇市',area_id:'naha',lat:26.2164,lng:127.6905,d:'全国150店舗の人気タコライス実店舗1号。カラフルな内外装が映える。',r:'ハーフ&ハーフ（定番＋ニュータコライス） / ソーキトッピング',h:'9:30〜22:00',tags:'<span class="tag tag-lunch">タコライス</span><span class="tag tag-local">評価4.5★</span>',badges:'<span class="hot-badge">HOT</span><span class="sns-badge">SNS</span>'},
-  {n:'Pink Palace アサイーボウル',g:'sweets',a:'那覇市',area_id:'naha',lat:26.2113,lng:127.6898,d:'のうれんプラザ内。高濃度14%アサイーを使ったもったりアサイーボウルが絶品。英語メニューあり。',r:'アサイーボウル / ドラゴンフルーツスムージー',h:'',tags:'<span class="tag tag-sweets">アサイーボウル</span><span class="tag tag-local">評価4.7★</span>',badges:'<span class="sns-badge">SNS</span>'},
+  {n:'ピパーチキッチン',g:'washoku',a:'那覇市',area_id:'naha',lat:26.214,lng:127.6704,rt:4.7,d:'八重山産島こしょう「ピパーチ」を使った料理が自慢。旭橋駅近く。',r:'県産豚肩ロースのステーキ定食（¥950）',h:'11:00〜15:30 / 17:30〜21:30',tags:'<span class="tag tag-lunch">ランチ</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'焼鳥 ごう 久茂地店',g:'yakitori',a:'那覇市',area_id:'naha',lat:26.2186,lng:127.6819,rt:4.8,d:'2025年5月オープン！宮崎ルーツの「火柱焼き」が圧巻。ミンサー織の内装でデートや女子会にも◎。',r:'親鳥の火柱焼き / 島らっきょう巻き串 / ミドリの麻婆豆腐',h:'17:00〜翌1:00（日曜定休）',tags:'<span class="tag tag-dinner">焼き鳥</span>',badges:'<span class="new-badge">NEW</span><span class="hot-badge">HOT</span>'},
+  {n:'Once a week coffee Garden',g:'cafe',a:'那覇市',area_id:'naha',lat:26.2357,lng:127.6832,rt:4.7,d:'2025年4月那覇天久にオープン！植物に囲まれた広いお庭の隠れ家カフェ。',r:'おきなわシナモンロール / ミラノスタイルピッツァ / ティラミス',h:'9:00〜17:00（月曜定休）',tags:'<span class="tag tag-cafe">カフェ</span>',badges:'<span class="new-badge">NEW</span><span class="hot-badge">HOT</span>'},
+  {n:'THE TACORICE HOUSE',g:'other',a:'那覇市',area_id:'naha',lat:26.2164,lng:127.6905,rt:4.5,d:'全国150店舗の人気タコライス実店舗1号。カラフルな内外装が映える。',r:'ハーフ&ハーフ（定番＋ニュータコライス） / ソーキトッピング',h:'9:30〜22:00',tags:'<span class="tag tag-lunch">タコライス</span>',badges:'<span class="hot-badge">HOT</span><span class="sns-badge">SNS</span>'},
+  {n:'Pink Palace アサイーボウル',g:'sweets',a:'那覇市',area_id:'naha',lat:26.2113,lng:127.6898,rt:4.7,d:'のうれんプラザ内。高濃度14%アサイーを使ったもったりアサイーボウルが絶品。英語メニューあり。',r:'アサイーボウル / ドラゴンフルーツスムージー',h:'',tags:'<span class="tag tag-sweets">アサイーボウル</span>',badges:'<span class="sns-badge">SNS</span>'},
   {n:'EL RINCON DE MEXICOLA',g:'other',a:'那覇市',area_id:'naha',lat:26.2149,lng:127.6887,d:'2025年7月那覇牧志にオープン！手作りトルティーヤの本格タコス。自家製クラフトコーラ「メヒコーラ」も人気。',r:'手作りトルティーヤタコス（桜島鶏・琉香豚・海老） / メヒコーラ',h:'11:00〜23:00',tags:'<span class="tag tag-dinner">メキシカン</span><span class="tag tag-new">2025年7月オープン</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'旬菜処 びいどろ',g:'izakaya',a:'那覇市',area_id:'naha',lat:26.2171,lng:127.6833,d:'美栄橋駅徒歩3分。食べログ居酒屋WEST百名店2025選出の名店。',r:'ドゥルテン（沖縄天ぷら） / 古酒泡盛',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">食べログ百名店</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'まつもと（松山）',g:'yakiniku',a:'那覇市',area_id:'naha',lat:26.2169514,lng:127.6783311,d:'開店すぐ予約で埋まる超人気居酒屋。あぐー豚しゃぶしゃぶの実演指導あり。',r:'あぐー豚しゃぶしゃぶ（要予約）',h:'',tags:'<span class="tag tag-dinner">あぐー豚</span><span class="tag tag-local">予約困難</span>',badges:'<span class="hot-badge">HOT</span>'},
@@ -699,9 +705,9 @@ const shops = [
   {n:'やきとん居酒屋KIN-KAN',g:'yakitori',a:'那覇市/栄町',area_id:'naha',lat:26.2168051,lng:127.6972926,d:'安里駅徒歩1分、栄町エリアの豚料理居酒屋。安くて美味しいと評判でファン急増中。',r:'やきとん各種 18:00〜24:00（日月休）',h:'',tags:'<span class="tag tag-dinner">焼き鳥</span><span class="tag tag-local">栄町</span>',badges:''},
   {n:'もも太郎',g:'izakaya',a:'那覇市',area_id:'naha',lat:26.2149,lng:127.682,d:'県庁前駅徒歩2分、1990年創業の地元民御用達居酒屋。沖縄料理から創作和食まで幅広く揃う。',r:'沖縄料理各種',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">久茂地</span>',badges:''},
   {n:'山羊料理さかえ',g:'izakaya',a:'那覇市/牧志',area_id:'naha',lat:26.21663,lng:127.69061,d:'食べログTOP5000入りの超人気名物居酒屋。個性的な店主が一人でやるユニークなスタイル。',r:'山羊汁 / 山羊刺し（全く臭くない！）',h:'',tags:'<span class="tag tag-local">珍味</span><span class="tag tag-dinner">沖縄料理</span>',badges:'<span class="hot-badge">HOT</span>'},
-  {n:'楽櫻 Pastigre（イタリアン）',g:'other',a:'那覇市',area_id:'naha',lat:26.2137,lng:127.6755,d:'アゲアゲめし放送で話題。5時間煮込み一晩漬けた豚肉をバーナーで炙るカレーが名物。那覇天久。',r:'炙り豚カレー にんにく入れますか？ / チキンクリームドリア（¥1,300）',h:'月〜土 11:30〜14:30 / 18:00〜23:00',tags:'<span class="tag tag-dinner">イタリアン</span><span class="tag tag-local">評価4.9★</span>',badges:'<span class="hot-badge">HOT</span>'},
-  {n:'流求茶館（りゅうきゅうちゃかん）',g:'cafe',a:'那覇市',area_id:'naha',lat:26.2166,lng:127.6862,d:'台湾の茶藝館のような雰囲気。希少な中国茶が30種以上揃う。',r:'魯肉飯＆中国茶セット / ちんすこうスイーツ',h:'月・木〜日 12:00〜17:00',tags:'<span class="tag tag-cafe">中国茶</span><span class="tag tag-local">評価4.6★</span>',badges:''},
-  {n:'Zooton\'s（ズートンズ）',g:'other',a:'那覇市',area_id:'naha',lat:26.2149,lng:127.6828,d:'那覇のバックアリーに佇む人気バーガー店。牛豚合いびきジューシーパティが絶品。',r:'ABCバーガー（アボカド・ベーコン・チーズ） / チリチーズフライ',h:'月・水〜金 11:00〜20:00',tags:'<span class="tag tag-lunch">バーガー</span><span class="tag tag-local">評価4.5★</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'楽櫻 Pastigre（イタリアン）',g:'other',a:'那覇市',area_id:'naha',lat:26.2137,lng:127.6755,rt:4.9,d:'アゲアゲめし放送で話題。5時間煮込み一晩漬けた豚肉をバーナーで炙るカレーが名物。那覇天久。',r:'炙り豚カレー にんにく入れますか？ / チキンクリームドリア（¥1,300）',h:'月〜土 11:30〜14:30 / 18:00〜23:00',tags:'<span class="tag tag-dinner">イタリアン</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'流求茶館（りゅうきゅうちゃかん）',g:'cafe',a:'那覇市',area_id:'naha',lat:26.2166,lng:127.6862,rt:4.6,d:'台湾の茶藝館のような雰囲気。希少な中国茶が30種以上揃う。',r:'魯肉飯＆中国茶セット / ちんすこうスイーツ',h:'月・木〜日 12:00〜17:00',tags:'<span class="tag tag-cafe">中国茶</span>',badges:''},
+  {n:'Zooton\'s（ズートンズ）',g:'other',a:'那覇市',area_id:'naha',lat:26.2149,lng:127.6828,rt:4.5,d:'那覇のバックアリーに佇む人気バーガー店。牛豚合いびきジューシーパティが絶品。',r:'ABCバーガー（アボカド・ベーコン・チーズ） / チリチーズフライ',h:'月・水〜金 11:00〜20:00',tags:'<span class="tag tag-lunch">バーガー</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'夜パフェ専門店 ぱふぇんちゅ',g:'sweets',a:'那覇市',area_id:'naha',lat:26.2156,lng:127.6886,d:'平和通りにある夜パフェ専門店。SNS映えするパフェが大人気。',r:'季節替わりパフェ / カクテル',h:'',tags:'<span class="tag tag-sweets">パフェ</span><span class="tag tag-sns">SNS映え</span>',badges:'<span class="sns-badge">SNS</span>'},
   {n:'rokkan COFFEE SHURI（首里）',g:'cafe',a:'那覇市/首里',area_id:'naha',lat:26.2203159,lng:127.7183167,d:'首里城近くの人気コーヒー店。朝6時から。琉球ブレンドラテが名物。',r:'琉球ブレンドラテ / プリン',h:'',tags:'<span class="tag tag-cafe">コーヒー</span><span class="tag tag-local">朝6時〜</span>',badges:''},
   {n:'C&amp;C BREAKFAST OKINAWA',g:'cafe',a:'那覇市/松尾',area_id:'naha',lat:26.21509,lng:127.687943,d:'松尾の路地裏にあるハワイ風モーニング・ブランチ専門カフェ。',r:'パンケーキ / エッグベネディクト',h:'平日9:00〜15:00・土日祝8:00〜15:00（火曜定休）',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">モーニング</span>',badges:''},
@@ -804,7 +810,7 @@ const shops = [
   {n:'焼乃魚島 上地店',g:'seafood',a:'沖縄市/上地',area_id:'okinawacity',lat:26.331566,lng:127.796577,d:'魚介グリルを中心とした海鮮居酒屋。口コミ件数が多い人気店。',r:'魚介グリル各種',h:'',tags:'<span class="tag tag-dinner">海鮮</span><span class="tag tag-local">上地</span>',badges:''},
   {n:'chimanois（シマノワ）',g:'chinese',a:'沖縄市/中央',area_id:'okinawacity',lat:26.337149,lng:127.801147,d:'コザ一番街東端にある創作中華とナチュラルワインのおしゃれな店。',r:'創作中華コース料理',h:'18:00〜23:00頃（日・月定休）',tags:'<span class="tag tag-dinner">創作中華</span><span class="tag tag-local">コザ一番街</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'中華料理DAIKEI',g:'chinese',a:'沖縄市/宮里',area_id:'okinawacity',lat:26.334999,lng:127.820168,d:'口コミ800件超の宮里の中華食堂。',r:'中華料理各種',h:'',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">宮里</span>',badges:''},
-  {n:'珈琲専門店 原点',g:'cafe',a:'沖縄市/山里',area_id:'okinawacity',lat:26.322439,lng:127.791054,d:'30年以上続く老舗、ホット・アイスの2種類のみで勝負する珈琲専門店。',r:'水出しアイスコーヒー / 布フィルターホットコーヒー',h:'',tags:'<span class="tag tag-cafe">珈琲専門店</span><span class="tag tag-local">評価4.5</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'珈琲専門店 原点',g:'cafe',a:'沖縄市/山里',area_id:'okinawacity',lat:26.322439,lng:127.791054,rt:4.5,d:'30年以上続く老舗、ホット・アイスの2種類のみで勝負する珈琲専門店。',r:'水出しアイスコーヒー / 布フィルターホットコーヒー',h:'',tags:'<span class="tag tag-cafe">珈琲専門店</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'みやんち STUDIO&amp;COFFEE',g:'cafe',a:'沖縄市/与儀',area_id:'okinawacity',lat:26.308561,lng:127.812477,d:'与儀エリアの隠れ家的カフェ。',r:'コーヒー各種',h:'水〜土11:00〜17:00（L.O.16:30、日月火定休）',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">隠れ家</span>',badges:''},
   {n:'かぼ天の店なかそね',g:'sweets',a:'沖縄市/胡屋',area_id:'okinawacity',lat:26.32616,lng:127.808884,d:'島かぼちゃのサーターアンダギー専門、午前中完売の人気店。',r:'かぼちゃサーターアンダギー',h:'要予約（前日10時までに電話、午前完売あり）',tags:'<span class="tag tag-sweets">サーターアンダギー</span><span class="tag tag-local">胡屋</span>',badges:''},
   {n:'具志堅商店',g:'sweets',a:'沖縄市/登川',area_id:'okinawacity',lat:26.366459,lng:127.820137,d:'「黒糖アガラサー」を1998年に県内で初めて考案・販売した店。',r:'黒糖アガラサー（卵・油・乳製品・白砂糖不使用）',h:'土日祝定休',tags:'<span class="tag tag-sweets">黒糖アガラサー</span><span class="tag tag-local">元祖</span>',badges:''},
@@ -817,7 +823,7 @@ const shops = [
   {n:'だるまそば',g:'soba',a:'沖縄市/山里',area_id:'okinawacity',lat:26.322147,lng:127.789543,d:'沖縄市山里の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
   {n:'アワセそば食堂',g:'soba',a:'沖縄市/高原',area_id:'okinawacity',lat:26.32387,lng:127.825912,d:'沖縄市高原の沖縄そば食堂。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">高原</span>',badges:''},
   // 豊見城
-  {n:'イツモ月夜ニ。',g:'washoku',a:'豊見城市',area_id:'tomigusuku',lat:26.1771,lng:127.693,d:'2025年8月オープン！琉球畳の古民家をリノベーション。ランチはしまぶた丼・沖縄そば、ディナーはあぐー豚しゃぶしゃぶ（前日予約制）。',r:'満月そば＋ミニしまぶた丼セット / あぐー豚しゃぶしゃぶ',h:'ランチ11:30〜15:00 ディナー17:00〜22:00（火曜定休）',tags:'<span class="tag tag-dinner">沖縄料理</span><span class="tag tag-local">評価4.8★</span>',badges:'<span class="new-badge">NEW</span><span class="hot-badge">HOT</span>'},
+  {n:'イツモ月夜ニ。',g:'washoku',a:'豊見城市',area_id:'tomigusuku',lat:26.1771,lng:127.693,rt:4.8,d:'2025年8月オープン！琉球畳の古民家をリノベーション。ランチはしまぶた丼・沖縄そば、ディナーはあぐー豚しゃぶしゃぶ（前日予約制）。',r:'満月そば＋ミニしまぶた丼セット / あぐー豚しゃぶしゃぶ',h:'ランチ11:30〜15:00 ディナー17:00〜22:00（火曜定休）',tags:'<span class="tag tag-dinner">沖縄料理</span>',badges:'<span class="new-badge">NEW</span><span class="hot-badge">HOT</span>'},
   {n:'よね食堂',g:'soba',a:'豊見城市',area_id:'tomigusuku',lat:26.1646173,lng:127.6682613,d:'豊見城で美味しい沖縄そばを食べるなら外せない人気食堂。',r:'ソーキそば / ジューシー',h:'',tags:'<span class="tag tag-lunch">ランチ</span><span class="tag tag-local">地元人気</span>',badges:''},
   {n:'沖縄そば くくる',g:'soba',a:'豊見城市',area_id:'tomigusuku',lat:26.18449,lng:127.68365,d:'数種類の小麦粉を独自にブレンドした無添加自家製麺。窓からは豊見城の景色を一望。',r:'自家製麺の沖縄そば',h:'',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-view">絶景</span>',badges:''},
   {n:'ぱんだまんま',g:'chinese',a:'豊見城市/我那覇',area_id:'tomigusuku',lat:26.1780177,lng:127.6711803,d:'餃子命の町中華。ランチ定食どれでも650円で地元民に愛される。',r:'餃子 / ランチ定食各種',h:'11:30〜14:30 / 17:00〜23:00',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">餃子専門</span>',badges:''},
@@ -883,7 +889,7 @@ const shops = [
   {n:'La sfoglina',g:'other',a:'糸満市',area_id:'itoman',lat:26.128597,lng:127.668968,d:'本格パスタが自慢のイタリアン。',r:'パスタ各種',h:'',tags:'<span class="tag tag-dinner">イタリアン</span>',badges:''},
   {n:'やきとり しまぶー',g:'yakitori',a:'糸満市',area_id:'itoman',lat:26.147638,lng:127.664612,d:'丁寧に串打ちし800度の高温で焼き上げる絶品やきとり。若鶏を煮込んだ自家製タレが自慢。',r:'5本盛り合わせ',h:'木曜定休',tags:'<span class="tag tag-dinner">焼き鳥</span>',badges:''},
   {n:'三竹寿',g:'ramen',a:'糸満市/潮平',area_id:'itoman',lat:26.149492,lng:127.67308,d:'中華料理・ラーメン・担々麺を提供する潮平の人気店。連休の昼時は行列ができることも。',r:'担々麺',h:'',tags:'<span class="tag tag-dinner">ラーメン</span><span class="tag tag-local">担々麺</span>',badges:''},
-  {n:'BAKERY ADEMOK',g:'bakery',a:'糸満市',area_id:'itoman',lat:26.1406868,lng:127.672213,d:'糸満で人気のベーカリー。メロンパン、クロワッサン、チーズ系のパンが評判。',r:'メロンパン / クロワッサン',h:'',tags:'<span class="tag tag-cafe">パン屋</span><span class="tag tag-local">評価4.4★</span>',badges:''},
+  {n:'BAKERY ADEMOK',g:'bakery',a:'糸満市',area_id:'itoman',lat:26.1406868,lng:127.672213,rt:4.4,d:'糸満で人気のベーカリー。メロンパン、クロワッサン、チーズ系のパンが評判。',r:'メロンパン / クロワッサン',h:'',tags:'<span class="tag tag-cafe">パン屋</span>',badges:''},
   {n:'南国屋',g:'sweets',a:'糸満市/真栄里',area_id:'itoman',lat:26.11533,lng:127.665947,d:'2023年6月オープン。カラフルなドラゴンフルーツやマンゴーを使った「ビッグレインボーかき氷」が名物。屋外テラス席からビーチを一望。',r:'ビッグレインボーかき氷',h:'',tags:'<span class="tag tag-sweets">かき氷</span><span class="tag tag-view">海が見える</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'糸満ガリガリー おおしろ',g:'sweets',a:'糸満市/小波蔵',area_id:'itoman',lat:26.104057,lng:127.668587,d:'糸満のカフェ・スイーツランキングトップの親しみやすいアットホームな店。',r:'自家製スイーツ各種',h:'',tags:'<span class="tag tag-sweets">スイーツ</span><span class="tag tag-local">アットホーム</span>',badges:''},
   {n:'いーばる家',g:'washoku',a:'糸満市/照屋',area_id:'itoman',lat:26.1294,lng:127.6806,d:'照屋地区の人気定食屋。骨汁が有名で、沖縄そばや定食も手頃な値段。座敷があり子供連れにも人気。',r:'骨汁定食',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-soba">骨汁</span>',badges:''},
@@ -975,7 +981,7 @@ const shops = [
   {n:'みなもとや',g:'bakery',a:'南城市/佐敷',area_id:'nanjo',lat:26.17606,lng:127.77451,d:'1983年創業、地元で愛される老舗パティスリー&ベーカリー。約70種類のパンとケーキが揃う。',r:'パン・ケーキ各種',h:'',tags:'<span class="tag tag-cafe">パン屋</span><span class="tag tag-local">佐敷</span>',badges:''},
   {n:'沖縄ぜんざい いいやんべぇ',g:'sweets',a:'南城市/佐敷手登根',area_id:'nanjo',lat:26.170809,lng:127.79792,d:'4時間かけて煮込んだ金時豆のあんこが自慢。夏はもちろん冬も常連客が訪れる人気のぜんざい店。',r:'沖縄ぜんざい',h:'',tags:'<span class="tag tag-sweets">スイーツ</span><span class="tag tag-local">佐敷</span>',badges:''},
   {n:'居酒屋南城',g:'izakaya',a:'南城市/玉城富里',area_id:'nanjo',lat:26.1492,lng:127.7655,d:'南城市玉城富里の地元密着型居酒屋。',r:'本日のおすすめ料理',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">玉城富里</span>',badges:''},
-  {n:'cafe mocco・occo（モッコオッコ）',g:'washoku',a:'南城市',area_id:'nanjo',lat:26.1707,lng:127.8291,d:'「実家に帰ってきたみたい」がコンセプト。メイン＋小鉢6品＋アーサ汁。要予約。',r:'日替わりランチプレート（小鉢6品付き）',h:'水〜日 11:30〜15:00 要予約',tags:'<span class="tag tag-lunch">ランチ</span><span class="tag tag-local">評価4.6★</span>',badges:''},
+  {n:'cafe mocco・occo（モッコオッコ）',g:'washoku',a:'南城市',area_id:'nanjo',lat:26.1707,lng:127.8291,rt:4.6,d:'「実家に帰ってきたみたい」がコンセプト。メイン＋小鉢6品＋アーサ汁。要予約。',r:'日替わりランチプレート（小鉢6品付き）',h:'水〜日 11:30〜15:00 要予約',tags:'<span class="tag tag-lunch">ランチ</span>',badges:''},
   {n:'胃袋',g:'other',a:'南城市/玉城屋嘉部',area_id:'nanjo',lat:26.147406,lng:127.763626,d:'玉城屋嘉部の創作料理店。南城市で最も高い評価を集める一軒。',r:'創作料理コース',h:'',tags:'<span class="tag tag-dinner">創作料理</span><span class="tag tag-local">南城1位</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'沖縄そば専門店 まるち 南城市つきしろ店',g:'soba',a:'南城市/つきしろ',area_id:'nanjo',lat:26.161486,lng:127.792236,d:'つきしろの沖縄そば専門店。南城市のそばでは最高評価。',r:'沖縄そば / ソーキそば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'玉家',g:'soba',a:'南城市/大里古堅',area_id:'nanjo',lat:26.190907,lng:127.74408,d:'大里古堅の人気沖縄そば店。地元で長く支持される一軒。',r:'沖縄そば / ソーキそば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">地元人気</span>',badges:''},
@@ -1059,6 +1065,13 @@ function getMealType(s) {
   return guessMealFromHours(s.h) || GENRE_MEAL_DEFAULT[s.g] || 'LD';
 }
 
+// Googleの☆評価。調査済みの店だけ rt(評価)/rc(レビュー件数) を持つので、無い店は何も出さない
+function ratingHtml(s) {
+  if (!s.rt) return '';
+  const count = s.rc ? `<span class="rt-count">(${s.rc.toLocaleString()})</span>` : '';
+  return `<span class="rating-badge">${s.rt.toFixed(1)}${count}</span>`;
+}
+
 function mealBadgeHtml(s) {
   const type = getMealType(s);
   return `<span class="meal-badge ${MEAL_CLASS[type]}">${MEAL_LABEL[type]}</span>`;
@@ -1128,7 +1141,7 @@ function renderShopSections() {
     const [emoji, name] = AREA_META[areaId];
     const cardsHtml = list.map(([s, i]) => `
       <div class="shop-card" onclick="flyAndOpen(${i})" data-genre="${s.g}">
-        <div class="shop-top"><div class="shop-name">${s.n}</div><div class="badge-row">${mealBadgeHtml(s)}${s.badges}</div></div>
+        <div class="shop-top"><div class="shop-name">${s.n}</div><div class="badge-row">${ratingHtml(s)}${mealBadgeHtml(s)}${s.badges}</div></div>
         <div class="tag-group">${s.tags}</div>
         <div class="shop-desc">${s.d}</div>
         <div class="shop-recommend">${s.r}</div>
@@ -1167,6 +1180,7 @@ shops.forEach((s, i) => {
     <div style="font-family:'Noto Sans JP',sans-serif;min-width:200px;padding:2px 0;">
       <div class="p-area">📍 ${s.a}</div>
       <div class="p-name">${s.n}</div>
+      ${s.rt ? `<div class="p-rating">${ratingHtml(s)}</div>` : ''}
       <div class="p-desc">${s.d}</div>
       <div class="p-rec">${s.r}</div>
       ${h}
