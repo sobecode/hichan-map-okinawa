@@ -1,0 +1,4 @@
+# APIキーは絶対にコミットしない(公開リポジトリ)
+.places_api_key
+.hichan_places_key.txt
+*.key
