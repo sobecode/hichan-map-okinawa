@@ -11,12 +11,23 @@
 :root{--coral:#FF6B6B;--ocean:#4ECDC4;--sand:#FFF9F0;--deep:#2C3E50;--hibiscus:#E91E8C;--gold:#F5A623;--mint:#A8E6CF;--sky:#74B9FF;}
 *{margin:0;padding:0;box-sizing:border-box;}
 body{font-family:'Zen Maru Gothic','Noto Sans JP',sans-serif;background:var(--sand);color:var(--deep);overflow-x:hidden;}
-.hero{background:linear-gradient(135deg,#74B9FF 0%,#A8E6CF 40%,#FFF9F0 100%);min-height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:36px 20px 64px;}
-.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:50px;background:var(--sand);clip-path:ellipse(55% 100% at 50% 100%);}
-.hero-badge{background:var(--hibiscus);color:#fff;font-size:11px;font-weight:700;padding:4px 14px;border-radius:20px;letter-spacing:2px;margin-bottom:14px;}
-.hero-title{font-size:clamp(38px,9vw,68px);font-weight:900;color:#B8860B;text-shadow:3px 3px 0 rgba(255,255,255,.5);text-align:center;line-height:1;}
-.hero-sub{font-size:clamp(20px,5vw,34px);font-weight:700;color:var(--deep);text-align:center;margin-top:4px;}
-.hero-region{font-size:12px;letter-spacing:3px;color:#666;margin-top:6px;}
+/*
+ * 表紙。正方形の絵を全幅に敷き、文字は上に重ねる。
+ * 画像が細かく色も明るいので、文字の後ろに暗いスクリムを入れないと読めない。
+ * 高さは画面幅に追従させる(狭いほど縦を長めに取り、絵の中央=島が残るようにする)。
+ */
+.hero{background:#0d3b52;min-height:clamp(330px,44vw,470px);display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:36px 20px 64px;}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 42%;display:block;}
+/* 文字を読ませるためのスクリム。上下を暗く、中央は絵が見えるように薄く */
+.hero::before{content:'';position:absolute;inset:0;z-index:1;
+  background:radial-gradient(ellipse 78% 62% at 50% 46%,rgba(4,30,44,.62) 0%,rgba(4,30,44,.42) 55%,rgba(4,30,44,.14) 100%),
+             linear-gradient(180deg,rgba(4,30,44,.42) 0%,rgba(4,30,44,0) 34%);}
+.hero-inner{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:50px;background:var(--sand);clip-path:ellipse(55% 100% at 50% 100%);z-index:3;}
+.hero-badge{background:var(--hibiscus);color:#fff;font-size:11px;font-weight:700;padding:4px 14px;border-radius:20px;letter-spacing:2px;margin-bottom:14px;box-shadow:0 2px 10px rgba(0,0,0,.3);}
+.hero-title{font-size:clamp(38px,9vw,68px);font-weight:900;color:#FFD86B;text-shadow:0 2px 4px rgba(0,0,0,.55),0 0 22px rgba(0,0,0,.4);text-align:center;line-height:1;}
+.hero-sub{font-size:clamp(20px,5vw,34px);font-weight:700;color:#fff;text-shadow:0 2px 5px rgba(0,0,0,.6);text-align:center;margin-top:4px;}
+.hero-region{font-size:12px;letter-spacing:3px;color:rgba(255,255,255,.9);text-shadow:0 1px 3px rgba(0,0,0,.6);margin-top:6px;}
 .hero-stats{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;justify-content:center;}
 .stat-pill{background:#fff;border-radius:30px;padding:6px 14px;font-size:12px;font-weight:700;color:var(--deep);box-shadow:0 3px 10px rgba(0,0,0,.1);}
 .map-wrap{background:#fff;}
@@ -208,20 +219,33 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
   .shop-desc{font-size:12px;}
   .map-pin-hint{font-size:10.5px;}
 }
+
+/* 320px幅では表紙バッジの末尾の絵文字が2行目に折れてピルが崩れるので詰めて1行に収める */
+@media(max-width:380px){
+  .hero-badge{font-size:10px;letter-spacing:1px;padding:4px 11px;white-space:nowrap;}
+}
 </style>
 </head>
 <body>
 
 <div class="hero">
-  <div class="hero-badge">🌺 OKINAWA GOURMET GUIDE 2026 🌺</div>
-  <div class="hero-title">ひーちゃん</div>
-  <div class="hero-sub">放浪記 沖縄版</div>
-  <div class="hero-region">OKINAWA ISLAND FOOD GUIDE</div>
-  <div class="hero-stats">
-    <div class="stat-pill">🍜 <span id="shop-count">742</span>店舗</div>
-    <div class="stat-pill">📍 12エリア</div>
-    <div class="stat-pill">🍥 ジャンル別検索対応</div>
-    <div class="stat-pill">☀️🌙 昼・夜の営業表示</div>
+  <!-- sizes=100vw なので、画面幅×画素密度に見合う1枚をブラウザが選ぶ。
+       375px×DPR2 のスマホは750、1280px×DPR1 のPCは1254が読まれる -->
+  <img class="hero-img" src="img/cover-1000.jpg"
+       srcset="img/cover-750.jpg 750w, img/cover-1000.jpg 1000w, img/cover-1254.jpg 1254w"
+       sizes="100vw" width="1254" height="1254" fetchpriority="high" decoding="async"
+       alt="沖縄本島をかたどった緑の島と、沖縄そば・ゴーヤーチャンプルー・ステーキ・ソーキ・海ぶどう・サーターアンダギー・シーサー・パイナップル・マンゴーなどが並ぶ表紙イラスト">
+  <div class="hero-inner">
+    <div class="hero-badge">🌺 OKINAWA GOURMET GUIDE 2026 🌺</div>
+    <div class="hero-title">ひーちゃん</div>
+    <div class="hero-sub">放浪記 沖縄版</div>
+    <div class="hero-region">OKINAWA ISLAND FOOD GUIDE</div>
+    <div class="hero-stats">
+      <div class="stat-pill">🍜 <span id="shop-count">742</span>店舗</div>
+      <div class="stat-pill">📍 12エリア</div>
+      <div class="stat-pill">🍥 ジャンル別検索対応</div>
+      <div class="stat-pill">☀️🌙 昼・夜の営業表示</div>
+    </div>
   </div>
 </div>
 

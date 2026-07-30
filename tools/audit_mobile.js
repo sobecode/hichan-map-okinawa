@@ -69,7 +69,8 @@ function cdp(ws) {
     const myId = ++id;
     waiting.set(myId, {resolve, reject});
     ws.send(JSON.stringify({id: myId, method, params}));
-    setTimeout(() => { if (waiting.has(myId)) { waiting.delete(myId); reject(new Error('timeout: ' + method)); } }, 60000);
+    // 742枚のカードがあるページのスクリーンショットは重いので長めに待つ
+    setTimeout(() => { if (waiting.has(myId)) { waiting.delete(myId); reject(new Error('timeout: ' + method)); } }, 180000);
   });
 }
 
@@ -169,9 +170,11 @@ const MEASURE = `(() => {
 
     await send('Page.enable');
     await send('Runtime.enable');
-    // 実機に近づける: DPR2・タッチ・モバイル扱い
+    // 実機に近づける: DPR2・タッチ・モバイル扱い。
+    // 広い幅ではDPR2のスクリーンショットが重すぎて撮れないので1に落とす
+    const dpr = WIDTH > 800 ? 1 : 2;
     await send('Emulation.setDeviceMetricsOverride',
-      {width: WIDTH, height: HEIGHT, deviceScaleFactor: 2, mobile: true});
+      {width: WIDTH, height: HEIGHT, deviceScaleFactor: dpr, mobile: WIDTH <= 800});
     await send('Emulation.setTouchEmulationEnabled', {enabled: true, maxTouchPoints: 5});
 
     await send('Page.navigate', {url: PAGE});
