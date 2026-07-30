@@ -5,3 +5,6 @@
 
 # APIからの取得結果(生データ)。値は index.html に反映されるので追跡しない
 tools/ratings.json
+
+# Overpass から取得したPOIのキャッシュ
+tools/osm_pois.json
