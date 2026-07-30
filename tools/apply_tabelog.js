@@ -38,7 +38,31 @@ const EXCLUDE = {
   'エランド': '当サイトの「エラン」と同一かどうか、住所が公開されていないため確認できない',
   'ちゅらはま食堂': '当サイトの「みはま食堂」と字面が似ているだけの別店',
   'シーサイド ステーキ ビーフィーズ': '「シーサイド」を共有するだけで、当サイトの「Seaside Cafe Hanon」とは別店',
-  'ザ・ブセナテラス': 'ホテル自体の点数。当サイトが収録しているのは館内の「ファヌアン」で、別に行がある'
+  'ザ・ブセナテラス': 'ホテル自体の点数。当サイトが収録しているのは館内の「ファヌアン」で、別に行がある',
+  /*
+   * ランキングを深掘りすると当サイト未収録の店が増え、語の共有だけで別店に当たる率が上がる。
+   * 以下は目で見て別店と判断したもの。共有語をカッコ内に記した。
+   */
+  '彦 豊見城店': '「杏屋 豊見城店」とは支店名だけの一致',
+  'ひめゆり会館': '「ひめゆりそば」とは地名ひめゆりだけの一致',
+  'ひめゆり観光センター でいご': '同上',
+  'センター食堂': '「糸満漁業協同組合 お魚センター」とはセンターだけの一致',
+  'フルーツラボ': '「フルーツパーラー」とはフルーツだけの一致',
+  '珈琲喫茶 雨宿り': '「ピザ喫茶 ミモザの木」とは喫茶だけの一致',
+  '食事処やま': '「やまがみベーカリー」とはやまだけの一致',
+  'Pasta me time': '「PASTAの日」とはpastaだけの一致',
+  'オキナワ セラード コーヒー ビーンズ ストア PARCO CITY店': '当サイトが収録しているのは港川の本店で別支店',
+  '豚骨ラーメン まる・安': '「豚骨一燈 沖縄あしびなー店」とは豚骨だけの一致',
+  'gelato pique cafe 沖縄アウトレットモール あしびなー店': '「紅虎餃子房」とは施設名あしびなーだけの一致',
+  'やっぱりちゃん': '「やっぱりステーキ」とはやっぱりだけの一致',
+  '琉球焼肉NAKAMA': '「STEAKHOUSE NAKAMA」とはNAKAMAだけの一致で別店',
+  'シーサイドレストラン・谷茶ベイ': '「シーサイドドライブイン」とはシーサイドだけの一致',
+  '琉球しゃぶしゃぶ 豊': '「しゃぶしゃぶ金武 本店」とはしゃぶしゃぶだけの一致',
+  '雪塩さんど 国際通り本店': '「島豚・石焼 燦（さん）」とはさんだけの一致',
+  'しまあかり 名護店': '「薪火 燈（あかり）本部備瀬」とはあかりだけの一致',
+  '南城市地域物産館': '施設自体の点数。館内の「三矢本舗 南城市地域物産館店」は別に行がある',
+  'ハッピーモア市場 tropical店': '当サイトが収録しているのは本店で別支店',
+  'やんばる': '「やんばる屋」とは別店'
 };
 
 const assign = new Map(); // "name|a" -> {score, count, from, sim}
@@ -68,7 +92,7 @@ rows.forEach(r => {
 });
 
 const lines = html.split('\n');
-let applied = 0, changed = [];
+let applied = 0, cleared = 0, changed = [];
 for (let i = 0; i < lines.length; i++) {
   const L = lines[i];
   if (!/^\s*\{n:'/.test(L)) continue;
@@ -76,21 +100,26 @@ for (let i = 0; i < lines.length; i++) {
   const a = (/,a:'((?:[^'\\]|\\.)*)'/.exec(L) || [])[1];
   if (n == null || a == null) continue;
   const hit = assign.get(n.replace(/\\'/g, "'") + '|' + a.replace(/\\'/g, "'"));
-  if (!hit) continue;
 
-  const tb = Number(hit.score).toFixed(2);
-  const tbc = hit.count != null ? `tbc:${hit.count},` : '';
-  let out = L.replace(/,tb:[\d.]+,/, ',').replace(/,tbc:\d+,/, ','); // 既存値は差し替える
-  const before = out;
-  // rt/rc の後、d の前に置く
-  out = out.replace(/(lng:-?[\d.]+,(?:rt:[\d.]+,)?(?:rc:\d+,)?)/, `$1tb:${tb},${tbc}`);
-  if (out === before) { console.log('★挿入位置が見つからない行:', n); process.exit(1); }
-  if (out !== L) { applied++; changed.push(`${tb} ${n}`); }
+  // まず既存の tb/tbc を必ず落とす。そうしないと、あとで誤マッチだと判って
+  // EXCLUDE に入れても古い値が残り続ける(実際に一度そうなった)
+  let out = L.replace(/,tb:[\d.]+,/, ',').replace(/,tbc:\d+,/, ',');
+  if (out !== L) cleared++;
+  if (hit) {
+    const tb = Number(hit.score).toFixed(2);
+    const tbc = hit.count != null ? `tbc:${hit.count},` : '';
+    const before = out;
+    // rt/rc の後、d の前に置く
+    out = out.replace(/(lng:-?[\d.]+,(?:rt:[\d.]+,)?(?:rc:\d+,)?)/, `$1tb:${tb},${tbc}`);
+    if (out === before) { console.log('★挿入位置が見つからない行:', n); process.exit(1); }
+    applied++;
+    changed.push(`${tb} ${n}`);
+  }
   lines[i] = out;
 }
 
 if (!DRY) fs.writeFileSync(INDEX, lines.join('\n'), 'utf8');
-console.log(`${DRY ? '[dry run] ' : ''}入力 ${rows.length} 行 → 反映 ${applied} 件`);
+console.log(`${DRY ? '[dry run] ' : ''}入力 ${rows.length} 行 → 点数を持つ店 ${applied} 件(既存値 ${cleared} 件をいったん消して付け直し)`);
 console.log(`照合できず ${unmatched.length} 件 / 同点保留 ${ambiguous.length} 件 / 手動除外 ${excluded.length} 件`);
 if (excluded.length) {
   console.log('\n手動除外(同一店と言い切れない):');
