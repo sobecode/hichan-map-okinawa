@@ -182,7 +182,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
   <div class="hero-sub">放浪記 沖縄版</div>
   <div class="hero-region">OKINAWA ISLAND FOOD GUIDE</div>
   <div class="hero-stats">
-    <div class="stat-pill">🍜 <span id="shop-count">746</span>店舗</div>
+    <div class="stat-pill">🍜 <span id="shop-count">743</span>店舗</div>
     <div class="stat-pill">📍 12エリア</div>
     <div class="stat-pill">🍥 ジャンル別検索対応</div>
     <div class="stat-pill">☀️🌙 昼・夜の営業表示</div>
@@ -256,6 +256,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 const shops = [
   // 名護・北部
+  {n:'FRUITS MONSTER',g:'sweets',a:'名護市/宇茂佐',area_id:'nago',lat:26.596115,lng:127.964142,d:'2021年に北谷から名護フラッグへ移転。かき氷界のニューウェーブと話題の果物けずり専門店。',r:'果物けずり',h:'',tags:'<span class="tag tag-sweets">かき氷</span><span class="tag tag-local">果物けずり</span>',badges:'<span class="sns-badge">SNS</span>'},
   {n:'ひがし食堂',g:'sweets',a:'名護市',area_id:'nago',lat:26.5888,lng:127.9887,tb:3.47,tbc:273,d:'創業50年以上。名護を代表する行列の絶えない名店。',r:'ミルクぜんざい / 練乳たっぷりふわふわ氷',h:'',tags:'<span class="tag tag-local">老舗名店</span><span class="tag tag-sweets">スイーツ</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'薪火 燈（あかり）本部備瀬',g:'washoku',a:'本部町',area_id:'nago',lat:26.7043,lng:127.8812,rt:4.4,d:'2025年7月オープン！備瀬のフクギ並木近くの古民家を改装。薪火でじっくり焼き上げる鶏料理が絶品。',r:'鶏手羽だし沖縄そば / ソーキの薪火焼き 11:30〜23:00（水曜定休）',h:'11:30〜23:00（水曜定休）',tags:'<span class="tag tag-dinner">薪火料理</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'PAUL',g:'other',a:'本部町/備瀬',area_id:'nago',lat:26.699562,lng:127.880318,d:'食べログ「スペイン料理 百名店2026」初選出。ヨーロッパで研鑽したシェフが沖縄食材で仕立てるスペイン×フレンチ。',r:'コース料理（要予約）',h:'18:00〜22:00',tags:'<span class="tag tag-dinner">スペイン料理</span><span class="tag tag-local">百名店2026</span>',badges:'<span class="hot-badge">HOT</span>'},
@@ -447,7 +448,6 @@ const shops = [
   {n:'すながわ製麺所',g:'soba',a:'北谷町/美浜',area_id:'chatan',lat:26.315735,lng:127.754196,d:'アメリカンビレッジの沖縄そば専門店。鰹ベースのあっさりコクのある透き通ったスープが特徴。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">アメリカンビレッジ</span>',badges:''},
   {n:'北谷そば',g:'soba',a:'北谷町',area_id:'chatan',lat:26.324451,lng:127.769272,d:'北谷町宮城海岸沖の海水100%から作られた「北谷の塩」を使用する素材こだわりの一杯。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">北谷の塩</span>',badges:''},
   {n:'そば家鶴小北谷店',g:'soba',a:'北谷町',area_id:'chatan',lat:26.307262,lng:127.761467,tb:3.27,tbc:70,d:'北谷の人気沖縄そば専門店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">人気店</span>',badges:''},
-  {n:'FRUITS MONSTER',g:'sweets',a:'北谷町',area_id:'chatan',lat:26.315,lng:127.7545,d:'かき氷界のニューウェーブと話題の果物けずり専門店。',r:'果物けずり',h:'',tags:'<span class="tag tag-sweets">かき氷</span><span class="tag tag-local">果物けずり</span>',badges:'<span class="sns-badge">SNS</span>'},
   {n:'LA LUPA',g:'other',a:'北谷町/美浜',area_id:'chatan',lat:26.3159278,lng:127.7539121,d:'ディストーションシーサイドビル2Fのニューオープンイタリアン。ランチセットが豊富。',r:'ランチセット',h:'',tags:'<span class="tag tag-dinner">イタリアン</span><span class="tag tag-local">美浜</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'SOLiS GRANDE',g:'other',a:'北谷町/美浜',area_id:'chatan',lat:26.3153044,lng:127.7538313,d:'美浜アメリカンビレッジ内、海沿いの本格ピザ・パスタ店。種類豊富なジェラートも人気。',r:'本格ピザ・パスタセット',h:'',tags:'<span class="tag tag-dinner">イタリアン</span><span class="tag tag-view">海沿い</span>',badges:''},
   {n:'THE TERRACE BAKERY',g:'bakery',a:'北谷町',area_id:'chatan',lat:26.3214776,lng:127.754772,d:'ザ・テラスホテルズ初のベーカリー専門店。全パンに液化天然酵母を使用。発酵バターのクロワッサンが評判。',r:'クロワッサン',h:'',tags:'<span class="tag tag-cafe">パン屋</span><span class="tag tag-local">うみんちゅワーフ</span>',badges:''},
@@ -498,7 +498,7 @@ const shops = [
   {n:'嘉手納そば',g:'soba',a:'嘉手納町/屋良',area_id:'kadena',lat:26.366475,lng:127.7722555,tb:3.06,tbc:15,d:'道の駅かでな近くの老舗沖縄そば屋。ゴーヤーやへちま料理、汁物系も充実。',r:'嘉手納そば / 中身汁',h:'',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">1983年創業</span>',badges:''},
   {n:'ripalo',g:'izakaya',a:'嘉手納町',area_id:'kadena',lat:26.3666012,lng:127.7587585,d:'古民家を改装したおしゃれなもつ鍋専門店。デートにも人気。',r:'もつ鍋',h:'',tags:'<span class="tag tag-dinner">もつ鍋</span><span class="tag tag-local">古民家</span>',badges:''},
   {n:'What’s the story?',g:'cafe',a:'嘉手納町/水釜',area_id:'kadena',lat:26.3585553,lng:127.7473943,d:'国道58号線沿いのレトロヴィンテージな名古屋風カフェ。名古屋出身オーナーのモーニングが評判。',r:'名古屋モーニング',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">名古屋風</span>',badges:''},
-  {n:'沖鮮市場',g:'seafood',a:'嘉手納町',area_id:'kadena',lat:26.3533081,lng:127.7444521,tb:3.05,tbc:17,d:'嘉手納町の海鮮料理店。新鮮な魚介を使った料理が楽しめる。',r:'鮮魚料理各種',h:'',tags:'<span class="tag tag-dinner">海鮮</span><span class="tag tag-local">嘉手納</span>',badges:''},
+  {n:'沖鮮市場',g:'seafood',a:'嘉手納町',area_id:'kadena',lat:26.3533081,lng:127.7444521,tb:3.05,tbc:17,d:'ネーブルカデナ1階。新鮮な魚介の刺身定食や沖縄そばが味わえる地元の食事処。',r:'刺身定食 / 沖縄そば',h:'',tags:'<span class="tag tag-dinner">海鮮</span><span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">ネーブルカデナ</span>',badges:''},
   {n:'wool bakery',g:'bakery',a:'嘉手納町',area_id:'kadena',lat:26.36327,lng:127.7527383,d:'ひつじをモチーフにした「ひつじパン」が大人気。平日30〜40種類、休日はさらに多くのパンが並ぶ。',r:'ひつじパン / パンスイス',h:'',tags:'<span class="tag tag-cafe">パン屋</span><span class="tag tag-local">新町通り</span>',badges:'<span class="sns-badge">SNS</span>'},
   {n:'志村亭',g:'yakitori',a:'嘉手納町',area_id:'kadena',lat:26.3639281,lng:127.754671,d:'嘉手納町の焼き鳥専門店。',r:'焼き鳥各種',h:'',tags:'<span class="tag tag-dinner">焼き鳥</span>',badges:''},
   {n:'さしだ商店',g:'ramen',a:'嘉手納町',area_id:'kadena',lat:26.3645758,lng:127.7676325,tb:3.08,tbc:20,d:'2021年オープン。モダンな雰囲気の店内で楽しむ個性的なラーメン。手頃な価格のランチセットも人気。',r:'らーめん さしだ商店特製ラーメン',h:'',tags:'<span class="tag tag-dinner">ラーメン</span><span class="tag tag-local">個性派</span>',badges:'<span class="new-badge">NEW</span>'},
@@ -507,7 +507,6 @@ const shops = [
   {n:'道の駅かでな展望カフェ',g:'cafe',a:'嘉手納町',area_id:'kadena',lat:26.367881,lng:127.774187,tb:3.22,tbc:68,d:'道の駅かでな4階、嘉手納空軍基地を一望できる展望カフェ。',r:'基地滑走路ビューでのカフェタイム',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">基地一望</span>',badges:''},
   {n:'カフェ プラス',g:'cafe',a:'嘉手納町',area_id:'kadena',lat:26.3632499,lng:127.7548761,d:'嘉手納町の人気カフェ。じゃらんカフェランキングでも上位に選出。',r:'こだわりドリンク',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">人気</span>',badges:''},
   {n:'珈琲喫茶カメシマ',g:'cafe',a:'嘉手納町',area_id:'kadena',lat:26.3609716,lng:127.7529671,tb:3.11,tbc:13,d:'50年前からそこに在るような懐かしさが漂う老舗珈琲喫茶。',r:'ドリップコーヒー',h:'',tags:'<span class="tag tag-cafe">喫茶店</span><span class="tag tag-local">老舗</span>',badges:''},
-  {n:'沖縄市場お食事処',g:'washoku',a:'嘉手納町',area_id:'kadena',lat:26.355,lng:127.746,d:'ネーブル嘉手納内。しっかり出汁のきいた沖縄そばなど地元の日常の外食スポット。',r:'沖縄そば',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-soba">沖縄そば</span>',badges:''},
   {n:'みんなの食堂',g:'washoku',a:'嘉手納町/水釜',area_id:'kadena',lat:26.354662,lng:127.7430826,tb:3.04,tbc:2,d:'嘉手納町水釜。小さい子どもから高齢の方まで大歓迎の地元密着食堂。',r:'日替わり定食',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">定食</span>',badges:''},
   {n:'八茶坊',g:'ramen',a:'嘉手納町',area_id:'kadena',lat:26.3634487,lng:127.753061,tb:3.05,tbc:20,d:'嘉手納町のラーメン・餃子店。',r:'ラーメン・餃子セット',h:'',tags:'<span class="tag tag-dinner">ラーメン</span><span class="tag tag-local">餃子</span>',badges:''},
   {n:'3S BURGER',g:'other',a:'嘉手納町',area_id:'kadena',lat:26.3679821,lng:127.7741982,tb:3.21,tbc:28,d:'嘉手納のハンバーガーが全国3位に選ばれた実績。道の駅かでな内で「3Sバーガー」が看板メニュー。',r:'3Sバーガー',h:'',tags:'<span class="tag tag-lunch">ハンバーガー</span><span class="tag tag-local">道の駅かでな</span>',badges:''},
@@ -608,7 +607,6 @@ const shops = [
   {n:'atelier un petit peu',g:'sweets',a:'浦添市/安波茶',area_id:'urasoe',lat:26.2470452,lng:127.7195524,d:'安波茶の洋菓子店。シュークリームなどが人気の話題店。',r:'シュークリーム',h:'',tags:'<span class="tag tag-sweets">洋菓子</span><span class="tag tag-local">安波茶</span>',badges:''},
   {n:'ピザハウス新本店',g:'cafe',a:'浦添市',area_id:'urasoe',lat:26.2622594,lng:127.7139548,tb:3.38,tbc:112,d:'ボリューム満点のピザランチが楽しめる人気カフェ。',r:'窯焼きピザ',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-lunch">ピザ</span>',badges:''},
   {n:'ナチュラーレ',g:'cafe',a:'浦添市',area_id:'urasoe',lat:26.2556843,lng:127.7151559,d:'ヘルシー志向のランチが楽しめるカフェ。',r:'ヘルシーランチプレート',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">ヘルシー</span>',badges:''},
-  {n:'SecondCase',g:'cafe',a:'浦添市',area_id:'urasoe',lat:26.252,lng:127.71,d:'夜カフェとして利用できる大人の空間。アルコール・ディナーも楽しめる。',r:'ディナーコース',h:'',tags:'<span class="tag tag-cafe">夜カフェ</span><span class="tag tag-dinner">ディナー</span>',badges:''},
   {n:'たこ焼き酒場 蛸入洞',g:'izakaya',a:'浦添市/屋富祖',area_id:'urasoe',lat:26.2536902,lng:127.7079743,d:'屋富祖のたこ焼き酒場。たこ焼きとお酒の組み合わせが楽しめる。',r:'特製たこ焼き',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">屋富祖</span>',badges:''},
   {n:'居酒屋リセット',g:'izakaya',a:'浦添市/城間',area_id:'urasoe',lat:26.2570439,lng:127.713073,d:'城間の人気居酒屋。',r:'一品料理各種',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">城間</span>',badges:''},
   {n:'ハツノココロミ',g:'izakaya',a:'浦添市/伊祖',area_id:'urasoe',lat:26.2544263,lng:127.7196117,d:'伊祖の居酒屋。',r:'一品料理各種',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">伊祖</span>',badges:''},
@@ -969,7 +967,6 @@ const shops = [
   {n:'沖縄そば 真',g:'soba',a:'南城市/玉城仲村渠',area_id:'nanjo',lat:26.145351,lng:127.795349,d:'定年退職後に沖縄そばが好きな老夫婦が2020年にオープン。優しい味わいが評判。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">2020年開店</span>',badges:''},
   {n:'玉城食堂',g:'chinese',a:'南城市/玉城',area_id:'nanjo',lat:26.141863,lng:127.782204,tb:3.28,tbc:31,d:'南城市玉城の台湾料理・中華の店。',r:'台湾料理各種',h:'',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">台湾料理</span>',badges:''},
   {n:'中華酒家 肉水',g:'chinese',a:'南城市/大里稲嶺',area_id:'nanjo',lat:26.1708,lng:127.7422,d:'南城市の中華酒家。',r:'中華各種',h:'',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">酒家</span>',badges:''},
-  {n:'追風丸',g:'ramen',a:'南城市',area_id:'nanjo',lat:26.165,lng:127.76,d:'北海道ラーメン奥原流の一軒。',r:'北海道味噌ラーメン',h:'',tags:'<span class="tag tag-dinner">ラーメン</span><span class="tag tag-local">北海道ラーメン</span>',badges:''},
   {n:'お肉の台所1129',g:'yakiniku',a:'与那原町',area_id:'nanjo',lat:26.200384,lng:127.758957,d:'県内で穴場の焼肉屋。A4ランク以上の黒毛和牛を堪能できる食べ放題プランが人気。',r:'黒毛和牛食べ放題',h:'',tags:'<span class="tag tag-dinner">焼肉</span><span class="tag tag-local">食べ放題</span>',badges:''},
   {n:'まんぷく食堂',g:'washoku',a:'南城市/大里仲間',area_id:'nanjo',lat:26.175011,lng:127.748199,tb:3.36,tbc:79,d:'1984年創業の老舗。牛汁・ヤギ汁・あひる汁など汁物からゴーヤチャンプルーまでメニュー豊富。「まんぷく定食」はご飯大盛り無料。',r:'まんぷく定食',h:'',tags:'<span class="tag tag-local">老舗1984年</span><span class="tag tag-lunch">定食</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'もずくそばのお店 くんなとぅ',g:'soba',a:'南城市/玉城志堅原',area_id:'nanjo',lat:26.134106,lng:127.773254,tb:3.48,tbc:421,d:'奥武島へ渡る橋の手前。自ら養殖したもずくをふんだんに使ったそば定食が人気。海を眺めながら味わえる。',r:'もずくそば定食',h:'',tags:'<span class="tag tag-soba">もずくそば</span><span class="tag tag-local">奥武島</span>',badges:''},
