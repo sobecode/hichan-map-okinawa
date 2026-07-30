@@ -8,3 +8,4 @@ tools/ratings.json
 
 # Overpass から取得したPOIのキャッシュ
 tools/osm_pois.json
+tools/osm_closed.json
