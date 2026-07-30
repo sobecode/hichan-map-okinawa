@@ -2,10 +2,13 @@
  * 閉店・移転の疑いがある店を絞り込む。
  *   node tools/audit_closed.js
  *
- * 今日取得した2つのソースのどちらかに現れた店は、営業している見込みが高い:
+ * 今日取得したソースのどれかに現れた店は、営業している見込みが高い:
  *   - tb(食べログ点数)を持つ = 評価順ランキングに載っていた(閉店・掲載保留は落ちる)
+ *   - tools/tabelog_listing.json に名前がある = 同じくランキングに載っていた。
+ *     ランキングの深いページは当サイト未収録店が多く、点数を取り込むと誤マッチが増えるので
+ *     「存在確認だけに使う行」をここに分けている。照合は完全一致寄り(0.95以上)に絞る。
  *   - OSM に名前付きPOIがある
- * どちらにも現れない店が要調査プール。そのうえで危険度で並べる。
+ * どれにも現れない店が要調査プール。そのうえで危険度で並べる。
  *
  * 危険度の材料:
  *   - 住所が特定できず手置き座標のまま(小数3桁以下)     … 実在が怪しい
@@ -31,8 +34,26 @@ shops.forEach(s => {
   if (near.some(p => dice(s.n, p.name) >= BAR && metres(s.lat, s.lng, p.lat, p.lon) <= 5000)) inOsm.add(s.n);
 });
 
+/*
+ * 存在確認専用の掲載リスト。名前がほぼ一致すれば「載っている」と見る。
+ * ただし apply_tabelog.js が「同一店と言い切れない」として点数を入れなかった行は、
+ * ここでも根拠にしない。そうしないと、たとえば当サイトの「エラン」が
+ * 食べログの「エランド」に0.95で当たって営業確認済みになってしまう。
+ */
+const listPath = path.join(__dirname, 'tabelog_listing.json');
+const listing = fs.existsSync(listPath) ? JSON.parse(fs.readFileSync(listPath, 'utf8')) : [];
+const exPath = path.join(__dirname, 'tabelog_exclude.json');
+const EXCLUDE = fs.existsSync(exPath) ? JSON.parse(fs.readFileSync(exPath, 'utf8')) : {};
+const byAreaList = {};
+listing.filter(r => !EXCLUDE[r.name])
+       .forEach(r => (byAreaList[r.area_id] || (byAreaList[r.area_id] = [])).push(r.name));
+const inListing = new Set();
+shops.forEach(s => {
+  if ((byAreaList[s.area_id] || []).some(nm => dice(s.n, nm) >= 0.95)) inListing.add(s.n);
+});
+
 const rows = shops.map(s => {
-  const tabelog = !!s.tb;
+  const tabelog = !!s.tb || inListing.has(s.n);
   const osm = inOsm.has(s.n);
   let risk = 0;
   const why = [];
@@ -50,7 +71,9 @@ const pool = rows.filter(r => !r.tabelog && !r.osm).sort((a, b) => b.risk - a.ri
 
 console.log(`全 ${shops.length} 店`);
 console.log(`  今日のソースで存在を確認できた: ${confirmed.length} 店`);
-console.log(`      食べログ点数あり ${rows.filter(r => r.tabelog).length} / OSMにPOIあり ${rows.filter(r => r.osm).length}`);
+console.log(`      食べログ掲載 ${rows.filter(r => r.tabelog).length}` +
+            `(うち点数取り込み済み ${shops.filter(s => s.tb).length} / 掲載リストのみ ${[...inListing].filter(n => !shops.find(s => s.n === n && s.tb)).length})` +
+            ` / OSMにPOIあり ${rows.filter(r => r.osm).length}`);
 console.log(`  どちらにも無く要調査: ${pool.length} 店\n`);
 
 const buckets = {};
