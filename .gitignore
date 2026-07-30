@@ -2,3 +2,6 @@
 .places_api_key
 .hichan_places_key.txt
 *.key
+
+# APIからの取得結果(生データ)。値は index.html に反映されるので追跡しない
+tools/ratings.json

@@ -35,18 +35,28 @@ function loadShops() {
   return eval(h.match(/const shops\s*=\s*(\[[\s\S]*?\]);/)[1]);
 }
 
-// 全角・記号・読みカッコを落として名前を比較しやすくする
-function norm(s) {
+// 記号と全角英数を潰す。読みカッコは落とす版(norm)と中身を残す版(normKeep)を用意し、
+// 「琉冰 Ryu-pin（おんなの駅）」対「琉冰 おんなの駅店」のような表記差を両方から拾う
+function squash(s) {
   return String(s)
-    .replace(/[（(][^）)]*[）)]/g, '')
-    .replace(/[\s　・,，.。'"’”\-−ー–—/／]/g, '')
+    .replace(/[\s　・,，.。'"’”`\-−ー–—/／&＆]/g, '')
     .replace(/[Ａ-Ｚａ-ｚ０-９]/g, c => String.fromCharCode(c.charCodeAt(0) - 0xFEE0))
     .toLowerCase();
 }
+function norm(s) { return squash(String(s).replace(/[（(][^）)]*[）)]/g, '')); }
+function normKeep(s) { return squash(String(s).replace(/[（()）]/g, '')); }
 
-// 2-gram の Dice 係数。名前が一致しているかの目安にする
-function dice(a, b) {
-  a = norm(a); b = norm(b);
+// ジャンル名など、一致しても店の同一性を示さない語。固有部分の判定から除く
+const GENERIC = new Set([
+  'そば', 'すば', '食堂', 'カフェ', 'cafe', 'coffee', '珈琲', 'ラーメン', 'らーめん', '麺',
+  '専門店', '本店', '支店', '新館', '沖縄', 'okinawa', '琉球', '料理', 'キッチン', 'kitchen',
+  'ダイニング', 'dining', '商店', '酒場', '居酒屋', '焼肉', '焼鳥', '製麺', 'パン', 'bakery',
+  'ベーカリー', 'レストラン', 'restaurant', '中華', '海鮮', '食事処', '茶屋', '売店', 'パーラー',
+  'すし', '寿司', '鮮魚店', 'カレー', 'bar', 'ばー', '弁当', 'テラス', 'ホテル', 'hotel'
+]);
+
+// 2-gram の Dice 係数
+function diceRaw(a, b) {
   if (!a || !b) return 0;
   if (a === b) return 1;
   if (a.includes(b) || b.includes(a)) return 0.95;
@@ -57,6 +67,32 @@ function dice(a, b) {
   let hit = 0;
   for (const g of A) { const i = pool.indexOf(g); if (i >= 0) { pool.splice(i, 1); hit++; } }
   return (2 * hit) / (A.length + B.length);
+}
+
+// 最長共通部分文字列
+function lcs(a, b) {
+  let best = '';
+  for (let i = 0; i < a.length; i++) {
+    for (let j = i + best.length + 1; j <= a.length; j++) {
+      const sub = a.slice(i, j);
+      if (!b.includes(sub)) break;
+      if (sub.length > best.length) best = sub;
+    }
+  }
+  return best;
+}
+
+// 名前の一致度。Googleの正式名は「そば・てびち専門店 浜屋」のように長いことが多いので、
+// 素の Dice だけでなく、ジャンル語を除いた固有部分の共有も見る
+function dice(ours, theirs) {
+  let s = Math.max(diceRaw(norm(ours), norm(theirs)), diceRaw(normKeep(ours), normKeep(theirs)));
+  const a = normKeep(ours), b = normKeep(theirs);
+  const common = lcs(a, b);
+  if (common.length >= 2 && !GENERIC.has(common) &&
+      common.length / Math.min(a.length, b.length) >= 0.35) {
+    s = Math.max(s, 0.75);
+  }
+  return s;
 }
 
 function metres(aLat, aLng, bLat, bLng) {
@@ -136,9 +172,13 @@ async function search(key, shop) {
           dist: best.dist, sim: Number(best.sim.toFixed(2)),
           bizStatus: best.status, addr: best.addr
         });
+        const d = best.dist;
         if (best.rating == null) { row.verdict = '評価なし'; none++; }
-        else if (best.sim >= 0.6 && best.dist != null && best.dist <= 1500) { row.verdict = 'OK'; ok++; }
-        else { row.verdict = '要確認'; weak++; }
+        // 名前がしっかり一致 or 座標がほぼ同じ+名前もそこそこ一致なら採用。
+        // 同一建物に複数店が入るケース(ウミカジテラス等)があるので距離だけでは決めない
+        else if (d != null && ((best.sim >= 0.6 && d <= 1500) || (best.sim >= 0.4 && d <= 300))) {
+          row.verdict = 'OK'; ok++;
+        } else { row.verdict = '要確認'; weak++; }
       }
     } catch (e) {
       row.verdict = 'エラー';
