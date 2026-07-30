@@ -52,7 +52,10 @@ body{font-family:'Zen Maru Gothic','Noto Sans JP',sans-serif;background:var(--sa
 .shop-card.card-hidden{display:none;}
 .container{max-width:960px;margin:0 auto;padding:26px 14px 60px;}
 .route-label{text-align:center;font-size:11px;letter-spacing:3px;color:#bbb;margin-bottom:26px;}
-.area-section{margin-bottom:42px;}
+/* 固定ナビの下に飛び先の見出しが潜り込まないよう、スクロール停止位置をずらす。
+   これが無いとエリアボタン・内訳チップ・集計表のセルから飛んだとき見出しが完全に隠れる。
+   --nav-h はナビの実測高さを読み込み時にJSが入れる(画面幅でボタンの大きさが変わるため) */
+.area-section{margin-bottom:42px;scroll-margin-top:calc(var(--nav-h, 96px) + 14px);}
 .area-header{display:flex;align-items:center;gap:10px;margin-bottom:16px;}
 .area-header::after{content:'';flex:1;height:2px;background:linear-gradient(to right,#ddd,transparent);}
 .area-emoji{font-size:24px;}
@@ -87,7 +90,11 @@ body{font-family:'Zen Maru Gothic','Noto Sans JP',sans-serif;background:var(--sa
 .shop-card[data-genre="sweets"]::after{content:'🍨';}
 .shop-card[data-genre="bakery"]::after{content:'🥐';}
 .shop-card[data-genre="other"]::after{content:'🌍';}
-.shop-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:6px;}
+/* バッジが4つ以上並ぶ店(Google★＋食べログ＋昼夜＋NEW＋HOT)では
+   badge-row が flex-shrink:0 のため縮まず、名前と同じ行に収まらないとカードを突き抜ける。
+   行を折り返せるようにして、収まらないときはバッジを次の行へ落とす */
+.shop-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:6px;flex-wrap:wrap;}
+.shop-top .badge-row{margin-left:auto;}
 .shop-name{font-size:13px;font-weight:800;line-height:1.3;}
 .badge-row{display:flex;gap:3px;flex-shrink:0;flex-wrap:wrap;justify-content:flex-end;}
 .hot-badge{background:linear-gradient(135deg,#FF6B6B,#FF8E53);color:#fff;font-size:9px;font-weight:900;padding:2px 6px;border-radius:8px;}
@@ -172,6 +179,35 @@ table.matrix tfoot th,table.matrix tfoot td{border-top:2px solid #f0f0f0;font-we
 table.matrix tfoot td{cursor:pointer;}
 table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
 @media(max-width:500px){.shop-grid{grid-template-columns:1fr;}#map{height:320px;}.area-breakdown{margin-left:0;}}
+
+/*
+ * スマートフォン向けの調整。375px幅のChromeで実測して決めた値。
+ * 触る指の当たりを確保する(24px未満だった内訳チップが142個あった)のと、
+ * 9〜9.5pxまで落ちていた文字を読める大きさに上げるのが目的。
+ */
+@media(max-width:600px){
+  /* iOSが勝手に文字を拡大するのを止める */
+  html{-webkit-text-size-adjust:100%;}
+  /* タップ時の当たりを見せる */
+  .genre-btn,.area-btn,.bd-chip,.shop-card,table.matrix tbody td{-webkit-tap-highlight-color:rgba(78,205,196,.25);}
+  /* 23px しかなかった内訳チップを32pxに */
+  .bd-chip{padding:7px 11px;font-size:11px;}
+  .bd-num{font-size:11.5px;}
+  /* 31〜32px のフィルタボタンを38px前後に */
+  .area-btn{padding:10px 14px;font-size:12.5px;}
+  .genre-btn{padding:10px 13px;font-size:12px;}
+  .btn-count{font-size:10.5px;line-height:17px;}
+  /* 29px だった集計表のセルを38px前後に */
+  table.matrix tbody td,table.matrix tbody th.mx-area{padding:11px 9px;}
+  table.matrix{font-size:11.5px;}
+  /* 9px は小さすぎるので上げる */
+  .meal-badge{font-size:10.5px;padding:3px 7px;}
+  .rating-badge,.tb-badge{font-size:11.5px;}
+  .rt-count{font-size:10px;}
+  .tag{font-size:10.5px;padding:3px 8px;}
+  .shop-desc{font-size:12px;}
+  .map-pin-hint{font-size:10.5px;}
+}
 </style>
 </head>
 <body>
@@ -1173,6 +1209,17 @@ renderShopSections();
 renderMatrix();
 fillNavCounts();
 document.getElementById('shop-count').textContent = shops.length;
+
+// 固定ナビの実測高さを CSS 変数へ。ボタンの大きさが画面幅で変わっても
+// area-section の scroll-margin-top が追従し、飛び先の見出しが隠れない
+function syncNavHeight() {
+  const nav = document.querySelector('.filter-nav');
+  if (!nav) return;
+  const h = Math.round(nav.getBoundingClientRect().height);
+  document.documentElement.style.setProperty('--nav-h', h + 'px');
+}
+syncNavHeight();
+window.addEventListener('resize', syncNavHeight);
 
 function makeIcon(c) {
   return L.divIcon({
