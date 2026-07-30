@@ -37,12 +37,17 @@ const GENERIC = new Set([
   'デポアイランド', '星野リゾート', '星のや', '万座毛', '読谷', '北谷', '那覇', '名護', '恩納',
   '糸満', '南城', '豊見城', '浦添', '宜野湾', '嘉手納', '首里', '久茂地', '牧港', '港川', '美浜',
   '泡瀬', '普天間', '本部', '今帰仁', 'あしびなー', 'イーアス', 'shuri', 'ブルー',
-  'ハウス', 'リゾート', 'ビーチ', 'ホテル', 'ドライブイン', 'バーガー', 'タコライス', 'タコス'
+  'ハウス', 'リゾート', 'ビーチ', 'ホテル', 'ドライブイン', 'バーガー', 'タコライス', 'タコス',
+  // 支店名の切り出しで「アメリカンビレッジ店」が「アメリカン」+「ビレッジ店」に割れるため両方入れる
+  'アメリカンビレッジ', 'アメリカン', 'ビレッジ', 'やんばる', '物産センター', '直売店', '直売所', '水産物'
 ]);
 
 // 末尾の支店表記を切り出す。「ズートンズ 久茂地店」→ core:ズートンズ / branch:久茂地
+// 支店名の前に空白があることを条件にする。これがないと
+// 「奇跡の手羽先 アメリカンビレッジ店」が core:「…アメ」/ branch:「リカンビレッジ」と
+// 単語の途中で割れ、「アメ」という無意味な語で別店に一致してしまう
 function splitBranch(s) {
-  const m = /^(.*?)([^\s　]{1,7}?)(本店|支店|店)$/.exec(String(s).trim());
+  const m = /^(.+)[\s　]([^\s　]{1,8}?)(本店|支店|店)$/.exec(String(s).trim());
   if (!m || !m[1].trim()) return {core: String(s), branch: ''};
   return {core: m[1].trim(), branch: squash(m[2])};
 }
@@ -120,15 +125,23 @@ function metres(aLat, aLng, bLat, bLng) {
   return Math.round(2 * R * Math.asin(Math.sqrt(x)));
 }
 
+/*
+ * 採用ライン。0.60前後は偶然の2-gram重なりが住む帯で、
+ * 「みはま食堂」/「ちゅらはま食堂」が0.60、「奇跡の手羽先 アメリカンビレッジ店」/
+ * 「ポーたま 北谷アメリカンビレッジ店」が0.62〜0.64 と、別店同士がここに並ぶ。
+ * 一方、実在の対応組で最も低いのは0.73(表記違い)なので、間を取って0.66にする。
+ */
+const BAR = 0.66;
+
 /** 候補の中から最も一致する1件を返す。同点が並ぶときは曖昧として null を返す */
 function bestMatch(name, candidates, getName) {
   const scored = candidates.map(c => ({c, sim: dice(getName(c), name)}))
                            .sort((x, y) => y.sim - x.sim);
-  if (!scored.length || scored[0].sim < 0.6) return {match: null, sim: scored.length ? scored[0].sim : 0, ambiguous: false};
+  if (!scored.length || scored[0].sim < BAR) return {match: null, sim: scored.length ? scored[0].sim : 0, ambiguous: false};
   if (scored[1] && scored[1].sim >= scored[0].sim - 0.001) {
     return {match: null, sim: scored[0].sim, ambiguous: true, tied: [scored[0].c, scored[1].c]};
   }
   return {match: scored[0].c, sim: scored[0].sim, ambiguous: false};
 }
 
-module.exports = {squash, norm, normKeep, GENERIC, splitBranch, diceRaw, tokens, shareToken, dice, metres, bestMatch};
+module.exports = {squash, norm, normKeep, GENERIC, BAR, splitBranch, diceRaw, tokens, shareToken, dice, metres, bestMatch};
