@@ -254,7 +254,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
     <div class="hero-region">OKINAWA ISLAND FOOD GUIDE</div>
     <div class="hero-stats">
       <div class="stat-pill">🍜 <span id="shop-count">742</span>店舗</div>
-      <div class="stat-pill">📍 13エリア</div>
+      <div class="stat-pill">📍 14エリア</div>
       <div class="stat-pill">🍥 ジャンル別検索対応</div>
       <div class="stat-pill">☀️🌙 昼・夜の営業表示</div>
     </div>
@@ -273,6 +273,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
   <div class="area-nav-inner">
     <button class="area-btn" onclick="jumpTo('nago',26.59,127.99,12,this)">🌿 名護・北部</button>
     <button class="area-btn" onclick="jumpTo('kin',26.456,127.895,13,this)">🌮 金武</button>
+    <button class="area-btn" onclick="jumpTo('ginoza',26.487,127.976,13,this)">⚾ 宜野座</button>
     <button class="area-btn" onclick="jumpTo('onna',26.45,127.81,12,this)">🌊 恩納村</button>
     <button class="area-btn" onclick="jumpTo('yomitan',26.42,127.72,12,this)">🏺 読谷</button>
     <button class="area-btn" onclick="jumpTo('chatan',26.32,127.75,13,this)">🎡 北谷</button>
@@ -681,6 +682,23 @@ const shops = [
   {n:'リカモカ カフェ',g:'cafe',a:'金武町/金武',area_id:'kin',lat:26.45401801,lng:127.91551208,tb:3.07,tbc:15,d:'新開地のカフェ。かき氷もある。',r:'コーヒー / かき氷',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-sweets">かき氷</span>',badges:''},
   {n:'きん田 金武店',g:'sweets',a:'金武町/金武',area_id:'kin',lat:26.45356051,lng:127.92295973,tb:3.07,tbc:14,d:'金武のケーキ・和菓子店。',r:'ケーキ / 和菓子',h:'',tags:'<span class="tag tag-sweets">ケーキ</span><span class="tag tag-local">和菓子</span>',badges:''},
   {n:'a bagel oKINawa',g:'bakery',a:'金武町/金武',area_id:'kin',lat:26.4634422,lng:127.9387573,tb:3.07,tbc:6,d:'金武のベーグル専門店。',r:'ベーグル',h:'',tags:'<span class="tag tag-cafe">ベーグル</span><span class="tag tag-local">金武</span>',badges:''},
+  {n:'車えびレストラン球屋',g:'seafood',a:'宜野座村/宜野座',area_id:'ginoza',lat:26.48389429,lng:127.98521776,tb:3.58,tbc:302,d:'車えびを看板にしたレストラン。天丼や海鮮料理が味わえる。',r:'車えび天丼',h:'',tags:'<span class="tag tag-dinner">車えび</span><span class="tag tag-lunch">天丼</span>',badges:''},
+  {n:'やかそば',g:'soba',a:'宜野座村/松田',area_id:'ginoza',lat:26.50695307,lng:127.99240008,tb:3.41,tbc:136,d:'松田の沖縄そば店。食堂も兼ねる。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">食堂</span>',badges:''},
+  {n:'COFFEE&BREAK GINOZA FARM LAB',g:'cafe',a:'宜野座村/漢那',area_id:'ginoza',lat:26.47380599,lng:127.95123196,tb:3.26,tbc:44,d:'漢那のカフェ。ジューススタンドとハンバーガーも扱う。',r:'ジュース / ハンバーガー',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">漢那</span>',badges:''},
+  {n:'ザ・ひらまつ ホテルズ＆リゾーツ 宜野座',g:'other',a:'宜野座村/松田',area_id:'ginoza',lat:26.48572209,lng:128.00128579,tb:3.25,tbc:87,d:'レストラン発祥のひらまつが営むオーベルジュ。館内で食事ができる。',r:'コース料理',h:'',tags:'<span class="tag tag-dinner">オーベルジュ</span><span class="tag tag-view">リゾート</span>',badges:''},
+  {n:'まるしんそば',g:'soba',a:'宜野座村/松田',area_id:'ginoza',lat:26.48782444,lng:127.98542323,tb:3.21,tbc:16,d:'松田の沖縄そば店。肉料理も扱う。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">食堂</span>',badges:''},
+  {n:'食堂 まんじろう',g:'washoku',a:'宜野座村/漢那',area_id:'ginoza',lat:26.4738671,lng:127.95193745,tb:3.18,tbc:31,d:'道の駅ぎのざ内の食堂。からあげも看板。',r:'からあげ / 定食',h:'',tags:'<span class="tag tag-lunch">食堂</span><span class="tag tag-local">道の駅ぎのざ</span>',badges:''},
+  {n:'くりーむくりーむ',g:'cafe',a:'宜野座村/惣慶',area_id:'ginoza',lat:26.47740871,lng:127.97438824,tb:3.16,tbc:26,d:'惣慶のカフェ。ソフトクリームとサンドイッチが看板。',r:'ソフトクリーム / サンドイッチ',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-sweets">ソフトクリーム</span>',badges:''},
+  {n:'そばcafe ホウオウボク',g:'soba',a:'宜野座村/惣慶',area_id:'ginoza',lat:26.47514506,lng:127.9748188,tb:3.15,tbc:17,d:'惣慶の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-cafe">カフェ</span>',badges:''},
+  {n:'炭焼家 てんぷす',g:'izakaya',a:'宜野座村/宜野座',area_id:'ginoza',lat:26.47602017,lng:127.98962584,tb:3.08,tbc:23,d:'宜野座の居酒屋。沖縄料理と焼き鳥を炭火で出す。',r:'焼き鳥 / 沖縄料理',h:'',tags:'<span class="tag tag-dinner">炭火焼き</span><span class="tag tag-local">沖縄料理</span>',badges:''},
+  {n:'うりずん',g:'washoku',a:'宜野座村/松田',area_id:'ginoza',lat:26.49887879,lng:127.9827205,tb:3.07,tbc:12,d:'宜野座カントリークラブ内の食堂。沖縄料理を出す。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-lunch">食堂</span><span class="tag tag-local">ゴルフ場</span>',badges:''},
+  {n:'パーラー カズ',g:'other',a:'宜野座村/漢那',area_id:'ginoza',lat:26.47492257,lng:127.953129,tb:3.07,tbc:7,d:'漢那のパーラー。オムライスや沖縄そば、かき氷を出す。',r:'オムライス / かき氷',h:'',tags:'<span class="tag tag-lunch">パーラー</span><span class="tag tag-sweets">かき氷</span>',badges:''},
+  {n:'宜野座カントリークラブ',g:'other',a:'宜野座村/松田',area_id:'ginoza',lat:26.49887879,lng:127.9827205,tb:3.06,tbc:19,d:'ゴルフ場のレストラン。',r:'ランチ',h:'',tags:'<span class="tag tag-lunch">ゴルフ場</span><span class="tag tag-view">高台</span>',badges:''},
+  {n:'きのストアー',g:'sweets',a:'宜野座村/宜野座',area_id:'ginoza',lat:26.4814695,lng:127.98210139,tb:3.06,tbc:16,d:'宜野座のケーキ店。',r:'ケーキ',h:'',tags:'<span class="tag tag-sweets">ケーキ</span><span class="tag tag-local">宜野座</span>',badges:''},
+  {n:'ぎのざ・牡蠣の漁師バーベキュー',g:'seafood',a:'宜野座村/漢那',area_id:'ginoza',lat:26.47380884,lng:127.95653428,tb:3.06,tbc:7,d:'漢那漁港の牡蠣バーベキュー。寿司や肉料理も扱う。',r:'牡蠣のバーベキュー',h:'',tags:'<span class="tag tag-dinner">牡蠣</span><span class="tag tag-local">漢那漁港</span>',badges:''},
+  {n:'魚丸',g:'seafood',a:'宜野座村/漢那',area_id:'ginoza',lat:26.47380884,lng:127.95653428,tb:3.06,tbc:7,d:'漢那漁港の海鮮の店。ラーメンも扱う。',r:'海鮮 / ラーメン',h:'',tags:'<span class="tag tag-lunch">海鮮</span><span class="tag tag-local">漢那漁港</span>',badges:''},
+  {n:'ハイビスカスベーカリー',g:'bakery',a:'宜野座村/松田',area_id:'ginoza',lat:26.49183798,lng:127.99062827,tb:3.06,tbc:6,d:'松田のパン屋。',r:'焼きたてパン各種',h:'',tags:'<span class="tag tag-cafe">パン屋</span><span class="tag tag-local">松田</span>',badges:''},
+  {n:'道の駅ぎのざ',g:'other',a:'宜野座村/漢那',area_id:'ginoza',lat:26.4738671,lng:127.95193745,tb:3.05,tbc:22,d:'国道329号沿いの道の駅。',r:'軽食 / 特産品',h:'',tags:'<span class="tag tag-lunch">道の駅</span><span class="tag tag-local">漢那</span>',badges:''},
   {n:'炭火ホルモンふくちゃん',g:'yakiniku',a:'浦添市/港川',area_id:'urasoe',lat:26.2605785,lng:127.7178391,tb:3.07,tbc:16,d:'北海道産・十勝恵牛の多彩なホルモンが自慢。上ハラミやセンマイ刺しが名物。',r:'上ハラミ / センマイ刺し',h:'17:00〜24:00（水曜定休）',tags:'<span class="tag tag-dinner">ホルモン</span><span class="tag tag-local">港川</span>',badges:''},
   {n:'高江洲そば',g:'soba',a:'浦添市/伊祖',area_id:'urasoe',lat:26.25607,lng:127.7223608,tb:3.65,tbc:657,d:'浦添の老舗沖縄そば専門店。地元で長く愛される安定の味わい。',r:'ソーキそば / てびちそば',h:'10:00〜16:00（日曜定休）',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">老舗</span>',badges:''},
   {n:'麺や 和楽',g:'ramen',a:'浦添市/宮城',area_id:'urasoe',lat:26.2467255,lng:127.7025444,tb:3.33,tbc:122,d:'京都出身のマスターが作る優しい醤油味の中華そば専門店。',r:'中華そば（京都風醤油）',h:'11:00〜15:00 / 18:00〜21:00（月・火曜定休）',tags:'<span class="tag tag-dinner">ラーメン</span><span class="tag tag-local">京都風</span>',badges:''},
@@ -1103,13 +1121,13 @@ const shops = [
 ];
 
 const AREA_META = {
-  nago:['🌿','名護・北部'], kin:['🌮','金武'], onna:['🌊','恩納村'], yomitan:['🏺','読谷'],
+  nago:['🌿','名護・北部'], kin:['🌮','金武'], ginoza:['⚾','宜野座'], onna:['🌊','恩納村'], yomitan:['🏺','読谷'],
   chatan:['🎡','北谷'], kadena:['✈️','嘉手納'], ginowan:['🏛️','宜野湾'],
   // okinawacity はうるま市・北中城村の店も含むため「沖縄市・中部」表記
   urasoe:['🎪','浦添'], naha:['🎵','那覇'], okinawacity:['🎠','沖縄市・中部'],
   tomigusuku:['🏯','豊見城'], itoman:['🎣','糸満'], nanjo:['🌸','南城']
 };
-const AREA_ORDER = ['nago','kin','onna','yomitan','chatan','kadena','ginowan','urasoe','naha','okinawacity','tomigusuku','itoman','nanjo'];
+const AREA_ORDER = ['nago','kin','ginoza','onna','yomitan','chatan','kadena','ginowan','urasoe','naha','okinawacity','tomigusuku','itoman','nanjo'];
 
 const GENRE_COLORS = {
   cafe:'#2a78d6', ramen:'#eb6834', soba:'#1baf7a', washoku:'#eda100',
