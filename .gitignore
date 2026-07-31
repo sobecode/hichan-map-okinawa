@@ -9,3 +9,7 @@ tools/ratings.json
 # Overpass から取得したPOIのキャッシュ
 tools/osm_pois.json
 tools/osm_closed.json
+
+# GSI逆ジオコーダの取得結果と市町村コード表(キャッシュ)
+tools/reverse_geo.json
+tools/muni_codes.json
