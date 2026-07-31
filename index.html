@@ -549,10 +549,10 @@ const shops = [
   {n:'みはま食堂',g:'soba',a:'北谷町/美浜',area_id:'chatan',lat:26.3113,lng:127.760735,tb:3.46,tbc:241,d:'美浜の食堂。定食と沖縄そばがそろう。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">美浜</span>',badges:''},
   {n:'キセキ 北谷店',g:'soba',a:'北谷町/美浜',area_id:'chatan',lat:26.3147,lng:127.7552,tb:3.35,tbc:60,d:'浦添が本店の貝出汁沖縄そばの北谷店。貝の旨みをきかせたスープが特徴。',r:'貝出汁沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">貝出汁</span>',badges:''},
   {n:'りんくる食堂',g:'soba',a:'北谷町/浜川',area_id:'chatan',lat:26.32925,lng:127.75145,tb:3.30,tbc:74,d:'北谷町浜川の食堂。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">浜川</span>',badges:''},
-  {n:'かめぜん食堂',g:'soba',a:'北谷町/美浜',area_id:'chatan',lat:26.316,lng:127.7545,tb:3.29,tbc:71,d:'デポアイランドC棟2階の食堂。沖縄そばと定食がそろう。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">デポアイランド</span>',badges:''},
+  {n:'かめぜん食堂',g:'soba',a:'北谷町/美浜',area_id:'chatan',lat:26.316024,lng:127.754512,tb:3.29,tbc:71,d:'デポアイランドC棟2階の食堂。沖縄そばと定食がそろう。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">デポアイランド</span>',badges:''},
   // 嘉手納
   {n:'波之屋 嘉手納店',g:'yakiniku',a:'嘉手納町',area_id:'kadena',lat:26.3630855,lng:127.7503745,d:'嘉手納エリアの人気焼肉店。',r:'焼肉各種',h:'',tags:'<span class="tag tag-dinner">焼肉</span>',badges:''},
-  {n:'エラン',g:'washoku',a:'嘉手納町/水釜',area_id:'kadena',lat:26.35,lng:127.748,d:'嘉手納町水釜の住宅街にある人気沖縄料理店。チーズがのったハンバーグが名物。',r:'チーズハンバーグ',h:'',tags:'<span class="tag tag-local">水釜</span>',badges:''},
+  
   {n:'FATBURGER OKINAWA',g:'other',a:'嘉手納町/水釜',area_id:'kadena',lat:26.3564827,lng:127.7453935,d:'LA発1952年創業の人気ハンバーガーブランド。アジア初上陸店。',r:'ファットバーガー',h:'11:00〜22:00',tags:'<span class="tag tag-lunch">ハンバーガー</span><span class="tag tag-new">アジア初上陸</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'嘉手納そば',g:'soba',a:'嘉手納町/屋良',area_id:'kadena',lat:26.366475,lng:127.7722555,tb:3.06,tbc:15,d:'道の駅かでな近くの老舗沖縄そば屋。ゴーヤーやへちま料理、汁物系も充実。',r:'嘉手納そば / 中身汁',h:'',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">1983年創業</span>',badges:''},
   {n:'ripalo',g:'izakaya',a:'嘉手納町',area_id:'kadena',lat:26.3666012,lng:127.7587585,d:'古民家を改装したおしゃれなもつ鍋専門店。デートにも人気。',r:'もつ鍋',h:'',tags:'<span class="tag tag-dinner">もつ鍋</span><span class="tag tag-local">古民家</span>',badges:''},
@@ -674,7 +674,7 @@ const shops = [
   {n:'焼肉明洞',g:'yakiniku',a:'浦添市/牧港',area_id:'urasoe',lat:26.2649425,lng:127.7267833,d:'牧港に昔からある焼肉店。肉の美味しさはもちろん、自家製タレも評判。',r:'自家製タレの焼肉',h:'',tags:'<span class="tag tag-dinner">焼肉</span><span class="tag tag-local">牧港</span>',badges:''},
   {n:'焼肉ホルモンきたや 浦添店',g:'yakiniku',a:'浦添市',area_id:'urasoe',lat:26.2457856,lng:127.7075992,d:'北海道十勝BEEFの新鮮なホルモンが人気。コストパフォーマンスの良さで評判。',r:'十勝BEEFホルモン',h:'',tags:'<span class="tag tag-dinner">焼肉</span><span class="tag tag-local">ホルモン</span>',badges:''},
   {n:'屋富祖 鳥やす',g:'yakitori',a:'浦添市/屋富祖',area_id:'urasoe',lat:26.2542137,lng:127.7068147,tb:3.17,tbc:28,d:'やんばる若鶏の焼き鳥専門店。1本77円〜のリーズナブルな本格炭火焼鳥。白レバーが不動の人気No.1。',r:'白レバー',h:'',tags:'<span class="tag tag-dinner">焼き鳥</span><span class="tag tag-local">白レバー</span>',badges:''},
-  {n:'麺食一門',g:'ramen',a:'浦添市/屋富祖',area_id:'urasoe',lat:26.242,lng:127.721,d:'屋富祖にあるラーメン店。夜間営業で学生割引もある。',r:'ラーメン各種',h:'',tags:'<span class="tag tag-dinner">ラーメン</span><span class="tag tag-local">屋富祖</span>',badges:''},
+  
   {n:'SecondoCasa',g:'other',a:'浦添市',area_id:'urasoe',lat:26.2632478,lng:127.7161466,tb:3.16,tbc:35,d:'外人住宅街の本格イタリアン。安全・安心な食材にこだわる。',r:'イタリアンコース',h:'',tags:'<span class="tag tag-dinner">イタリアン</span><span class="tag tag-local">外人住宅</span>',badges:''},
   {n:'PASTAの日',g:'other',a:'浦添市',area_id:'urasoe',lat:26.2526206,lng:127.7376201,d:'ランチは本格パスタ、ディナーはワインと共にイタリア料理が楽しめるバル。',r:'本格パスタ',h:'',tags:'<span class="tag tag-dinner">イタリアンバル</span><span class="tag tag-local">東山</span>',badges:''},
   {n:'トラットリア コンタディーナ',g:'other',a:'浦添市',area_id:'urasoe',lat:26.2360904,lng:127.7059707,tb:3.13,tbc:28,d:'内間の住宅街にある隠れ家イタリアン。パスタコースが秀逸と評判。',r:'パスタコース',h:'',tags:'<span class="tag tag-dinner">イタリアン</span><span class="tag tag-local">内間</span>',badges:''},
