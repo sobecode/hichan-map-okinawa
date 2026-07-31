@@ -107,7 +107,9 @@ body{font-family:'Zen Maru Gothic','Noto Sans JP',sans-serif;background:var(--sa
 .shop-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:6px;flex-wrap:wrap;}
 .shop-top .badge-row{margin-left:auto;}
 .shop-name{font-size:13px;font-weight:800;line-height:1.3;}
-.badge-row{display:flex;gap:3px;flex-shrink:0;flex-wrap:wrap;justify-content:flex-end;}
+/* flex-shrink:0 だとバッジが5個並ぶ店で320px幅のカードからはみ出す。
+   縮められるようにして初めて flex-wrap が効き、2行に折り返す */
+.badge-row{display:flex;gap:3px;flex-wrap:wrap;justify-content:flex-end;max-width:100%;}
 .hot-badge{background:linear-gradient(135deg,#FF6B6B,#FF8E53);color:#fff;font-size:9px;font-weight:900;padding:2px 6px;border-radius:8px;}
 .new-badge{background:linear-gradient(135deg,#4ECDC4,#44A08D);color:#fff;font-size:9px;font-weight:900;padding:2px 6px;border-radius:8px;}
 .sns-badge{background:linear-gradient(135deg,#E91E8C,#C2185B);color:#fff;font-size:9px;font-weight:900;padding:2px 6px;border-radius:8px;}
@@ -211,13 +213,23 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
   /* 29px だった集計表のセルを38px前後に */
   table.matrix tbody td,table.matrix tbody th.mx-area{padding:11px 9px;}
   table.matrix{font-size:11.5px;}
-  /* 9px は小さすぎるので上げる */
-  .meal-badge{font-size:10.5px;padding:3px 7px;}
+  /* 9px は小さすぎるので上げる。hot/new/sns は meal と同じ形なので揃える */
+  .meal-badge,.hot-badge,.new-badge,.sns-badge{font-size:10.5px;padding:3px 7px;}
   .rating-badge,.tb-badge{font-size:11.5px;}
   .rt-count{font-size:10px;}
   .tag{font-size:10.5px;padding:3px 8px;}
   .shop-desc{font-size:12px;}
   .map-pin-hint{font-size:10.5px;}
+
+  /*
+   * ナビは2段(エリア/ジャンル)で112px、375x812の画面の14%を占め続ける。
+   * ボタンを小さくすると先に直したタップ領域が元に戻るので、高さではなく
+   * 出ている時間を削る: 下へ読み進めている間は隠し、少しでも上に戻すと戻す。
+   * ブラウザ自身のツールバーと同じ挙動なので説明なしで通じる。
+   * 広い画面ではナビは96px(12%)で邪魔になりにくいため、この規則は当てない。
+   */
+  .filter-nav{transition:transform .22s ease;}
+  .filter-nav.nav-hidden{transform:translateY(-100%);}
 }
 
 /* 320px幅では表紙バッジの末尾の絵文字が2行目に折れてピルが崩れるので詰めて1行に収める */
@@ -1236,14 +1248,56 @@ document.getElementById('shop-count').textContent = shops.length;
 
 // 固定ナビの実測高さを CSS 変数へ。ボタンの大きさが画面幅で変わっても
 // area-section の scroll-margin-top が追従し、飛び先の見出しが隠れない
+/*
+ * ナビが貼り付き始める文書内の位置。sticky が効いている間の offsetTop は
+ * スクロールに追従して増えてしまい「ナビより下にいるか」の判定に使えないので、
+ * まだ貼り付いていない(画面内で上端が0より下)ときだけ測って覚えておく。
+ */
+let navAnchor = 0;
 function syncNavHeight() {
   const nav = document.querySelector('.filter-nav');
   if (!nav) return;
-  const h = Math.round(nav.getBoundingClientRect().height);
-  document.documentElement.style.setProperty('--nav-h', h + 'px');
+  const r = nav.getBoundingClientRect();
+  document.documentElement.style.setProperty('--nav-h', Math.round(r.height) + 'px');
+  if (r.top > 0) navAnchor = Math.round(r.top + window.scrollY);
 }
 syncNavHeight();
 window.addEventListener('resize', syncNavHeight);
+
+/*
+ * 下へ読み進めている間だけナビを隠す(CSSの規則は600px以下でしか効かない)。
+ * 8pxの遊びを入れているのは、慣性スクロールの微振動で出たり消えたりしないため。
+ * ナビより上にいる間は常に出す。
+ *
+ * ジャンプ(エリアボタン・内訳チップ・集計表のセル)による滑らかスクロールは
+ * 「下へ読み進めている」ではないので隠さない。移動距離で所要時間が変わるから
+ * 固定の待ち時間は置けず、スクロールが 250ms 止まったら終わりと見なす。
+ * 途中でユーザーが自分で動かしてもその指が止まれば解除されるので、
+ * 掴みっぱなしでナビが出たままになることはない。
+ */
+let lastScrollY = window.scrollY;
+let jumping = false;
+let jumpSettleTimer = null;
+function holdNavForJump() {
+  jumping = true;
+  document.querySelector('.filter-nav').classList.remove('nav-hidden');
+  scheduleJumpEnd();
+}
+function scheduleJumpEnd() {
+  clearTimeout(jumpSettleTimer);
+  jumpSettleTimer = setTimeout(() => { jumping = false; lastScrollY = window.scrollY; }, 250);
+}
+function updateNavVisibility() {
+  const nav = document.querySelector('.filter-nav');
+  if (!nav) return;
+  const y = window.scrollY;
+  if (jumping) { nav.classList.remove('nav-hidden'); lastScrollY = y; scheduleJumpEnd(); return; }
+  if (y <= navAnchor) nav.classList.remove('nav-hidden');
+  else if (y > lastScrollY + 8) nav.classList.add('nav-hidden');
+  else if (y < lastScrollY - 8) nav.classList.remove('nav-hidden');
+  if (Math.abs(y - lastScrollY) > 8) lastScrollY = y;
+}
+window.addEventListener('scroll', updateNavVisibility, {passive: true});
 
 function makeIcon(c) {
   return L.divIcon({
@@ -1277,6 +1331,7 @@ function flyAndOpen(i) {
   const s = shops[i];
   if (!s) return;
   map.flyTo([s.lat, s.lng], 16, {animate: true, duration: 1});
+  holdNavForJump();
   document.getElementById('map').scrollIntoView({behavior: 'smooth', block: 'center'});
   setTimeout(() => { if (markers[i]) markers[i].openPopup(); }, 1100);
 }
@@ -1286,6 +1341,7 @@ function pickCombo(areaId, g) {
   setGenre(g);
   document.querySelectorAll('.area-btn').forEach(b => b.classList.remove('active'));
   const section = document.getElementById(areaId);
+  holdNavForJump();
   if (section) section.scrollIntoView({behavior: 'smooth', block: 'start'});
   const hits = shops.filter(s => s.area_id === areaId && (g === 'all' || s.g === g));
   if (hits.length === 1) map.flyTo([hits[0].lat, hits[0].lng], 15, {animate: true, duration: 1.2});
@@ -1298,6 +1354,7 @@ function jumpTo(id, lat, lng, zoom, btn) {
   if (section && section.classList.contains('section-hidden')) setGenre('all');
   document.querySelectorAll('.area-btn').forEach(b => b.classList.remove('active'));
   if (btn) btn.classList.add('active');
+  holdNavForJump();   // 滑らかスクロールの間はナビを出したままにする
   if (section) section.scrollIntoView({behavior: 'smooth', block: 'start'});
   map.flyTo([lat, lng], zoom, {animate: true, duration: 1.2});
 }
