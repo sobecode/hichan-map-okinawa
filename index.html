@@ -254,7 +254,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
     <div class="hero-region">OKINAWA ISLAND FOOD GUIDE</div>
     <div class="hero-stats">
       <div class="stat-pill">🍜 <span id="shop-count">742</span>店舗</div>
-      <div class="stat-pill">📍 12エリア</div>
+      <div class="stat-pill">📍 13エリア</div>
       <div class="stat-pill">🍥 ジャンル別検索対応</div>
       <div class="stat-pill">☀️🌙 昼・夜の営業表示</div>
     </div>
@@ -272,6 +272,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
 <nav class="filter-nav">
   <div class="area-nav-inner">
     <button class="area-btn" onclick="jumpTo('nago',26.59,127.99,12,this)">🌿 名護・北部</button>
+    <button class="area-btn" onclick="jumpTo('kin',26.456,127.895,13,this)">🌮 金武</button>
     <button class="area-btn" onclick="jumpTo('onna',26.45,127.81,12,this)">🌊 恩納村</button>
     <button class="area-btn" onclick="jumpTo('yomitan',26.42,127.72,12,this)">🏺 読谷</button>
     <button class="area-btn" onclick="jumpTo('chatan',26.32,127.75,13,this)">🎡 北谷</button>
@@ -662,6 +663,24 @@ const shops = [
   {n:'守良屋',g:'soba',a:'名護市/許田',area_id:'nago',lat:26.538204,lng:127.962738,tb:3.41,tbc:65,d:'名護市許田の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">許田</span>',badges:''},
   {n:'前田食堂 名護店',g:'soba',a:'名護市/宮里',area_id:'nago',lat:26.600769,lng:127.976326,tb:3.36,tbc:132,d:'大宜味村の名店・前田食堂の名護店。山盛りの野菜と牛肉をのせた牛肉そばが看板。',r:'牛肉そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">名店の支店</span>',badges:''},
   {n:'おおしろそば',g:'soba',a:'名護市/大北',area_id:'nago',lat:26.606733,lng:127.992989,tb:3.35,tbc:57,d:'名護市大北の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
+  {n:'キングタコス 金武本店',g:'other',a:'金武町/金武',area_id:'kin',lat:26.45356349,lng:127.91732716,tb:3.49,tbc:984,d:'キャンプ・ハンセンのゲート前、新開地にある本店。金武を代表するタコス・タコライスの店。',r:'タコライス / タコス',h:'',tags:'<span class="tag tag-lunch">タコライス</span><span class="tag tag-local">新開地</span>',badges:''},
+  {n:'GATE1',g:'other',a:'金武町/金武',area_id:'kin',lat:26.45406592,lng:127.91633529,tb:3.35,tbc:69,d:'キャンプ・ハンセン1番ゲート前で30年以上続く店。米ドルが使え、英語メニューもある。',r:'タコス / ハンバーガー',h:'',tags:'<span class="tag tag-lunch">メキシコ料理</span><span class="tag tag-local">ゲート前</span>',badges:''},
+  {n:'嘉海食堂',g:'washoku',a:'金武町/屋嘉',area_id:'kin',lat:26.44814063,lng:127.8491245,tb:3.27,tbc:62,d:'屋嘉の食堂。てびち煮付定食が一番人気で、1日60食ほど出る。',r:'てびち煮付定食',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">定食</span>',badges:''},
+  {n:'がらまんじゃく',g:'washoku',a:'金武町/金武',area_id:'kin',lat:26.46712594,lng:127.9370444,tb:3.25,tbc:47,d:'オーガニック食材と薬膳を取り入れた沖縄料理店。',r:'薬膳を取り入れた沖縄料理',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-dinner">薬膳</span>',badges:''},
+  {n:'伊芸サービスエリア（上り）レストラン',g:'soba',a:'金武町/伊芸',area_id:'kin',lat:26.4595651,lng:127.8712019,tb:3.17,tbc:48,d:'日本最南端のサービスエリア。金武湾を見下ろすロケーションで沖縄の定番が味わえる。',r:'ソーキそば / あぐーバーガー',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-view">金武湾</span>',badges:''},
+  {n:'伊芸サービスエリア（下り）レストラン',g:'other',a:'金武町/伊芸',area_id:'kin',lat:26.46060199,lng:127.8704522,tb:3.15,tbc:104,d:'沖縄自動車道 伊芸SA下り線内のレストラン。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-lunch">サービスエリア</span><span class="tag tag-view">金武湾</span>',badges:''},
+  {n:'久松食堂',g:'washoku',a:'金武町/金武',area_id:'kin',lat:26.45650192,lng:127.92704266,tb:3.13,tbc:23,d:'金武の沖縄料理食堂。沖縄そばも扱う。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">食堂</span>',badges:''},
+  {n:'並松そば',g:'soba',a:'金武町/金武',area_id:'kin',lat:26.45793517,lng:127.93203387,tb:3.13,tbc:22,d:'金武湾を望む高台の沖縄そば店。豚とかつおのすっきりしたスープに平麺を合わせる。替え玉もできる。',r:'並松そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-view">金武湾</span>',badges:''},
+  {n:'CHAMP CHICKEN',g:'other',a:'金武町/金武',area_id:'kin',lat:26.45413814,lng:127.91689913,tb:3.10,tbc:6,d:'新開地の鳥料理店。',r:'チキン',h:'',tags:'<span class="tag tag-dinner">鳥料理</span><span class="tag tag-local">新開地</span>',badges:''},
+  {n:'ブルーエントランスキッチン EastTerrace店',g:'other',a:'金武町/屋嘉',area_id:'kin',lat:26.44313835,lng:127.84757194,tb:3.08,tbc:16,d:'屋嘉のタコス店。',r:'タコス',h:'',tags:'<span class="tag tag-lunch">タコス</span><span class="tag tag-local">屋嘉</span>',badges:''},
+  {n:'ざまみ食堂',g:'washoku',a:'金武町/金武',area_id:'kin',lat:26.46824529,lng:127.93858592,tb:3.08,tbc:13,d:'金武の食堂。',r:'定食',h:'',tags:'<span class="tag tag-lunch">食堂</span><span class="tag tag-local">金武</span>',badges:''},
+  {n:'SABROSO 金武店',g:'other',a:'金武町/金武',area_id:'kin',lat:26.46254869,lng:127.94021642,tb:3.08,tbc:13,d:'タコスとメキシコ料理のカフェ。',r:'タコス / タコライス',h:'',tags:'<span class="tag tag-lunch">タコス</span><span class="tag tag-cafe">カフェ</span>',badges:''},
+  {n:'ネイバーフッドコーヒーハウス',g:'cafe',a:'金武町/金武',area_id:'kin',lat:26.46323873,lng:127.93843207,tb:3.08,tbc:11,d:'金武のコーヒーハウス。',r:'コーヒー',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">金武</span>',badges:''},
+  {n:'カフェレストラン長楽',g:'washoku',a:'金武町/金武',area_id:'kin',lat:26.4490736,lng:127.9129025,tb:3.07,tbc:23,d:'沖縄料理と野菜料理、洋食を出すカフェレストラン。',r:'沖縄料理 / 洋食',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-cafe">洋食</span>',badges:''},
+  {n:'ちゃんぷるー食堂',g:'washoku',a:'金武町/金武',area_id:'kin',lat:26.46536779,lng:127.93630283,tb:3.07,tbc:17,d:'金武の食堂。沖縄そばも扱う。',r:'チャンプルー / 沖縄そば',h:'',tags:'<span class="tag tag-lunch">食堂</span><span class="tag tag-local">チャンプルー</span>',badges:''},
+  {n:'リカモカ カフェ',g:'cafe',a:'金武町/金武',area_id:'kin',lat:26.45401801,lng:127.91551208,tb:3.07,tbc:15,d:'新開地のカフェ。かき氷もある。',r:'コーヒー / かき氷',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-sweets">かき氷</span>',badges:''},
+  {n:'きん田 金武店',g:'sweets',a:'金武町/金武',area_id:'kin',lat:26.45356051,lng:127.92295973,tb:3.07,tbc:14,d:'金武のケーキ・和菓子店。',r:'ケーキ / 和菓子',h:'',tags:'<span class="tag tag-sweets">ケーキ</span><span class="tag tag-local">和菓子</span>',badges:''},
+  {n:'a bagel oKINawa',g:'bakery',a:'金武町/金武',area_id:'kin',lat:26.4634422,lng:127.9387573,tb:3.07,tbc:6,d:'金武のベーグル専門店。',r:'ベーグル',h:'',tags:'<span class="tag tag-cafe">ベーグル</span><span class="tag tag-local">金武</span>',badges:''},
   {n:'炭火ホルモンふくちゃん',g:'yakiniku',a:'浦添市/港川',area_id:'urasoe',lat:26.2605785,lng:127.7178391,tb:3.07,tbc:16,d:'北海道産・十勝恵牛の多彩なホルモンが自慢。上ハラミやセンマイ刺しが名物。',r:'上ハラミ / センマイ刺し',h:'17:00〜24:00（水曜定休）',tags:'<span class="tag tag-dinner">ホルモン</span><span class="tag tag-local">港川</span>',badges:''},
   {n:'高江洲そば',g:'soba',a:'浦添市/伊祖',area_id:'urasoe',lat:26.25607,lng:127.7223608,tb:3.65,tbc:657,d:'浦添の老舗沖縄そば専門店。地元で長く愛される安定の味わい。',r:'ソーキそば / てびちそば',h:'10:00〜16:00（日曜定休）',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">老舗</span>',badges:''},
   {n:'麺や 和楽',g:'ramen',a:'浦添市/宮城',area_id:'urasoe',lat:26.2467255,lng:127.7025444,tb:3.33,tbc:122,d:'京都出身のマスターが作る優しい醤油味の中華そば専門店。',r:'中華そば（京都風醤油）',h:'11:00〜15:00 / 18:00〜21:00（月・火曜定休）',tags:'<span class="tag tag-dinner">ラーメン</span><span class="tag tag-local">京都風</span>',badges:''},
@@ -1084,13 +1103,13 @@ const shops = [
 ];
 
 const AREA_META = {
-  nago:['🌿','名護・北部'], onna:['🌊','恩納村'], yomitan:['🏺','読谷'],
+  nago:['🌿','名護・北部'], kin:['🌮','金武'], onna:['🌊','恩納村'], yomitan:['🏺','読谷'],
   chatan:['🎡','北谷'], kadena:['✈️','嘉手納'], ginowan:['🏛️','宜野湾'],
   // okinawacity はうるま市・北中城村の店も含むため「沖縄市・中部」表記
   urasoe:['🎪','浦添'], naha:['🎵','那覇'], okinawacity:['🎠','沖縄市・中部'],
   tomigusuku:['🏯','豊見城'], itoman:['🎣','糸満'], nanjo:['🌸','南城']
 };
-const AREA_ORDER = ['nago','onna','yomitan','chatan','kadena','ginowan','urasoe','naha','okinawacity','tomigusuku','itoman','nanjo'];
+const AREA_ORDER = ['nago','kin','onna','yomitan','chatan','kadena','ginowan','urasoe','naha','okinawacity','tomigusuku','itoman','nanjo'];
 
 const GENRE_COLORS = {
   cafe:'#2a78d6', ramen:'#eb6834', soba:'#1baf7a', washoku:'#eda100',
