@@ -1,0 +1,2977 @@
+[
+ {
+  "name": "総合受付",
+  "en": null,
+  "lat": 26.6159998,
+  "lng": 127.9695476,
+  "kind": "information"
+ },
+ {
+  "name": "農家の食卓",
+  "en": "Farm house table Restaurant",
+  "lat": 26.6572146,
+  "lng": 127.9827809,
+  "kind": "restaurant"
+ },
+ {
+  "name": "SHINJO",
+  "en": null,
+  "lat": 26.692559,
+  "lng": 127.9280134,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Kouri Island North Beach",
+  "en": null,
+  "lat": 26.7138069,
+  "lng": 128.0192893,
+  "kind": "attraction"
+ },
+ {
+  "name": "沖縄県北部家畜保健衛生所",
+  "en": null,
+  "lat": 26.610462,
+  "lng": 128.005812,
+  "kind": "public_building"
+ },
+ {
+  "name": "沖縄県北部農業改良普及センター",
+  "en": null,
+  "lat": 26.600597,
+  "lng": 127.988265,
+  "kind": "public_building"
+ },
+ {
+  "name": "沖縄総合事務局羽地大川農業水利事業所",
+  "en": null,
+  "lat": 26.622115,
+  "lng": 128.017601,
+  "kind": "public_building"
+ },
+ {
+  "name": "The Green Room",
+  "en": null,
+  "lat": 26.674016,
+  "lng": 127.9413952,
+  "kind": "restaurant"
+ },
+ {
+  "name": "花人逢 (Kajinho)",
+  "en": "Kajinho",
+  "lat": 26.6685756,
+  "lng": 127.9006458,
+  "kind": "cafe"
+ },
+ {
+  "name": "藍風",
+  "en": null,
+  "lat": 26.6642876,
+  "lng": 127.9417927,
+  "kind": "cafe"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.5957241,
+  "lng": 127.9567512,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "LAWSON Nago Onaka",
+  "lat": 26.5941611,
+  "lng": 127.9884514,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6017099,
+  "lng": 127.9644067,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6049448,
+  "lng": 127.9590974,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.677441,
+  "lng": 127.8918499,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.6937805,
+  "lng": 127.9541129,
+  "kind": "convenience"
+ },
+ {
+  "name": "CoCo壱番屋",
+  "en": "CoCo ICHIBANYA",
+  "lat": 26.6080272,
+  "lng": 127.9899433,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ケンタッキーフライドチキン",
+  "en": "KFC",
+  "lat": 26.6074525,
+  "lng": 127.9811416,
+  "kind": "fast_food"
+ },
+ {
+  "name": "吉野家",
+  "en": "Yoshinoya Nago Bypass Store",
+  "lat": 26.6068825,
+  "lng": 127.9811417,
+  "kind": "fast_food"
+ },
+ {
+  "name": "南展望台",
+  "en": "South viewpoint",
+  "lat": 26.5869252,
+  "lng": 127.9970249,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "White Hotel",
+  "en": null,
+  "lat": 26.6352136,
+  "lng": 127.8843931,
+  "kind": "hotel"
+ },
+ {
+  "name": "Drive-in Hawaii",
+  "en": null,
+  "lat": 26.6381582,
+  "lng": 127.8819237,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Johnny's",
+  "en": null,
+  "lat": 26.6761369,
+  "lng": 127.8908557,
+  "kind": "restaurant"
+ },
+ {
+  "name": "本部そば",
+  "en": null,
+  "lat": 26.6394269,
+  "lng": 127.8814309,
+  "kind": "restaurant"
+ },
+ {
+  "name": "食と館",
+  "en": "Shoku to Yakata",
+  "lat": 26.6959397,
+  "lng": 128.0204379,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ビーチロックビレッジ (Beach Rock Village)",
+  "en": "Beach Rock Village",
+  "lat": 26.6767836,
+  "lng": 127.9603261,
+  "kind": "restaurant"
+ },
+ {
+  "name": "岬",
+  "en": "Misaki",
+  "lat": 26.7056432,
+  "lng": 127.8810502,
+  "kind": "restaurant"
+ },
+ {
+  "name": "浜の駅",
+  "en": "Hama No Eki",
+  "lat": 26.6240389,
+  "lng": 127.8880443,
+  "kind": "restaurant"
+ },
+ {
+  "name": "BLUE SEAL",
+  "en": null,
+  "lat": 26.6958513,
+  "lng": 128.0218281,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "ブルーシール古宇利島パーラー",
+  "en": "Blue Seal Kori Island Parlor",
+  "lat": 26.695985,
+  "lng": 128.0205993,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "Seven Eleven",
+  "en": null,
+  "lat": 26.6025983,
+  "lng": 127.9713418,
+  "kind": "convenience"
+ },
+ {
+  "name": "美瀬崎",
+  "en": "Cape Bise",
+  "lat": 26.7095318,
+  "lng": 127.8799681,
+  "kind": "attraction"
+ },
+ {
+  "name": "美背の福木並木",
+  "en": null,
+  "lat": 26.7014167,
+  "lng": 127.8800364,
+  "kind": "attraction"
+ },
+ {
+  "name": "やき料理",
+  "en": "Yunami dining hall",
+  "lat": 26.6959405,
+  "lng": 127.9514362,
+  "kind": "restaurant"
+ },
+ {
+  "name": "やさい屋",
+  "en": "Yasaiya",
+  "lat": 26.692134,
+  "lng": 127.9583602,
+  "kind": "restaurant"
+ },
+ {
+  "name": "名護城址",
+  "en": "Nago Castlie Site",
+  "lat": 26.5887925,
+  "lng": 127.9934158,
+  "kind": "attraction"
+ },
+ {
+  "name": "オリオンハッピーパーク",
+  "en": "Orion Happy Park",
+  "lat": 26.5870038,
+  "lng": 127.9895081,
+  "kind": "attraction"
+ },
+ {
+  "name": "ちゃんや〜",
+  "en": null,
+  "lat": 26.7059666,
+  "lng": 127.8808538,
+  "kind": "cafe"
+ },
+ {
+  "name": "まあるい島",
+  "en": "Marui Shima",
+  "lat": 26.698284,
+  "lng": 128.0224554,
+  "kind": "cafe"
+ },
+ {
+  "name": "村農村環境改善サブセンター",
+  "en": null,
+  "lat": 26.6964139,
+  "lng": 128.0204557,
+  "kind": "information"
+ },
+ {
+  "name": "焼肉乃我那覇",
+  "en": "Yakiniku no Ganaha",
+  "lat": 26.6052152,
+  "lng": 127.9761128,
+  "kind": "restaurant"
+ },
+ {
+  "name": "大家",
+  "en": "Ufuya",
+  "lat": 26.6210197,
+  "lng": 127.9636378,
+  "kind": "restaurant"
+ },
+ {
+  "name": "キッチンテラス　ココニール （CocoNeel）",
+  "en": "CocoNeel",
+  "lat": 26.6850964,
+  "lng": 128.0048494,
+  "kind": "restaurant"
+ },
+ {
+  "name": "そば処夢舎",
+  "en": null,
+  "lat": 26.6775437,
+  "lng": 127.9044148,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6832999,
+  "lng": 127.9700569,
+  "kind": "convenience"
+ },
+ {
+  "name": "カーザフ",
+  "en": "Kazafu Ward",
+  "lat": 26.6906548,
+  "lng": 127.9294305,
+  "kind": "information"
+ },
+ {
+  "name": "ソイツギ（城内下之御嶽）",
+  "en": "Soitsugi (Jonai Shitano-Utagi)",
+  "lat": 26.6906516,
+  "lng": 127.9300505,
+  "kind": "information"
+ },
+ {
+  "name": "テンチジアマチジ（城内上の御嶽）",
+  "en": "Upper Utaki",
+  "lat": 26.6906427,
+  "lng": 127.9303904,
+  "kind": "information"
+ },
+ {
+  "name": "発掘調査からみた今帰仁城主郭の変遷",
+  "en": null,
+  "lat": 26.6901542,
+  "lng": 127.9302975,
+  "kind": "information"
+ },
+ {
+  "name": "古宇利殿内",
+  "en": null,
+  "lat": 26.6920373,
+  "lng": 127.9296214,
+  "kind": "information"
+ },
+ {
+  "name": "城跡入口",
+  "en": null,
+  "lat": 26.6921904,
+  "lng": 127.9284827,
+  "kind": "information"
+ },
+ {
+  "name": "大庭",
+  "en": "Umiya Court",
+  "lat": 26.6904563,
+  "lng": 127.929979,
+  "kind": "information"
+ },
+ {
+  "name": "大隅郭",
+  "en": "Ushimi Ward",
+  "lat": 26.6911925,
+  "lng": 127.9293269,
+  "kind": "information"
+ },
+ {
+  "name": "大隅の城壁",
+  "en": "The Castle Walls of the Ushimi Ward",
+  "lat": 26.6914215,
+  "lng": 127.9291956,
+  "kind": "information"
+ },
+ {
+  "name": "山北今帰仁城監守来歴碑記",
+  "en": "Monument with the Inscription of the History of Sanhoku Nakijinjo Castle Kanshu Administrator",
+  "lat": 26.6901863,
+  "lng": 127.9304101,
+  "kind": "information"
+ },
+ {
+  "name": "平郎門",
+  "en": "Heiro Gate",
+  "lat": 26.6912787,
+  "lng": 127.9291469,
+  "kind": "information"
+ },
+ {
+  "name": "御内原",
+  "en": "Uchibaru Ward",
+  "lat": 26.6910156,
+  "lng": 127.9303241,
+  "kind": "information"
+ },
+ {
+  "name": "志慶真乙樽の歌碑",
+  "en": "Monument Inscribed with a Poem for Shigema Utudaru",
+  "lat": 26.6905493,
+  "lng": 127.9301362,
+  "kind": "information"
+ },
+ {
+  "name": "志慶真門郭",
+  "en": "Shigemajo Ward",
+  "lat": 26.6897981,
+  "lng": 127.9309549,
+  "kind": "information"
+ },
+ {
+  "name": "旧道",
+  "en": "The Old Path",
+  "lat": 26.6904239,
+  "lng": 127.9298992,
+  "kind": "information"
+ },
+ {
+  "name": "旧道",
+  "en": "Old Trail",
+  "lat": 26.6907117,
+  "lng": 127.9295108,
+  "kind": "information"
+ },
+ {
+  "name": "今帰仁五邸",
+  "en": null,
+  "lat": 26.7041204,
+  "lng": 127.9271671,
+  "kind": "hotel"
+ },
+ {
+  "name": "海の家ピース浜",
+  "en": "Sea house Peace beach",
+  "lat": 26.712485,
+  "lng": 128.0200186,
+  "kind": "cafe"
+ },
+ {
+  "name": "おきなわ郷土村",
+  "en": "Native Okinawan Village",
+  "lat": 26.6904958,
+  "lng": 127.8769307,
+  "kind": "attraction"
+ },
+ {
+  "name": "美ら海オンザビーチMOTOBU",
+  "en": null,
+  "lat": 26.61988,
+  "lng": 127.8904,
+  "kind": "hotel"
+ },
+ {
+  "name": "きしもと食堂",
+  "en": "Kishimoto shokudo",
+  "lat": 26.6603244,
+  "lng": 127.8958951,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ステーキハウス88",
+  "en": null,
+  "lat": 26.67619,
+  "lng": 127.89099,
+  "kind": "restaurant"
+ },
+ {
+  "name": "満味",
+  "en": null,
+  "lat": 26.60578,
+  "lng": 128.00112,
+  "kind": "restaurant"
+ },
+ {
+  "name": "前田食堂(名護店)",
+  "en": null,
+  "lat": 26.60075,
+  "lng": 127.9762,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ふりっぱー",
+  "en": "Restaurant Flipper",
+  "lat": 26.5948181,
+  "lng": 127.9594362,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ゆきの",
+  "en": "Yukino",
+  "lat": 26.5937856,
+  "lng": 127.9649912,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6963178,
+  "lng": 127.8797322,
+  "kind": "convenience"
+ },
+ {
+  "name": "あがいてぃーだ",
+  "en": null,
+  "lat": 26.7038614,
+  "lng": 127.9272674,
+  "kind": "hotel"
+ },
+ {
+  "name": "サンセットビーチ",
+  "en": null,
+  "lat": 26.703569,
+  "lng": 127.9262857,
+  "kind": "hotel"
+ },
+ {
+  "name": "ととらべべハンバーガー",
+  "en": "Toto le Bebe Hamburgers",
+  "lat": 26.6297111,
+  "lng": 127.8875772,
+  "kind": "restaurant"
+ },
+ {
+  "name": "きしもと食堂八重岳店",
+  "en": "Kishimoto Restaurant Yaedake Store",
+  "lat": 26.6571377,
+  "lng": 127.9109814,
+  "kind": "restaurant"
+ },
+ {
+  "name": "フクギ屋",
+  "en": null,
+  "lat": 26.7011442,
+  "lng": 127.8799005,
+  "kind": "restaurant"
+ },
+ {
+  "name": "備瀬のワルミ",
+  "en": null,
+  "lat": 26.7052331,
+  "lng": 127.8875449,
+  "kind": "attraction"
+ },
+ {
+  "name": "暖暮",
+  "en": null,
+  "lat": 26.5841163,
+  "lng": 127.9842241,
+  "kind": "restaurant"
+ },
+ {
+  "name": "北山食堂",
+  "en": null,
+  "lat": 26.7017058,
+  "lng": 127.9332597,
+  "kind": "restaurant"
+ },
+ {
+  "name": "名護のひんぷんガジュマル",
+  "en": null,
+  "lat": 26.5873364,
+  "lng": 127.985928,
+  "kind": "attraction"
+ },
+ {
+  "name": "ラーメン鬼蔵",
+  "en": null,
+  "lat": 26.5875718,
+  "lng": 127.9848391,
+  "kind": "restaurant"
+ },
+ {
+  "name": "古宇利オーシャンタワー",
+  "en": "Kouri Ocean Tower",
+  "lat": 26.7001292,
+  "lng": 128.0241612,
+  "kind": "attraction"
+ },
+ {
+  "name": "オンザビーチカフェ",
+  "en": "On the Beach CAFE",
+  "lat": 26.7018866,
+  "lng": 127.9240287,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Bar swallow",
+  "en": null,
+  "lat": 26.602814,
+  "lng": 127.9755623,
+  "kind": "bar"
+ },
+ {
+  "name": "海路",
+  "en": "Kairo",
+  "lat": 26.6849837,
+  "lng": 127.8779057,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6549924,
+  "lng": 127.8826648,
+  "kind": "convenience"
+ },
+ {
+  "name": "屋台らあめん口福",
+  "en": "Yatai Ramen Kofuku",
+  "lat": 26.6566834,
+  "lng": 127.9842336,
+  "kind": "restaurant"
+ },
+ {
+  "name": "森の巣箱",
+  "en": null,
+  "lat": 26.6592768,
+  "lng": 127.9885162,
+  "kind": "cafe"
+ },
+ {
+  "name": "パーラー里味",
+  "en": "Parlor Satomi",
+  "lat": 26.6709554,
+  "lng": 127.9834916,
+  "kind": "restaurant"
+ },
+ {
+  "name": "沖縄そば処かじまやー",
+  "en": "Okinawa Sobadokoro Kajimaya",
+  "lat": 26.6730988,
+  "lng": 127.982446,
+  "kind": "restaurant"
+ },
+ {
+  "name": "pomodoro",
+  "en": null,
+  "lat": 26.6750661,
+  "lng": 127.9841165,
+  "kind": "restaurant"
+ },
+ {
+  "name": "わるみ",
+  "en": "Warumi",
+  "lat": 26.6752837,
+  "lng": 127.9903126,
+  "kind": "restaurant"
+ },
+ {
+  "name": "海の丘 UMI☆○Oka Inn",
+  "en": null,
+  "lat": 26.6739349,
+  "lng": 127.99242,
+  "kind": "hotel"
+ },
+ {
+  "name": "guest house iroha",
+  "en": null,
+  "lat": 26.6809322,
+  "lng": 128.000284,
+  "kind": "hotel"
+ },
+ {
+  "name": "ツインハウスうみぐくる",
+  "en": "TWIN HOUSE Umigukuru",
+  "lat": 26.686072,
+  "lng": 128.004965,
+  "kind": "hotel"
+ },
+ {
+  "name": "とぅるぱ家",
+  "en": "Turupaya",
+  "lat": 26.6864643,
+  "lng": 128.0060064,
+  "kind": "hotel"
+ },
+ {
+  "name": "ヒーリングビレッジ魂喜村",
+  "en": "Healing Village Konki Village",
+  "lat": 26.686385,
+  "lng": 128.0062025,
+  "kind": "hotel"
+ },
+ {
+  "name": "チルマ",
+  "en": null,
+  "lat": 26.6879004,
+  "lng": 128.0035253,
+  "kind": "hotel"
+ },
+ {
+  "name": "よしもと家",
+  "en": "Minsyuku Yoshimotoya",
+  "lat": 26.6824919,
+  "lng": 127.9987573,
+  "kind": "hotel"
+ },
+ {
+  "name": "今帰仁の宿　美らたま",
+  "en": "Nakijin no Yado Churatama",
+  "lat": 26.690458,
+  "lng": 127.9965885,
+  "kind": "hotel"
+ },
+ {
+  "name": "シーサイドなきじん",
+  "en": null,
+  "lat": 26.6905164,
+  "lng": 127.9972329,
+  "kind": "hotel"
+ },
+ {
+  "name": "Ke Iki beach house and cafe",
+  "en": null,
+  "lat": 26.6908119,
+  "lng": 127.9957098,
+  "kind": "cafe"
+ },
+ {
+  "name": "沖縄のひとつ宿 tinto tinto",
+  "en": "Okinawa no Hitotu Yado tinto tinto",
+  "lat": 26.6917224,
+  "lng": 127.9877029,
+  "kind": "hotel"
+ },
+ {
+  "name": "オルッサの宿マチャン・マチャン",
+  "en": null,
+  "lat": 26.6915455,
+  "lng": 127.9877164,
+  "kind": "hotel"
+ },
+ {
+  "name": "うちなー料理たまい",
+  "en": "Okinawa cuisine Tamai",
+  "lat": 26.6919654,
+  "lng": 127.9770362,
+  "kind": "restaurant"
+ },
+ {
+  "name": "まんてん",
+  "en": null,
+  "lat": 26.6831249,
+  "lng": 127.9776091,
+  "kind": "restaurant"
+ },
+ {
+  "name": "割烹あじろ",
+  "en": "Japanese cake aziro",
+  "lat": 26.6825929,
+  "lng": 127.9773194,
+  "kind": "restaurant"
+ },
+ {
+  "name": "むぎ畑",
+  "en": "Mugibatake",
+  "lat": 26.6828469,
+  "lng": 127.9759622,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Kiiro",
+  "en": null,
+  "lat": 26.6581249,
+  "lng": 128.0088804,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Emerald beach",
+  "en": null,
+  "lat": 26.6995474,
+  "lng": 127.878437,
+  "kind": "attraction"
+ },
+ {
+  "name": "Nago fishing port",
+  "en": null,
+  "lat": 26.5870461,
+  "lng": 127.9816396,
+  "kind": "attraction"
+ },
+ {
+  "name": "PANORAMA Ocean View Cottage",
+  "en": null,
+  "lat": 26.6227209,
+  "lng": 127.8966951,
+  "kind": "hotel"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.5955204,
+  "lng": 127.970664,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.5914503,
+  "lng": 127.9815206,
+  "kind": "convenience"
+ },
+ {
+  "name": "Cafe ENISHI",
+  "en": null,
+  "lat": 26.5884244,
+  "lng": 127.9853166,
+  "kind": "cafe"
+ },
+ {
+  "name": "新垣ぜんざい屋",
+  "en": "Arakaki zenzai store",
+  "lat": 26.660567,
+  "lng": 127.8958468,
+  "kind": "restaurant"
+ },
+ {
+  "name": "レストランまーすやー",
+  "en": null,
+  "lat": 26.6610937,
+  "lng": 127.8931699,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Banananesia",
+  "en": null,
+  "lat": 26.6852879,
+  "lng": 127.9603055,
+  "kind": "attraction"
+ },
+ {
+  "name": "白浜",
+  "en": "Shirahama Hotel",
+  "lat": 26.5939401,
+  "lng": 127.9712615,
+  "kind": "hotel"
+ },
+ {
+  "name": "Tea Room Schiesser Garden Yamuchin",
+  "en": null,
+  "lat": 26.643861,
+  "lng": 127.9412569,
+  "kind": "restaurant"
+ },
+ {
+  "name": "コッコ食堂",
+  "en": "Kokko Shokudou",
+  "lat": 26.7003517,
+  "lng": 127.8808883,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ブルーシールアイスクリーム イオン名護店",
+  "en": "Blue Seal AEON Nago",
+  "lat": 26.609566,
+  "lng": 127.9846353,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "A&W名桜店",
+  "en": "A&W Meiou",
+  "lat": 26.6078663,
+  "lng": 127.9697514,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.6081379,
+  "lng": 127.969651,
+  "kind": "convenience"
+ },
+ {
+  "name": "FamilyMart",
+  "en": "FamilyMart Nago Ominami 4 Chome",
+  "lat": 26.5975716,
+  "lng": 127.978712,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6157128,
+  "lng": 128.0095159,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6415088,
+  "lng": 127.88121,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6178901,
+  "lng": 127.9686518,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.5978026,
+  "lng": 127.9632414,
+  "kind": "convenience"
+ },
+ {
+  "name": "Snack cafe",
+  "en": "Snack cafe Ai",
+  "lat": 26.6819901,
+  "lng": 127.97588,
+  "kind": "pub"
+ },
+ {
+  "name": "ほたるの宿",
+  "en": "Hotaru no yado",
+  "lat": 26.6641096,
+  "lng": 127.99027,
+  "kind": "hotel"
+ },
+ {
+  "name": "まんてん",
+  "en": "Manten",
+  "lat": 26.6823733,
+  "lng": 127.9775949,
+  "kind": "restaurant"
+ },
+ {
+  "name": "今帰仁村闘牛場",
+  "en": "Nakijin village bullring field",
+  "lat": 26.6877426,
+  "lng": 127.9785,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "やんばるホットカフェ 民宿寺子屋",
+  "en": "Yanbaru Hot Cafe Minshuku Terakoya",
+  "lat": 26.6743473,
+  "lng": 127.9896651,
+  "kind": "cafe"
+ },
+ {
+  "name": "ゆうらん船(恋の水先案内人)",
+  "en": "Yuuran boat (loiter's pilot guard)",
+  "lat": 26.6955881,
+  "lng": 128.0202743,
+  "kind": "attraction"
+ },
+ {
+  "name": "パーラーまるみ",
+  "en": "Parlor Marumi",
+  "lat": 26.6971248,
+  "lng": 128.0162487,
+  "kind": "restaurant"
+ },
+ {
+  "name": "民宿玉城",
+  "en": "Minsyuku Tamaki",
+  "lat": 26.6972883,
+  "lng": 128.0155816,
+  "kind": "hotel"
+ },
+ {
+  "name": "Cafe t&c とうらく",
+  "en": "Cafe Toraku",
+  "lat": 26.7006771,
+  "lng": 128.0110746,
+  "kind": "cafe"
+ },
+ {
+  "name": "ティーヌ浜",
+  "en": "teanu Beach",
+  "lat": 26.7137837,
+  "lng": 128.0148404,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "古宇利島 カフェ くくるがま 心窯 cafe KUKURUGAMA",
+  "en": "cafe KUKURUGAMA",
+  "lat": 26.6998391,
+  "lng": 128.0221142,
+  "kind": "cafe"
+ },
+ {
+  "name": "白岬",
+  "en": "Shiro Cape",
+  "lat": 26.7114081,
+  "lng": 128.0263916,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "古宇利島VillaNAGOMI",
+  "en": "Villa NAGOMI",
+  "lat": 26.6988912,
+  "lng": 128.0208346,
+  "kind": "hotel"
+ },
+ {
+  "name": "食事処錦屋",
+  "en": "Restaurant Nishikiya",
+  "lat": 26.6976459,
+  "lng": 128.0197751,
+  "kind": "restaurant"
+ },
+ {
+  "name": "cafe247",
+  "en": null,
+  "lat": 26.7009139,
+  "lng": 128.0170846,
+  "kind": "cafe"
+ },
+ {
+  "name": "ポニー",
+  "en": null,
+  "lat": 26.7048687,
+  "lng": 128.0257053,
+  "kind": "attraction"
+ },
+ {
+  "name": "Kouri Island Shrimp Truck",
+  "en": null,
+  "lat": 26.6970472,
+  "lng": 128.02038,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ありがとうカフェ",
+  "en": "Arigato coffee shop",
+  "lat": 26.698875,
+  "lng": 127.95938,
+  "kind": "cafe"
+ },
+ {
+  "name": "今帰仁給食センター",
+  "en": "Nakijin Food service center",
+  "lat": 26.6847139,
+  "lng": 127.96417,
+  "kind": "restaurant"
+ },
+ {
+  "name": "和風喫茶佗助",
+  "en": "Japanese cafe Wabisuke",
+  "lat": 26.6541146,
+  "lng": 127.9869762,
+  "kind": "cafe"
+ },
+ {
+  "name": "パーラー福ろう",
+  "en": "Parlor Fukuro",
+  "lat": 26.682938,
+  "lng": 127.972538,
+  "kind": "restaurant"
+ },
+ {
+  "name": "やんばる花咲食堂",
+  "en": "Yanbaru Hanasaki Restaurant",
+  "lat": 26.6627878,
+  "lng": 127.97992,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ISLAND ROCK CAFE KOURIJIMA",
+  "en": null,
+  "lat": 26.6962998,
+  "lng": 128.0237336,
+  "kind": "cafe"
+ },
+ {
+  "name": "しらさ食堂",
+  "en": "Shirasa Restaurant",
+  "lat": 26.6966357,
+  "lng": 128.0166425,
+  "kind": "restaurant"
+ },
+ {
+  "name": "カフェ＆コテージ Ocean Breeze",
+  "en": "Cafe & Cottage Ocean Breeze",
+  "lat": 26.7107288,
+  "lng": 128.0121398,
+  "kind": "cafe"
+ },
+ {
+  "name": "カフェフクルビ",
+  "en": "Cafe Fukurubi",
+  "lat": 26.7098435,
+  "lng": 128.0165986,
+  "kind": "cafe"
+ },
+ {
+  "name": "むらの茶屋",
+  "en": "Mura no Chaya",
+  "lat": 26.7007599,
+  "lng": 128.0187279,
+  "kind": "cafe"
+ },
+ {
+  "name": "古宇利島バーベキューガーデンくりやま家",
+  "en": "Barbeque garden Kuriyama home",
+  "lat": 26.702119,
+  "lng": 128.0253966,
+  "kind": "restaurant"
+ },
+ {
+  "name": "パーラーかいり",
+  "en": "Parlor Kairi",
+  "lat": 26.7018344,
+  "lng": 128.025298,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ペンションマルイ",
+  "en": "Pension Marui",
+  "lat": 26.6985441,
+  "lng": 128.0204688,
+  "kind": "hotel"
+ },
+ {
+  "name": "ONE SUITE Hotel & Resort KOURI ISLAND （ワンスイート ホテル＆リゾート 古宇利島）FRONT SERVICE",
+  "en": "ONE SUITE Hotel & Resort KOURI ISLAND",
+  "lat": 26.6982327,
+  "lng": 128.02055,
+  "kind": "hotel"
+ },
+ {
+  "name": "ヴィラ・デラセーラ",
+  "en": "Villa Delasera",
+  "lat": 26.6986804,
+  "lng": 128.0169536,
+  "kind": "hotel"
+ },
+ {
+  "name": "Resort Villa古宇利島 Aquablue",
+  "en": "Resort Villa Kouri Island Aquablue",
+  "lat": 26.6995492,
+  "lng": 128.0139321,
+  "kind": "hotel"
+ },
+ {
+  "name": "くろちゃんお食事の店",
+  "en": "Kurochan Restaurant",
+  "lat": 26.6603738,
+  "lng": 127.9808587,
+  "kind": "restaurant"
+ },
+ {
+  "name": "展望台",
+  "en": "Observatory",
+  "lat": 26.6953642,
+  "lng": 128.0209257,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "Plumeria Cafe",
+  "en": null,
+  "lat": 26.699552,
+  "lng": 128.0216238,
+  "kind": "cafe"
+ },
+ {
+  "name": "パームステイ古宇利",
+  "en": "Palm Stay Kouri",
+  "lat": 26.7119573,
+  "lng": 128.0155021,
+  "kind": "hotel"
+ },
+ {
+  "name": "運天港",
+  "en": "Unnten Port",
+  "lat": 26.677221,
+  "lng": 127.9972721,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "軽食喫茶ぐみ",
+  "en": "coffee shop Gumi",
+  "lat": 26.6942601,
+  "lng": 127.95381,
+  "kind": "cafe"
+ },
+ {
+  "name": "お食事処島の駅",
+  "en": "Restaurant Shima no Eki",
+  "lat": 26.7096067,
+  "lng": 128.0209834,
+  "kind": "restaurant"
+ },
+ {
+  "name": "カフェデタルト",
+  "en": "Cafe Detaruto",
+  "lat": 26.7002383,
+  "lng": 128.0242435,
+  "kind": "cafe"
+ },
+ {
+  "name": "Ocean Blue RESTAURANT",
+  "en": "Ocean Blue Restaurant",
+  "lat": 26.7002555,
+  "lng": 128.0239739,
+  "kind": "restaurant"
+ },
+ {
+  "name": "お食事処文ちゃん",
+  "en": "Restaurant Fumichan",
+  "lat": 26.6971381,
+  "lng": 128.0202658,
+  "kind": "restaurant"
+ },
+ {
+  "name": "チグヌ浜",
+  "en": "Chinugu Beach",
+  "lat": 26.6964655,
+  "lng": 128.0147748,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "Hotel Cava",
+  "en": null,
+  "lat": 26.7118983,
+  "lng": 128.0158748,
+  "kind": "hotel"
+ },
+ {
+  "name": "渡久地港",
+  "en": "Toguchi Harbor",
+  "lat": 26.6600024,
+  "lng": 127.8919273,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "運天漁港",
+  "en": "Unten Fishing port",
+  "lat": 26.6923782,
+  "lng": 127.9984805,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "ビーチハウス大浜",
+  "en": "Beach House Ohama",
+  "lat": 26.6913927,
+  "lng": 127.9918,
+  "kind": "restaurant"
+ },
+ {
+  "name": "フェリー伊平屋車輌乗船待機場",
+  "en": "Ferry Iheya car ride boarding stand",
+  "lat": 26.6777751,
+  "lng": 127.99781,
+  "kind": "information"
+ },
+ {
+  "name": "ガスト",
+  "en": "Gusto",
+  "lat": 26.6009816,
+  "lng": 127.9677242,
+  "kind": "restaurant"
+ },
+ {
+  "name": "味処やま喜",
+  "en": "Ajidokoro Yamaki",
+  "lat": 26.6076316,
+  "lng": 127.97986,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ロッテリア",
+  "en": "Lotteria",
+  "lat": 26.6098667,
+  "lng": 127.9843129,
+  "kind": "fast_food"
+ },
+ {
+  "name": "くら寿司",
+  "en": "Kura Sushi",
+  "lat": 26.6085204,
+  "lng": 127.988113,
+  "kind": "fast_food"
+ },
+ {
+  "name": "あじさい食堂",
+  "en": "Ajisai Restaurant",
+  "lat": 26.6850484,
+  "lng": 127.96795,
+  "kind": "restaurant"
+ },
+ {
+  "name": "美ら島食堂",
+  "en": "Churashima Food Hall",
+  "lat": 26.6838253,
+  "lng": 127.9698018,
+  "kind": "restaurant"
+ },
+ {
+  "name": "風ぬ庵",
+  "en": "Kajinuan",
+  "lat": 26.6836507,
+  "lng": 127.9694672,
+  "kind": "cafe"
+ },
+ {
+  "name": "居酒屋竹林",
+  "en": "Izakaya Chikurin",
+  "lat": 26.6817566,
+  "lng": 127.9760134,
+  "kind": "bar"
+ },
+ {
+  "name": "はなぐしく",
+  "en": "Hanagushiku",
+  "lat": 26.6817511,
+  "lng": 127.96052,
+  "kind": "hotel"
+ },
+ {
+  "name": "長堂屋",
+  "en": "Nagadoya",
+  "lat": 26.673633,
+  "lng": 127.9727623,
+  "kind": "restaurant"
+ },
+ {
+  "name": "崎山ビーチ",
+  "en": "Sakiyama Beach",
+  "lat": 26.705121,
+  "lng": 127.9621038,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "スナック道",
+  "en": "Snack road",
+  "lat": 26.6827407,
+  "lng": 127.974228,
+  "kind": "pub"
+ },
+ {
+  "name": "沖縄居酒屋美ら姫",
+  "en": "Okinawa Izakaya Churahime",
+  "lat": 26.6888109,
+  "lng": 127.9641161,
+  "kind": "bar"
+ },
+ {
+  "name": "Cafe-luwak",
+  "en": null,
+  "lat": 26.696029,
+  "lng": 127.9436,
+  "kind": "cafe"
+ },
+ {
+  "name": "イサラバマ",
+  "en": "Isarabama",
+  "lat": 26.7078011,
+  "lng": 127.9537676,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "スナック喫茶ルミ",
+  "en": "Snack cafe Rumi",
+  "lat": 26.6827011,
+  "lng": 127.97402,
+  "kind": "pub"
+ },
+ {
+  "name": "ライオン食堂",
+  "en": "Lion dining hall",
+  "lat": 26.6946076,
+  "lng": 127.9539168,
+  "kind": "restaurant"
+ },
+ {
+  "name": "居酒屋吉",
+  "en": "Izakaya Yoshi",
+  "lat": 26.7005317,
+  "lng": 127.950318,
+  "kind": "bar"
+ },
+ {
+  "name": "沖縄料理居酒屋海の幸",
+  "en": "Okinawa cuisine Izakaya Uminosachi",
+  "lat": 26.6977976,
+  "lng": 127.937968,
+  "kind": "bar"
+ },
+ {
+  "name": "海洋今歸仁飯店",
+  "en": "Kaiyo Nakijin Hanten",
+  "lat": 26.6969893,
+  "lng": 127.9735,
+  "kind": "restaurant"
+ },
+ {
+  "name": "与那嶺ビーチ",
+  "en": "Yonamine Beach",
+  "lat": 26.707919,
+  "lng": 127.9499489,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "民謡居酒屋ちゃんぷるー",
+  "en": "Minyo Izakaya Chanpuru",
+  "lat": 26.6954986,
+  "lng": 127.94817,
+  "kind": "bar"
+ },
+ {
+  "name": "居酒屋なごみ",
+  "en": "Izakaya Nagomi",
+  "lat": 26.688829,
+  "lng": 127.9647623,
+  "kind": "bar"
+ },
+ {
+  "name": "Restaurant L LOTA（エルロタ）",
+  "en": "Restaurant L LOTA",
+  "lat": 26.698198,
+  "lng": 128.0207807,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.6570951,
+  "lng": 127.8873829,
+  "kind": "fast_food"
+ },
+ {
+  "name": "居食屋すくみち亭",
+  "en": "Restaurant Sukumichi Tei",
+  "lat": 26.6857107,
+  "lng": 127.9847759,
+  "kind": "restaurant"
+ },
+ {
+  "name": "みかんの里総合案内所",
+  "en": "Mikan no Sato General Information Office",
+  "lat": 26.6438022,
+  "lng": 127.95843,
+  "kind": "information"
+ },
+ {
+  "name": "済井出ビーチ",
+  "en": "Saide Beach",
+  "lat": 26.6641731,
+  "lng": 128.025828,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "そば屋よしこ",
+  "en": "Sobaya Yoshiko",
+  "lat": 26.639648,
+  "lng": 127.9584122,
+  "kind": "restaurant"
+ },
+ {
+  "name": "シンセビーチ",
+  "en": "Shinse Beach",
+  "lat": 26.7038574,
+  "lng": 127.8915434,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "今泊ビーチ",
+  "en": "Imadomari Beach",
+  "lat": 26.7021967,
+  "lng": 127.92262,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "赤墓ビーチ",
+  "en": "Akabaka Beach",
+  "lat": 26.7048928,
+  "lng": 127.9408865,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "パーラー味夢希",
+  "en": null,
+  "lat": 26.6567925,
+  "lng": 127.9077173,
+  "kind": "restaurant"
+ },
+ {
+  "name": "備瀬竜宮",
+  "en": "Bise Ryugu",
+  "lat": 26.7121482,
+  "lng": 127.87673,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "屋我地漁港",
+  "en": "Yagaji Fishing port",
+  "lat": 26.6726069,
+  "lng": 128.0230551,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "奥武島ビーチ",
+  "en": "Oshima Beach",
+  "lat": 26.6417053,
+  "lng": 128.0329778,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "オランダ墓",
+  "en": "Oranda Baka",
+  "lat": 26.6747812,
+  "lng": 127.9992023,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "古宇利大橋南詰展望所",
+  "en": "Kouri Ohashi Minami Zume Observatory",
+  "lat": 26.6786737,
+  "lng": 128.0124907,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "灯台下のビーチ",
+  "en": "Beach under the lighthouse",
+  "lat": 26.6457149,
+  "lng": 127.8213279,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "古宇利港",
+  "en": "Kouri Port",
+  "lat": 26.6959549,
+  "lng": 128.0187536,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "塩川ビーチ",
+  "en": "Shiokawa Beach",
+  "lat": 26.6213824,
+  "lng": 127.89014,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "リゾネックス名護 プライベートビーチ",
+  "en": "Resonex Nago Private Beach",
+  "lat": 26.6032288,
+  "lng": 127.93615,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "備瀬の浦海岸",
+  "en": "Bisenoura Coast",
+  "lat": 26.7079522,
+  "lng": 127.88539,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.6151307,
+  "lng": 128.0070165,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ほっともっと名護高校前店",
+  "en": "Hotto more Nago High School front store",
+  "lat": 26.6038203,
+  "lng": 127.9848027,
+  "kind": "fast_food"
+ },
+ {
+  "name": "アセローラフレッシュ",
+  "en": "Acerola Fresh",
+  "lat": 26.6585885,
+  "lng": 127.9160736,
+  "kind": "cafe"
+ },
+ {
+  "name": "ティーヌ浜",
+  "en": null,
+  "lat": 26.7131471,
+  "lng": 128.0142529,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "コウリシュリンプ",
+  "en": "Kouri Shrimp",
+  "lat": 26.6972983,
+  "lng": 128.0213453,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Pizza in the sky, Kajinho",
+  "en": null,
+  "lat": 26.6684872,
+  "lng": 127.900639,
+  "kind": "restaurant"
+ },
+ {
+  "name": "もとぶ牧場",
+  "en": "Motobu Bokujo Yakiniku",
+  "lat": 26.6578548,
+  "lng": 127.8853512,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Shimabuta",
+  "en": null,
+  "lat": 26.6569373,
+  "lng": 127.9034647,
+  "kind": "restaurant"
+ },
+ {
+  "name": "シュチュプラス",
+  "en": "chou chou plus",
+  "lat": 26.5847549,
+  "lng": 127.9875523,
+  "kind": "confectionery"
+ },
+ {
+  "name": "DRE x DRE",
+  "en": null,
+  "lat": 26.6984068,
+  "lng": 128.0205197,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Kaeru-ya | 素泊まりの宿かえるやぁ",
+  "en": null,
+  "lat": 26.6969014,
+  "lng": 127.9449833,
+  "kind": "hotel"
+ },
+ {
+  "name": "Fuuran | 古民家宿ふうらん",
+  "en": null,
+  "lat": 26.6965507,
+  "lng": 127.9440639,
+  "kind": "hotel"
+ },
+ {
+  "name": "紀乃川",
+  "en": null,
+  "lat": 26.6475007,
+  "lng": 127.8865168,
+  "kind": "restaurant"
+ },
+ {
+  "name": "農芸茶屋 四季の彩",
+  "en": null,
+  "lat": 26.6533104,
+  "lng": 127.94724,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Hilton Okinawa Sesoko Resort",
+  "en": null,
+  "lat": 26.6496654,
+  "lng": 127.8584621,
+  "kind": "hotel"
+ },
+ {
+  "name": "オキちゃん劇場",
+  "en": "Okichan (Dolphin) Theater",
+  "lat": 26.6927844,
+  "lng": 127.8758809,
+  "kind": "attraction"
+ },
+ {
+  "name": "Private villa Yuki Suite Kourijima",
+  "en": null,
+  "lat": 26.6974054,
+  "lng": 128.0145521,
+  "kind": "hotel"
+ },
+ {
+  "name": "カフェ こくう",
+  "en": null,
+  "lat": 26.6799776,
+  "lng": 127.941891,
+  "kind": "cafe"
+ },
+ {
+  "name": "コテージ幸",
+  "en": null,
+  "lat": 26.673083,
+  "lng": 127.9417286,
+  "kind": "hotel"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.5934522,
+  "lng": 127.9643219,
+  "kind": "convenience"
+ },
+ {
+  "name": "ようこそ今帰仁村へ",
+  "en": "Welcome to Nakijin Village",
+  "lat": 26.6493371,
+  "lng": 127.9823829,
+  "kind": "information"
+ },
+ {
+  "name": "琉願の木 (揚げパン)",
+  "en": "Ryugan no ki (Fried Bread)",
+  "lat": 26.6997548,
+  "lng": 127.9303762,
+  "kind": "cafe"
+ },
+ {
+  "name": "クバの御嶽",
+  "en": "Kuba no utaki",
+  "lat": 26.6896198,
+  "lng": 127.9271264,
+  "kind": "information"
+ },
+ {
+  "name": "大堂原貝塚",
+  "en": "Ufudobaru Shell Mounds",
+  "lat": 26.6786287,
+  "lng": 128.0127249,
+  "kind": "information"
+ },
+ {
+  "name": "岩手県から奇跡の漁船",
+  "en": null,
+  "lat": 26.6919418,
+  "lng": 127.9274433,
+  "kind": "information"
+ },
+ {
+  "name": "今帰仁城跡鳥居",
+  "en": null,
+  "lat": 26.691907,
+  "lng": 127.92756,
+  "kind": "information"
+ },
+ {
+  "name": "今帰仁城跡鳥居",
+  "en": null,
+  "lat": 26.6919274,
+  "lng": 127.9275818,
+  "kind": "information"
+ },
+ {
+  "name": "発掘された今帰仁ムラ跡",
+  "en": "Nakijin Community Ruins (Nakijin Mura Ato)",
+  "lat": 26.6918318,
+  "lng": 127.9276818,
+  "kind": "information"
+ },
+ {
+  "name": "ハンタ道",
+  "en": null,
+  "lat": 26.6924426,
+  "lng": 127.9287811,
+  "kind": "information"
+ },
+ {
+  "name": "今帰仁城跡の石材",
+  "en": "The Stone of Nakijin-jo Site",
+  "lat": 26.6920802,
+  "lng": 127.9283616,
+  "kind": "information"
+ },
+ {
+  "name": "中城城跡の石材",
+  "en": "The Stone of Nakagusuku-jo Site",
+  "lat": 26.6920885,
+  "lng": 127.9283429,
+  "kind": "information"
+ },
+ {
+  "name": "勝連城跡の石材",
+  "en": "The Stone of Katsuren-jo Site",
+  "lat": 26.6920945,
+  "lng": 127.9283291,
+  "kind": "information"
+ },
+ {
+  "name": "首里城跡の石材",
+  "en": "The Stone of Syurijo-jo Site",
+  "lat": 26.6921086,
+  "lng": 127.9283026,
+  "kind": "information"
+ },
+ {
+  "name": "世界遺産登録資産の石垣石材",
+  "en": "Stone Wall Materials of the Properties Registered as World Heritage Sites",
+  "lat": 26.6921305,
+  "lng": 127.9283191,
+  "kind": "information"
+ },
+ {
+  "name": "勝連城跡・中城城跡・首里城跡の城壁の石材",
+  "en": "The Stone of Katsuren, Nakagusuku and Syurijo-jo Site Castle Walls",
+  "lat": 26.6921191,
+  "lng": 127.9283452,
+  "kind": "information"
+ },
+ {
+  "name": "今帰仁城跡の城壁の石材",
+  "en": "The Stone of Nakijin-jo Site Castle Walls",
+  "lat": 26.6921107,
+  "lng": 127.92837,
+  "kind": "information"
+ },
+ {
+  "name": "今帰仁ノロ殿内火の神の祠",
+  "en": "Nakijin Priestess Hinukan Shrine",
+  "lat": 26.6927122,
+  "lng": 127.9291767,
+  "kind": "information"
+ },
+ {
+  "name": "注意",
+  "en": null,
+  "lat": 26.6913295,
+  "lng": 127.9293068,
+  "kind": "information"
+ },
+ {
+  "name": "遺産群分布図",
+  "en": "MAP OF THE WORLD HERITAGE SITES",
+  "lat": 26.691499,
+  "lng": 127.9290919,
+  "kind": "information"
+ },
+ {
+  "name": "「琉球王国のグスク及び関連遺産群」",
+  "en": "The Gusuku Sites and Related Properties of the Kingdom of Ryukyu",
+  "lat": 26.6915074,
+  "lng": 127.9291083,
+  "kind": "information"
+ },
+ {
+  "name": "今帰仁城跡",
+  "en": null,
+  "lat": 26.6914906,
+  "lng": 127.9291076,
+  "kind": "information"
+ },
+ {
+  "name": "今帰仁城跡",
+  "en": null,
+  "lat": 26.6915191,
+  "lng": 127.9291442,
+  "kind": "information"
+ },
+ {
+  "name": "城壁の石の中に見られる化石",
+  "en": "Fossils in the Castle Wall Stones",
+  "lat": 26.6917099,
+  "lng": 127.9294523,
+  "kind": "information"
+ },
+ {
+  "name": "炉跡を伴う掘立柱建物跡",
+  "en": "Remains of Building with Firepit",
+  "lat": 26.6919714,
+  "lng": 127.9294333,
+  "kind": "information"
+ },
+ {
+  "name": "炉跡を伴う掘立柱建物跡(SB02)",
+  "en": "Trace of Furnace with Ruins of Earth-fast Post Building (SB02)",
+  "lat": 26.6919735,
+  "lng": 127.9294255,
+  "kind": "information"
+ },
+ {
+  "name": "こちらで半券を 切らして頂きます",
+  "en": "Please present The Admission ticket",
+  "lat": 26.6912402,
+  "lng": 127.9291965,
+  "kind": "information"
+ },
+ {
+  "name": "層序の断面図",
+  "en": null,
+  "lat": 26.6903536,
+  "lng": 127.9305304,
+  "kind": "information"
+ },
+ {
+  "name": "版築",
+  "en": null,
+  "lat": 26.6903535,
+  "lng": 127.9305447,
+  "kind": "information"
+ },
+ {
+  "name": "カラウカー",
+  "en": "Karauka Sacred Sping",
+  "lat": 26.6902739,
+  "lng": 127.930086,
+  "kind": "information"
+ },
+ {
+  "name": "炉跡",
+  "en": null,
+  "lat": 26.6899587,
+  "lng": 127.9308128,
+  "kind": "information"
+ },
+ {
+  "name": "第１号掘立て柱建物跡",
+  "en": null,
+  "lat": 26.6899204,
+  "lng": 127.9308296,
+  "kind": "information"
+ },
+ {
+  "name": "毒ヘビに注意",
+  "en": "Beware of venomous snakes",
+  "lat": 26.6899791,
+  "lng": 127.9304387,
+  "kind": "information"
+ },
+ {
+  "name": "危険",
+  "en": "Danger",
+  "lat": 26.6897227,
+  "lng": 127.9309919,
+  "kind": "information"
+ },
+ {
+  "name": "志慶真門郭",
+  "en": "Shigemajo Ward",
+  "lat": 26.6898623,
+  "lng": 127.9310562,
+  "kind": "information"
+ },
+ {
+  "name": "この先行き止まり",
+  "en": null,
+  "lat": 26.6899282,
+  "lng": 127.9309516,
+  "kind": "information"
+ },
+ {
+  "name": "火神",
+  "en": null,
+  "lat": 26.690228,
+  "lng": 127.9303998,
+  "kind": "information"
+ },
+ {
+  "name": "今帰仁里主所火の神",
+  "en": "Hinukan: Shrine to the God of Fire",
+  "lat": 26.6902409,
+  "lng": 127.9303971,
+  "kind": "information"
+ },
+ {
+  "name": "シニグンニ",
+  "en": null,
+  "lat": 26.6927615,
+  "lng": 127.9278044,
+  "kind": "information"
+ },
+ {
+  "name": "国指定天然記念物　塩川",
+  "en": null,
+  "lat": 26.6157545,
+  "lng": 127.8952063,
+  "kind": "information"
+ },
+ {
+  "name": "ENTRO",
+  "en": null,
+  "lat": 26.6211849,
+  "lng": 127.9693709,
+  "kind": "restaurant"
+ },
+ {
+  "name": "アイスクリン＆パーラー kafuu",
+  "en": null,
+  "lat": 26.5882956,
+  "lng": 127.9837633,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "Bakery",
+  "en": null,
+  "lat": 26.6423676,
+  "lng": 127.9289271,
+  "kind": "bakery"
+ },
+ {
+  "name": "海鮮 十兵衛",
+  "en": null,
+  "lat": 26.6557981,
+  "lng": 127.8828321,
+  "kind": "restaurant"
+ },
+ {
+  "name": "スターバックス",
+  "en": "Starbucks",
+  "lat": 26.6819018,
+  "lng": 127.8835865,
+  "kind": "cafe"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.5999745,
+  "lng": 127.9740231,
+  "kind": "convenience"
+ },
+ {
+  "name": "我部祖河食堂 名護本店",
+  "en": null,
+  "lat": 26.6221816,
+  "lng": 127.9997941,
+  "kind": "restaurant"
+ },
+ {
+  "name": "COCORO Beach House",
+  "en": "COCORO Beach House",
+  "lat": 26.7099003,
+  "lng": 127.8252236,
+  "kind": "cafe"
+ },
+ {
+  "name": "味の店 にしんすに",
+  "en": null,
+  "lat": 26.7099335,
+  "lng": 127.825281,
+  "kind": "restaurant"
+ },
+ {
+  "name": "いーじま とぅんが ビーチ店",
+  "en": "I-jima tunga",
+  "lat": 26.7098658,
+  "lng": 127.8251726,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.6840545,
+  "lng": 127.8799316,
+  "kind": "convenience"
+ },
+ {
+  "name": "サンセットリゾート カンプー",
+  "en": "Sunset Resort Canphou",
+  "lat": 26.6840203,
+  "lng": 127.880073,
+  "kind": "hotel"
+ },
+ {
+  "name": "総合案内受付",
+  "en": null,
+  "lat": 26.6825642,
+  "lng": 127.8834326,
+  "kind": "information"
+ },
+ {
+  "name": "やんばるジェラート",
+  "en": "Yanbaru Gelato",
+  "lat": 26.6823884,
+  "lng": 127.8833979,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "World kitchen",
+  "en": "World kitchen",
+  "lat": 26.6824259,
+  "lng": 127.8834115,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ラーメン ハイサイ! マハロ",
+  "en": "Ra-men Hisai! Mahalo",
+  "lat": 26.6824591,
+  "lng": 127.8832992,
+  "kind": "restaurant"
+ },
+ {
+  "name": "おきなわ食堂 琉球",
+  "en": "Okinawan dining Ryukyu",
+  "lat": 26.682428,
+  "lng": 127.883286,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ポーたま",
+  "en": "Potama",
+  "lat": 26.6824915,
+  "lng": 127.8831037,
+  "kind": "restaurant"
+ },
+ {
+  "name": "貢茶",
+  "en": "Gong Cha",
+  "lat": 26.6824729,
+  "lng": 127.883186,
+  "kind": "cafe"
+ },
+ {
+  "name": "海人料理 海邦丸",
+  "en": "Seafood Restaurant KAIHOUMARU",
+  "lat": 26.6821952,
+  "lng": 127.8836023,
+  "kind": "restaurant"
+ },
+ {
+  "name": "BURIBUSHI",
+  "en": null,
+  "lat": 26.6824141,
+  "lng": 127.8828745,
+  "kind": "restaurant"
+ },
+ {
+  "name": "谷茶公園案内図",
+  "en": null,
+  "lat": 26.6585859,
+  "lng": 127.8880884,
+  "kind": "information"
+ },
+ {
+  "name": "After Rain Coffee",
+  "en": "After Rain Coffee",
+  "lat": 26.6181206,
+  "lng": 127.9687782,
+  "kind": "cafe"
+ },
+ {
+  "name": "MEAT MEET BURGER",
+  "en": null,
+  "lat": 26.617707,
+  "lng": 127.9689484,
+  "kind": "fast_food"
+ },
+ {
+  "name": "フルーツカフェ",
+  "en": "Fruits Cafe",
+  "lat": 26.6175496,
+  "lng": 127.969241,
+  "kind": "cafe"
+ },
+ {
+  "name": "門藤",
+  "en": "Kadofuji",
+  "lat": 26.6174322,
+  "lng": 127.9690805,
+  "kind": "confectionery"
+ },
+ {
+  "name": "夜パフェ＆Bar -75℃",
+  "en": "Night parfait & Bar -75℃",
+  "lat": 26.6174145,
+  "lng": 127.9691075,
+  "kind": "bar"
+ },
+ {
+  "name": "安里家レストラン",
+  "en": "ASATOYA Restaurant",
+  "lat": 26.6178762,
+  "lng": 127.9690332,
+  "kind": "restaurant"
+ },
+ {
+  "name": "necoholic",
+  "en": null,
+  "lat": 26.6768775,
+  "lng": 127.9053306,
+  "kind": "cafe"
+ },
+ {
+  "name": "マリンハウスIEアイランド",
+  "en": null,
+  "lat": 26.7099311,
+  "lng": 127.8213069,
+  "kind": "hotel"
+ },
+ {
+  "name": "Pain de Kaito",
+  "en": null,
+  "lat": 26.6021883,
+  "lng": 127.9632964,
+  "kind": "bakery"
+ },
+ {
+  "name": "リンドン",
+  "en": null,
+  "lat": 26.5940395,
+  "lng": 127.9765573,
+  "kind": "bakery"
+ },
+ {
+  "name": "パン工房きしもと",
+  "en": null,
+  "lat": 26.5973886,
+  "lng": 127.9902835,
+  "kind": "bakery"
+ },
+ {
+  "name": "fuu Café",
+  "en": null,
+  "lat": 26.6450742,
+  "lng": 127.8594066,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ジョリーパスタ 名護店",
+  "en": null,
+  "lat": 26.6030703,
+  "lng": 127.9756818,
+  "kind": "restaurant"
+ },
+ {
+  "name": "セブン",
+  "en": null,
+  "lat": 26.5813255,
+  "lng": 127.9855851,
+  "kind": "convenience"
+ },
+ {
+  "name": "ボトルパームガーデン",
+  "en": "Bottle Palm Garden",
+  "lat": 26.636313,
+  "lng": 127.8615473,
+  "kind": "cafe"
+ },
+ {
+  "name": "Sesoko Table",
+  "en": null,
+  "lat": 26.6485228,
+  "lng": 127.8720133,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "ホライゾン バルーン",
+  "en": "Horizon Balloon",
+  "lat": 26.6418754,
+  "lng": 127.9683989,
+  "kind": "attraction"
+ },
+ {
+  "name": "バギー ボルテージ",
+  "en": "Buggy Voltage",
+  "lat": 26.6412109,
+  "lng": 127.9706073,
+  "kind": "attraction"
+ },
+ {
+  "name": "SPA JUNGLIA (スパジャングリア)",
+  "en": null,
+  "lat": 26.6388009,
+  "lng": 127.9670942,
+  "kind": "public_bath"
+ },
+ {
+  "name": "ダイナソー サファリ",
+  "en": "Dinosaur Safari",
+  "lat": 26.6408485,
+  "lng": 127.9690379,
+  "kind": "attraction"
+ },
+ {
+  "name": "宿&スパイスカレー▪ストラム&ファームハウス",
+  "en": null,
+  "lat": 26.6909304,
+  "lng": 127.9448654,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Airando Fiji Cafe - アイランド フィジー カフェ",
+  "en": null,
+  "lat": 26.6979444,
+  "lng": 128.0197619,
+  "kind": "restaurant"
+ },
+ {
+  "name": "pizzeria UKAUKA",
+  "en": null,
+  "lat": 26.6464553,
+  "lng": 127.8700883,
+  "kind": "restaurant"
+ },
+ {
+  "name": "49Café",
+  "en": null,
+  "lat": 26.647526,
+  "lng": 127.8718783,
+  "kind": "cafe"
+ },
+ {
+  "name": "SUNNY TACOS",
+  "en": null,
+  "lat": 26.615887,
+  "lng": 127.9540219,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ソイソイ本部 - 豆腐ランチ&カフェ",
+  "en": null,
+  "lat": 26.658252,
+  "lng": 127.8921344,
+  "kind": "cafe"
+ },
+ {
+  "name": "Papaiya Cooking",
+  "en": null,
+  "lat": 26.6859057,
+  "lng": 127.8772037,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファインディング ダイナソーズ",
+  "en": "Finding Dinosaurs",
+  "lat": 26.6397628,
+  "lng": 127.9694808,
+  "kind": "attraction"
+ },
+ {
+  "name": "General Information Center",
+  "en": null,
+  "lat": 26.691637,
+  "lng": 127.8783542,
+  "kind": "attraction"
+ },
+ {
+  "name": "VILLA JUMIBARU",
+  "en": null,
+  "lat": 26.6891137,
+  "lng": 127.9151116,
+  "kind": "hotel"
+ },
+ {
+  "name": "ワイルド バンケット",
+  "en": "Wild Banqut",
+  "lat": 26.6424096,
+  "lng": 127.9691652,
+  "kind": "restaurant"
+ },
+ {
+  "name": "インフィニティ テラス",
+  "en": "Infinity terrace",
+  "lat": 26.6433032,
+  "lng": 127.9704181,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "パノラマ ダイニング",
+  "en": "Panorama dining",
+  "lat": 26.6432712,
+  "lng": 127.9703287,
+  "kind": "restaurant"
+ },
+ {
+  "name": "居酒屋 琉波",
+  "en": "Ryu Ha",
+  "lat": 26.6589999,
+  "lng": 127.89229,
+  "kind": "restaurant"
+ },
+ {
+  "name": "琉の国 本店",
+  "en": null,
+  "lat": 26.6749355,
+  "lng": 127.8912249,
+  "kind": "restaurant"
+ },
+ {
+  "name": "鉄板燒 朝日",
+  "en": "Teppanyaki Asahi",
+  "lat": 26.5928875,
+  "lng": 127.9756317,
+  "kind": "restaurant"
+ },
+ {
+  "name": "大麦の番人",
+  "en": null,
+  "lat": 26.5944707,
+  "lng": 127.9764551,
+  "kind": "pub"
+ },
+ {
+  "name": "Blue Seal",
+  "en": null,
+  "lat": 26.6905054,
+  "lng": 127.8791907,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "ライノナン&カレーハウス名護店",
+  "en": "Rhino Naan and Curry House",
+  "lat": 26.6061546,
+  "lng": 127.9811133,
+  "kind": "restaurant"
+ },
+ {
+  "name": "今帰仁レストラン珊瑚テーブル",
+  "en": null,
+  "lat": 26.6801442,
+  "lng": 127.9776042,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Ushinoibukuro",
+  "en": null,
+  "lat": 26.6838136,
+  "lng": 127.9748093,
+  "kind": "restaurant"
+ },
+ {
+  "name": "今帰仁城",
+  "en": "Nakijin Castle",
+  "lat": 26.691034,
+  "lng": 127.9296047,
+  "kind": "attraction"
+ },
+ {
+  "name": "名護市児童福祉センター",
+  "en": null,
+  "lat": 26.5906951,
+  "lng": 127.9740613,
+  "kind": "public_building"
+ },
+ {
+  "name": "国際交流会館",
+  "en": null,
+  "lat": 26.5924343,
+  "lng": 127.9648098,
+  "kind": "public_building"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.6046965,
+  "lng": 127.9755557,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6045751,
+  "lng": 127.9753314,
+  "kind": "convenience"
+ },
+ {
+  "name": "和風亭",
+  "en": null,
+  "lat": 26.6081649,
+  "lng": 127.9824923,
+  "kind": "restaurant"
+ },
+ {
+  "name": "前田産業ホテルゆがふいんおきなわ",
+  "en": "Hotel Yugaf Inn Okinawa",
+  "lat": 26.5934472,
+  "lng": 127.9651855,
+  "kind": "hotel"
+ },
+ {
+  "name": "天上展望台",
+  "en": null,
+  "lat": 26.5903286,
+  "lng": 127.9994382,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "さくら展望台",
+  "en": null,
+  "lat": 26.5917385,
+  "lng": 127.9975859,
+  "kind": "cafe"
+ },
+ {
+  "name": "北展望台",
+  "en": null,
+  "lat": 26.5939116,
+  "lng": 127.994333,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "本部グリーンパーク",
+  "en": null,
+  "lat": 26.6778015,
+  "lng": 127.9021623,
+  "kind": "resort"
+ },
+ {
+  "name": "マリンピアザオキナワ",
+  "en": "Marine Piazza Okinawa",
+  "lat": 26.6756904,
+  "lng": 127.8870177,
+  "kind": "hotel"
+ },
+ {
+  "name": "ホテルマハイナ ウェルネスリゾートオキナワ",
+  "en": "Hotel MAHAINA Wellness Resort Okinawa",
+  "lat": 26.6827348,
+  "lng": 127.8823153,
+  "kind": "hotel"
+ },
+ {
+  "name": "リゾートホテルベルパライソ",
+  "en": null,
+  "lat": 26.6910257,
+  "lng": 127.9928385,
+  "kind": "hotel"
+ },
+ {
+  "name": "今帰仁村グスク交流センター (チケット売り場)",
+  "en": "Nakijin Village Gusuku Information Center (Ticket Office)",
+  "lat": 26.6924947,
+  "lng": 127.9280257,
+  "kind": "information"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.6776404,
+  "lng": 127.8912007,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.5909617,
+  "lng": 127.9805956,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.590297,
+  "lng": 127.9858098,
+  "kind": "convenience"
+ },
+ {
+  "name": "宮里そば",
+  "en": null,
+  "lat": 26.593981,
+  "lng": 127.9707112,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ホテルルートイン名護",
+  "en": null,
+  "lat": 26.5803547,
+  "lng": 127.984862,
+  "kind": "hotel"
+ },
+ {
+  "name": "かっぽう山吹",
+  "en": null,
+  "lat": 26.5889753,
+  "lng": 127.9865063,
+  "kind": "restaurant"
+ },
+ {
+  "name": "FamilyMart",
+  "en": "FamilyMart Nago Taira",
+  "lat": 26.6164967,
+  "lng": 128.0099651,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート名護真喜屋店",
+  "en": "FamilyMart Nago Makiya",
+  "lat": 26.6339667,
+  "lng": 128.0351969,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.5851321,
+  "lng": 127.9854007,
+  "kind": "convenience"
+ },
+ {
+  "name": "丸隆そば",
+  "en": null,
+  "lat": 26.6021922,
+  "lng": 127.9903617,
+  "kind": "restaurant"
+ },
+ {
+  "name": "お食事処 やまちゃん",
+  "en": null,
+  "lat": 26.6855187,
+  "lng": 127.8863349,
+  "kind": "restaurant"
+ },
+ {
+  "name": "センチュリオンホテルリゾートヴィンテージ沖縄美ら海",
+  "en": "Centurion Hotel & Resort Vintage Okinawa-Churaumi",
+  "lat": 26.6949654,
+  "lng": 127.8792221,
+  "kind": "hotel"
+ },
+ {
+  "name": "くるまえびキッチンTAMAYA",
+  "en": null,
+  "lat": 26.6729147,
+  "lng": 128.0045108,
+  "kind": "restaurant"
+ },
+ {
+  "name": "はま寿司",
+  "en": "Hamasushi",
+  "lat": 26.6057178,
+  "lng": 127.9776035,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ラーメン花月",
+  "en": null,
+  "lat": 26.6056674,
+  "lng": 127.9773774,
+  "kind": "restaurant"
+ },
+ {
+  "name": "本部リゾート",
+  "en": "Motobu Resort",
+  "lat": 26.6636753,
+  "lng": 127.8908873,
+  "kind": "hotel"
+ },
+ {
+  "name": "新山そば",
+  "en": null,
+  "lat": 26.5886254,
+  "lng": 127.9858777,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Cafe gyutto 本部町店",
+  "en": null,
+  "lat": 26.6464393,
+  "lng": 127.9476437,
+  "kind": "cafe"
+ },
+ {
+  "name": "山原そば",
+  "en": "Yanbaru Soba",
+  "lat": 26.6505068,
+  "lng": 127.9494754,
+  "kind": "restaurant"
+ },
+ {
+  "name": "レストランマリー",
+  "en": "Restaurant Mary",
+  "lat": 26.6499438,
+  "lng": 127.9820572,
+  "kind": "restaurant"
+ },
+ {
+  "name": "KARST CAMP SITE",
+  "en": "KARST CAMP SITE",
+  "lat": 26.6688899,
+  "lng": 127.9076532,
+  "kind": "cafe"
+ },
+ {
+  "name": "ガジュマルロック",
+  "en": null,
+  "lat": 26.7074898,
+  "lng": 128.0101542,
+  "kind": "restaurant"
+ },
+ {
+  "name": "御菓子御殿 名護店",
+  "en": "Okashigoden Nago Store",
+  "lat": 26.6372111,
+  "lng": 127.9598222,
+  "kind": "confectionery"
+ },
+ {
+  "name": "沖縄料理 御殿（うどぅん）",
+  "en": "Okinawa cuisine Udun",
+  "lat": 26.6374544,
+  "lng": 127.9605538,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6573284,
+  "lng": 127.9131432,
+  "kind": "convenience"
+ },
+ {
+  "name": "名護漁港食堂",
+  "en": "Nago fishing port marine products",
+  "lat": 26.5872462,
+  "lng": 127.9824936,
+  "kind": "restaurant"
+ },
+ {
+  "name": "アイスクリンカフェ アーク",
+  "en": null,
+  "lat": 26.6678747,
+  "lng": 127.891853,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.6334229,
+  "lng": 128.0355581,
+  "kind": "convenience"
+ },
+ {
+  "name": "うちな～屋",
+  "en": null,
+  "lat": 26.6340416,
+  "lng": 128.0362181,
+  "kind": "pub"
+ },
+ {
+  "name": "快活CLUB",
+  "en": "Kaikatsu Club",
+  "lat": 26.608791,
+  "lng": 127.9877216,
+  "kind": "internet_cafe"
+ },
+ {
+  "name": "ココス",
+  "en": "Coco's",
+  "lat": 26.6082305,
+  "lng": 127.9843425,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.6082422,
+  "lng": 127.9696057,
+  "kind": "convenience"
+ },
+ {
+  "name": "焼肉五苑",
+  "en": null,
+  "lat": 26.608262,
+  "lng": 127.9702056,
+  "kind": "restaurant"
+ },
+ {
+  "name": "すき家",
+  "en": "Sukiya",
+  "lat": 26.5837706,
+  "lng": 127.9842849,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ホテルピースアイランド名護",
+  "en": null,
+  "lat": 26.5862899,
+  "lng": 127.9840229,
+  "kind": "hotel"
+ },
+ {
+  "name": "グリーンリッチホテル",
+  "en": null,
+  "lat": 26.58683,
+  "lng": 127.983886,
+  "kind": "hotel"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6971173,
+  "lng": 127.9064212,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6737108,
+  "lng": 127.9792776,
+  "kind": "convenience"
+ },
+ {
+  "name": "Captain Kangaroo Burger",
+  "en": "Captain Kangaroo",
+  "lat": 26.6228202,
+  "lng": 127.8902027,
+  "kind": "restaurant"
+ },
+ {
+  "name": "たびの邸宅今帰仁",
+  "en": null,
+  "lat": 26.7022348,
+  "lng": 127.9349421,
+  "kind": "hotel"
+ },
+ {
+  "name": "幸せになる古宇利島の宿",
+  "en": null,
+  "lat": 26.7100833,
+  "lng": 128.0157186,
+  "kind": "hotel"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6028207,
+  "lng": 127.9863551,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.6013881,
+  "lng": 127.9975065,
+  "kind": "convenience"
+ },
+ {
+  "name": "WELCOME",
+  "en": null,
+  "lat": 26.7096643,
+  "lng": 127.8253596,
+  "kind": "attraction"
+ },
+ {
+  "name": "フードコート カイ",
+  "en": "Food Court KAI",
+  "lat": 26.6824319,
+  "lng": 127.8833527,
+  "kind": "food_court"
+ },
+ {
+  "name": "フードコート マウナ",
+  "en": "Food Court MAUNA",
+  "lat": 26.6824842,
+  "lng": 127.8831475,
+  "kind": "food_court"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.6177047,
+  "lng": 127.9679366,
+  "kind": "convenience"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.6037841,
+  "lng": 127.9453968,
+  "kind": "convenience"
+ },
+ {
+  "name": "マリンハウスIEアイランド",
+  "en": null,
+  "lat": 26.7099289,
+  "lng": 127.8213034,
+  "kind": "hotel"
+ },
+ {
+  "name": "Mr.KINJO",
+  "en": null,
+  "lat": 26.6569824,
+  "lng": 127.8830833,
+  "kind": "hotel"
+ },
+ {
+  "name": "月の道テラス",
+  "en": null,
+  "lat": 26.6565545,
+  "lng": 127.8824371,
+  "kind": "hotel"
+ },
+ {
+  "name": "かどや製麺所",
+  "en": "Kadoya",
+  "lat": 26.6442252,
+  "lng": 127.8649713,
+  "kind": "restaurant"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.652913,
+  "lng": 127.8807547,
+  "kind": "convenience"
+ },
+ {
+  "name": "スーパーホテル",
+  "en": "Super Hotel",
+  "lat": 26.6045722,
+  "lng": 127.9742004,
+  "kind": "hotel"
+ },
+ {
+  "name": "オルッサの宿マチャンマチャン",
+  "en": null,
+  "lat": 26.691553,
+  "lng": 127.9878534,
+  "kind": "hotel"
+ },
+ {
+  "name": "オルッサの宿マチャンマチャン",
+  "en": null,
+  "lat": 26.6914777,
+  "lng": 127.9879344,
+  "kind": "hotel"
+ },
+ {
+  "name": "沖縄のひとつ宿tintotinto",
+  "en": null,
+  "lat": 26.6916634,
+  "lng": 127.9876972,
+  "kind": "hotel"
+ },
+ {
+  "name": "沖縄のひとつ宿tintotinto",
+  "en": null,
+  "lat": 26.6917,
+  "lng": 127.9876549,
+  "kind": "hotel"
+ },
+ {
+  "name": "沖縄のひとつ宿tintotinto",
+  "en": null,
+  "lat": 26.6916868,
+  "lng": 127.98747,
+  "kind": "hotel"
+ },
+ {
+  "name": "Ushinoibukuro",
+  "en": null,
+  "lat": 26.6838168,
+  "lng": 127.9748398,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ホテルリゾネックス名護",
+  "en": null,
+  "lat": 26.6033131,
+  "lng": 127.9364363,
+  "kind": "hotel"
+ },
+ {
+  "name": "ホテルオリオンモトブリゾート＆スパ",
+  "en": "Hotel Orion Motobu Resort & Spa",
+  "lat": 26.6984166,
+  "lng": 127.879376,
+  "kind": "hotel"
+ },
+ {
+  "name": "Hilton Okinawa Sesoko Resort",
+  "en": null,
+  "lat": 26.6498593,
+  "lng": 127.8584306,
+  "kind": "hotel"
+ },
+ {
+  "name": "Hilton Club The Beach Resort Sesoko",
+  "en": null,
+  "lat": 26.6514846,
+  "lng": 127.860968,
+  "kind": "hotel"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.626413,
+  "lng": 128.0027799,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6068129,
+  "lng": 127.993082,
+  "kind": "convenience"
+ }
+]
