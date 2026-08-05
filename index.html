@@ -271,6 +271,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
 
 <nav class="filter-nav">
   <div class="area-nav-inner">
+    <button class="area-btn" onclick="jumpTo('yanbaru',26.72,128.16,11,this)">🌳 やんばる</button>
     <button class="area-btn" onclick="jumpTo('nago',26.59,127.99,12,this)">🌿 名護・北部</button>
     <button class="area-btn" onclick="jumpTo('motobu',26.672,127.945,12,this)">🐠 本部・今帰仁</button>
     <button class="area-btn" onclick="jumpTo('kin',26.456,127.895,13,this)">🌮 金武</button>
@@ -284,6 +285,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
     <button class="area-btn" onclick="jumpTo('urasoe',26.25,127.73,13,this)">🎪 浦添</button>
     <button class="area-btn" onclick="jumpTo('naha',26.22,127.68,13,this)">🎵 那覇</button>
     <button class="area-btn" onclick="jumpTo('okinawacity',26.34,127.80,12,this)">🎠 沖縄市・中部</button>
+    <button class="area-btn" onclick="jumpTo('nakagusuku',26.28,127.79,13,this)">🛒 中城・北中城</button>
     <button class="area-btn" onclick="jumpTo('tomigusuku',26.18,127.67,13,this)">🏯 豊見城</button>
     <button class="area-btn" onclick="jumpTo('itoman',26.12,127.67,12,this)">🎣 糸満</button>
     <button class="area-btn" onclick="jumpTo('nanjo',26.16,127.78,12,this)">🌸 南城</button>
@@ -337,7 +339,7 @@ const shops = [
   {n:'薪火 燈（あかり）本部備瀬',g:'washoku',a:'本部町',area_id:'motobu',lat:26.7043,lng:127.8812,rt:4.4,d:'2025年7月オープン！備瀬のフクギ並木近くの古民家を改装。薪火でじっくり焼き上げる鶏料理が絶品。',r:'鶏手羽だし沖縄そば / ソーキの薪火焼き 11:30〜23:00（水曜定休）',h:'11:30〜23:00（水曜定休）',tags:'<span class="tag tag-dinner">薪火料理</span>',badges:'<span class="new-badge">NEW</span>'},
   {n:'PAUL',g:'other',a:'本部町/備瀬',area_id:'motobu',lat:26.699562,lng:127.880318,d:'食べログ「スペイン料理 百名店2026」初選出。ヨーロッパで研鑽したシェフが沖縄食材で仕立てるスペイン×フレンチ。',r:'コース料理（要予約）',h:'18:00〜22:00',tags:'<span class="tag tag-dinner">スペイン料理</span><span class="tag tag-local">百名店2026</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'名護城公園 Subaco',g:'cafe',a:'名護市',area_id:'nago',lat:26.5912,lng:127.9957,d:'ガラス張りで亜熱帯の森と海を見渡せる。3種のオリジナルシロップが名物。',r:'クラフトソーダ「イリ・カジ・ムイ」 / かき氷',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">絶景</span>',badges:'<span class="new-badge">NEW</span>'},
-  {n:'喫茶 あがち森',g:'cafe',a:'国頭村',area_id:'nago',lat:26.7334,lng:128.1774,d:'国頭村の山奥に佇む幻想的カフェ。小川の上の縁側席が大人気。',r:'かぼちゃのスパイスタルト / やんばる紅茶',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">絶景</span>',badges:'<span class="sns-badge">SNS</span>'},
+  {n:'喫茶 あがち森',g:'cafe',a:'国頭村',area_id:'yanbaru',lat:26.7334,lng:128.1774,d:'国頭村の山奥に佇む幻想的カフェ。小川の上の縁側席が大人気。',r:'かぼちゃのスパイスタルト / やんばる紅茶',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">絶景</span>',badges:'<span class="sns-badge">SNS</span>'},
   {n:'Seaside Cafe BlueTrip',g:'cafe',a:'名護市',area_id:'nago',lat:26.5793,lng:127.9837,tb:3.12,tbc:51,d:'名護湾を一望できる手作りカフェ。木造のぬくもりある内装。',r:'島豚のカツレツランチプレート（¥1,200）',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">名護湾絶景</span>',badges:''},
   {n:'チャイニーズダイニング琉華菜苑',g:'chinese',a:'名護市/喜瀬',area_id:'nago',lat:26.5383649,lng:127.9358812,tb:3.44,tbc:132,d:'ザ・ブセナテラス内の本格広東料理。前菜盛合わせ・小籠包・フカヒレスープなど高級中華のフルコース。',r:'フカヒレスープ / 海老チリソース',h:'',tags:'<span class="tag tag-dinner">中華</span><span class="tag tag-local">ブセナテラス</span>',badges:''},
   {n:'居酒屋21',g:'izakaya',a:'名護市/宮里',area_id:'nago',lat:26.59388,lng:127.96642,d:'国頭漁港直送の新鮮な魚介と沖縄県産食材。カウンター前の大きな水槽に活魚が泳ぐ。',r:'桶盛り',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">漁港直送</span>',badges:''},
@@ -661,7 +663,7 @@ const shops = [
   {n:'沖縄そば食堂 よねはま',g:'soba',a:'宜野湾市/大山',area_id:'ginowan',lat:26.283556,lng:127.744293,tb:3.18,tbc:13,d:'大山の沖縄そば食堂。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">大山</span>',badges:''},
   {n:'くろしお',g:'soba',a:'宜野湾市/愛知',area_id:'ginowan',lat:26.264603,lng:127.769577,tb:3.18,tbc:11,d:'宜野湾市愛知の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-lunch">ランチ</span>',badges:''},
   // 浦添
-  {n:'Bookcafe Okinawa Rail',g:'cafe',a:'国頭村',area_id:'nago',lat:26.722191,lng:128.2061,d:'森の奥に佇むモダンなブックカフェ。わざわざ訪れる価値あり。',r:'こだわりコーヒー / 静かな読書時間',h:'',tags:'<span class="tag tag-cafe">ブックカフェ</span><span class="tag tag-local">隠れ家</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'Bookcafe Okinawa Rail',g:'cafe',a:'国頭村',area_id:'yanbaru',lat:26.722191,lng:128.2061,d:'森の奥に佇むモダンなブックカフェ。わざわざ訪れる価値あり。',r:'こだわりコーヒー / 静かな読書時間',h:'',tags:'<span class="tag tag-cafe">ブックカフェ</span><span class="tag tag-local">隠れ家</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'道の駅許田フードコート',g:'soba',a:'名護市/許田',area_id:'nago',lat:26.552364,lng:127.972504,tb:3.43,tbc:192,d:'高速道路の出入口に近い道の駅許田のフードコート。沖縄そばをはじめ軽食がそろう。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">道の駅</span>',badges:''},
   {n:'守良屋',g:'soba',a:'名護市/許田',area_id:'nago',lat:26.538204,lng:127.962738,tb:3.41,tbc:65,d:'名護市許田の沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">許田</span>',badges:''},
   {n:'前田食堂 名護店',g:'soba',a:'名護市/宮里',area_id:'nago',lat:26.600769,lng:127.976326,tb:3.36,tbc:132,d:'大宜味村の名店・前田食堂の名護店。山盛りの野菜と牛肉をのせた牛肉そばが看板。',r:'牛肉そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">名店の支店</span>',badges:''},
@@ -861,7 +863,7 @@ const shops = [
   // 沖縄市
   {n:'大衆とり酒場 とりいちず',g:'izakaya',a:'沖縄市',area_id:'okinawacity',lat:26.336012,lng:127.800819,tb:3.01,tbc:5,d:'沖縄市胡屋の人気居酒屋。親鳥タタキ・水炊きが看板メニュー。',r:'ガッツリ盛り合わせ / 泡盛ハイボール',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">コスパ</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'グランド食堂',g:'washoku',a:'沖縄市/上地',area_id:'okinawacity',lat:26.334217,lng:127.79808,d:'コザで30年以上愛される大衆食堂。名物「ほね汁」は肉・野菜・豆腐・昆布の栄養満点な一品。',r:'ほね汁 / 沖縄そば',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">ランチ</span>',badges:''},
-  {n:'くわっちぃ食堂 青空',g:'soba',a:'北中城村',area_id:'okinawacity',lat:26.299936,lng:127.791153,d:'2025年沖縄そばランキング1位。軟骨ソーキがホロホロで、三枚肉・てびちも全部のせのボリューム満点そば。',r:'くわっちぃそば',h:'11:00〜15:00 / 17:00〜21:00（日曜定休）',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">1位獲得</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'くわっちぃ食堂 青空',g:'soba',a:'北中城村',area_id:'nakagusuku',lat:26.299936,lng:127.791153,d:'2025年沖縄そばランキング1位。軟骨ソーキがホロホロで、三枚肉・てびちも全部のせのボリューム満点そば。',r:'くわっちぃそば',h:'11:00〜15:00 / 17:00〜21:00（日曜定休）',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">1位獲得</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'麺家 丸翔',g:'soba',a:'うるま市/勝連',area_id:'uruma',lat:26.310469,lng:127.909554,d:'中部屈指の人気店。TV番組でも紹介され開店前から行列。軟骨ソーキの炙りがとろけて絶品。',r:'炙り軟骨ソーキそば / 炙り三枚肉そば',h:'',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">うるま市</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'台湾料理 福楽 うるま店',g:'chinese',a:'うるま市/赤野',area_id:'uruma',lat:26.373503,lng:127.862686,d:'台湾出身の料理人による本格台湾料理。島豆腐を使った麻婆豆腐かけ炒飯が人気で辛さ調整も可能。',r:'麻婆豆腐かけ炒飯',h:'',tags:'<span class="tag tag-dinner">台湾料理</span><span class="tag tag-local">うるま市</span>',badges:''},
   {n:'Hina’s Cafe',g:'cafe',a:'うるま市/石川白浜',area_id:'uruma',lat:26.427094,lng:127.827835,d:'居心地の良いウッディな空間。シェフによる本格的イタリアンが評判。',r:'スペシャルプレート / ベーグルテリヤキサンド',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">石川白浜</span>',badges:''},
@@ -1190,16 +1192,88 @@ const shops = [
   {n:'大宝そば',g:'soba',a:'うるま市/具志川',area_id:'uruma',lat:26.361151,lng:127.862068,tb:3.21,tbc:31,d:'具志川の沖縄そば店。地元客中心の落ち着いた一軒。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
   {n:'raise244.',g:'cafe',a:'うるま市/勝連浜',area_id:'uruma',lat:26.325701,lng:127.960557,tb:3.2,tbc:32,d:'浜比嘉島に向かう海沿いのカフェ＆バー。夕暮れどきの眺めがよい。',r:'コーヒー / カクテル',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">海沿い</span>',badges:''},
   {n:'テットウ コーヒー',g:'cafe',a:'うるま市/栄野比',area_id:'uruma',lat:26.390167,lng:127.834465,tb:3.19,tbc:30,d:'栄野比の自家焙煎コーヒー店。豆の販売も行う。',r:'自家焙煎コーヒー',h:'',tags:'<span class="tag tag-cafe">コーヒー</span>',badges:''},
+  {n:'国頭港食堂',g:'seafood',a:'国頭村/浜',area_id:'yanbaru',lat:26.721223,lng:128.158462,tb:3.46,tbc:222,d:'国頭漁港に隣接する食堂。その日に水揚げされた魚を刺身や海鮮丼で出す。',r:'海鮮丼 / 刺身定食',h:'',tags:'<span class="tag tag-local">海鮮</span>',badges:''},
+  {n:'サーフサイドカフェ',g:'other',a:'国頭村/奥間',area_id:'yanbaru',lat:26.736421,lng:128.160242,tb:3.36,tbc:83,d:'オクマプライベートビーチ＆リゾート内のビュッフェレストラン。',r:'朝食ビュッフェ / 洋食',h:'',tags:'<span class="tag tag-lunch">ビュッフェ</span><span class="tag tag-view">リゾート</span>',badges:''},
+  {n:'わぁ～家～',g:'other',a:'国頭村/奥間',area_id:'yanbaru',lat:26.732076,lng:128.169149,tb:3.35,tbc:81,d:'道の駅ゆいゆい国頭内。やんばる島豚あぐーを使った料理が中心。',r:'あぐー豚料理 / カレー',h:'',tags:'<span class="tag tag-local">あぐー</span><span class="tag tag-lunch">道の駅</span>',badges:''},
+  {n:'とっくり屋',g:'izakaya',a:'国頭村/鏡地',area_id:'yanbaru',lat:26.732682,lng:128.161648,tb:3.32,tbc:71,d:'鏡地にある沖縄料理の居酒屋。地元の食材を使った一品を泡盛とともに。',r:'沖縄料理 / 泡盛',h:'',tags:'<span class="tag tag-dinner">居酒屋</span>',badges:''},
+  {n:'いじゅ',g:'washoku',a:'国頭村/奥間',area_id:'yanbaru',lat:26.736421,lng:128.160242,tb:3.31,tbc:58,d:'オクマプライベートビーチ＆リゾート内の日本料理店。',r:'和食会席 / ビュッフェ',h:'',tags:'<span class="tag tag-dinner">和食</span>',badges:''},
+  {n:'ふしくぶ',g:'cafe',a:'国頭村/辺戸',area_id:'yanbaru',lat:26.872495,lng:128.263257,tb:3.3,tbc:74,d:'辺戸岬観光案内所HEAD LINEの2階にあるカフェ。本島最北端の海を望む。',r:'コーヒー / 軽食',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">辺戸岬</span>',badges:''},
+  {n:'阿檀',g:'yakiniku',a:'国頭村/奥間',area_id:'yanbaru',lat:26.736421,lng:128.160242,tb:3.27,tbc:32,d:'JALプライベートリゾートオクマ内の鉄板焼き店。',r:'鉄板焼きコース',h:'',tags:'<span class="tag tag-steak">鉄板焼き</span>',badges:''},
+  {n:'辺戸岬こうようパーラー',g:'washoku',a:'国頭村/辺戸',area_id:'yanbaru',lat:26.872056,lng:128.26359,tb:3.23,tbc:30,d:'辺戸岬のパーラー。沖縄そばや軽食を出す。',r:'沖縄そば / ソフトクリーム',h:'',tags:'<span class="tag tag-local">パーラー</span>',badges:''},
+  {n:'レストランくいな',g:'washoku',a:'国頭村/奥間',area_id:'yanbaru',lat:26.732076,lng:128.169149,tb:3.22,tbc:60,d:'道の駅ゆいゆい国頭内のレストラン。やんばる島豚あぐーの料理を出す。',r:'あぐー豚料理 / 定食',h:'',tags:'<span class="tag tag-local">道の駅</span><span class="tag tag-lunch">定食</span>',badges:''},
+  {n:'食事処 みーやー',g:'seafood',a:'国頭村/奥間',area_id:'yanbaru',lat:26.732218,lng:128.170495,tb:3.22,tbc:32,d:'奥間の海鮮の食事処。地元で揚がった魚を使う。',r:'海鮮定食',h:'',tags:'<span class="tag tag-local">海鮮</span>',badges:''},
+  {n:'サーター屋',g:'sweets',a:'国頭村/奥間',area_id:'yanbaru',lat:26.732076,lng:128.169149,tb:3.22,tbc:26,d:'道の駅ゆいゆい国頭内。揚げたてのサーターアンダギーが名物。',r:'サーターアンダギー',h:'',tags:'<span class="tag tag-sweets">サーターアンダギー</span>',badges:''},
+  {n:'おかめ',g:'izakaya',a:'国頭村/奥間',area_id:'yanbaru',lat:26.736421,lng:128.160242,tb:3.2,tbc:61,d:'JALプライベートリゾートオクマ内の沖縄料理の居酒屋。',r:'沖縄料理 / 泡盛',h:'',tags:'<span class="tag tag-dinner">居酒屋</span>',badges:''},
+  {n:'OASIS',g:'yakiniku',a:'国頭村/奥間',area_id:'yanbaru',lat:26.736421,lng:128.160242,tb:3.2,tbc:35,d:'オクマプライベートビーチ＆リゾート内。ステーキやハンバーガーを出す。',r:'ステーキ / ハンバーガー',h:'',tags:'<span class="tag tag-steak">ステーキ</span>',badges:''},
+  {n:'ヒルバレージュニア',g:'other',a:'国頭村/奥間',area_id:'yanbaru',lat:26.732076,lng:128.169149,tb:3.2,tbc:23,d:'道の駅ゆいゆい国頭内のハンバーガースタンド。',r:'ハンバーガー',h:'',tags:'<span class="tag tag-lunch">ハンバーガー</span>',badges:''},
+  {n:'潮風のラウンジ',g:'izakaya',a:'国頭村/奥間',area_id:'yanbaru',lat:26.736421,lng:128.160242,tb:3.19,tbc:28,d:'オクマプライベートビーチ＆リゾートのラウンジバー。',r:'カクテル / 泡盛',h:'',tags:'<span class="tag tag-dinner">バー</span>',badges:''},
+  {n:'ユイカフェ',g:'cafe',a:'国頭村/奥間',area_id:'yanbaru',lat:26.732076,lng:128.169149,tb:3.19,tbc:25,d:'奥間のカフェ。コーヒーと洋菓子でひと息つける。',r:'コーヒー / 洋菓子',h:'',tags:'<span class="tag tag-cafe">カフェ</span>',badges:''},
+  {n:'やまびこ',g:'soba',a:'国頭村/辺土名',area_id:'yanbaru',lat:26.739899,lng:128.174814,tb:3.18,tbc:37,d:'国頭村の中心部・辺土名にある沖縄そばの食堂。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
+  {n:'笑味の店',g:'washoku',a:'大宜味村/大兼久',area_id:'yanbaru',lat:26.702795,lng:128.12351,tb:3.57,tbc:124,d:'長寿の村・大宜味の島野菜を使った料理を出す店。地域の伝統食を今に伝える。',r:'まかちくみそーれ定食',h:'',tags:'<span class="tag tag-local">島野菜</span><span class="tag tag-lunch">定食</span>',badges:''},
+  {n:'前田食堂',g:'soba',a:'大宜味村/津波',area_id:'yanbaru',lat:26.653386,lng:128.091492,tb:3.5,tbc:327,d:'牛肉そばで知られる大宜味の老舗食堂。名護店の本店にあたる。',r:'牛肉そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span><span class="tag tag-local">老舗名店</span>',badges:''},
+  {n:'レストランやんばるシーサイド',g:'washoku',a:'大宜味村/津波',area_id:'yanbaru',lat:26.660972,lng:128.102339,tb:3.27,tbc:33,d:'道の駅おおぎみに併設された食堂。沖縄そばや定食を出す。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-local">道の駅</span>',badges:''},
+  {n:'江洲の花',g:'soba',a:'大宜味村/大保',area_id:'yanbaru',lat:26.641172,lng:128.126704,tb:3.23,tbc:35,d:'大保の麺処。沖縄そばのほかそば・うどんも揃える。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
+  {n:'ぶながや食堂',g:'washoku',a:'大宜味村/根路銘',area_id:'yanbaru',lat:26.690213,lng:128.107943,tb:3.14,tbc:18,d:'大宜味農産物直売所に併設された食堂。',r:'定食 / 沖縄そば',h:'',tags:'<span class="tag tag-lunch">食堂</span>',badges:''},
+  {n:'パーラーくがに',g:'sweets',a:'大宜味村/津波',area_id:'yanbaru',lat:26.66067,lng:128.102403,tb:3.12,tbc:13,d:'道の駅おおぎみのパーラー。シークヮーサーを使った品が並ぶ。',r:'シークヮーサージュース / ハンバーガー',h:'',tags:'<span class="tag tag-sweets">パーラー</span>',badges:''},
+  {n:'OKINAWA CACAO Factory&Cafe',g:'sweets',a:'大宜味村/田嘉里',area_id:'yanbaru',lat:26.711412,lng:128.162715,tb:3.09,tbc:23,d:'廃校を使ったカカオの工房兼カフェ。県産カカオのチョコレートをつくる。',r:'チョコレート / カカオドリンク',h:'',tags:'<span class="tag tag-sweets">チョコレート</span><span class="tag tag-local">工房</span>',badges:''},
+  {n:'おおぎみ食堂',g:'washoku',a:'大宜味村/大宜味',area_id:'yanbaru',lat:26.701857,lng:128.116773,tb:3.09,tbc:10,d:'大宜味の集落にある食堂。沖縄そばと定食を出す。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-lunch">食堂</span>',badges:''},
+  {n:'まぁぐすくやー',g:'cafe',a:'大宜味村/塩屋',area_id:'yanbaru',lat:26.67241,lng:128.10859,tb:3.08,tbc:10,d:'塩屋湾を望む静かなカフェ。',r:'コーヒー / 軽食',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">塩屋湾</span>',badges:''},
+  {n:'がじまんろー',g:'cafe',a:'大宜味村/大宜味',area_id:'yanbaru',lat:26.68815,lng:128.128238,tb:3.07,tbc:13,d:'大宜味の集落にあるカフェ。ゆっくり過ごせる一軒。',r:'コーヒー',h:'',tags:'<span class="tag tag-cafe">カフェ</span>',badges:''},
+  {n:'小春屋',g:'cafe',a:'大宜味村/喜如嘉',area_id:'yanbaru',lat:26.703333,lng:128.149518,tb:3.05,tbc:6,d:'芭蕉布の里・喜如嘉にある喫茶。うどんも出す。',r:'うどん / コーヒー',h:'',tags:'<span class="tag tag-cafe">喫茶</span>',badges:''},
+  {n:'やんばる横町',g:'izakaya',a:'大宜味村/喜如嘉',area_id:'yanbaru',lat:26.705284,lng:128.135984,tb:3.04,tbc:7,d:'喜如嘉の居酒屋。地元の常連が集まる一軒。',r:'泡盛 / 一品料理',h:'',tags:'<span class="tag tag-dinner">居酒屋</span>',badges:''},
+  {n:'レストラン マリン',g:'washoku',a:'大宜味村/津波',area_id:'yanbaru',lat:26.661619,lng:128.096716,tb:3.03,tbc:6,d:'津波にある食堂。弁当も扱う。',r:'定食 / 弁当',h:'',tags:'<span class="tag tag-lunch">食堂</span>',badges:''},
+  {n:'ヒロ コーヒーファーム',g:'cafe',a:'東村/高江',area_id:'yanbaru',lat:26.663546,lng:128.248798,tb:3.31,tbc:48,d:'高江でコーヒーを栽培する農園のスタンド。自家栽培の豆を味わえる。',r:'自家栽培コーヒー',h:'',tags:'<span class="tag tag-cafe">コーヒー</span><span class="tag tag-local">農園</span>',badges:''},
+  {n:'又吉コーヒー園',g:'cafe',a:'東村/慶佐次',area_id:'yanbaru',lat:26.609834,lng:128.1439,tb:3.15,tbc:94,d:'慶佐次のコーヒー農園。園内を歩きながら自家焙煎のコーヒーを楽しめる。',r:'自家焙煎コーヒー / 収穫体験',h:'',tags:'<span class="tag tag-cafe">コーヒー</span><span class="tag tag-local">農園</span>',badges:''},
+  {n:'食事処 東ぬ浜',g:'washoku',a:'東村/平良',area_id:'yanbaru',lat:26.6308,lng:128.153323,tb:3.13,tbc:39,d:'道の駅サンライズひがしに併設された食事処。沖縄料理を定食で。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-local">道の駅</span><span class="tag tag-lunch">食堂</span>',badges:''},
+  {n:'森のふくろう',g:'washoku',a:'東村/有銘',area_id:'yanbaru',lat:26.614257,lng:128.115038,tb:3.09,tbc:9,d:'有銘の食堂。沖縄そばと創作料理を出す。',r:'沖縄そば / 創作料理',h:'',tags:'<span class="tag tag-lunch">食堂</span>',badges:''},
+  {n:'あいうえお',g:'washoku',a:'東村/慶佐次',area_id:'yanbaru',lat:26.603171,lng:128.144154,tb:3.04,tbc:6,d:'慶佐次の集落にある食堂。',r:'定食',h:'',tags:'<span class="tag tag-lunch">食堂</span>',badges:''},
+  {n:'カナ',g:'washoku',a:'北中城村/屋宜原',area_id:'nakagusuku',lat:26.309597,lng:127.78698,tb:3.66,tbc:83,d:'屋宜原の沖縄料理店。ていねいに仕立てた郷土料理を出す。',r:'沖縄料理',h:'',tags:'<span class="tag tag-local">沖縄料理</span>',badges:''},
+  {n:'PUB LOUNGE EMERALD',g:'yakiniku',a:'北中城村/島袋',area_id:'nakagusuku',lat:26.31699,lng:127.801323,tb:3.63,tbc:579,d:'1970年代から続くステーキの老舗。基地の街の空気を残す一軒。',r:'ステーキ / ハンバーグ',h:'',tags:'<span class="tag tag-steak">ステーキ</span><span class="tag tag-local">老舗名店</span>',badges:''},
+  {n:'サンスーシー',g:'cafe',a:'北中城村/荻道',area_id:'nakagusuku',lat:26.291952,lng:127.794113,tb:3.46,tbc:207,d:'荻道の高台にある甘味とうどんの店。緑に囲まれた庭が広がる。',r:'うどん / 甘味',h:'',tags:'<span class="tag tag-cafe">甘味処</span><span class="tag tag-view">高台</span>',badges:''},
+  {n:'プラウマンズ ランチ ベーカリー',g:'bakery',a:'北中城村/安谷屋',area_id:'nakagusuku',lat:26.293875,lng:127.792435,tb:3.45,tbc:181,d:'丘の上のベーカリーカフェ。自家製パンのランチプレートが知られる。',r:'ランチプレート / 自家製パン',h:'',tags:'<span class="tag tag-cafe">ベーカリー</span><span class="tag tag-view">高台</span>',badges:''},
+  {n:'The Rose Garden',g:'other',a:'北中城村/屋宜原',area_id:'nakagusuku',lat:26.313957,lng:127.790375,tb:3.43,tbc:253,d:'1975年創業のアメリカンレストラン。朝食メニューで知られる。',r:'パンケーキ / ステーキ',h:'',tags:'<span class="tag tag-lunch">アメリカ料理</span><span class="tag tag-local">老舗名店</span>',badges:''},
+  {n:'羊羊 YOYO AN FACTORY',g:'sweets',a:'北中城村/喜舎場',area_id:'nakagusuku',lat:26.299845,lng:127.793983,tb:3.35,tbc:59,d:'あんこ専門の和菓子店。どら焼きや大福を自家製あんで仕立てる。',r:'どら焼き / 大福',h:'',tags:'<span class="tag tag-sweets">和菓子</span>',badges:''},
+  {n:'すーじぐわーのそば屋 さーふーふー',g:'soba',a:'北中城村/大城',area_id:'nakagusuku',lat:26.29059,lng:127.801277,tb:3.3,tbc:49,d:'中城城跡へ向かう路地にある沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
+  {n:'キタナカガーデン',g:'other',a:'北中城村/喜舎場',area_id:'nakagusuku',lat:26.305475,lng:127.795227,tb:3.28,tbc:35,d:'喜舎場のビュッフェレストラン。',r:'ビュッフェ',h:'',tags:'<span class="tag tag-lunch">ビュッフェ</span>',badges:''},
+  {n:'サムズ カフェ',g:'yakiniku',a:'北中城村/安谷屋',area_id:'nakagusuku',lat:26.297212,lng:127.779436,tb:3.26,tbc:91,d:'鉄板焼きで知られるサムズのカフェ業態。ステーキとアメリカ料理を出す。',r:'ステーキ',h:'',tags:'<span class="tag tag-steak">ステーキ</span>',badges:''},
+  {n:'山羊料理 南山',g:'washoku',a:'北中城村/島袋',area_id:'nakagusuku',lat:26.319979,lng:127.804932,tb:3.26,tbc:50,d:'山羊料理の専門店。刺身や汁物で山羊を味わえる。',r:'山羊刺し / 山羊汁',h:'',tags:'<span class="tag tag-local">山羊料理</span>',badges:''},
+  {n:'ブルーシール イオンモール沖縄ライカム店',g:'sweets',a:'北中城村/ライカム',area_id:'nakagusuku',lat:26.314575,lng:127.796043,tb:3.26,tbc:40,d:'イオンモール沖縄ライカム内のブルーシール。',r:'アイスクリーム / クレープ',h:'',tags:'<span class="tag tag-sweets">アイス</span>',badges:''},
+  {n:'縁どころ 吉嶺',g:'izakaya',a:'北中城村/仲順',area_id:'nakagusuku',lat:26.303413,lng:127.800026,tb:3.26,tbc:31,d:'仲順の居酒屋。沖縄そばも出す。',r:'沖縄そば / 一品料理',h:'',tags:'<span class="tag tag-dinner">居酒屋</span>',badges:''},
+  {n:'きじむなぁ イオンモール沖縄ライカム店',g:'washoku',a:'北中城村/ライカム',area_id:'nakagusuku',lat:26.314575,lng:127.796043,tb:3.22,tbc:57,d:'ふわとろのオムライスで知られるきじむなぁのライカム店。',r:'ふわとろオムライス',h:'',tags:'<span class="tag tag-lunch">オムライス</span>',badges:''},
+  {n:'グスクロックカフェ',g:'cafe',a:'北中城村/大城',area_id:'nakagusuku',lat:26.285475,lng:127.803947,tb:3.22,tbc:19,d:'中城城跡のふもとにあるカフェ。',r:'コーヒー / 軽食',h:'',tags:'<span class="tag tag-cafe">カフェ</span>',badges:''},
+  {n:'五穀 イオンモール沖縄ライカム店',g:'washoku',a:'北中城村/ライカム',area_id:'nakagusuku',lat:26.314575,lng:127.796043,tb:3.21,tbc:42,d:'イオンモール沖縄ライカム内の和食店。土鍋で炊く米が売り。',r:'土鍋ごはんの定食',h:'',tags:'<span class="tag tag-lunch">和食</span>',badges:''},
+  {n:'本家 亀そば 北中店',g:'soba',a:'北中城村/瑞慶覧',area_id:'nakagusuku',lat:26.308168,lng:127.779816,tb:3.19,tbc:62,d:'県内で展開する亀そばの北中店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
+  {n:'マザーコーヒー',g:'cafe',a:'北中城村/瑞慶覧',area_id:'nakagusuku',lat:26.309263,lng:127.780418,tb:3.18,tbc:74,d:'瑞慶覧のカフェ。パンケーキやサンドイッチを出す。',r:'パンケーキ / サンドイッチ',h:'',tags:'<span class="tag tag-cafe">カフェ</span>',badges:''},
+  {n:'欧風カレー喫茶フランクリン',g:'cafe',a:'北中城村/和仁屋',area_id:'nakagusuku',lat:26.300617,lng:127.802216,tb:3.18,tbc:51,d:'和仁屋にある欧風カレーの喫茶店。',r:'欧風カレー',h:'',tags:'<span class="tag tag-cafe">カレー</span>',badges:''},
+  {n:'名嘉真製菓本舗',g:'sweets',a:'北中城村/安谷屋',area_id:'nakagusuku',lat:26.297972,lng:127.789963,tb:3.18,tbc:26,d:'安谷屋の菓子店。沖縄の伝統菓子を扱う。',r:'ちんすこう / 焼き菓子',h:'',tags:'<span class="tag tag-sweets">菓子店</span>',badges:''},
+  {n:'ペリペリチキン フォレストマーケットライカム本店',g:'yakitori',a:'北中城村/ライカム',area_id:'nakagusuku',lat:26.311943,lng:127.795883,tb:3.18,tbc:24,d:'フォレストマーケットライカム内。ポルトガル発祥のペリペリチキンを出す。',r:'ペリペリチキン',h:'',tags:'<span class="tag tag-dinner">チキン</span>',badges:''},
+  {n:'麺家 にらい',g:'soba',a:'中城村/当間',area_id:'nakagusuku',lat:26.260033,lng:127.793503,tb:3.4,tbc:87,d:'当間にある沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
+  {n:'二代目 担々亭',g:'chinese',a:'中城村/南上原',area_id:'nakagusuku',lat:26.254435,lng:127.773125,tb:3.26,tbc:25,d:'南上原の中華料理店。担々麺が看板。',r:'担々麺',h:'',tags:'<span class="tag tag-dinner">中華</span>',badges:''},
+  {n:'我流家',g:'ramen',a:'中城村/南上原',area_id:'nakagusuku',lat:26.246372,lng:127.770851,tb:3.24,tbc:74,d:'南上原のつけ麺・ラーメン店。',r:'つけ麺 / ラーメン',h:'',tags:'<span class="tag tag-lunch">ラーメン</span>',badges:''},
+  {n:'プチ・スウィート',g:'sweets',a:'中城村/北上原',area_id:'nakagusuku',lat:26.264101,lng:127.775696,tb:3.13,tbc:38,d:'北上原の洋菓子店。カフェを併設する。',r:'ケーキ',h:'',tags:'<span class="tag tag-sweets">ケーキ</span>',badges:''},
+  {n:'ハンタバール',g:'other',a:'中城村/和宇慶',area_id:'nakagusuku',lat:26.243433,lng:127.77652,tb:3.12,tbc:57,d:'中城湾を望む高台のイタリアン。',r:'パスタ / ピザ',h:'',tags:'<span class="tag tag-dinner">イタリアン</span><span class="tag tag-view">絶景</span>',badges:''},
+  {n:'ロハス・ガーデン 樹々',g:'cafe',a:'中城村/奥間',area_id:'nakagusuku',lat:26.258337,lng:127.777111,tb:3.09,tbc:22,d:'奥間のオーガニックカフェ。ケーキも扱う。',r:'オーガニックプレート / ケーキ',h:'',tags:'<span class="tag tag-cafe">カフェ</span>',badges:''},
+  {n:'鳥と卵の専門店 鳥玉 中城店',g:'yakitori',a:'中城村/南上原',area_id:'nakagusuku',lat:26.244959,lng:127.767441,tb:3.08,tbc:44,d:'鶏と卵にこだわる鳥玉の中城店。',r:'親子丼 / からあげ',h:'',tags:'<span class="tag tag-lunch">親子丼</span>',badges:''},
+  {n:'悠愉樹庵',g:'washoku',a:'中城村/屋宜',area_id:'nakagusuku',lat:26.267981,lng:127.794495,tb:3.08,tbc:17,d:'屋宜の沖縄料理店。沖縄そばも出す。',r:'沖縄そば / 沖縄料理',h:'',tags:'<span class="tag tag-local">沖縄料理</span>',badges:''},
+  {n:'我部祖河食堂 中城店',g:'soba',a:'中城村/久場',area_id:'nakagusuku',lat:26.279285,lng:127.814743,tb:3.07,tbc:48,d:'ソーキそば発祥を謳う我部祖河食堂の中城店。',r:'ソーキそば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
+  {n:'シャム ビントウ',g:'other',a:'中城村/南上原',area_id:'nakagusuku',lat:26.24646,lng:127.76857,tb:3.07,tbc:20,d:'南上原のタイ料理店。',r:'ガパオライス / トムヤムクン',h:'',tags:'<span class="tag tag-dinner">タイ料理</span>',badges:''},
+  {n:'オーシャンキャッスルカントリークラブ',g:'washoku',a:'中城村/登又',area_id:'nakagusuku',lat:26.27611,lng:127.790459,tb:3.07,tbc:18,d:'ゴルフ場のレストラン。中城湾を見下ろす。',r:'定食 / 麺類',h:'',tags:'<span class="tag tag-lunch">食堂</span><span class="tag tag-view">絶景</span>',badges:''},
+  {n:'きなこや',g:'sweets',a:'中城村/泊',area_id:'nakagusuku',lat:26.278672,lng:127.803465,tb:3.07,tbc:16,d:'泊にある菓子店。きなこを使った菓子を扱う。',r:'焼き菓子',h:'',tags:'<span class="tag tag-sweets">菓子店</span>',badges:''},
+  {n:'くわっちぃやー',g:'soba',a:'中城村/安里',area_id:'nakagusuku',lat:26.259393,lng:127.788483,tb:3.07,tbc:12,d:'安里にある沖縄そば店。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
+  {n:'カフェ マーメイド',g:'cafe',a:'中城村/久場',area_id:'nakagusuku',lat:26.286625,lng:127.815598,tb:3.07,tbc:11,d:'久場のカフェ。ジェラートや食事も出す。',r:'ジェラート / 軽食',h:'',tags:'<span class="tag tag-cafe">カフェ</span>',badges:''},
+  {n:'なかとみ',g:'sweets',a:'中城村/南上原',area_id:'nakagusuku',lat:26.25714,lng:127.775256,tb:3.06,tbc:9,d:'南上原にある菓子店。',r:'スイーツ',h:'',tags:'<span class="tag tag-sweets">菓子店</span>',badges:''},
+  {n:'Chez Nori',g:'other',a:'中城村/南上原',area_id:'nakagusuku',lat:26.250731,lng:127.772903,tb:3.05,tbc:10,d:'南上原のビストロ。惣菜の持ち帰りもできる。',r:'ビストロ料理 / 惣菜',h:'',tags:'<span class="tag tag-dinner">ビストロ</span>',badges:''},
+  {n:'レインボーコーヒー 中城店',g:'cafe',a:'中城村/南上原',area_id:'nakagusuku',lat:26.250671,lng:127.774195,tb:3.05,tbc:9,d:'南上原のコーヒー店。食事も出す。',r:'コーヒー / 軽食',h:'',tags:'<span class="tag tag-cafe">コーヒー</span>',badges:''},
+  {n:'たけ田商店 中城店',g:'other',a:'中城村/南上原',area_id:'nakagusuku',lat:26.246588,lng:127.769783,tb:3.04,tbc:6,d:'からあげの持ち帰り専門店。',r:'からあげ',h:'',tags:'<span class="tag tag-local">テイクアウト</span>',badges:''},
 ];
 
 const AREA_META = {
-  nago:['🌿','名護・北部'], motobu:['🐠','本部・今帰仁'], kin:['🌮','金武'], ginoza:['⚾','宜野座'], uruma:['🌉','うるま'], onna:['🌊','恩納村'], yomitan:['🏺','読谷'],
+  yanbaru:['🌳','やんばる'], nago:['🌿','名護・北部'], motobu:['🐠','本部・今帰仁'], kin:['🌮','金武'], ginoza:['⚾','宜野座'], uruma:['🌉','うるま'], onna:['🌊','恩納村'], yomitan:['🏺','読谷'],
   chatan:['🎡','北谷'], kadena:['✈️','嘉手納'], ginowan:['🏛️','宜野湾'],
-  // okinawacity は北中城村の店も含むため「沖縄市・中部」表記
-  urasoe:['🎪','浦添'], naha:['🎵','那覇'], okinawacity:['🎠','沖縄市・中部'],
+  urasoe:['🎪','浦添'], naha:['🎵','那覇'], okinawacity:['🎠','沖縄市・中部'], nakagusuku:['🛒','中城・北中城'],
   tomigusuku:['🏯','豊見城'], itoman:['🎣','糸満'], nanjo:['🌸','南城']
 };
-const AREA_ORDER = ['nago','motobu','kin','ginoza','uruma','onna','yomitan','chatan','kadena','ginowan','urasoe','naha','okinawacity','tomigusuku','itoman','nanjo'];
+const AREA_ORDER = ['yanbaru','nago','motobu','kin','ginoza','uruma','onna','yomitan','chatan','kadena','ginowan','urasoe','naha','okinawacity','nakagusuku','tomigusuku','itoman','nanjo'];
 
 const GENRE_COLORS = {
   cafe:'#2a78d6', ramen:'#eb6834', soba:'#1baf7a', washoku:'#eda100',

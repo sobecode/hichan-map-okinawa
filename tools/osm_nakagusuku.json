@@ -1,0 +1,4825 @@
+[
+ {
+  "name": "ローソン",
+  "en": "LAWSON Ryukyu University North Exit",
+  "lat": 26.2546413,
+  "lng": 127.7637294,
+  "kind": "convenience"
+ },
+ {
+  "name": "A&W",
+  "en": "A&W Chatan",
+  "lat": 26.3297826,
+  "lng": 127.7778108,
+  "kind": "fast_food"
+ },
+ {
+  "name": "宜野湾市立博物館",
+  "en": "Ginowan City Museum",
+  "lat": 26.2697671,
+  "lng": 127.7406824,
+  "kind": "museum"
+ },
+ {
+  "name": "諸見民芸館",
+  "en": "Moromi Folk Crafts Museum",
+  "lat": 26.3274125,
+  "lng": 127.7919502,
+  "kind": "museum"
+ },
+ {
+  "name": "沖縄公共職業安定所",
+  "en": null,
+  "lat": 26.339634,
+  "lng": 127.809655,
+  "kind": "public_building"
+ },
+ {
+  "name": "沖縄労働局沖縄労働基準監督署",
+  "en": null,
+  "lat": 26.339634,
+  "lng": 127.809655,
+  "kind": "public_building"
+ },
+ {
+  "name": "沖縄振興開発金融公庫中部支店",
+  "en": null,
+  "lat": 26.335054,
+  "lng": 127.801302,
+  "kind": "public_building"
+ },
+ {
+  "name": "沖縄県中城湾港建設事務所",
+  "en": null,
+  "lat": 26.319526,
+  "lng": 127.831403,
+  "kind": "public_building"
+ },
+ {
+  "name": "沖縄県中部福祉保健所",
+  "en": null,
+  "lat": 26.347819,
+  "lng": 127.819884,
+  "kind": "public_building"
+ },
+ {
+  "name": "福岡入国管理局那覇支局嘉手納出張所",
+  "en": null,
+  "lat": 26.33777,
+  "lng": 127.800598,
+  "kind": "public_building"
+ },
+ {
+  "name": "雇用・能力開発機構沖縄センター(沖縄職業能力開発促進センター)",
+  "en": null,
+  "lat": 26.319131,
+  "lng": 127.774577,
+  "kind": "public_building"
+ },
+ {
+  "name": "駐留軍等労働者労務管理機構コザ支部",
+  "en": null,
+  "lat": 26.318824,
+  "lng": 127.794562,
+  "kind": "public_building"
+ },
+ {
+  "name": "クラブフジヤマ",
+  "en": "Club Fujiyama",
+  "lat": 26.3361701,
+  "lng": 127.7981154,
+  "kind": "bar"
+ },
+ {
+  "name": "ローソン",
+  "en": "LAWSON",
+  "lat": 26.2876481,
+  "lng": 127.7654264,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2907087,
+  "lng": 127.7745793,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3013073,
+  "lng": 127.7591868,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3195426,
+  "lng": 127.7598088,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.324772,
+  "lng": 127.7549832,
+  "kind": "convenience"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.3181485,
+  "lng": 127.7606748,
+  "kind": "fast_food"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.3360563,
+  "lng": 127.7931293,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Hawaiian Juice Bar",
+  "en": null,
+  "lat": 26.3133759,
+  "lng": 127.7555924,
+  "kind": "bar"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.304102,
+  "lng": 127.7619687,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.3217121,
+  "lng": 127.7570438,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ベッセルホテル カンパーナ",
+  "en": "Vessel Hotel Campana",
+  "lat": 26.3152138,
+  "lng": 127.7541068,
+  "kind": "hotel"
+ },
+ {
+  "name": "まるの家",
+  "en": null,
+  "lat": 26.3060428,
+  "lng": 127.762388,
+  "kind": "restaurant"
+ },
+ {
+  "name": "鶴小",
+  "en": "Chiru gwaa",
+  "lat": 26.3067339,
+  "lng": 127.7612372,
+  "kind": "restaurant"
+ },
+ {
+  "name": "丸亀製麺",
+  "en": "Marugame Seimen",
+  "lat": 26.3245287,
+  "lng": 127.7553243,
+  "kind": "fast_food"
+ },
+ {
+  "name": "みはま食堂",
+  "en": "Mihama Shokudou",
+  "lat": 26.3105279,
+  "lng": 127.7615934,
+  "kind": "restaurant"
+ },
+ {
+  "name": "北谷龍",
+  "en": "Chatan dragon",
+  "lat": 26.3010139,
+  "lng": 127.7608995,
+  "kind": "restaurant"
+ },
+ {
+  "name": "レッドロブスター",
+  "en": "Red Lobster",
+  "lat": 26.3149862,
+  "lng": 127.7559219,
+  "kind": "restaurant"
+ },
+ {
+  "name": "元気弁当",
+  "en": "Genki Bento",
+  "lat": 26.2894802,
+  "lng": 127.752852,
+  "kind": "deli"
+ },
+ {
+  "name": "根夢",
+  "en": "Gon",
+  "lat": 26.2890061,
+  "lng": 127.7530621,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ブルーシール",
+  "en": "Blue Seal Chatan Store",
+  "lat": 26.3137062,
+  "lng": 127.7611825,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "Terme VILLA ちゅらーゆ",
+  "en": "ChuLa U",
+  "lat": 26.3130599,
+  "lng": 127.7559098,
+  "kind": "public_bath"
+ },
+ {
+  "name": "キングタコス",
+  "en": "KING TACOS",
+  "lat": 26.2870637,
+  "lng": 127.7621745,
+  "kind": "fast_food"
+ },
+ {
+  "name": "くら寿司",
+  "en": "Kura Sushi",
+  "lat": 26.320967,
+  "lng": 127.7583301,
+  "kind": "fast_food"
+ },
+ {
+  "name": "タージ沖縄",
+  "en": "Taj Okinawa",
+  "lat": 26.3277077,
+  "lng": 127.7628443,
+  "kind": "restaurant"
+ },
+ {
+  "name": "イタリアーノ",
+  "en": null,
+  "lat": 26.3040722,
+  "lng": 127.7595341,
+  "kind": "restaurant"
+ },
+ {
+  "name": "びっくりドンキー",
+  "en": "Bikkuri Donkey",
+  "lat": 26.304286,
+  "lng": 127.7619843,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ピエール",
+  "en": null,
+  "lat": 26.3399772,
+  "lng": 127.8220071,
+  "kind": "bakery"
+ },
+ {
+  "name": "ファミリーマート沖縄宮里店",
+  "en": null,
+  "lat": 26.3409891,
+  "lng": 127.8225435,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3344004,
+  "lng": 127.8189413,
+  "kind": "convenience"
+ },
+ {
+  "name": "デイゴホテル",
+  "en": "Deigo hotel",
+  "lat": 26.338061,
+  "lng": 127.802291,
+  "kind": "hotel"
+ },
+ {
+  "name": "しゃぶしゃぶ歓福",
+  "en": null,
+  "lat": 26.336742,
+  "lng": 127.80145,
+  "kind": "restaurant"
+ },
+ {
+  "name": "でいご",
+  "en": null,
+  "lat": 26.334009,
+  "lng": 127.799422,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ゴヤ弁当",
+  "en": null,
+  "lat": 26.334346,
+  "lng": 127.799632,
+  "kind": "deli"
+ },
+ {
+  "name": "ホテルニューセンチュリー",
+  "en": "New Century Hotel",
+  "lat": 26.3325088,
+  "lng": 127.7984032,
+  "kind": "hotel"
+ },
+ {
+  "name": "サンライズホテル",
+  "en": "Sunrise Hotel",
+  "lat": 26.332667,
+  "lng": 127.798445,
+  "kind": "hotel"
+ },
+ {
+  "name": "炭焼きKENちゃん",
+  "en": null,
+  "lat": 26.336191,
+  "lng": 127.80119,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ゴヤケーキ",
+  "en": null,
+  "lat": 26.3364921,
+  "lng": 127.8011686,
+  "kind": "confectionery"
+ },
+ {
+  "name": "ICHARA",
+  "en": null,
+  "lat": 26.33756,
+  "lng": 127.804155,
+  "kind": "bar"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.337625,
+  "lng": 127.800964,
+  "kind": "fast_food"
+ },
+ {
+  "name": "モスバーガー",
+  "en": "MOS Burger",
+  "lat": 26.333518,
+  "lng": 127.798494,
+  "kind": "fast_food"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.333422,
+  "lng": 127.798972,
+  "kind": "fast_food"
+ },
+ {
+  "name": "どん家",
+  "en": null,
+  "lat": 26.333376,
+  "lng": 127.799121,
+  "kind": "fast_food"
+ },
+ {
+  "name": "との馬",
+  "en": null,
+  "lat": 26.336874,
+  "lng": 127.801156,
+  "kind": "pub"
+ },
+ {
+  "name": "Emerald Steak House",
+  "en": null,
+  "lat": 26.3179608,
+  "lng": 127.8008621,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ソムチャイ",
+  "en": "SomChai Thai",
+  "lat": 26.3374897,
+  "lng": 127.8012427,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ベーカリーCastle",
+  "en": null,
+  "lat": 26.259927,
+  "lng": 127.763809,
+  "kind": "bakery"
+ },
+ {
+  "name": "キングタコス",
+  "en": "King Tacos",
+  "lat": 26.262476,
+  "lng": 127.761071,
+  "kind": "fast_food"
+ },
+ {
+  "name": "沖縄市立郷土博物館",
+  "en": null,
+  "lat": 26.3316781,
+  "lng": 127.7951888,
+  "kind": "museum"
+ },
+ {
+  "name": "ポケットマーニー",
+  "en": null,
+  "lat": 26.2625688,
+  "lng": 127.7520366,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ブルーシール",
+  "en": null,
+  "lat": 26.276869,
+  "lng": 127.7809476,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "麺やKEIJIRO",
+  "en": "Menya Keijiro",
+  "lat": 26.3355153,
+  "lng": 127.8005136,
+  "kind": "restaurant"
+ },
+ {
+  "name": "串源",
+  "en": null,
+  "lat": 26.336382,
+  "lng": 127.801704,
+  "kind": "pub"
+ },
+ {
+  "name": "エピ ドゥ ブレ",
+  "en": "Epi De Ble",
+  "lat": 26.2985174,
+  "lng": 127.7593754,
+  "kind": "bakery"
+ },
+ {
+  "name": "金城",
+  "en": "Kin-jyo",
+  "lat": 26.2985762,
+  "lng": 127.7591096,
+  "kind": "restaurant"
+ },
+ {
+  "name": "カスタマンダプネパールスパイスキッチン",
+  "en": "Nepal Spice Kitchen",
+  "lat": 26.2982557,
+  "lng": 127.7606665,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ラウラ イリカイ",
+  "en": "Laula Ilikai",
+  "lat": 26.2995478,
+  "lng": 127.7585166,
+  "kind": "restaurant"
+ },
+ {
+  "name": "串角",
+  "en": null,
+  "lat": 26.2999382,
+  "lng": 127.7585371,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Wa-Ryu",
+  "en": null,
+  "lat": 26.3004038,
+  "lng": 127.758369,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Doner Kabab",
+  "en": null,
+  "lat": 26.3008547,
+  "lng": 127.7586979,
+  "kind": "restaurant"
+ },
+ {
+  "name": "パルメットカフェ",
+  "en": "Palmetto Cafe",
+  "lat": 26.2984585,
+  "lng": 127.7584405,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Rose Garden",
+  "en": null,
+  "lat": 26.3110127,
+  "lng": 127.7886,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Bensons",
+  "en": null,
+  "lat": 26.3162495,
+  "lng": 127.7567629,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Depot's Garden",
+  "en": null,
+  "lat": 26.3160385,
+  "lng": 127.7562758,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Pocke Farm",
+  "en": null,
+  "lat": 26.3161588,
+  "lng": 127.7567473,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート沖縄越来店",
+  "en": "FamilyMart Okinawa Goeku",
+  "lat": 26.3444389,
+  "lng": 127.8132266,
+  "kind": "convenience"
+ },
+ {
+  "name": "ゴーディーズ",
+  "en": "Gordie's",
+  "lat": 26.3340096,
+  "lng": 127.7475024,
+  "kind": "restaurant"
+ },
+ {
+  "name": "プレイヤーズカフェ",
+  "en": "Player's Cafe",
+  "lat": 26.338834,
+  "lng": 127.800164,
+  "kind": "restaurant"
+ },
+ {
+  "name": "マルコポーロ本店",
+  "en": "Marco Polo Bakery",
+  "lat": 26.3227931,
+  "lng": 127.8284908,
+  "kind": "bakery"
+ },
+ {
+  "name": "FIFTH SON Sandwich Works",
+  "en": null,
+  "lat": 26.318095,
+  "lng": 127.8037354,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Chilies Too",
+  "en": null,
+  "lat": 26.3390412,
+  "lng": 127.7941176,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Chili's",
+  "en": null,
+  "lat": 26.3410885,
+  "lng": 127.7758565,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Shogun Inn",
+  "en": null,
+  "lat": 26.3381731,
+  "lng": 127.7889785,
+  "kind": "hotel"
+ },
+ {
+  "name": "はま寿司",
+  "en": "Hamasushi",
+  "lat": 26.3213066,
+  "lng": 127.7590325,
+  "kind": "fast_food"
+ },
+ {
+  "name": "CoCo壱番屋",
+  "en": "CoCo ICHIBANYA",
+  "lat": 26.3358577,
+  "lng": 127.7915087,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Jack's Place",
+  "en": null,
+  "lat": 26.3301629,
+  "lng": 127.7544809,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Shoppette",
+  "en": null,
+  "lat": 26.3357686,
+  "lng": 127.7700428,
+  "kind": "convenience"
+ },
+ {
+  "name": "mofgmona",
+  "en": null,
+  "lat": 26.2627128,
+  "lng": 127.760539,
+  "kind": "cafe"
+ },
+ {
+  "name": "オキナワグランメールリゾート",
+  "en": "Okinawa grand mer resort",
+  "lat": 26.3152202,
+  "lng": 127.8109919,
+  "kind": "hotel"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart Children's nation",
+  "lat": 26.3265096,
+  "lng": 127.8016154,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3198907,
+  "lng": 127.8019525,
+  "kind": "convenience"
+ },
+ {
+  "name": "泡瀨漁港直賣店漁港食堂",
+  "en": "Awase Fishing port Restaurant",
+  "lat": 26.3239424,
+  "lng": 127.8346195,
+  "kind": "restaurant"
+ },
+ {
+  "name": "北谷町観光情報センター",
+  "en": "Chatan Town Tourist Information",
+  "lat": 26.3158573,
+  "lng": 127.7576712,
+  "kind": "information"
+ },
+ {
+  "name": "寄り道",
+  "en": null,
+  "lat": 26.3224712,
+  "lng": 127.8302998,
+  "kind": "confectionery"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3219985,
+  "lng": 127.8218105,
+  "kind": "convenience"
+ },
+ {
+  "name": "寄り道",
+  "en": null,
+  "lat": 26.3226028,
+  "lng": 127.8304057,
+  "kind": "confectionery"
+ },
+ {
+  "name": "ぽこあぽこ",
+  "en": null,
+  "lat": 26.3045509,
+  "lng": 127.759518,
+  "kind": "restaurant"
+ },
+ {
+  "name": "fish market",
+  "en": null,
+  "lat": 26.3235857,
+  "lng": 127.8348095,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Okinawa Brewing Cafe",
+  "en": null,
+  "lat": 26.3156839,
+  "lng": 127.7557992,
+  "kind": "pub"
+ },
+ {
+  "name": "Banyon Tree Club",
+  "en": null,
+  "lat": 26.3432239,
+  "lng": 127.7803407,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Cafe Latte",
+  "en": null,
+  "lat": 26.3390675,
+  "lng": 127.7872593,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Marshall Dining Facility",
+  "en": null,
+  "lat": 26.3383053,
+  "lng": 127.7778126,
+  "kind": "restaurant"
+ },
+ {
+  "name": "きんぱぎんぱ",
+  "en": null,
+  "lat": 26.3162728,
+  "lng": 127.7591533,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Tiger Patch Shop",
+  "en": null,
+  "lat": 26.3396065,
+  "lng": 127.7998029,
+  "kind": "attraction"
+ },
+ {
+  "name": "Anthony Pizza",
+  "en": null,
+  "lat": 26.3403777,
+  "lng": 127.7802846,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Subway",
+  "en": null,
+  "lat": 26.3404691,
+  "lng": 127.7802014,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Taco Bell",
+  "en": null,
+  "lat": 26.3403053,
+  "lng": 127.7803605,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ラクシュミーカレー",
+  "en": "Laxmi Curry",
+  "lat": 26.3199352,
+  "lng": 127.8056842,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ヒガシヤ",
+  "en": "HIGASHIYA",
+  "lat": 26.320509,
+  "lng": 127.826848,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Cafe Natura",
+  "en": null,
+  "lat": 26.3022754,
+  "lng": 127.7976321,
+  "kind": "restaurant"
+ },
+ {
+  "name": "浜屋そば",
+  "en": "Hamaya Soba",
+  "lat": 26.3293052,
+  "lng": 127.7443622,
+  "kind": "restaurant"
+ },
+ {
+  "name": "アメリカンビレッジ",
+  "en": "American Village",
+  "lat": 26.3165214,
+  "lng": 127.7573637,
+  "kind": "attraction"
+ },
+ {
+  "name": "ローソン",
+  "en": "LAWSON",
+  "lat": 26.3064516,
+  "lng": 127.8198541,
+  "kind": "convenience"
+ },
+ {
+  "name": "がぶり食堂",
+  "en": null,
+  "lat": 26.2851058,
+  "lng": 127.7436191,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Side Lines",
+  "en": "Side Lines",
+  "lat": 26.3292254,
+  "lng": 127.7442324,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3066534,
+  "lng": 127.8172441,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3397968,
+  "lng": 127.8170484,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3497032,
+  "lng": 127.8255026,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3455353,
+  "lng": 127.8307337,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3467697,
+  "lng": 127.8226496,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート美里公園前店",
+  "en": "FamilyMart Misato park",
+  "lat": 26.3475879,
+  "lng": 127.8192925,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.34493,
+  "lng": 127.8266536,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3339873,
+  "lng": 127.8341904,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート海邦町一丁目店",
+  "en": null,
+  "lat": 26.3292196,
+  "lng": 127.833844,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート美里工業高校前店",
+  "en": null,
+  "lat": 26.3238647,
+  "lng": 127.827188,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3239195,
+  "lng": 127.8226393,
+  "kind": "convenience"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.3330998,
+  "lng": 127.8132046,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.316395,
+  "lng": 127.8308777,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3165972,
+  "lng": 127.8279596,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3175577,
+  "lng": 127.8226706,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3089317,
+  "lng": 127.8146476,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート沖縄胡屋六丁目店",
+  "en": "FamilyMart Okinawa Goya 6 Chome",
+  "lat": 26.3248807,
+  "lng": 127.8093648,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3206351,
+  "lng": 127.7861378,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3227933,
+  "lng": 127.7724639,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3194332,
+  "lng": 127.7788706,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3200245,
+  "lng": 127.8080848,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3321724,
+  "lng": 127.7934535,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3255626,
+  "lng": 127.7828283,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3294358,
+  "lng": 127.7783382,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3281247,
+  "lng": 127.770042,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3209694,
+  "lng": 127.7928539,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.327946,
+  "lng": 127.7817667,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3342908,
+  "lng": 127.7989717,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3334065,
+  "lng": 127.8046142,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3167004,
+  "lng": 127.7969173,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3266979,
+  "lng": 127.793839,
+  "kind": "convenience"
+ },
+ {
+  "name": "クルミ舎",
+  "en": null,
+  "lat": 26.3026145,
+  "lng": 127.8063918,
+  "kind": "cafe"
+ },
+ {
+  "name": "カラオケ酒処　満月",
+  "en": null,
+  "lat": 26.27859,
+  "lng": 127.7472446,
+  "kind": "bar"
+ },
+ {
+  "name": "KARAOKE BAR HANA",
+  "en": null,
+  "lat": 26.2785659,
+  "lng": 127.7471916,
+  "kind": "bar"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2855066,
+  "lng": 127.815478,
+  "kind": "convenience"
+ },
+ {
+  "name": "沖縄県総合運動公園案内センター",
+  "en": null,
+  "lat": 26.3097263,
+  "lng": 127.8198154,
+  "kind": "information"
+ },
+ {
+  "name": "らぁめん花月嵐",
+  "en": null,
+  "lat": 26.3221797,
+  "lng": 127.7572873,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ステーキハウス四季",
+  "en": "Four Seasons Steak House",
+  "lat": 26.3175008,
+  "lng": 127.7593495,
+  "kind": "restaurant"
+ },
+ {
+  "name": "スプラウト",
+  "en": "Sprout",
+  "lat": 26.263333,
+  "lng": 127.7496217,
+  "kind": "restaurant"
+ },
+ {
+  "name": "さんすーしー",
+  "en": null,
+  "lat": 26.2921033,
+  "lng": 127.7939061,
+  "kind": "restaurant"
+ },
+ {
+  "name": "麺家にらい",
+  "en": "Men'ya Nirai",
+  "lat": 26.2595899,
+  "lng": 127.7924159,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Bungalow Filipino Restaurant",
+  "en": "Bungalow Filipino Restaurant",
+  "lat": 26.3372684,
+  "lng": 127.7982943,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Manchu Wok",
+  "en": null,
+  "lat": 26.3403323,
+  "lng": 127.7803074,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Burger King",
+  "en": "Burger King",
+  "lat": 26.340327,
+  "lng": 127.7804282,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Charleys Philly Steaks",
+  "en": null,
+  "lat": 26.3403485,
+  "lng": 127.7804895,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Popeyes",
+  "en": null,
+  "lat": 26.3403713,
+  "lng": 127.7805401,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Bulldog Burger",
+  "en": null,
+  "lat": 26.2753154,
+  "lng": 127.746788,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Bamboo Cafe",
+  "en": null,
+  "lat": 26.3379877,
+  "lng": 127.8013716,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Butcher Grill & Bar",
+  "en": null,
+  "lat": 26.3389522,
+  "lng": 127.8004085,
+  "kind": "restaurant"
+ },
+ {
+  "name": "リゾートダイニング ポコアポコ",
+  "en": "Resort Dining Poco a Poco",
+  "lat": 26.3212091,
+  "lng": 127.8093232,
+  "kind": "restaurant"
+ },
+ {
+  "name": "沖縄黒糖カレーの店 あじとや",
+  "en": "Ajitoya Curry",
+  "lat": 26.324927,
+  "lng": 127.8301472,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Noodle Restaurant Mahoroba",
+  "en": null,
+  "lat": 26.3386071,
+  "lng": 127.8005133,
+  "kind": "restaurant"
+ },
+ {
+  "name": "味千拉麺",
+  "en": null,
+  "lat": 26.2747662,
+  "lng": 127.7805578,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ナカグスクパーキングエリアクダリセン",
+  "en": null,
+  "lat": 26.2769161,
+  "lng": 127.7809918,
+  "kind": "convenience"
+ },
+ {
+  "name": "中城パーキングエリア 下り線 スナックコーナー",
+  "en": null,
+  "lat": 26.2768289,
+  "lng": 127.7809008,
+  "kind": "food_court"
+ },
+ {
+  "name": "ブルーシール",
+  "en": "Blue Seal depot island Store",
+  "lat": 26.3160054,
+  "lng": 127.7549222,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2901937,
+  "lng": 127.7555449,
+  "kind": "convenience"
+ },
+ {
+  "name": "浪漫酒場いっぽ",
+  "en": "Izakaya Roman Sakaba Ippo",
+  "lat": 26.3200743,
+  "lng": 127.8060435,
+  "kind": "pub"
+ },
+ {
+  "name": "夢丸",
+  "en": null,
+  "lat": 26.3166052,
+  "lng": 127.7554809,
+  "kind": "restaurant"
+ },
+ {
+  "name": "追風丸",
+  "en": null,
+  "lat": 26.3169373,
+  "lng": 127.755468,
+  "kind": "restaurant"
+ },
+ {
+  "name": "焼肉きんぐ",
+  "en": "Yakiniku King",
+  "lat": 26.3211193,
+  "lng": 127.7591348,
+  "kind": "restaurant"
+ },
+ {
+  "name": "沖縄市戦後文化資料展示室 ヒストリート",
+  "en": "Okinawa City Museum of Postwar Culture and History HISTREET",
+  "lat": 26.3371363,
+  "lng": 127.7971641,
+  "kind": "museum"
+ },
+ {
+  "name": "最強食堂 北谷ハンビー店",
+  "en": "Saikyo Restaurant",
+  "lat": 26.3066487,
+  "lng": 127.7633313,
+  "kind": "restaurant"
+ },
+ {
+  "name": "スターバックス",
+  "en": "Starbucks",
+  "lat": 26.3160278,
+  "lng": 127.7578121,
+  "kind": "cafe"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2854638,
+  "lng": 127.7469124,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン 美里工業高校前店",
+  "en": "Lawson Misato Industrial High School Pre-store",
+  "lat": 26.3244597,
+  "lng": 127.8298985,
+  "kind": "convenience"
+ },
+ {
+  "name": "居酒屋Dining Kotobuki",
+  "en": null,
+  "lat": 26.3250699,
+  "lng": 127.8238311,
+  "kind": "pub"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.3183935,
+  "lng": 127.8211378,
+  "kind": "fast_food"
+ },
+ {
+  "name": "すば処うゎちち",
+  "en": "Suba-dokoro Wachichi",
+  "lat": 26.315456,
+  "lng": 127.8234747,
+  "kind": "restaurant"
+ },
+ {
+  "name": "足湯",
+  "en": "Foot Bath",
+  "lat": 26.3132358,
+  "lng": 127.7560412,
+  "kind": "public_bath"
+ },
+ {
+  "name": "ローソン 沖縄こどもの国前店",
+  "en": "Lawson",
+  "lat": 26.3294996,
+  "lng": 127.8000804,
+  "kind": "convenience"
+ },
+ {
+  "name": "Blue Cafe Gate 2 Jerk Chicken",
+  "en": null,
+  "lat": 26.336167,
+  "lng": 127.7988909,
+  "kind": "restaurant"
+ },
+ {
+  "name": "焼肉五苑",
+  "en": "Yakiniku Goen",
+  "lat": 26.3298033,
+  "lng": 127.7770558,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Rocker",
+  "en": "Rocker",
+  "lat": 26.3462498,
+  "lng": 127.786909,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ラーメン我道",
+  "en": "Ramen Gadou",
+  "lat": 26.3149026,
+  "lng": 127.7596556,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Kuiko Kebabu",
+  "en": null,
+  "lat": 26.3354203,
+  "lng": 127.7994271,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Pizza555",
+  "en": null,
+  "lat": 26.3353854,
+  "lng": 127.7994838,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ステーキハウス88",
+  "en": null,
+  "lat": 26.3167101,
+  "lng": 127.7548881,
+  "kind": "restaurant"
+ },
+ {
+  "name": "NOMIX",
+  "en": null,
+  "lat": 26.3167021,
+  "lng": 127.7557,
+  "kind": "restaurant"
+ },
+ {
+  "name": "A&W泡瀬店",
+  "en": "A&W Awase",
+  "lat": 26.3120212,
+  "lng": 127.8164447,
+  "kind": "restaurant"
+ },
+ {
+  "name": "A&W",
+  "en": "A&W Misato",
+  "lat": 26.3482299,
+  "lng": 127.8247876,
+  "kind": "restaurant"
+ },
+ {
+  "name": "A&W美浜店",
+  "en": "A&W Mihama",
+  "lat": 26.3183196,
+  "lng": 127.7594079,
+  "kind": "fast_food"
+ },
+ {
+  "name": "牛角",
+  "en": "Gyū-Kaku",
+  "lat": 26.3203615,
+  "lng": 127.7598931,
+  "kind": "restaurant"
+ },
+ {
+  "name": "東洋飯店北谷店",
+  "en": "Totohanten Chatan",
+  "lat": 26.320778,
+  "lng": 127.7607323,
+  "kind": "restaurant"
+ },
+ {
+  "name": "A&W",
+  "en": "A&W Plus Cafe Plazahouse",
+  "lat": 26.3195097,
+  "lng": 127.7938419,
+  "kind": "fast_food"
+ },
+ {
+  "name": "A&W Plus Cafe 中部徳洲会病院店",
+  "en": "A&W Plus Cafe Chubutokusyukai Hospital",
+  "lat": 26.3169496,
+  "lng": 127.796711,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2787294,
+  "lng": 127.784059,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン沖縄八重島二丁目店",
+  "en": "LAWSON Okinawa Yaeshima 2 Chome",
+  "lat": 26.3487027,
+  "lng": 127.8027581,
+  "kind": "convenience"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.3408979,
+  "lng": 127.8183275,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.331968,
+  "lng": 127.8097863,
+  "kind": "convenience"
+ },
+ {
+  "name": "熱田漁港",
+  "en": "Atta Fishing port",
+  "lat": 26.2964003,
+  "lng": 127.8121614,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "ケンタッキーフライドチキン",
+  "en": "KFC",
+  "lat": 26.3218194,
+  "lng": 127.830118,
+  "kind": "fast_food"
+ },
+ {
+  "name": "くら寿司",
+  "en": "Kura Sushi",
+  "lat": 26.3149931,
+  "lng": 127.797417,
+  "kind": "fast_food"
+ },
+ {
+  "name": "宜野湾漁港",
+  "en": "Ginowan Fishing port",
+  "lat": 26.2863557,
+  "lng": 127.7442545,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "泡瀬漁港",
+  "en": "Awase Fishing port",
+  "lat": 26.3231281,
+  "lng": 127.8372643,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "中城村浜漁港",
+  "en": "Nakagusuku Hama Fishing port",
+  "lat": 26.2535722,
+  "lng": 127.793172,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "ケンタッキーフライドチキン",
+  "en": "KFC",
+  "lat": 26.3190252,
+  "lng": 127.793486,
+  "kind": "fast_food"
+ },
+ {
+  "name": "牛角",
+  "en": "Gyū-Kaku",
+  "lat": 26.34504,
+  "lng": 127.8267631,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ブルーシール",
+  "en": "Blue Seal",
+  "lat": 26.3149951,
+  "lng": 127.79683,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.3358254,
+  "lng": 127.8002901,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.2716971,
+  "lng": 127.77128,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ガスト",
+  "en": "Gusto",
+  "lat": 26.3198206,
+  "lng": 127.821588,
+  "kind": "restaurant"
+ },
+ {
+  "name": "丸亀製麺沖縄美里店",
+  "en": "Marugame Seimen Okinawa Misato Store",
+  "lat": 26.3445761,
+  "lng": 127.8207431,
+  "kind": "restaurant"
+ },
+ {
+  "name": "居酒屋てんぐ",
+  "en": "Tengu",
+  "lat": 26.3299394,
+  "lng": 127.7949072,
+  "kind": "pub"
+ },
+ {
+  "name": "吉野家",
+  "en": "Yoshinoya",
+  "lat": 26.3178293,
+  "lng": 127.8307689,
+  "kind": "fast_food"
+ },
+ {
+  "name": "吉野家",
+  "en": "Yoshinoya",
+  "lat": 26.3192454,
+  "lng": 127.75994,
+  "kind": "fast_food"
+ },
+ {
+  "name": "グルメ回転寿司市場美浜店",
+  "en": "Gurume Kaiten Zushi Ichiba Mihama Store",
+  "lat": 26.3166972,
+  "lng": 127.7592483,
+  "kind": "restaurant"
+ },
+ {
+  "name": "魚民",
+  "en": "Uotami Awase Store",
+  "lat": 26.3207718,
+  "lng": 127.8307048,
+  "kind": "pub"
+ },
+ {
+  "name": "モスバーガー",
+  "en": "MOS Burger",
+  "lat": 26.321418,
+  "lng": 127.8309707,
+  "kind": "fast_food"
+ },
+ {
+  "name": "グルメ回転寿司市場泡瀬店",
+  "en": "Gurume Kaiten Sushi Ichiba Awase Store",
+  "lat": 26.3173625,
+  "lng": 127.8233534,
+  "kind": "restaurant"
+ },
+ {
+  "name": "宮城海岸",
+  "en": "Miyagi Coast",
+  "lat": 26.3289747,
+  "lng": 127.7441379,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "ドトールコーヒーショップ",
+  "en": "Doutor Coffee Shop",
+  "lat": 26.3151175,
+  "lng": 127.7948858,
+  "kind": "cafe"
+ },
+ {
+  "name": "丸亀製麺",
+  "en": "Marugame Seimen",
+  "lat": 26.3139546,
+  "lng": 127.7970608,
+  "kind": "fast_food"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.3083356,
+  "lng": 127.7826397,
+  "kind": "fast_food"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.3145247,
+  "lng": 127.7969337,
+  "kind": "fast_food"
+ },
+ {
+  "name": "るねさんす",
+  "en": "Renaissance",
+  "lat": 26.2917422,
+  "lng": 127.7771794,
+  "kind": "cafe"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.3305436,
+  "lng": 127.8333862,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ほっともっと宮里中学校前店",
+  "en": "Hotto More Miyazato Junior High School Pre-store",
+  "lat": 26.3441986,
+  "lng": 127.8269904,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.3179542,
+  "lng": 127.8308221,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.3317653,
+  "lng": 127.7972847,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.3185581,
+  "lng": 127.8204665,
+  "kind": "deli"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.3202633,
+  "lng": 127.7858471,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ほっともっと伊佐浜店",
+  "en": "HottoMotto Isahama Store",
+  "lat": 26.289903,
+  "lng": 127.7551597,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.2617168,
+  "lng": 127.7555215,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Thai Food Club Baccara",
+  "en": null,
+  "lat": 26.3351745,
+  "lng": 127.7997099,
+  "kind": "restaurant"
+ },
+ {
+  "name": "CRAYz Chicken N' Waffles Koza Express",
+  "en": null,
+  "lat": 26.3352706,
+  "lng": 127.7994218,
+  "kind": "restaurant"
+ },
+ {
+  "name": "琉球の牛",
+  "en": null,
+  "lat": 26.3204105,
+  "lng": 127.7538298,
+  "kind": "restaurant"
+ },
+ {
+  "name": "A",
+  "en": "Ajitaya",
+  "lat": 26.2993271,
+  "lng": 127.7584483,
+  "kind": "restaurant"
+ },
+ {
+  "name": "味自慢",
+  "en": null,
+  "lat": 26.3168119,
+  "lng": 127.759232,
+  "kind": "pub"
+ },
+ {
+  "name": "和風亭",
+  "en": "Wafu-tei",
+  "lat": 26.3204713,
+  "lng": 127.8325945,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Jimmy's ファクトリーショップ",
+  "en": "Jimmy's Factory Shop",
+  "lat": 26.2883766,
+  "lng": 127.7492159,
+  "kind": "confectionery"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2989021,
+  "lng": 127.7586306,
+  "kind": "convenience"
+ },
+ {
+  "name": "コミック・バスター",
+  "en": "Comic Buster",
+  "lat": 26.3013205,
+  "lng": 127.7610039,
+  "kind": "internet_cafe"
+ },
+ {
+  "name": "D-style なかた",
+  "en": "D-style Nakata Izakaya",
+  "lat": 26.3365226,
+  "lng": 127.7991273,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3153813,
+  "lng": 127.7539927,
+  "kind": "convenience"
+ },
+ {
+  "name": "Club Sky (WATC)",
+  "en": null,
+  "lat": 26.3305542,
+  "lng": 127.7946498,
+  "kind": "bar"
+ },
+ {
+  "name": "ジョイフル",
+  "en": "Joyfull",
+  "lat": 26.2620089,
+  "lng": 127.7421387,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ポクタマゴオニギリ",
+  "en": "Pork Egg Rice Ball",
+  "lat": 26.3155723,
+  "lng": 127.7536881,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Bagel and Coffee Cactus",
+  "en": null,
+  "lat": 26.3296898,
+  "lng": 127.7459464,
+  "kind": "cafe"
+ },
+ {
+  "name": "FOGO BRAZIL",
+  "en": null,
+  "lat": 26.3201253,
+  "lng": 127.753613,
+  "kind": "restaurant"
+ },
+ {
+  "name": "WaGyu Café KAPUKA",
+  "en": null,
+  "lat": 26.3203643,
+  "lng": 127.7535511,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Zazou",
+  "en": null,
+  "lat": 26.337262,
+  "lng": 127.796927,
+  "kind": "bakery"
+ },
+ {
+  "name": "北中城村観光協会",
+  "en": "Kitanakagusuku Village Tourist Information",
+  "lat": 26.3147965,
+  "lng": 127.7961653,
+  "kind": "information"
+ },
+ {
+  "name": "Rycom Gourmet World",
+  "en": null,
+  "lat": 26.3141288,
+  "lng": 127.7971382,
+  "kind": "food_court"
+ },
+ {
+  "name": "スターバックス",
+  "en": "Starbucks",
+  "lat": 26.3142424,
+  "lng": 127.7973556,
+  "kind": "cafe"
+ },
+ {
+  "name": "キングタコス",
+  "en": "KING TACOS",
+  "lat": 26.318159,
+  "lng": 127.8015178,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ソロ　エクスプレス　スクインビット　81",
+  "en": null,
+  "lat": 26.3349762,
+  "lng": 127.7458286,
+  "kind": "fast_food"
+ },
+ {
+  "name": "エイサー会館",
+  "en": null,
+  "lat": 26.3351306,
+  "lng": 127.7993454,
+  "kind": "museum"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3334159,
+  "lng": 127.8141176,
+  "kind": "convenience"
+ },
+ {
+  "name": "越佐",
+  "en": "Etssa Japanese Sake Bar",
+  "lat": 26.3365261,
+  "lng": 127.7993347,
+  "kind": "bar"
+ },
+ {
+  "name": "福耳福助",
+  "en": null,
+  "lat": 26.3227015,
+  "lng": 127.7712498,
+  "kind": "pub"
+ },
+ {
+  "name": "rules",
+  "en": null,
+  "lat": 26.330462,
+  "lng": 127.8395332,
+  "kind": "information"
+ },
+ {
+  "name": "rules",
+  "en": null,
+  "lat": 26.3315645,
+  "lng": 127.8398367,
+  "kind": "information"
+ },
+ {
+  "name": "Tony Roma's",
+  "en": null,
+  "lat": 26.3155189,
+  "lng": 127.7573034,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3174928,
+  "lng": 127.7547404,
+  "kind": "convenience"
+ },
+ {
+  "name": "ビストロ食堂CHEZNORI",
+  "en": null,
+  "lat": 26.2508791,
+  "lng": 127.7725911,
+  "kind": "restaurant"
+ },
+ {
+  "name": "5-Star Deli",
+  "en": null,
+  "lat": 26.3335242,
+  "lng": 127.7464059,
+  "kind": "restaurant"
+ },
+ {
+  "name": "やよい軒",
+  "en": "Yayoiken",
+  "lat": 26.2860546,
+  "lng": 127.7479299,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ミスタードーナツ",
+  "en": "Mister Donut",
+  "lat": 26.3142658,
+  "lng": 127.7574569,
+  "kind": "fast_food"
+ },
+ {
+  "name": "サンドボックス",
+  "en": "Sand Box Cafe and Bar",
+  "lat": 26.3235363,
+  "lng": 127.7502843,
+  "kind": "pub"
+ },
+ {
+  "name": "アジト",
+  "en": "agita",
+  "lat": 26.3277859,
+  "lng": 127.7625517,
+  "kind": "bar"
+ },
+ {
+  "name": "沖縄市音楽資料館 おんがく村",
+  "en": "Okinawa city Music Archives - Ongakumura",
+  "lat": 26.3371057,
+  "lng": 127.7972603,
+  "kind": "museum"
+ },
+ {
+  "name": "快活CLUB",
+  "en": "Kaikatsu Club",
+  "lat": 26.3373828,
+  "lng": 127.8166628,
+  "kind": "internet_cafe"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.2547331,
+  "lng": 127.7620222,
+  "kind": "convenience"
+ },
+ {
+  "name": "Kupu Kupu",
+  "en": "Seaside Pancake Factory Kupu Kupu",
+  "lat": 26.3207313,
+  "lng": 127.7497886,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Cafe Halcyon",
+  "en": null,
+  "lat": 26.3209977,
+  "lng": 127.7493799,
+  "kind": "cafe"
+ },
+ {
+  "name": "DB Cooper's",
+  "en": null,
+  "lat": 26.3210409,
+  "lng": 127.7494071,
+  "kind": "bar"
+ },
+ {
+  "name": "Tacos and Coffee",
+  "en": null,
+  "lat": 26.3223351,
+  "lng": 127.7571706,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ステーキハウス四季",
+  "en": "Four Seasons",
+  "lat": 26.3185614,
+  "lng": 127.8310868,
+  "kind": "restaurant"
+ },
+ {
+  "name": "浜寿し",
+  "en": "Hama Sushi",
+  "lat": 26.3242074,
+  "lng": 127.7703213,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Newport Sushi",
+  "en": null,
+  "lat": 26.3325655,
+  "lng": 127.7433966,
+  "kind": "restaurant"
+ },
+ {
+  "name": "マイカリー食堂",
+  "en": "MyCurry Shokudo",
+  "lat": 26.3160966,
+  "lng": 127.7600467,
+  "kind": "restaurant"
+ },
+ {
+  "name": "スシロー",
+  "en": "Sushiro",
+  "lat": 26.2859651,
+  "lng": 127.7480035,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ベトナムちゃん北谷",
+  "en": "Vietnam-chan Chatan",
+  "lat": 26.3207159,
+  "lng": 127.7496222,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ジョイフル",
+  "en": "Joyfull",
+  "lat": 26.2834201,
+  "lng": 127.7652363,
+  "kind": "restaurant"
+ },
+ {
+  "name": "回転寿司 一番亭",
+  "en": null,
+  "lat": 26.317665,
+  "lng": 127.7571783,
+  "kind": "restaurant"
+ },
+ {
+  "name": "麺やKEIJIRO",
+  "en": null,
+  "lat": 26.3179394,
+  "lng": 127.7571522,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2826209,
+  "lng": 127.7521543,
+  "kind": "convenience"
+ },
+ {
+  "name": "ドミノ・ピザ",
+  "en": "Domino's Pizza",
+  "lat": 26.2641504,
+  "lng": 127.7633346,
+  "kind": "fast_food"
+ },
+ {
+  "name": "豆ポレポレ",
+  "en": null,
+  "lat": 26.3190186,
+  "lng": 127.826015,
+  "kind": "cafe"
+ },
+ {
+  "name": "ブレッドハウストヨーG",
+  "en": null,
+  "lat": 26.3337258,
+  "lng": 127.8354388,
+  "kind": "bakery"
+ },
+ {
+  "name": "Timeless Chocolate",
+  "en": null,
+  "lat": 26.3211064,
+  "lng": 127.750408,
+  "kind": "cafe"
+ },
+ {
+  "name": "尚宣威王の墓",
+  "en": "Tomb of King Shō Sen'i",
+  "lat": 26.3455935,
+  "lng": 127.8071923,
+  "kind": "information"
+ },
+ {
+  "name": "らーめん沖縄鶏白",
+  "en": "Ramen Okinawa Paitan",
+  "lat": 26.3148528,
+  "lng": 127.7974487,
+  "kind": "restaurant"
+ },
+ {
+  "name": "アライバルゲート",
+  "en": "Arrival Gate",
+  "lat": 26.3153858,
+  "lng": 127.7964433,
+  "kind": "information"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3263238,
+  "lng": 127.8147343,
+  "kind": "convenience"
+ },
+ {
+  "name": "ステーキハウス88 Jr.",
+  "en": null,
+  "lat": 26.3141172,
+  "lng": 127.7977045,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ジャイタイ",
+  "en": "Jai Thai",
+  "lat": 26.3139601,
+  "lng": 127.7972886,
+  "kind": "restaurant"
+ },
+ {
+  "name": "マシソヨ",
+  "en": null,
+  "lat": 26.316886,
+  "lng": 127.7552585,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Cheers",
+  "en": "Cheers",
+  "lat": 26.315967,
+  "lng": 127.7541255,
+  "kind": "bar"
+ },
+ {
+  "name": "Horizon",
+  "en": "Horizon Curry Works",
+  "lat": 26.3157916,
+  "lng": 127.7537066,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Baum Kuchen",
+  "en": "Naked Studio Baum Kuchen Factory",
+  "lat": 26.3160462,
+  "lng": 127.753988,
+  "kind": "confectionery"
+ },
+ {
+  "name": "Irish Pub Howdy",
+  "en": "Irish Pub Howdy",
+  "lat": 26.3171631,
+  "lng": 127.7546555,
+  "kind": "pub"
+ },
+ {
+  "name": "神鮨",
+  "en": "Kami Sushi",
+  "lat": 26.3207795,
+  "lng": 127.7578088,
+  "kind": "restaurant"
+ },
+ {
+  "name": "カラハーイ",
+  "en": null,
+  "lat": 26.3149278,
+  "lng": 127.7556795,
+  "kind": "pub"
+ },
+ {
+  "name": "ピザハット",
+  "en": "Pizza Hut",
+  "lat": 26.2567984,
+  "lng": 127.7503052,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ハッピーモア市場",
+  "en": "Happy More Market",
+  "lat": 26.2854404,
+  "lng": 127.7438802,
+  "kind": "marketplace"
+ },
+ {
+  "name": "ブルーシール",
+  "en": null,
+  "lat": 26.3158895,
+  "lng": 127.7558064,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "謝刈そば",
+  "en": null,
+  "lat": 26.3171209,
+  "lng": 127.7715757,
+  "kind": "restaurant"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.2601714,
+  "lng": 127.7433646,
+  "kind": "convenience"
+ },
+ {
+  "name": "みどり屋食堂",
+  "en": null,
+  "lat": 26.2545327,
+  "lng": 127.7547427,
+  "kind": "restaurant"
+ },
+ {
+  "name": "大阪王将",
+  "en": "Osaka Ohsho",
+  "lat": 26.323687,
+  "lng": 127.7515234,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Vietnam Marley",
+  "en": null,
+  "lat": 26.2910186,
+  "lng": 127.7752334,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2821178,
+  "lng": 127.7781773,
+  "kind": "convenience"
+ },
+ {
+  "name": "Food Court",
+  "en": null,
+  "lat": 26.3004598,
+  "lng": 127.7780737,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Subway",
+  "en": null,
+  "lat": 26.2999356,
+  "lng": 127.7796717,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Taco Bell",
+  "en": null,
+  "lat": 26.2999935,
+  "lng": 127.7796791,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ローソン沖縄大里店",
+  "en": null,
+  "lat": 26.3263736,
+  "lng": 127.824962,
+  "kind": "convenience"
+ },
+ {
+  "name": "サムズカフェ",
+  "en": null,
+  "lat": 26.2972121,
+  "lng": 127.7794364,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Sunday Brunch",
+  "en": null,
+  "lat": 26.3391345,
+  "lng": 127.7869504,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Cafe Casa",
+  "en": null,
+  "lat": 26.3314824,
+  "lng": 127.7445336,
+  "kind": "cafe"
+ },
+ {
+  "name": "No POV",
+  "en": null,
+  "lat": 26.3324067,
+  "lng": 127.7728302,
+  "kind": "information"
+ },
+ {
+  "name": "Turn Around 1 Mile",
+  "en": null,
+  "lat": 26.3286035,
+  "lng": 127.7642011,
+  "kind": "information"
+ },
+ {
+  "name": "Donald's Poke Bowl",
+  "en": null,
+  "lat": 26.3337007,
+  "lng": 127.7976479,
+  "kind": "restaurant"
+ },
+ {
+  "name": "成そば",
+  "en": null,
+  "lat": 26.2890598,
+  "lng": 127.7752998,
+  "kind": "restaurant"
+ },
+ {
+  "name": "串カツ田中",
+  "en": "KushiKatsu Tanaka",
+  "lat": 26.2561658,
+  "lng": 127.7401196,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.3220676,
+  "lng": 127.8323981,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ミスタードーナツ",
+  "en": "Mister Donut",
+  "lat": 26.3450629,
+  "lng": 127.8216441,
+  "kind": "fast_food"
+ },
+ {
+  "name": "コアカリー",
+  "en": null,
+  "lat": 26.3485481,
+  "lng": 127.8182641,
+  "kind": "restaurant"
+ },
+ {
+  "name": "チャーリー多幸寿 本店",
+  "en": null,
+  "lat": 26.3401726,
+  "lng": 127.7992868,
+  "kind": "restaurant"
+ },
+ {
+  "name": "中乃湯",
+  "en": "nakanoyu",
+  "lat": 26.3374558,
+  "lng": 127.810793,
+  "kind": "public_bath"
+ },
+ {
+  "name": "沖縄健康サウナ",
+  "en": null,
+  "lat": 26.3090525,
+  "lng": 127.8167707,
+  "kind": "public_bath"
+ },
+ {
+  "name": "タコス屋 北谷店",
+  "en": "Tacos-ya",
+  "lat": 26.3233755,
+  "lng": 127.750506,
+  "kind": "restaurant"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3172962,
+  "lng": 127.7590534,
+  "kind": "convenience"
+ },
+ {
+  "name": "Coffee Casa",
+  "en": null,
+  "lat": 26.3309801,
+  "lng": 127.7446234,
+  "kind": "cafe"
+ },
+ {
+  "name": "ケンのブリトートラック",
+  "en": "Ken's Burrito Truck",
+  "lat": 26.3179176,
+  "lng": 127.7596746,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ケンズブリトー",
+  "en": "Ken's Burrito",
+  "lat": 26.3221978,
+  "lng": 127.7519147,
+  "kind": "fast_food"
+ },
+ {
+  "name": "さぶすりぃ",
+  "en": null,
+  "lat": 26.2865599,
+  "lng": 127.7815379,
+  "kind": "pub"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3227607,
+  "lng": 127.8088473,
+  "kind": "convenience"
+ },
+ {
+  "name": "ア・ダニー",
+  "en": null,
+  "lat": 26.3023942,
+  "lng": 127.7613211,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Istanbul Kebab House",
+  "en": null,
+  "lat": 26.3030119,
+  "lng": 127.7605217,
+  "kind": "fast_food"
+ },
+ {
+  "name": "hali hali",
+  "en": null,
+  "lat": 26.3068828,
+  "lng": 127.7606946,
+  "kind": "cafe"
+ },
+ {
+  "name": "欧風料理ビストロぷちぱん",
+  "en": null,
+  "lat": 26.3076113,
+  "lng": 127.7607194,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Grill&Bar GARDEN",
+  "en": null,
+  "lat": 26.3078492,
+  "lng": 127.7616236,
+  "kind": "restaurant"
+ },
+ {
+  "name": "石垣島キッチンBin",
+  "en": null,
+  "lat": 26.3079226,
+  "lng": 127.7616584,
+  "kind": "fast_food"
+ },
+ {
+  "name": "割烹すいれん",
+  "en": null,
+  "lat": 26.3078961,
+  "lng": 127.7617657,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Mike's ハンビ店",
+  "en": null,
+  "lat": 26.3078793,
+  "lng": 127.7618475,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Bar Lux Okinawa",
+  "en": null,
+  "lat": 26.3076618,
+  "lng": 127.7630228,
+  "kind": "bar"
+ },
+ {
+  "name": "銘菓良味屋",
+  "en": null,
+  "lat": 26.2867822,
+  "lng": 127.785598,
+  "kind": "confectionery"
+ },
+ {
+  "name": "BiBi Hotel FUTENMA",
+  "en": null,
+  "lat": 26.2888747,
+  "lng": 127.7780798,
+  "kind": "hotel"
+ },
+ {
+  "name": "FLAP COFFEE 普天間店",
+  "en": null,
+  "lat": 26.2891384,
+  "lng": 127.7777213,
+  "kind": "cafe"
+ },
+ {
+  "name": "旬彩創作工房なかむら",
+  "en": null,
+  "lat": 26.2888632,
+  "lng": 127.7768427,
+  "kind": "restaurant"
+ },
+ {
+  "name": "CAFUNÉ（カフネ）",
+  "en": null,
+  "lat": 26.2888016,
+  "lng": 127.777319,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "自然食カフェANELA",
+  "en": null,
+  "lat": 26.2887212,
+  "lng": 127.776711,
+  "kind": "cafe"
+ },
+ {
+  "name": "あるべろぐらんで",
+  "en": null,
+  "lat": 26.28845,
+  "lng": 127.7767068,
+  "kind": "bar"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3077376,
+  "lng": 127.814386,
+  "kind": "convenience"
+ },
+ {
+  "name": "虎虎 fufu",
+  "en": null,
+  "lat": 26.2839889,
+  "lng": 127.7820542,
+  "kind": "cafe"
+ },
+ {
+  "name": "カラオケ　バタフライ",
+  "en": null,
+  "lat": 26.2552292,
+  "lng": 127.740059,
+  "kind": "bar"
+ },
+ {
+  "name": "夢",
+  "en": null,
+  "lat": 26.2551438,
+  "lng": 127.74011,
+  "kind": "bar"
+ },
+ {
+  "name": "地球村酒場 EARTH VILLAGE IZAKAYA",
+  "en": null,
+  "lat": 26.3201585,
+  "lng": 127.7536055,
+  "kind": "restaurant"
+ },
+ {
+  "name": "蒸気海鮮 Chatan Steam Seafood",
+  "en": null,
+  "lat": 26.320195,
+  "lng": 127.7535961,
+  "kind": "restaurant"
+ },
+ {
+  "name": "石垣牛炭火焼ステーキ ISLAND BEEF",
+  "en": null,
+  "lat": 26.3202308,
+  "lng": 127.7535851,
+  "kind": "restaurant"
+ },
+ {
+  "name": "カジュアルスペイン酒場 オレンジブーム",
+  "en": null,
+  "lat": 26.3200024,
+  "lng": 127.7536717,
+  "kind": "restaurant"
+ },
+ {
+  "name": "バサタイ",
+  "en": null,
+  "lat": 26.3200176,
+  "lng": 127.753783,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Sushi on la Cienaga",
+  "en": null,
+  "lat": 26.3199178,
+  "lng": 127.7536964,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ザ・ココビーチ",
+  "en": null,
+  "lat": 26.319518,
+  "lng": 127.7539278,
+  "kind": "bar"
+ },
+ {
+  "name": "チャタンハーバー",
+  "en": null,
+  "lat": 26.3209114,
+  "lng": 127.7538027,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ZumZum",
+  "en": null,
+  "lat": 26.2721743,
+  "lng": 127.7415677,
+  "kind": "restaurant"
+ },
+ {
+  "name": "NATURAL TONE",
+  "en": null,
+  "lat": 26.2532164,
+  "lng": 127.7620938,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Indira",
+  "en": null,
+  "lat": 26.299096,
+  "lng": 127.7584877,
+  "kind": "restaurant"
+ },
+ {
+  "name": "カフェオリーンズ",
+  "en": null,
+  "lat": 26.291069,
+  "lng": 127.7753369,
+  "kind": "cafe"
+ },
+ {
+  "name": "チャコールビストロてんにょ",
+  "en": null,
+  "lat": 26.2844131,
+  "lng": 127.7831986,
+  "kind": "restaurant"
+ },
+ {
+  "name": "やよい軒",
+  "en": "Yayoiken",
+  "lat": 26.2558836,
+  "lng": 127.7400844,
+  "kind": "restaurant"
+ },
+ {
+  "name": "しゃぶしゃぶ温野菜",
+  "en": null,
+  "lat": 26.2559945,
+  "lng": 127.7401433,
+  "kind": "restaurant"
+ },
+ {
+  "name": "THE WEST FIELD CAFE",
+  "en": null,
+  "lat": 26.2561107,
+  "lng": 127.740211,
+  "kind": "bar"
+ },
+ {
+  "name": "杏屋",
+  "en": null,
+  "lat": 26.2559166,
+  "lng": 127.7400314,
+  "kind": "pub"
+ },
+ {
+  "name": "魚萬",
+  "en": null,
+  "lat": 26.2560222,
+  "lng": 127.7400933,
+  "kind": "restaurant"
+ },
+ {
+  "name": "AIEN BAKERY",
+  "en": null,
+  "lat": 26.3001935,
+  "lng": 127.8011457,
+  "kind": "bakery"
+ },
+ {
+  "name": "Puu Bakery",
+  "en": null,
+  "lat": 26.3101089,
+  "lng": 127.7730807,
+  "kind": "bakery"
+ },
+ {
+  "name": "Boulangerie Dai",
+  "en": null,
+  "lat": 26.2618359,
+  "lng": 127.7617518,
+  "kind": "bakery"
+ },
+ {
+  "name": "wake&bagel.",
+  "en": null,
+  "lat": 26.3332417,
+  "lng": 127.7447779,
+  "kind": "bakery"
+ },
+ {
+  "name": "プラウマンズ ランチ ベーカリー",
+  "en": null,
+  "lat": 26.2944532,
+  "lng": 127.791621,
+  "kind": "bakery"
+ },
+ {
+  "name": "Coffee Shop Only",
+  "en": null,
+  "lat": 26.3307454,
+  "lng": 127.744255,
+  "kind": "cafe"
+ },
+ {
+  "name": "yokoda パン工房",
+  "en": null,
+  "lat": 26.3207185,
+  "lng": 127.777108,
+  "kind": "bakery"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2506206,
+  "lng": 127.772888,
+  "kind": "convenience"
+ },
+ {
+  "name": "め〜BAR",
+  "en": null,
+  "lat": 26.3385732,
+  "lng": 127.8146523,
+  "kind": "bar"
+ },
+ {
+  "name": "ZHYVAGO COFFEE WORKS OKINAWA",
+  "en": null,
+  "lat": 26.3182691,
+  "lng": 127.7556754,
+  "kind": "cafe"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3004129,
+  "lng": 127.791964,
+  "kind": "convenience"
+ },
+ {
+  "name": "北谷町立博物館",
+  "en": "Chatan Museum",
+  "lat": 26.3238647,
+  "lng": 127.7594552,
+  "kind": "museum"
+ },
+ {
+  "name": "一の郭城壁 修復工事について",
+  "en": null,
+  "lat": 26.2837091,
+  "lng": 127.8003835,
+  "kind": "information"
+ },
+ {
+  "name": "拝所 トモヤグラノ御イベ",
+  "en": null,
+  "lat": 26.283779,
+  "lng": 127.8001919,
+  "kind": "information"
+ },
+ {
+  "name": "西の郭",
+  "en": null,
+  "lat": 26.283779,
+  "lng": 127.8004018,
+  "kind": "information"
+ },
+ {
+  "name": "正門",
+  "en": null,
+  "lat": 26.2836826,
+  "lng": 127.8002285,
+  "kind": "information"
+ },
+ {
+  "name": "正門",
+  "en": null,
+  "lat": 26.2836671,
+  "lng": 127.8001698,
+  "kind": "information"
+ },
+ {
+  "name": "正門",
+  "en": null,
+  "lat": 26.2836196,
+  "lng": 127.7998996,
+  "kind": "information"
+ },
+ {
+  "name": "鍛冶屋跡",
+  "en": null,
+  "lat": 26.2833954,
+  "lng": 127.8001504,
+  "kind": "information"
+ },
+ {
+  "name": "鍛冶屋跡",
+  "en": null,
+  "lat": 26.2834375,
+  "lng": 127.7998104,
+  "kind": "information"
+ },
+ {
+  "name": "国指定史跡 中城城跡案内図",
+  "en": null,
+  "lat": 26.2857053,
+  "lng": 127.803078,
+  "kind": "information"
+ },
+ {
+  "name": "中城城跡案内図",
+  "en": null,
+  "lat": 26.2855051,
+  "lng": 127.8034642,
+  "kind": "information"
+ },
+ {
+  "name": "一の郭",
+  "en": null,
+  "lat": 26.2836738,
+  "lng": 127.8008913,
+  "kind": "information"
+ },
+ {
+  "name": "一の郭",
+  "en": null,
+  "lat": 26.283595,
+  "lng": 127.8008075,
+  "kind": "information"
+ },
+ {
+  "name": "刻印石の発見",
+  "en": null,
+  "lat": 26.2836106,
+  "lng": 127.8005708,
+  "kind": "information"
+ },
+ {
+  "name": "拝所 雨乞イノ御嶽",
+  "en": null,
+  "lat": 26.2835541,
+  "lng": 127.8004189,
+  "kind": "information"
+ },
+ {
+  "name": "拝所 御當蔵火神",
+  "en": null,
+  "lat": 26.2835319,
+  "lng": 127.8002872,
+  "kind": "information"
+ },
+ {
+  "name": "南の郭",
+  "en": null,
+  "lat": 26.2835673,
+  "lng": 127.8002992,
+  "kind": "information"
+ },
+ {
+  "name": "拝所 小城ノ御イベ",
+  "en": null,
+  "lat": 26.2835244,
+  "lng": 127.8004008,
+  "kind": "information"
+ },
+ {
+  "name": "正殿跡",
+  "en": null,
+  "lat": 26.2836695,
+  "lng": 127.8011274,
+  "kind": "information"
+ },
+ {
+  "name": "拝所 シライ富の御イベ",
+  "en": null,
+  "lat": 26.2838667,
+  "lng": 127.8013999,
+  "kind": "information"
+ },
+ {
+  "name": "二の郭",
+  "en": null,
+  "lat": 26.2839759,
+  "lng": 127.8015347,
+  "kind": "information"
+ },
+ {
+  "name": "一の郭正殿跡の調査概要",
+  "en": null,
+  "lat": 26.2838379,
+  "lng": 127.8011823,
+  "kind": "information"
+ },
+ {
+  "name": "拝所 中森ノ御イベ（通称：着替御嶽）",
+  "en": null,
+  "lat": 26.2837429,
+  "lng": 127.8012293,
+  "kind": "information"
+ },
+ {
+  "name": "裏門",
+  "en": null,
+  "lat": 26.2845338,
+  "lng": 127.8018415,
+  "kind": "information"
+ },
+ {
+  "name": "裏門",
+  "en": null,
+  "lat": 26.2844448,
+  "lng": 127.8017684,
+  "kind": "information"
+ },
+ {
+  "name": "北の郭",
+  "en": null,
+  "lat": 26.2844571,
+  "lng": 127.8017101,
+  "kind": "information"
+ },
+ {
+  "name": "三の郭（新城）",
+  "en": null,
+  "lat": 26.2842191,
+  "lng": 127.801704,
+  "kind": "information"
+ },
+ {
+  "name": "大井戸（番所井戸）",
+  "en": null,
+  "lat": 26.2842959,
+  "lng": 127.8014085,
+  "kind": "information"
+ },
+ {
+  "name": "西の郭",
+  "en": null,
+  "lat": 26.2842161,
+  "lng": 127.8013299,
+  "kind": "information"
+ },
+ {
+  "name": "Namaste India",
+  "en": null,
+  "lat": 26.3049671,
+  "lng": 127.7603141,
+  "kind": "restaurant"
+ },
+ {
+  "name": "KESO Diner",
+  "en": null,
+  "lat": 26.2822672,
+  "lng": 127.7511223,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.275311,
+  "lng": 127.7425846,
+  "kind": "convenience"
+ },
+ {
+  "name": "Fluffy coconut",
+  "en": null,
+  "lat": 26.3045679,
+  "lng": 127.7596467,
+  "kind": "bakery"
+ },
+ {
+  "name": "居酒屋根夢",
+  "en": "Gon",
+  "lat": 26.3328613,
+  "lng": 127.8131537,
+  "kind": "restaurant"
+ },
+ {
+  "name": "天理スタミナラーメン",
+  "en": null,
+  "lat": 26.3359779,
+  "lng": 127.8008265,
+  "kind": "restaurant"
+ },
+ {
+  "name": "我部祖河そば",
+  "en": null,
+  "lat": 26.3357265,
+  "lng": 127.7910623,
+  "kind": "restaurant"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3277187,
+  "lng": 127.7704832,
+  "kind": "convenience"
+ },
+ {
+  "name": "旬鮮一歩",
+  "en": "Shunsen Ippo",
+  "lat": 26.2587202,
+  "lng": 127.742005,
+  "kind": "pub"
+ },
+ {
+  "name": "BOBBY'S",
+  "en": null,
+  "lat": 26.3370521,
+  "lng": 127.8012888,
+  "kind": "bar"
+ },
+ {
+  "name": "Cafe NooR",
+  "en": null,
+  "lat": 26.3381345,
+  "lng": 127.8152429,
+  "kind": "cafe"
+ },
+ {
+  "name": "とらじ",
+  "en": null,
+  "lat": 26.3270357,
+  "lng": 127.7689563,
+  "kind": "pub"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3312464,
+  "lng": 127.7803039,
+  "kind": "convenience"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.2568543,
+  "lng": 127.7511306,
+  "kind": "convenience"
+ },
+ {
+  "name": "Okinawa City Hotel",
+  "en": null,
+  "lat": 26.3363548,
+  "lng": 127.8021981,
+  "kind": "hotel"
+ },
+ {
+  "name": "BeBeBar",
+  "en": null,
+  "lat": 26.33669,
+  "lng": 127.8002644,
+  "kind": "bar"
+ },
+ {
+  "name": "キッチンのぎ",
+  "en": null,
+  "lat": 26.3347175,
+  "lng": 127.8041789,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ラーメン暖暮 北谷砂辺店",
+  "en": null,
+  "lat": 26.3305679,
+  "lng": 127.7450031,
+  "kind": "restaurant"
+ },
+ {
+  "name": "SNCO & Officers Lounge",
+  "en": null,
+  "lat": 26.2791177,
+  "lng": 127.7527943,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Habu Pit",
+  "en": null,
+  "lat": 26.2791045,
+  "lng": 127.7524787,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Life Juice Café",
+  "en": null,
+  "lat": 26.2765977,
+  "lng": 127.7527801,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Pizza Hut",
+  "en": null,
+  "lat": 26.2748832,
+  "lng": 127.7490994,
+  "kind": "restaurant"
+ },
+ {
+  "name": "MCAS Futenma Chowhall",
+  "en": null,
+  "lat": 26.2737062,
+  "lng": 127.7476766,
+  "kind": "restaurant"
+ },
+ {
+  "name": "星のたね Hoshi no Tane",
+  "en": null,
+  "lat": 26.3216941,
+  "lng": 127.8080117,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Bali Noon Bali Moon",
+  "en": null,
+  "lat": 26.3184461,
+  "lng": 127.793812,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Krishna",
+  "en": null,
+  "lat": 26.3187198,
+  "lng": 127.7937119,
+  "kind": "restaurant"
+ },
+ {
+  "name": "沖縄ララスタイルカフェ",
+  "en": null,
+  "lat": 26.3188851,
+  "lng": 127.7938052,
+  "kind": "restaurant"
+ },
+ {
+  "name": "みやび茶屋・仲元",
+  "en": null,
+  "lat": 26.3258925,
+  "lng": 127.7923855,
+  "kind": "restaurant"
+ },
+ {
+  "name": "My Parlor",
+  "en": null,
+  "lat": 26.3291306,
+  "lng": 127.7454699,
+  "kind": "restaurant"
+ },
+ {
+  "name": "スパイスカレーパルミラ",
+  "en": "Spice Curry Palmyra",
+  "lat": 26.3371999,
+  "lng": 127.8006663,
+  "kind": "restaurant"
+ },
+ {
+  "name": "NIFE",
+  "en": null,
+  "lat": 26.3245408,
+  "lng": 127.8227807,
+  "kind": "bakery"
+ },
+ {
+  "name": "ABONDANCE",
+  "en": null,
+  "lat": 26.340225,
+  "lng": 127.7992223,
+  "kind": "cafe"
+ },
+ {
+  "name": "かめしまパン 南上原店",
+  "en": null,
+  "lat": 26.2509196,
+  "lng": 127.771578,
+  "kind": "bakery"
+ },
+ {
+  "name": "アイエン コーヒー＆ホステル",
+  "en": null,
+  "lat": 26.3225299,
+  "lng": 127.7507473,
+  "kind": "cafe"
+ },
+ {
+  "name": "琉球大学構内案内図",
+  "en": null,
+  "lat": 26.2513163,
+  "lng": 127.7679688,
+  "kind": "information"
+ },
+ {
+  "name": "すき家",
+  "en": "Sukiya",
+  "lat": 26.3024112,
+  "lng": 127.7613943,
+  "kind": "fast_food"
+ },
+ {
+  "name": "カミミチ入口",
+  "en": null,
+  "lat": 26.272259,
+  "lng": 127.7860606,
+  "kind": "information"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2705437,
+  "lng": 127.7702561,
+  "kind": "convenience"
+ },
+ {
+  "name": "やまがみベーカリー",
+  "en": "Yamagami Bakery",
+  "lat": 26.2878789,
+  "lng": 127.7551099,
+  "kind": "bakery"
+ },
+ {
+  "name": "Taco Maria",
+  "en": null,
+  "lat": 26.2875757,
+  "lng": 127.7528394,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Got ma-ma",
+  "en": null,
+  "lat": 26.2878714,
+  "lng": 127.7540225,
+  "kind": "restaurant"
+ },
+ {
+  "name": "酒とおつまみクチパーク",
+  "en": null,
+  "lat": 26.2875716,
+  "lng": 127.7533079,
+  "kind": "restaurant"
+ },
+ {
+  "name": "105 DELI&肉酒場",
+  "en": null,
+  "lat": 26.2898007,
+  "lng": 127.7552502,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Coby",
+  "en": null,
+  "lat": 26.2878649,
+  "lng": 127.7530079,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ラーメン札幌や",
+  "en": "Sapporoya",
+  "lat": 26.2878111,
+  "lng": 127.7529298,
+  "kind": "restaurant"
+ },
+ {
+  "name": "割烹 ハイウェイ",
+  "en": null,
+  "lat": 26.2890012,
+  "lng": 127.755813,
+  "kind": "restaurant"
+ },
+ {
+  "name": "GOYA CAFE",
+  "en": null,
+  "lat": 26.3330846,
+  "lng": 127.7993586,
+  "kind": "cafe"
+ },
+ {
+  "name": "Inns of the Corps Camp Foster",
+  "en": null,
+  "lat": 26.2976657,
+  "lng": 127.7843613,
+  "kind": "hotel"
+ },
+ {
+  "name": "ふわこっぺ",
+  "en": null,
+  "lat": 26.2892628,
+  "lng": 127.7561188,
+  "kind": "bakery"
+ },
+ {
+  "name": "Bar Coropos",
+  "en": null,
+  "lat": 26.2894148,
+  "lng": 127.7558997,
+  "kind": "bar"
+ },
+ {
+  "name": "TIMELESS CHOCOLATE",
+  "en": null,
+  "lat": 26.3332231,
+  "lng": 127.7445309,
+  "kind": "cafe"
+ },
+ {
+  "name": "BiBi Hotel コンベンションベイ",
+  "en": null,
+  "lat": 26.2890052,
+  "lng": 127.7532874,
+  "kind": "hotel"
+ },
+ {
+  "name": "あぱらぎ",
+  "en": "Aparagi",
+  "lat": 26.2896179,
+  "lng": 127.7548827,
+  "kind": "restaurant"
+ },
+ {
+  "name": "お食事処 きみ",
+  "en": null,
+  "lat": 26.2877772,
+  "lng": 127.7535574,
+  "kind": "fast_food"
+ },
+ {
+  "name": "串家物語",
+  "en": null,
+  "lat": 26.31456,
+  "lng": 127.796377,
+  "kind": "restaurant"
+ },
+ {
+  "name": "HINOE",
+  "en": null,
+  "lat": 26.2876329,
+  "lng": 127.7525365,
+  "kind": "restaurant"
+ },
+ {
+  "name": "パルティーダ",
+  "en": "Partida!",
+  "lat": 26.2847878,
+  "lng": 127.7543858,
+  "kind": "restaurant"
+ },
+ {
+  "name": "BAR YUMA'S",
+  "en": null,
+  "lat": 26.2847602,
+  "lng": 127.7543644,
+  "kind": "bar"
+ },
+ {
+  "name": "Oh! My Sweets",
+  "en": null,
+  "lat": 26.2742534,
+  "lng": 127.7403793,
+  "kind": "cafe"
+ },
+ {
+  "name": "YENN'S MARINA inn. MERCY",
+  "en": null,
+  "lat": 26.2745462,
+  "lng": 127.7400997,
+  "kind": "hotel"
+ },
+ {
+  "name": "REGGAE BAR PAZYS",
+  "en": null,
+  "lat": 26.3344489,
+  "lng": 127.7997307,
+  "kind": "bar"
+ },
+ {
+  "name": "十勝ホルモンKEMURI",
+  "en": null,
+  "lat": 26.3300591,
+  "lng": 127.7952716,
+  "kind": "restaurant"
+ },
+ {
+  "name": "はなび",
+  "en": null,
+  "lat": 26.3455696,
+  "lng": 127.8203574,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3438976,
+  "lng": 127.8223042,
+  "kind": "convenience"
+ },
+ {
+  "name": "サンマルクカフェ",
+  "en": "Saint Marc Cafe",
+  "lat": 26.3144982,
+  "lng": 127.7956738,
+  "kind": "cafe"
+ },
+ {
+  "name": "丸源ラーメン",
+  "en": "Marugen Ramen",
+  "lat": 26.3484757,
+  "lng": 127.8249137,
+  "kind": "restaurant"
+ },
+ {
+  "name": "焼肉ここから",
+  "en": null,
+  "lat": 26.3485558,
+  "lng": 127.8244646,
+  "kind": "restaurant"
+ },
+ {
+  "name": "焼肉きんぐ",
+  "en": "Yakiniku King",
+  "lat": 26.3483691,
+  "lng": 127.8241807,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ゆくい酒処礎～いしずえ～",
+  "en": null,
+  "lat": 26.3115708,
+  "lng": 127.7620283,
+  "kind": "restaurant"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.2902436,
+  "lng": 127.7718555,
+  "kind": "fast_food"
+ },
+ {
+  "name": "あわせほるもん",
+  "en": null,
+  "lat": 26.3133568,
+  "lng": 127.8322366,
+  "kind": "restaurant"
+ },
+ {
+  "name": "スターバックス",
+  "en": "Starbucks",
+  "lat": 26.3334874,
+  "lng": 127.8340765,
+  "kind": "cafe"
+ },
+ {
+  "name": "PePePe",
+  "en": null,
+  "lat": 26.2795276,
+  "lng": 127.7479237,
+  "kind": "restaurant"
+ },
+ {
+  "name": "最強食堂",
+  "en": null,
+  "lat": 26.2698868,
+  "lng": 127.7687484,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ラブメン本店",
+  "en": null,
+  "lat": 26.2699497,
+  "lng": 127.7688243,
+  "kind": "restaurant"
+ },
+ {
+  "name": "キーウエスト",
+  "en": null,
+  "lat": 26.3180169,
+  "lng": 127.8258812,
+  "kind": "restaurant"
+ },
+ {
+  "name": "丸久ラーメン",
+  "en": "Marukyu Ramen",
+  "lat": 26.2846812,
+  "lng": 127.7548106,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Club Lino",
+  "en": null,
+  "lat": 26.3160617,
+  "lng": 127.8305401,
+  "kind": "bar"
+ },
+ {
+  "name": "APEX",
+  "en": null,
+  "lat": 26.3160847,
+  "lng": 127.8304941,
+  "kind": "bar"
+ },
+ {
+  "name": "Bar AAC",
+  "en": null,
+  "lat": 26.31607,
+  "lng": 127.8305725,
+  "kind": "bar"
+ },
+ {
+  "name": "MARIA CLUB",
+  "en": null,
+  "lat": 26.3160961,
+  "lng": 127.8305492,
+  "kind": "bar"
+ },
+ {
+  "name": "東江そば",
+  "en": "AGARIE SOBA",
+  "lat": 26.2917497,
+  "lng": 127.7571961,
+  "kind": "restaurant"
+ },
+ {
+  "name": "焼肉食堂 こうや",
+  "en": null,
+  "lat": 26.2715053,
+  "lng": 127.7710391,
+  "kind": "restaurant"
+ },
+ {
+  "name": "LIFEFORM",
+  "en": null,
+  "lat": 26.3020782,
+  "lng": 127.7606426,
+  "kind": "fast_food"
+ },
+ {
+  "name": ".uki",
+  "en": null,
+  "lat": 26.2753199,
+  "lng": 127.7445699,
+  "kind": "cafe"
+ },
+ {
+  "name": "THE COFFEE ROASTERY Humming Coffee",
+  "en": null,
+  "lat": 26.3207985,
+  "lng": 127.7844635,
+  "kind": "cafe"
+ },
+ {
+  "name": "Crocodile",
+  "en": null,
+  "lat": 26.315773,
+  "lng": 127.7593379,
+  "kind": "restaurant"
+ },
+ {
+  "name": "足立屋",
+  "en": "Adachiya",
+  "lat": 26.2933843,
+  "lng": 127.7591744,
+  "kind": "restaurant"
+ },
+ {
+  "name": "スターバックス",
+  "en": "Starbucks",
+  "lat": 26.3282232,
+  "lng": 127.7704698,
+  "kind": "cafe"
+ },
+ {
+  "name": "LOW&SLOW Cafeteria",
+  "en": null,
+  "lat": 26.2876081,
+  "lng": 127.7528965,
+  "kind": "cafe"
+ },
+ {
+  "name": "やっぱりステーキ",
+  "en": null,
+  "lat": 26.3193619,
+  "lng": 127.7591156,
+  "kind": "restaurant"
+ },
+ {
+  "name": "OHANA",
+  "en": null,
+  "lat": 26.3294209,
+  "lng": 127.7781216,
+  "kind": "internet_cafe"
+ },
+ {
+  "name": "テラスガーデン美浜リゾート",
+  "en": "Terrace Garden Mihama Resort",
+  "lat": 26.3177132,
+  "lng": 127.7596313,
+  "kind": "hotel"
+ },
+ {
+  "name": "浜川ロッジ",
+  "en": "Hamagawa Lodge",
+  "lat": 26.3255265,
+  "lng": 127.753353,
+  "kind": "hotel"
+ },
+ {
+  "name": "味自満宮里店",
+  "en": null,
+  "lat": 26.3407202,
+  "lng": 127.8223764,
+  "kind": "public_building"
+ },
+ {
+  "name": "龍門飯店",
+  "en": null,
+  "lat": 26.3402888,
+  "lng": 127.8222061,
+  "kind": "public_building"
+ },
+ {
+  "name": "居ちゃり場",
+  "en": null,
+  "lat": 26.3404006,
+  "lng": 127.8221618,
+  "kind": "public_building"
+ },
+ {
+  "name": "ピエール",
+  "en": null,
+  "lat": 26.3400052,
+  "lng": 127.8220067,
+  "kind": "public_building"
+ },
+ {
+  "name": "EMウェルネスリゾート コスタビスタ沖縄",
+  "en": "EM Wellness Resort Costa Vista Okinawa",
+  "lat": 26.3062718,
+  "lng": 127.7953313,
+  "kind": "hotel"
+ },
+ {
+  "name": "風樹館",
+  "en": null,
+  "lat": 26.2502362,
+  "lng": 127.7646573,
+  "kind": "museum"
+ },
+ {
+  "name": "タイムリッチ",
+  "en": null,
+  "lat": 26.336441,
+  "lng": 127.8020959,
+  "kind": "hotel"
+ },
+ {
+  "name": "Shoppette / Taco Bell",
+  "en": null,
+  "lat": 26.2980395,
+  "lng": 127.7766746,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Military Dining Facility",
+  "en": null,
+  "lat": 26.298026,
+  "lng": 127.7683246,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Navy Gateway Inn and Suites",
+  "en": null,
+  "lat": 26.3394565,
+  "lng": 127.7906328,
+  "kind": "hotel"
+ },
+ {
+  "name": "プラウマンズランチベーカリー",
+  "en": "Ploughman's Lunch Bakery",
+  "lat": 26.2944131,
+  "lng": 127.7916173,
+  "kind": "restaurant"
+ },
+ {
+  "name": "そば屋さーふーふ",
+  "en": null,
+  "lat": 26.2904359,
+  "lng": 127.8011864,
+  "kind": "restaurant"
+ },
+ {
+  "name": "マルヒサてんぷら",
+  "en": "Maruhisa tempura",
+  "lat": 26.3270276,
+  "lng": 127.750613,
+  "kind": "deli"
+ },
+ {
+  "name": "GUSUKUROCK CAFE",
+  "en": null,
+  "lat": 26.285662,
+  "lng": 127.8034281,
+  "kind": "cafe"
+ },
+ {
+  "name": "Hilton Okinawa Chatan Resort",
+  "en": null,
+  "lat": 26.318686,
+  "lng": 127.7546741,
+  "kind": "hotel"
+ },
+ {
+  "name": "天然温泉アロマ",
+  "en": null,
+  "lat": 26.2883401,
+  "lng": 127.7460565,
+  "kind": "public_bath"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.286417,
+  "lng": 127.7486986,
+  "kind": "fast_food"
+ },
+ {
+  "name": "あしびJIMA",
+  "en": null,
+  "lat": 26.2781073,
+  "lng": 127.747272,
+  "kind": "pub"
+ },
+ {
+  "name": "マイハウス",
+  "en": "MYHOUSE",
+  "lat": 26.2787962,
+  "lng": 127.7476779,
+  "kind": "restaurant"
+ },
+ {
+  "name": "中村家住宅",
+  "en": "Nakamurake Residence",
+  "lat": 26.2896409,
+  "lng": 127.8005011,
+  "kind": "museum"
+ },
+ {
+  "name": "天下一品",
+  "en": "Tenkaippin",
+  "lat": 26.3228737,
+  "lng": 127.7567478,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3225209,
+  "lng": 127.7564731,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.296085,
+  "lng": 127.7806956,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3294574,
+  "lng": 127.7783626,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2843978,
+  "lng": 127.7451049,
+  "kind": "convenience"
+ },
+ {
+  "name": "居酒屋天狗 泡瀬店",
+  "en": "Tengu Awase Store",
+  "lat": 26.3276967,
+  "lng": 127.8256603,
+  "kind": "pub"
+ },
+ {
+  "name": "アワセそば食堂",
+  "en": null,
+  "lat": 26.3237077,
+  "lng": 127.8259644,
+  "kind": "restaurant"
+ },
+ {
+  "name": "La'gent Hotel Okinawa Chatan / Hotel and Hostel",
+  "en": null,
+  "lat": 26.3209495,
+  "lng": 127.7552827,
+  "kind": "hotel"
+ },
+ {
+  "name": "Roll Up",
+  "en": null,
+  "lat": 26.330374,
+  "lng": 127.7433974,
+  "kind": "fast_food"
+ },
+ {
+  "name": "CoCo壱番屋",
+  "en": "CoCo ICHIBANYA",
+  "lat": 26.2996828,
+  "lng": 127.7608537,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ラーメン魁力屋",
+  "en": null,
+  "lat": 26.3168632,
+  "lng": 127.7594574,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3169659,
+  "lng": 127.7596236,
+  "kind": "convenience"
+ },
+ {
+  "name": "あぐーの隠れ家",
+  "en": null,
+  "lat": 26.3140059,
+  "lng": 127.7602229,
+  "kind": "restaurant"
+ },
+ {
+  "name": "スターバックス",
+  "en": "Starbucks",
+  "lat": 26.3138631,
+  "lng": 127.7610315,
+  "kind": "cafe"
+ },
+ {
+  "name": "DoubleTree by Hilton Okinawa Chatan Resort",
+  "en": null,
+  "lat": 26.3175428,
+  "lng": 127.7538974,
+  "kind": "hotel"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.306661,
+  "lng": 127.817217,
+  "kind": "convenience"
+ },
+ {
+  "name": "カルビ大王",
+  "en": null,
+  "lat": 26.3172871,
+  "lng": 127.8235425,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2963261,
+  "lng": 127.7601673,
+  "kind": "convenience"
+ },
+ {
+  "name": "七輪焼肉安安　北谷店",
+  "en": null,
+  "lat": 26.3024088,
+  "lng": 127.7599459,
+  "kind": "restaurant"
+ },
+ {
+  "name": "お食事処 玄",
+  "en": "Restaurant GEN",
+  "lat": 26.3051804,
+  "lng": 127.7732935,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ココシャスモンパ",
+  "en": null,
+  "lat": 26.3214767,
+  "lng": 127.7558014,
+  "kind": "hotel"
+ },
+ {
+  "name": "アメリ感・アメリ館",
+  "en": "American American",
+  "lat": 26.3251048,
+  "lng": 127.7548357,
+  "kind": "restaurant"
+ },
+ {
+  "name": "孔雀楼",
+  "en": "Chinese restaurant peacock",
+  "lat": 26.2754167,
+  "lng": 127.7420092,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2573778,
+  "lng": 127.7560133,
+  "kind": "convenience"
+ },
+ {
+  "name": "すき家",
+  "en": "Sukiya",
+  "lat": 26.3027469,
+  "lng": 127.8099327,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ごはん処 かつ庵",
+  "en": "KATSUAN",
+  "lat": 26.3265064,
+  "lng": 127.754513,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ココス",
+  "en": "Coco's",
+  "lat": 26.3261668,
+  "lng": 127.7548536,
+  "kind": "restaurant"
+ },
+ {
+  "name": "熟成焼肉いちばん",
+  "en": null,
+  "lat": 26.325977,
+  "lng": 127.7550049,
+  "kind": "restaurant"
+ },
+ {
+  "name": "松屋",
+  "en": "Matsuya",
+  "lat": 26.3160675,
+  "lng": 127.7600556,
+  "kind": "fast_food"
+ },
+ {
+  "name": "A&W",
+  "en": null,
+  "lat": 26.3182907,
+  "lng": 127.7593653,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2617601,
+  "lng": 127.7416635,
+  "kind": "convenience"
+ },
+ {
+  "name": "ジョリーパスタ",
+  "en": "Jolly-Pasta",
+  "lat": 26.3255575,
+  "lng": 127.7554167,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ケンタッキーフライドチキン",
+  "en": "KFC",
+  "lat": 26.3230024,
+  "lng": 127.7565996,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3312441,
+  "lng": 127.7512914,
+  "kind": "convenience"
+ },
+ {
+  "name": "コメダ珈琲店",
+  "en": "Komeda Coffee Shop",
+  "lat": 26.3249643,
+  "lng": 127.7561788,
+  "kind": "cafe"
+ },
+ {
+  "name": "CoCo壱番屋",
+  "en": "CoCo ICHIBANYA",
+  "lat": 26.3120393,
+  "lng": 127.7620731,
+  "kind": "restaurant"
+ },
+ {
+  "name": "とんかつ太郎",
+  "en": "Tonkatsu Tarou",
+  "lat": 26.3166245,
+  "lng": 127.7598123,
+  "kind": "restaurant"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.3181457,
+  "lng": 127.7606745,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3006477,
+  "lng": 127.7964563,
+  "kind": "convenience"
+ },
+ {
+  "name": "モスバーガー",
+  "en": "MOS Burger",
+  "lat": 26.2821799,
+  "lng": 127.7820088,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3340029,
+  "lng": 127.834199,
+  "kind": "convenience"
+ },
+ {
+  "name": "モスバーガー",
+  "en": "MOS Burger",
+  "lat": 26.3214026,
+  "lng": 127.830944,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2593111,
+  "lng": 127.7588643,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2511668,
+  "lng": 127.7508282,
+  "kind": "convenience"
+ },
+ {
+  "name": "CoCo壱番屋",
+  "en": "CoCo ICHIBANYA",
+  "lat": 26.3264291,
+  "lng": 127.7664944,
+  "kind": "fast_food"
+ },
+ {
+  "name": "Mr.KINJO",
+  "en": null,
+  "lat": 26.2566685,
+  "lng": 127.7546543,
+  "kind": "hotel"
+ },
+ {
+  "name": "ドミノ・ピザ",
+  "en": "Domino's Pizza",
+  "lat": 26.3211511,
+  "lng": 127.8327282,
+  "kind": "fast_food"
+ },
+ {
+  "name": "THE GRAND HOTEL GINOWAN",
+  "en": null,
+  "lat": 26.2826414,
+  "lng": 127.7519052,
+  "kind": "hotel"
+ },
+ {
+  "name": "Kona’s Coffee",
+  "en": "Kona’s Coffee",
+  "lat": 26.31608,
+  "lng": 127.7561243,
+  "kind": "cafe"
+ },
+ {
+  "name": "スンドゥブドゥビドゥブ",
+  "en": null,
+  "lat": 26.321567,
+  "lng": 127.7578675,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ドミノ・ピザ",
+  "en": "Domino's Pizza",
+  "lat": 26.3247248,
+  "lng": 127.7551526,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ホテルサンセットテラス",
+  "en": "Hotel Sunset Terrace",
+  "lat": 26.3331654,
+  "lng": 127.7446301,
+  "kind": "hotel"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3209714,
+  "lng": 127.7928325,
+  "kind": "convenience"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3362675,
+  "lng": 127.8010982,
+  "kind": "convenience"
+ },
+ {
+  "name": "杏屋",
+  "en": null,
+  "lat": 26.3345547,
+  "lng": 127.8186807,
+  "kind": "pub"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2571256,
+  "lng": 127.7412729,
+  "kind": "convenience"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.2616326,
+  "lng": 127.7634741,
+  "kind": "convenience"
+ },
+ {
+  "name": "MBギャラリーチャタンbyザ・テラスホテルズ",
+  "en": null,
+  "lat": 26.3202693,
+  "lng": 127.754346,
+  "kind": "hotel"
+ },
+ {
+  "name": "佐喜真美術館",
+  "en": "Sakima Art Museum",
+  "lat": 26.2780176,
+  "lng": 127.7749304,
+  "kind": "museum"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2616928,
+  "lng": 127.7524415,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2539541,
+  "lng": 127.7742317,
+  "kind": "convenience"
+ },
+ {
+  "name": "二代目担々亭",
+  "en": null,
+  "lat": 26.254301,
+  "lng": 127.7739263,
+  "kind": "restaurant"
+ },
+ {
+  "name": "テラスリゾートMIHAMA",
+  "en": "Terrace Resort MIHAMA",
+  "lat": 26.3063841,
+  "lng": 127.7630822,
+  "kind": "hotel"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.343469,
+  "lng": 127.8196372,
+  "kind": "convenience"
+ },
+ {
+  "name": "東洋飯店",
+  "en": null,
+  "lat": 26.3207001,
+  "lng": 127.7607282,
+  "kind": "restaurant"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3236572,
+  "lng": 127.7580603,
+  "kind": "convenience"
+ },
+ {
+  "name": "我部祖河そば　中城店",
+  "en": "Gabusokasoba Nakagusuku Branch",
+  "lat": 26.2804247,
+  "lng": 127.8142701,
+  "kind": "restaurant"
+ },
+ {
+  "name": "だるま食堂",
+  "en": null,
+  "lat": 26.3223479,
+  "lng": 127.7894008,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3281553,
+  "lng": 127.7713763,
+  "kind": "convenience"
+ },
+ {
+  "name": "ドミノ・ピザ",
+  "en": "Domino's Pizza",
+  "lat": 26.3279175,
+  "lng": 127.7709114,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ゆくり家お花",
+  "en": "Yukuriya Ohana",
+  "lat": 26.318501,
+  "lng": 127.8256254,
+  "kind": "bar"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3111237,
+  "lng": 127.7964862,
+  "kind": "convenience"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3297667,
+  "lng": 127.7945814,
+  "kind": "convenience"
+ },
+ {
+  "name": "マクドナルド",
+  "en": "McDonald's",
+  "lat": 26.2605135,
+  "lng": 127.7591321,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2620134,
+  "lng": 127.7885822,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3195933,
+  "lng": 127.7598873,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3221824,
+  "lng": 127.7600831,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3198323,
+  "lng": 127.7584807,
+  "kind": "convenience"
+ },
+ {
+  "name": "串角",
+  "en": null,
+  "lat": 26.2581153,
+  "lng": 127.7565699,
+  "kind": "pub"
+ },
+ {
+  "name": "レストラン国",
+  "en": null,
+  "lat": 26.3209697,
+  "lng": 127.8318704,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3213475,
+  "lng": 127.8329722,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3220969,
+  "lng": 127.8325037,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3097181,
+  "lng": 127.7853372,
+  "kind": "convenience"
+ },
+ {
+  "name": "A&W",
+  "en": "A&W",
+  "lat": 26.3116581,
+  "lng": 127.7904746,
+  "kind": "fast_food"
+ },
+ {
+  "name": "スターバックス",
+  "en": "Starbucks",
+  "lat": 26.3004075,
+  "lng": 127.7609494,
+  "kind": "cafe"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.2676491,
+  "lng": 127.7662074,
+  "kind": "convenience"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3279695,
+  "lng": 127.7698056,
+  "kind": "convenience"
+ },
+ {
+  "name": "吉野家",
+  "en": "Yoshinoya",
+  "lat": 26.2579714,
+  "lng": 127.7562631,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ガスト",
+  "en": "Gusto",
+  "lat": 26.2619557,
+  "lng": 127.7622725,
+  "kind": "restaurant"
+ },
+ {
+  "name": "からあげ",
+  "en": null,
+  "lat": 26.2619203,
+  "lng": 127.7459227,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3113216,
+  "lng": 127.7958843,
+  "kind": "convenience"
+ },
+ {
+  "name": "満福",
+  "en": null,
+  "lat": 26.2650262,
+  "lng": 127.7456738,
+  "kind": "restaurant"
+ },
+ {
+  "name": "SORA",
+  "en": null,
+  "lat": 26.2543679,
+  "lng": 127.7519647,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2592982,
+  "lng": 127.7660055,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2651116,
+  "lng": 127.7556,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2561436,
+  "lng": 127.7588822,
+  "kind": "convenience"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3358933,
+  "lng": 127.7921443,
+  "kind": "convenience"
+ },
+ {
+  "name": "REF沖縄アリーナ by ベッセルホテルズ",
+  "en": null,
+  "lat": 26.3346616,
+  "lng": 127.7865307,
+  "kind": "hotel"
+ },
+ {
+  "name": "やよい軒",
+  "en": "Yayoiken",
+  "lat": 26.3154859,
+  "lng": 127.760131,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ともだち",
+  "en": null,
+  "lat": 26.2893124,
+  "lng": 127.7749999,
+  "kind": "pub"
+ },
+ {
+  "name": "ドラゴン",
+  "en": null,
+  "lat": 26.262068,
+  "lng": 127.7579085,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ぱいかじ",
+  "en": null,
+  "lat": 26.2620417,
+  "lng": 127.7583007,
+  "kind": "pub"
+ },
+ {
+  "name": "焼き鳥大吉",
+  "en": null,
+  "lat": 26.2621908,
+  "lng": 127.7612654,
+  "kind": "pub"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.30151,
+  "lng": 127.7586568,
+  "kind": "convenience"
+ },
+ {
+  "name": "Ruler's TACORICE",
+  "en": null,
+  "lat": 26.3250536,
+  "lng": 127.75577,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ぐすく台所",
+  "en": null,
+  "lat": 26.2660998,
+  "lng": 127.7647227,
+  "kind": "pub"
+ },
+ {
+  "name": "安安",
+  "en": null,
+  "lat": 26.2665128,
+  "lng": 127.7652562,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ゴールデン",
+  "en": null,
+  "lat": 26.2658085,
+  "lng": 127.7652032,
+  "kind": "pub"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.2779532,
+  "lng": 127.8098743,
+  "kind": "convenience"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3187722,
+  "lng": 127.8317642,
+  "kind": "convenience"
+ },
+ {
+  "name": "スターバックス",
+  "en": "Starbucks",
+  "lat": 26.3479062,
+  "lng": 127.8338625,
+  "kind": "cafe"
+ },
+ {
+  "name": "ピザーラ",
+  "en": "Pizza-La",
+  "lat": 26.2688054,
+  "lng": 127.768257,
+  "kind": "fast_food"
+ },
+ {
+  "name": "しゃぶしゃぶ温野菜",
+  "en": null,
+  "lat": 26.2694274,
+  "lng": 127.7684127,
+  "kind": "restaurant"
+ },
+ {
+  "name": "かなざわ",
+  "en": "Kanazawa",
+  "lat": 26.287554,
+  "lng": 127.7797164,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Rider's Garage Café & Dinner",
+  "en": null,
+  "lat": 26.2891064,
+  "lng": 127.7799687,
+  "kind": "restaurant"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.2560772,
+  "lng": 127.7701096,
+  "kind": "convenience"
+ },
+ {
+  "name": "大戸屋",
+  "en": "Ootoya",
+  "lat": 26.318244,
+  "lng": 127.7603355,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3344759,
+  "lng": 127.7868675,
+  "kind": "convenience"
+ },
+ {
+  "name": "田舎庵",
+  "en": null,
+  "lat": 26.2864012,
+  "lng": 127.781964,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Happy Bowls Okinawa",
+  "en": null,
+  "lat": 26.3066004,
+  "lng": 127.7600767,
+  "kind": "cafe"
+ },
+ {
+  "name": "次郎長寿司",
+  "en": null,
+  "lat": 26.3074302,
+  "lng": 127.7607847,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Breaky",
+  "en": null,
+  "lat": 26.3071873,
+  "lng": 127.7634534,
+  "kind": "hotel"
+ },
+ {
+  "name": "ホテルハンビ―リゾート",
+  "en": null,
+  "lat": 26.3075646,
+  "lng": 127.762141,
+  "kind": "hotel"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.3343113,
+  "lng": 127.8372531,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2844555,
+  "lng": 127.781052,
+  "kind": "convenience"
+ },
+ {
+  "name": "Tee House Restaurant",
+  "en": null,
+  "lat": 26.3360306,
+  "lng": 127.7568171,
+  "kind": "restaurant"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.2643799,
+  "lng": 127.7535109,
+  "kind": "convenience"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.2637017,
+  "lng": 127.7426497,
+  "kind": "convenience"
+ },
+ {
+  "name": "喜び",
+  "en": null,
+  "lat": 26.285234,
+  "lng": 127.7765453,
+  "kind": "pub"
+ },
+ {
+  "name": "RIHGA ROYAL HOTEL OKINAWA CHATAN",
+  "en": null,
+  "lat": 26.3169107,
+  "lng": 127.7575959,
+  "kind": "hotel"
+ },
+ {
+  "name": "桔梗",
+  "en": null,
+  "lat": 26.2656104,
+  "lng": 127.7651482,
+  "kind": "bar"
+ },
+ {
+  "name": "三色屋",
+  "en": null,
+  "lat": 26.265578,
+  "lng": 127.7651843,
+  "kind": "restaurant"
+ },
+ {
+  "name": "うさぎ",
+  "en": null,
+  "lat": 26.2653044,
+  "lng": 127.7644842,
+  "kind": "bar"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.277877,
+  "lng": 127.7794697,
+  "kind": "convenience"
+ },
+ {
+  "name": "ラーメン暖暮",
+  "en": null,
+  "lat": 26.2531674,
+  "lng": 127.7735605,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.2785723,
+  "lng": 127.7804731,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.2824409,
+  "lng": 127.7851043,
+  "kind": "convenience"
+ },
+ {
+  "name": "星乃珈琲店",
+  "en": "Hoshino Coffee",
+  "lat": 26.2958392,
+  "lng": 127.7804923,
+  "kind": "cafe"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3321703,
+  "lng": 127.7981259,
+  "kind": "convenience"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3313087,
+  "lng": 127.8321501,
+  "kind": "convenience"
+ },
+ {
+  "name": "Oile by DSH Resorts",
+  "en": null,
+  "lat": 26.3077852,
+  "lng": 127.7608351,
+  "kind": "hotel"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.3261918,
+  "lng": 127.7537613,
+  "kind": "convenience"
+ },
+ {
+  "name": "やっぱりステーキ",
+  "en": "Yappari Steak",
+  "lat": 26.3193668,
+  "lng": 127.7590604,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.3110673,
+  "lng": 127.7642422,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.2996651,
+  "lng": 127.8083947,
+  "kind": "convenience"
+ },
+ {
+  "name": "ジョイフル",
+  "en": "Joyfull",
+  "lat": 26.33339,
+  "lng": 127.8328063,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ドラゴン",
+  "en": null,
+  "lat": 26.3178109,
+  "lng": 127.820858,
+  "kind": "restaurant"
+ },
+ {
+  "name": "中華料理 DAIKEI",
+  "en": null,
+  "lat": 26.3349841,
+  "lng": 127.8202729,
+  "kind": "restaurant"
+ },
+ {
+  "name": "モスバーガー",
+  "en": "MOS Burger",
+  "lat": 26.3232851,
+  "lng": 127.7585746,
+  "kind": "fast_food"
+ },
+ {
+  "name": "ザ・ビーチタワー沖縄",
+  "en": "The Beach Tower Okinawa",
+  "lat": 26.3139761,
+  "lng": 127.7562494,
+  "kind": "hotel"
+ },
+ {
+  "name": "琉球大学生協北食堂",
+  "en": "University of the Ryukyus Co-op",
+  "lat": 26.2517656,
+  "lng": 127.7658905,
+  "kind": "restaurant"
+ }
+]

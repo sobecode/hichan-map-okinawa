@@ -1,0 +1,1220 @@
+[
+ {
+  "name": "東村立山と水の生活博物館",
+  "en": null,
+  "lat": 26.6410753,
+  "lng": 128.1672775,
+  "kind": "museum"
+ },
+ {
+  "name": "ヒロ・コーヒー・ファーム",
+  "en": "Hiro Coffee Farm",
+  "lat": 26.6635459,
+  "lng": 128.2487984,
+  "kind": "cafe"
+ },
+ {
+  "name": "Kouri Island North Beach",
+  "en": null,
+  "lat": 26.7138069,
+  "lng": 128.0192893,
+  "kind": "attraction"
+ },
+ {
+  "name": "沖縄県北部家畜保健衛生所",
+  "en": null,
+  "lat": 26.610462,
+  "lng": 128.005812,
+  "kind": "public_building"
+ },
+ {
+  "name": "沖縄総合事務局羽地大川農業水利事業所",
+  "en": null,
+  "lat": 26.622115,
+  "lng": 128.017601,
+  "kind": "public_building"
+ },
+ {
+  "name": "第十一管区海上保安本部慶佐次ロラン航路標識事務所",
+  "en": null,
+  "lat": 26.606724,
+  "lng": 128.152007,
+  "kind": "public_building"
+ },
+ {
+  "name": "cafe 帆風",
+  "en": null,
+  "lat": 26.6033512,
+  "lng": 128.1359629,
+  "kind": "cafe"
+ },
+ {
+  "name": "カフェ 山甌",
+  "en": null,
+  "lat": 26.6681198,
+  "lng": 128.2402194,
+  "kind": "cafe"
+ },
+ {
+  "name": "ローソン",
+  "en": "LAWSON Kunigamihama",
+  "lat": 26.7228069,
+  "lng": 128.1610015,
+  "kind": "convenience"
+ },
+ {
+  "name": "ペンション&カフェテラスたちがあ",
+  "en": "Tachigaa waterfall cafe",
+  "lat": 26.6307838,
+  "lng": 128.2143962,
+  "kind": "cafe"
+ },
+ {
+  "name": "食と館",
+  "en": "Shoku to Yakata",
+  "lat": 26.6959397,
+  "lng": 128.0204379,
+  "kind": "restaurant"
+ },
+ {
+  "name": "くいな",
+  "en": "Kuina",
+  "lat": 26.7323218,
+  "lng": 128.1694714,
+  "kind": "restaurant"
+ },
+ {
+  "name": "山原学びの森",
+  "en": "Yambaru Discovery Forest",
+  "lat": 26.7233932,
+  "lng": 128.264976,
+  "kind": "restaurant"
+ },
+ {
+  "name": "山の駅",
+  "en": "Yama no Eki",
+  "lat": 26.6636773,
+  "lng": 128.2494926,
+  "kind": "marketplace"
+ },
+ {
+  "name": "BLUE SEAL",
+  "en": null,
+  "lat": 26.6958513,
+  "lng": 128.0218281,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "ブルーシール古宇利島パーラー",
+  "en": "Blue Seal Kori Island Parlor",
+  "lat": 26.695985,
+  "lng": 128.0205993,
+  "kind": "ice_cream"
+ },
+ {
+  "name": "愛すらんど古宇利島",
+  "en": null,
+  "lat": 26.696128,
+  "lng": 128.0206257,
+  "kind": "marketplace"
+ },
+ {
+  "name": "わんさか大浦パーク",
+  "en": null,
+  "lat": 26.5546619,
+  "lng": 128.0405952,
+  "kind": "marketplace"
+ },
+ {
+  "name": "小春や",
+  "en": "Koharuya",
+  "lat": 26.7033334,
+  "lng": 128.1495177,
+  "kind": "cafe"
+ },
+ {
+  "name": "まあるい島",
+  "en": "Marui Shima",
+  "lat": 26.698284,
+  "lng": 128.0224554,
+  "kind": "cafe"
+ },
+ {
+  "name": "村農村環境改善サブセンター",
+  "en": null,
+  "lat": 26.6964139,
+  "lng": 128.0204557,
+  "kind": "information"
+ },
+ {
+  "name": "美ら海展望台",
+  "en": null,
+  "lat": 26.8592336,
+  "lng": 128.2544946,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "キッチンテラス　ココニール （CocoNeel）",
+  "en": "CocoNeel",
+  "lat": 26.6850964,
+  "lng": 128.0048494,
+  "kind": "restaurant"
+ },
+ {
+  "name": "海の家ピース浜",
+  "en": "Sea house Peace beach",
+  "lat": 26.712485,
+  "lng": 128.0200186,
+  "kind": "cafe"
+ },
+ {
+  "name": "石山展望台",
+  "en": null,
+  "lat": 26.6760927,
+  "lng": 128.1479135,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "満味",
+  "en": null,
+  "lat": 26.60578,
+  "lng": 128.00112,
+  "kind": "restaurant"
+ },
+ {
+  "name": "鬼太郎ハウス",
+  "en": "Kitaro House",
+  "lat": 26.7143889,
+  "lng": 128.2697554,
+  "kind": "attraction"
+ },
+ {
+  "name": "比地大滝",
+  "en": "Hiji Waterfall",
+  "lat": 26.7109576,
+  "lng": 128.1854562,
+  "kind": "attraction"
+ },
+ {
+  "name": "慶佐次湾のヒルギ林",
+  "en": "Mangrove at Gesashi Gulf",
+  "lat": 26.6058938,
+  "lng": 128.1417912,
+  "kind": "attraction"
+ },
+ {
+  "name": "伊江の浜",
+  "en": "Ienohama Beach",
+  "lat": 26.8077485,
+  "lng": 128.3176418,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "天仁屋ビーチ",
+  "en": "Aniya Beach",
+  "lat": 26.5666783,
+  "lng": 128.1380574,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "茅打ちバンタ",
+  "en": "Kayauchi-banta Cliff",
+  "lat": 26.8542219,
+  "lng": 128.2498346,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "ふるさと食堂",
+  "en": null,
+  "lat": 26.6902549,
+  "lng": 128.1080767,
+  "kind": "restaurant"
+ },
+ {
+  "name": "キザハコーヒー",
+  "en": "KIZAHA COFFEE",
+  "lat": 26.6901655,
+  "lng": 128.1079334,
+  "kind": "cafe"
+ },
+ {
+  "name": "古宇利オーシャンタワー",
+  "en": "Kouri Ocean Tower",
+  "lat": 26.7001292,
+  "lng": 128.0241612,
+  "kind": "attraction"
+ },
+ {
+  "name": "ひまわり食堂",
+  "en": null,
+  "lat": 26.732267,
+  "lng": 128.162125,
+  "kind": "restaurant"
+ },
+ {
+  "name": "guest house iroha",
+  "en": null,
+  "lat": 26.6809322,
+  "lng": 128.000284,
+  "kind": "hotel"
+ },
+ {
+  "name": "ツインハウスうみぐくる",
+  "en": "TWIN HOUSE Umigukuru",
+  "lat": 26.686072,
+  "lng": 128.004965,
+  "kind": "hotel"
+ },
+ {
+  "name": "とぅるぱ家",
+  "en": "Turupaya",
+  "lat": 26.6864643,
+  "lng": 128.0060064,
+  "kind": "hotel"
+ },
+ {
+  "name": "ヒーリングビレッジ魂喜村",
+  "en": "Healing Village Konki Village",
+  "lat": 26.686385,
+  "lng": 128.0062025,
+  "kind": "hotel"
+ },
+ {
+  "name": "チルマ",
+  "en": null,
+  "lat": 26.6879004,
+  "lng": 128.0035253,
+  "kind": "hotel"
+ },
+ {
+  "name": "Kiiro",
+  "en": null,
+  "lat": 26.6581249,
+  "lng": 128.0088804,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Bar Green Room",
+  "en": null,
+  "lat": 26.7456641,
+  "lng": 128.1773639,
+  "kind": "bar"
+ },
+ {
+  "name": "アダンビーチ",
+  "en": "Adan Beach",
+  "lat": 26.8209841,
+  "lng": 128.3134757,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.6157128,
+  "lng": 128.0095159,
+  "kind": "convenience"
+ },
+ {
+  "name": "ゆうらん船(恋の水先案内人)",
+  "en": "Yuuran boat (loiter's pilot guard)",
+  "lat": 26.6955881,
+  "lng": 128.0202743,
+  "kind": "attraction"
+ },
+ {
+  "name": "パーラーまるみ",
+  "en": "Parlor Marumi",
+  "lat": 26.6971248,
+  "lng": 128.0162487,
+  "kind": "restaurant"
+ },
+ {
+  "name": "民宿玉城",
+  "en": "Minsyuku Tamaki",
+  "lat": 26.6972883,
+  "lng": 128.0155816,
+  "kind": "hotel"
+ },
+ {
+  "name": "Cafe t&c とうらく",
+  "en": "Cafe Toraku",
+  "lat": 26.7006771,
+  "lng": 128.0110746,
+  "kind": "cafe"
+ },
+ {
+  "name": "ティーヌ浜",
+  "en": "teanu Beach",
+  "lat": 26.7137837,
+  "lng": 128.0148404,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "古宇利島 カフェ くくるがま 心窯 cafe KUKURUGAMA",
+  "en": "cafe KUKURUGAMA",
+  "lat": 26.6998391,
+  "lng": 128.0221142,
+  "kind": "cafe"
+ },
+ {
+  "name": "白岬",
+  "en": "Shiro Cape",
+  "lat": 26.7114081,
+  "lng": 128.0263916,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "古宇利島VillaNAGOMI",
+  "en": "Villa NAGOMI",
+  "lat": 26.6988912,
+  "lng": 128.0208346,
+  "kind": "hotel"
+ },
+ {
+  "name": "食事処錦屋",
+  "en": "Restaurant Nishikiya",
+  "lat": 26.6976459,
+  "lng": 128.0197751,
+  "kind": "restaurant"
+ },
+ {
+  "name": "cafe247",
+  "en": null,
+  "lat": 26.7009139,
+  "lng": 128.0170846,
+  "kind": "cafe"
+ },
+ {
+  "name": "ポニー",
+  "en": null,
+  "lat": 26.7048687,
+  "lng": 128.0257053,
+  "kind": "attraction"
+ },
+ {
+  "name": "Kouri Island Shrimp Truck",
+  "en": null,
+  "lat": 26.6970472,
+  "lng": 128.02038,
+  "kind": "restaurant"
+ },
+ {
+  "name": "宜名真漁港",
+  "en": "Ginama Fishing port",
+  "lat": 26.8496225,
+  "lng": 128.252869,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "ISLAND ROCK CAFE KOURIJIMA",
+  "en": null,
+  "lat": 26.6962998,
+  "lng": 128.0237336,
+  "kind": "cafe"
+ },
+ {
+  "name": "しらさ食堂",
+  "en": "Shirasa Restaurant",
+  "lat": 26.6966357,
+  "lng": 128.0166425,
+  "kind": "restaurant"
+ },
+ {
+  "name": "カフェ＆コテージ Ocean Breeze",
+  "en": "Cafe & Cottage Ocean Breeze",
+  "lat": 26.7107288,
+  "lng": 128.0121398,
+  "kind": "cafe"
+ },
+ {
+  "name": "カフェフクルビ",
+  "en": "Cafe Fukurubi",
+  "lat": 26.7098435,
+  "lng": 128.0165986,
+  "kind": "cafe"
+ },
+ {
+  "name": "むらの茶屋",
+  "en": "Mura no Chaya",
+  "lat": 26.7007599,
+  "lng": 128.0187279,
+  "kind": "cafe"
+ },
+ {
+  "name": "古宇利島バーベキューガーデンくりやま家",
+  "en": "Barbeque garden Kuriyama home",
+  "lat": 26.702119,
+  "lng": 128.0253966,
+  "kind": "restaurant"
+ },
+ {
+  "name": "パーラーかいり",
+  "en": "Parlor Kairi",
+  "lat": 26.7018344,
+  "lng": 128.025298,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ペンションマルイ",
+  "en": "Pension Marui",
+  "lat": 26.6985441,
+  "lng": 128.0204688,
+  "kind": "hotel"
+ },
+ {
+  "name": "ONE SUITE Hotel & Resort KOURI ISLAND （ワンスイート ホテル＆リゾート 古宇利島）FRONT SERVICE",
+  "en": "ONE SUITE Hotel & Resort KOURI ISLAND",
+  "lat": 26.6982327,
+  "lng": 128.02055,
+  "kind": "hotel"
+ },
+ {
+  "name": "ヴィラ・デラセーラ",
+  "en": "Villa Delasera",
+  "lat": 26.6986804,
+  "lng": 128.0169536,
+  "kind": "hotel"
+ },
+ {
+  "name": "Resort Villa古宇利島 Aquablue",
+  "en": "Resort Villa Kouri Island Aquablue",
+  "lat": 26.6995492,
+  "lng": 128.0139321,
+  "kind": "hotel"
+ },
+ {
+  "name": "安田漁港",
+  "en": "Yasuda Fishing port",
+  "lat": 26.7413983,
+  "lng": 128.3186206,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "展望台",
+  "en": "Observatory",
+  "lat": 26.6953642,
+  "lng": 128.0209257,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "Plumeria Cafe",
+  "en": null,
+  "lat": 26.699552,
+  "lng": 128.0216238,
+  "kind": "cafe"
+ },
+ {
+  "name": "パームステイ古宇利",
+  "en": "Palm Stay Kouri",
+  "lat": 26.7119573,
+  "lng": 128.0155021,
+  "kind": "hotel"
+ },
+ {
+  "name": "川田漁港",
+  "en": "Kawata Fishing port",
+  "lat": 26.6286807,
+  "lng": 128.1668578,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "お食事処島の駅",
+  "en": "Restaurant Shima no Eki",
+  "lat": 26.7096067,
+  "lng": 128.0209834,
+  "kind": "restaurant"
+ },
+ {
+  "name": "カフェデタルト",
+  "en": "Cafe Detaruto",
+  "lat": 26.7002383,
+  "lng": 128.0242435,
+  "kind": "cafe"
+ },
+ {
+  "name": "Ocean Blue RESTAURANT",
+  "en": "Ocean Blue Restaurant",
+  "lat": 26.7002555,
+  "lng": 128.0239739,
+  "kind": "restaurant"
+ },
+ {
+  "name": "お食事処文ちゃん",
+  "en": "Restaurant Fumichan",
+  "lat": 26.6971381,
+  "lng": 128.0202658,
+  "kind": "restaurant"
+ },
+ {
+  "name": "チグヌ浜",
+  "en": "Chinugu Beach",
+  "lat": 26.6964655,
+  "lng": 128.0147748,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "Hotel Cava",
+  "en": null,
+  "lat": 26.7118983,
+  "lng": 128.0158748,
+  "kind": "hotel"
+ },
+ {
+  "name": "慶佐次漁港",
+  "en": "Gesashi Fishing port",
+  "lat": 26.6002969,
+  "lng": 128.136587,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "汀間漁港",
+  "en": "Teima Fishing port",
+  "lat": 26.5519337,
+  "lng": 128.0633721,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "ヤンバルクイナ展望台",
+  "en": "Yanbaru kuina Observatory",
+  "lat": 26.8624138,
+  "lng": 128.2649716,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "Restaurant L LOTA（エルロタ）",
+  "en": "Restaurant L LOTA",
+  "lat": 26.698198,
+  "lng": 128.0207807,
+  "kind": "restaurant"
+ },
+ {
+  "name": "安波海岸",
+  "en": "Aha Beach",
+  "lat": 26.7166068,
+  "lng": 128.2923992,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "慶佐次ウッパマビーチ",
+  "en": "Kesaji Uppama Beach",
+  "lat": 26.5998561,
+  "lng": 128.15087,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "くいなビーチ",
+  "en": "Kuina Beach",
+  "lat": 26.7265588,
+  "lng": 128.1608224,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "済井出ビーチ",
+  "en": "Saide Beach",
+  "lat": 26.6641731,
+  "lng": 128.025828,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "奥漁港",
+  "en": "Oku Fishing port",
+  "lat": 26.8439663,
+  "lng": 128.2898859,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "国頭浜漁港",
+  "en": "Kunigamihama Fishing port",
+  "lat": 26.7226404,
+  "lng": 128.1583092,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "国頭港食堂",
+  "en": "Kunigami Port Restaurant",
+  "lat": 26.7212229,
+  "lng": 128.1584623,
+  "kind": "restaurant"
+ },
+ {
+  "name": "有銘湾ビーチ",
+  "en": "Arime bay Beach",
+  "lat": 26.6014034,
+  "lng": 128.132688,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "屋我地漁港",
+  "en": "Yagaji Fishing port",
+  "lat": 26.6726069,
+  "lng": 128.0230551,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "奥武島ビーチ",
+  "en": "Oshima Beach",
+  "lat": 26.6417053,
+  "lng": 128.0329778,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "古宇利大橋南詰展望所",
+  "en": "Kouri Ohashi Minami Zume Observatory",
+  "lat": 26.6786737,
+  "lng": 128.0124907,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "辺土名漁港",
+  "en": "Hentona Fishing port",
+  "lat": 26.7483175,
+  "lng": 128.1772132,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "古宇利港",
+  "en": "Kouri Port",
+  "lat": 26.6959549,
+  "lng": 128.0187536,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "鏡地ビーチ",
+  "en": "Kyochi Beach",
+  "lat": 26.7300591,
+  "lng": 128.1606923,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "伊部海岸",
+  "en": "Ibu Beach",
+  "lat": 26.7541657,
+  "lng": 128.323268,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "Okuma sand Beach",
+  "en": null,
+  "lat": 26.7254038,
+  "lng": 128.1603138,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "ほっともっと",
+  "en": "Hotto Motto",
+  "lat": 26.6151307,
+  "lng": 128.0070165,
+  "kind": "fast_food"
+ },
+ {
+  "name": "福地ダム資料館",
+  "en": null,
+  "lat": 26.646693,
+  "lng": 128.1761349,
+  "kind": "museum"
+ },
+ {
+  "name": "東村文化・スポーツ記念館",
+  "en": null,
+  "lat": 26.636385,
+  "lng": 128.1565989,
+  "kind": "museum"
+ },
+ {
+  "name": "東ぬ浜",
+  "en": null,
+  "lat": 26.6307998,
+  "lng": 128.1533232,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ティーヌ浜",
+  "en": null,
+  "lat": 26.7131471,
+  "lng": 128.0142529,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "又吉コーヒー園",
+  "en": "Matayoshi Coffee Farm",
+  "lat": 26.6098337,
+  "lng": 128.1439004,
+  "kind": "hotel"
+ },
+ {
+  "name": "コウリシュリンプ",
+  "en": "Kouri Shrimp",
+  "lat": 26.6972983,
+  "lng": 128.0213453,
+  "kind": "restaurant"
+ },
+ {
+  "name": "DRE x DRE",
+  "en": null,
+  "lat": 26.6984068,
+  "lng": 128.0205197,
+  "kind": "fast_food"
+ },
+ {
+  "name": "道の駅おおぎみ やんばるの森ビシタセンター",
+  "en": "Ogimi yanbaru Visitor center",
+  "lat": 26.6606728,
+  "lng": 128.1021136,
+  "kind": "information"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.6607515,
+  "lng": 128.1011076,
+  "kind": "convenience"
+ },
+ {
+  "name": "Ecopa",
+  "en": null,
+  "lat": 26.6382692,
+  "lng": 128.1591577,
+  "kind": "restaurant"
+ },
+ {
+  "name": "あいうえお食事",
+  "en": "AIUEO shokudo",
+  "lat": 26.6031709,
+  "lng": 128.1441541,
+  "kind": "restaurant"
+ },
+ {
+  "name": "Private villa Yuki Suite Kourijima",
+  "en": null,
+  "lat": 26.6974054,
+  "lng": 128.0145521,
+  "kind": "hotel"
+ },
+ {
+  "name": "川田区売店",
+  "en": null,
+  "lat": 26.6290707,
+  "lng": 128.1653084,
+  "kind": "convenience"
+ },
+ {
+  "name": "鉄琴 (エンドウの花)",
+  "en": "Metallophone with Score of Endo-no-hana",
+  "lat": 26.6697534,
+  "lng": 128.1050398,
+  "kind": "attraction"
+ },
+ {
+  "name": "鉄琴 (ドレミの歌)",
+  "en": "Metallophone with Score of Song of Doremi",
+  "lat": 26.6690596,
+  "lng": 128.1048106,
+  "kind": "attraction"
+ },
+ {
+  "name": "レストランやんばるシーサイド",
+  "en": "Restaurant Yambaru Seaside",
+  "lat": 26.6609717,
+  "lng": 128.1023386,
+  "kind": "restaurant"
+ },
+ {
+  "name": "警告",
+  "en": "Warning",
+  "lat": 26.8719566,
+  "lng": 128.2637284,
+  "kind": "information"
+ },
+ {
+  "name": "辺戸岬園地 沖縄の最北の園地",
+  "en": null,
+  "lat": 26.8718149,
+  "lng": 128.2636206,
+  "kind": "information"
+ },
+ {
+  "name": "沖縄海岸国定公園",
+  "en": "Okinawa Kaigan Quasi-National Park",
+  "lat": 26.8718613,
+  "lng": 128.2636005,
+  "kind": "information"
+ },
+ {
+  "name": "国頭村文化財案内マップ（辺戸・宜名真）",
+  "en": "Map of Cultual Properties in Kunigami Village [Hedo & Ginama]",
+  "lat": 26.871907,
+  "lng": 128.2636937,
+  "kind": "information"
+ },
+ {
+  "name": "ふしくぶカフェ",
+  "en": null,
+  "lat": 26.8724953,
+  "lng": 128.2632574,
+  "kind": "cafe"
+ },
+ {
+  "name": "沖縄島最北端の地 辺戸岬",
+  "en": "Yanbaru National Park Cape Hedo",
+  "lat": 26.8722023,
+  "lng": 128.2640589,
+  "kind": "information"
+ },
+ {
+  "name": "やんばる国立公園 辺戸岬",
+  "en": "Yanbaru National Park Cape Hedo",
+  "lat": 26.8721558,
+  "lng": 128.2646505,
+  "kind": "information"
+ },
+ {
+  "name": "森と水とやすらぎの星\"くにがみ\"",
+  "en": null,
+  "lat": 26.8726052,
+  "lng": 128.2638045,
+  "kind": "information"
+ },
+ {
+  "name": "辺戸岬",
+  "en": "Cape Hedo",
+  "lat": 26.8725765,
+  "lng": 128.2638761,
+  "kind": "information"
+ },
+ {
+  "name": "やんばる国立公園 大石林山",
+  "en": "Daisekirinzan",
+  "lat": 26.8614069,
+  "lng": 128.2512237,
+  "kind": "information"
+ },
+ {
+  "name": "ヤンバルクイナ生態展示学習施設",
+  "en": null,
+  "lat": 26.7412596,
+  "lng": 128.2958495,
+  "kind": "information"
+ },
+ {
+  "name": "くいなパークゴルフ場",
+  "en": null,
+  "lat": 26.746244,
+  "lng": 128.2912397,
+  "kind": "information"
+ },
+ {
+  "name": "クイナの森 パターゴルフ場",
+  "en": null,
+  "lat": 26.7462598,
+  "lng": 128.2912277,
+  "kind": "information"
+ },
+ {
+  "name": "クイナの森（ヤンバルクイナ生態展示学習施設）",
+  "en": "Yanbaru Kuina no Mori (Okinawa Rail Ecology Center)",
+  "lat": 26.7416321,
+  "lng": 128.2954676,
+  "kind": "information"
+ },
+ {
+  "name": "沖縄県家畜改良センター1km",
+  "en": "Prefectual Livestock Breeding Center",
+  "lat": 26.746191,
+  "lng": 128.291133,
+  "kind": "information"
+ },
+ {
+  "name": "クイナの森 パターゴルフ場",
+  "en": null,
+  "lat": 26.7462025,
+  "lng": 128.2911643,
+  "kind": "information"
+ },
+ {
+  "name": "大堂原貝塚",
+  "en": "Ufudobaru Shell Mounds",
+  "lat": 26.6786287,
+  "lng": 128.0127249,
+  "kind": "information"
+ },
+ {
+  "name": "辺戸集落の散策路と辺戸蔡温松並木保全公園",
+  "en": null,
+  "lat": 26.8587623,
+  "lng": 128.2614446,
+  "kind": "information"
+ },
+ {
+  "name": "辺戸集落散策路と蔡温松並木保全公園",
+  "en": null,
+  "lat": 26.858525,
+  "lng": 128.2627285,
+  "kind": "information"
+ },
+ {
+  "name": "辺戸共同売店",
+  "en": null,
+  "lat": 26.8569692,
+  "lng": 128.2622754,
+  "kind": "convenience"
+ },
+ {
+  "name": "パラディ",
+  "en": null,
+  "lat": 26.5505624,
+  "lng": 128.0775833,
+  "kind": "restaurant"
+ },
+ {
+  "name": "海と丘の展望台",
+  "en": null,
+  "lat": 26.7051084,
+  "lng": 128.2805269,
+  "kind": "viewpoint"
+ },
+ {
+  "name": "パーラーくがに",
+  "en": "Parlor Kugani",
+  "lat": 26.6606697,
+  "lng": 128.1024033,
+  "kind": "fast_food"
+ },
+ {
+  "name": "アスムイハイクス",
+  "en": "ASMUI Spiritual Hikes",
+  "lat": 26.8583323,
+  "lng": 128.255167,
+  "kind": "attraction"
+ },
+ {
+  "name": "Ta-taki Falls Parking",
+  "en": null,
+  "lat": 26.637198,
+  "lng": 128.0929172,
+  "kind": "attraction"
+ },
+ {
+  "name": "ふれあい食堂　なんと屋",
+  "en": null,
+  "lat": 26.8613157,
+  "lng": 128.2546407,
+  "kind": "restaurant"
+ },
+ {
+  "name": "マグノリア",
+  "en": null,
+  "lat": 26.552034,
+  "lng": 128.0795931,
+  "kind": "hotel"
+ },
+ {
+  "name": "カタラ",
+  "en": null,
+  "lat": 26.5506694,
+  "lng": 128.0774378,
+  "kind": "bar"
+ },
+ {
+  "name": "クーワクーワ",
+  "en": null,
+  "lat": 26.5503856,
+  "lng": 128.077232,
+  "kind": "restaurant"
+ },
+ {
+  "name": "カヌチャリゾート ノースウィング棟",
+  "en": null,
+  "lat": 26.5509736,
+  "lng": 128.0763668,
+  "kind": "hotel"
+ },
+ {
+  "name": "カヌチャリゾート サウスウィング棟",
+  "en": null,
+  "lat": 26.5501499,
+  "lng": 128.0766749,
+  "kind": "hotel"
+ },
+ {
+  "name": "上城及び拝所の案内図",
+  "en": null,
+  "lat": 26.7103388,
+  "lng": 128.1592483,
+  "kind": "information"
+ },
+ {
+  "name": "Airando Fiji Cafe - アイランド フィジー カフェ",
+  "en": null,
+  "lat": 26.6979444,
+  "lng": 128.0197619,
+  "kind": "restaurant"
+ },
+ {
+  "name": "宇佐浜遺跡",
+  "en": null,
+  "lat": 26.8667179,
+  "lng": 128.2603155,
+  "kind": "information"
+ },
+ {
+  "name": "辺戸岬こうようパーラー",
+  "en": null,
+  "lat": 26.8720559,
+  "lng": 128.2635901,
+  "kind": "fast_food"
+ },
+ {
+  "name": "沖縄石の文化博物館",
+  "en": null,
+  "lat": 26.8613536,
+  "lng": 128.2545497,
+  "kind": "museum"
+ },
+ {
+  "name": "ファミリーマート",
+  "en": "FamilyMart",
+  "lat": 26.7310644,
+  "lng": 128.1692084,
+  "kind": "convenience"
+ },
+ {
+  "name": "FamilyMart",
+  "en": "FamilyMart Nago Taira",
+  "lat": 26.6164967,
+  "lng": 128.0099651,
+  "kind": "convenience"
+ },
+ {
+  "name": "ファミリーマート名護真喜屋店",
+  "en": "FamilyMart Nago Makiya",
+  "lat": 26.6339667,
+  "lng": 128.0351969,
+  "kind": "convenience"
+ },
+ {
+  "name": "くるまえびキッチンTAMAYA",
+  "en": null,
+  "lat": 26.6729147,
+  "lng": 128.0045108,
+  "kind": "restaurant"
+ },
+ {
+  "name": "食堂やまびこ",
+  "en": null,
+  "lat": 26.7398992,
+  "lng": 128.174814,
+  "kind": "restaurant"
+ },
+ {
+  "name": "ローソン",
+  "en": "LAWSON Ogimi Shioya",
+  "lat": 26.6777253,
+  "lng": 128.1018274,
+  "kind": "convenience"
+ },
+ {
+  "name": "クロネコヤマト",
+  "en": "Kuroneko Yamato",
+  "lat": 26.6775502,
+  "lng": 128.1016955,
+  "kind": "delivery"
+ },
+ {
+  "name": "辺戸岬観光案内所",
+  "en": "Cape Hedo Tourist Information Office",
+  "lat": 26.8725223,
+  "lng": 128.2632254,
+  "kind": "information"
+ },
+ {
+  "name": "ガジュマルロック",
+  "en": null,
+  "lat": 26.7074898,
+  "lng": 128.0101542,
+  "kind": "restaurant"
+ },
+ {
+  "name": "江洲の花",
+  "en": null,
+  "lat": 26.6411717,
+  "lng": 128.1267036,
+  "kind": "restaurant"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.6334229,
+  "lng": 128.0355581,
+  "kind": "convenience"
+ },
+ {
+  "name": "うちな～屋",
+  "en": null,
+  "lat": 26.6340416,
+  "lng": 128.0362181,
+  "kind": "pub"
+ },
+ {
+  "name": "セブン-イレブン",
+  "en": "7-Eleven",
+  "lat": 26.743525,
+  "lng": 128.1767104,
+  "kind": "convenience"
+ },
+ {
+  "name": "宜名真共同売店",
+  "en": "Ginama Community Store",
+  "lat": 26.8469267,
+  "lng": 128.2543266,
+  "kind": "convenience"
+ },
+ {
+  "name": "浜風",
+  "en": null,
+  "lat": 26.7221294,
+  "lng": 128.1597795,
+  "kind": "restaurant"
+ },
+ {
+  "name": "幸せになる古宇利島の宿",
+  "en": null,
+  "lat": 26.7100833,
+  "lng": 128.0157186,
+  "kind": "hotel"
+ },
+ {
+  "name": "Hotel Tin",
+  "en": null,
+  "lat": 26.6697767,
+  "lng": 128.1273125,
+  "kind": "hotel"
+ },
+ {
+  "name": "Ogimi Sky Terrace",
+  "en": null,
+  "lat": 26.6696732,
+  "lng": 128.126907,
+  "kind": "restaurant"
+ },
+ {
+  "name": "JALプライベートリゾートオクマ",
+  "en": null,
+  "lat": 26.7364207,
+  "lng": 128.1602421,
+  "kind": "resort"
+ },
+ {
+  "name": "カヌチャリゾート",
+  "en": null,
+  "lat": 26.5502789,
+  "lng": 128.0795362,
+  "kind": "resort"
+ },
+ {
+  "name": "ローソン",
+  "en": "Lawson",
+  "lat": 26.626413,
+  "lng": 128.0027799,
+  "kind": "convenience"
+ }
+]
