@@ -35,11 +35,28 @@ shops.forEach(s => (byArea[s.area_id] || (byArea[s.area_id] = [])).push(s));
  */
 const EXCLUDE = JSON.parse(fs.readFileSync(path.join(__dirname, 'tabelog_exclude.json'), 'utf8'));
 
+/*
+ * 逆に、自動照合では決められないが目で見て同一と確認できた組。
+ * 「当サイトの店名|表示エリア」→ 食べログ側の行の名前。
+ * name_match は括弧の中を潰すので「伊芸SA（上り）」と「（下り）」が同点になって
+ * どちらも捨てられる。そういう取りこぼしをここで名指しで拾う。
+ */
+const FORCE = JSON.parse(fs.readFileSync(path.join(__dirname, 'tabelog_force.json'), 'utf8'));
+const forceByRow = new Map();   // 食べログ側の名前 -> 当サイトの "店名|エリア"
+for (const [k, v] of Object.entries(FORCE)) if (!k.startsWith('_')) forceByRow.set(v, k);
+
 const assign = new Map(); // "name|a" -> {score, count, from, sim}
-const unmatched = [], ambiguous = [], conflicts = [], excluded = [];
+const unmatched = [], ambiguous = [], conflicts = [], excluded = [], forced = [];
 
 rows.forEach(r => {
   if (EXCLUDE[r.name]) { excluded.push(`${r.name} — ${EXCLUDE[r.name]}`); return; }
+  // 名指しの対応があればそれを最優先で採る(一致度1.00扱い)
+  const forcedKey = forceByRow.get(r.name);
+  if (forcedKey) {
+    assign.set(forcedKey, {score: r.score, count: r.count, from: r.name, sim: 1});
+    forced.push(`${forcedKey} ← ${r.name} (${r.score})`);
+    return;
+  }
   const pool = byArea[r.area_id] || [];
   const res = bestMatch(r.name, pool, s => s.n);
   if (!res.match) {
@@ -90,7 +107,11 @@ for (let i = 0; i < lines.length; i++) {
 
 if (!DRY) fs.writeFileSync(INDEX, lines.join('\n'), 'utf8');
 console.log(`${DRY ? '[dry run] ' : ''}入力 ${rows.length} 行 → 点数を持つ店 ${applied} 件(既存値 ${cleared} 件をいったん消して付け直し)`);
-console.log(`照合できず ${unmatched.length} 件 / 同点保留 ${ambiguous.length} 件 / 手動除外 ${excluded.length} 件`);
+console.log(`照合できず ${unmatched.length} 件 / 同点保留 ${ambiguous.length} 件 / 手動除外 ${excluded.length} 件 / 名指し ${forced.length} 件`);
+if (forced.length) {
+  console.log('\n名指しで対応づけ(tabelog_force.json):');
+  forced.forEach(c => console.log('  ' + c));
+}
 if (excluded.length) {
   console.log('\n手動除外(同一店と言い切れない):');
   excluded.forEach(c => console.log('  ' + c));
