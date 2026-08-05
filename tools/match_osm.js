@@ -1,7 +1,7 @@
 // 候補名と OSM POI 名を突き合わせ、GSIで番地が取れなかった店の座標候補を出す
-const cands = require('./cand_batch1.js');
-const geo = require('./geo_batch1.json');
-const pois = [...require('./osm_yanbaru.json'), ...require('./osm_nakagusuku.json')];
+const cands = require('./cand_batch2.js');
+const geo = require('./geo_batch2.json');
+const pois = [...require('./osm_south.json')];
 const squash = s => (s||'').toLowerCase().replace(/[\s　・･'’\-ー～~。、（）()]/g,'');
 for (let i = 0; i < cands.length; i++) {
   if (geo[i].banchi) continue;
