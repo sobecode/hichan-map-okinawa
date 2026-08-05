@@ -275,6 +275,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
     <button class="area-btn" onclick="jumpTo('motobu',26.672,127.945,12,this)">🐠 本部・今帰仁</button>
     <button class="area-btn" onclick="jumpTo('kin',26.456,127.895,13,this)">🌮 金武</button>
     <button class="area-btn" onclick="jumpTo('ginoza',26.487,127.976,13,this)">⚾ 宜野座</button>
+    <button class="area-btn" onclick="jumpTo('uruma',26.36,127.89,12,this)">🌉 うるま</button>
     <button class="area-btn" onclick="jumpTo('onna',26.45,127.81,12,this)">🌊 恩納村</button>
     <button class="area-btn" onclick="jumpTo('yomitan',26.42,127.72,12,this)">🏺 読谷</button>
     <button class="area-btn" onclick="jumpTo('chatan',26.32,127.75,13,this)">🎡 北谷</button>
@@ -861,13 +862,13 @@ const shops = [
   {n:'大衆とり酒場 とりいちず',g:'izakaya',a:'沖縄市',area_id:'okinawacity',lat:26.336012,lng:127.800819,tb:3.01,tbc:5,d:'沖縄市胡屋の人気居酒屋。親鳥タタキ・水炊きが看板メニュー。',r:'ガッツリ盛り合わせ / 泡盛ハイボール',h:'',tags:'<span class="tag tag-dinner">居酒屋</span><span class="tag tag-local">コスパ</span>',badges:'<span class="hot-badge">HOT</span>'},
   {n:'グランド食堂',g:'washoku',a:'沖縄市/上地',area_id:'okinawacity',lat:26.334217,lng:127.79808,d:'コザで30年以上愛される大衆食堂。名物「ほね汁」は肉・野菜・豆腐・昆布の栄養満点な一品。',r:'ほね汁 / 沖縄そば',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">ランチ</span>',badges:''},
   {n:'くわっちぃ食堂 青空',g:'soba',a:'北中城村',area_id:'okinawacity',lat:26.299936,lng:127.791153,d:'2025年沖縄そばランキング1位。軟骨ソーキがホロホロで、三枚肉・てびちも全部のせのボリューム満点そば。',r:'くわっちぃそば',h:'11:00〜15:00 / 17:00〜21:00（日曜定休）',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">1位獲得</span>',badges:'<span class="hot-badge">HOT</span>'},
-  {n:'麺家 丸翔',g:'soba',a:'うるま市/勝連',area_id:'okinawacity',lat:26.310469,lng:127.909554,d:'中部屈指の人気店。TV番組でも紹介され開店前から行列。軟骨ソーキの炙りがとろけて絶品。',r:'炙り軟骨ソーキそば / 炙り三枚肉そば',h:'',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">うるま市</span>',badges:'<span class="hot-badge">HOT</span>'},
-  {n:'台湾料理 福楽 うるま店',g:'chinese',a:'うるま市/赤野',area_id:'okinawacity',lat:26.373503,lng:127.862686,d:'台湾出身の料理人による本格台湾料理。島豆腐を使った麻婆豆腐かけ炒飯が人気で辛さ調整も可能。',r:'麻婆豆腐かけ炒飯',h:'',tags:'<span class="tag tag-dinner">台湾料理</span><span class="tag tag-local">うるま市</span>',badges:''},
-  {n:'Hina’s Cafe',g:'cafe',a:'うるま市/石川白浜',area_id:'okinawacity',lat:26.427094,lng:127.827835,d:'居心地の良いウッディな空間。シェフによる本格的イタリアンが評判。',r:'スペシャルプレート / ベーグルテリヤキサンド',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">石川白浜</span>',badges:''},
-  {n:'ヒナタカフェ',g:'sweets',a:'うるま市/田場',area_id:'okinawacity',lat:26.368137,lng:127.867172,d:'伊計島特産の黄金芋を使ったチーズケーキが名物。甘さとねっとり食感が評判。',r:'黄金芋のチーズケーキ',h:'',tags:'<span class="tag tag-sweets">スイーツ</span><span class="tag tag-local">伊計島特産</span>',badges:''},
+  {n:'麺家 丸翔',g:'soba',a:'うるま市/勝連',area_id:'uruma',lat:26.310469,lng:127.909554,d:'中部屈指の人気店。TV番組でも紹介され開店前から行列。軟骨ソーキの炙りがとろけて絶品。',r:'炙り軟骨ソーキそば / 炙り三枚肉そば',h:'',tags:'<span class="tag tag-soba">そば</span><span class="tag tag-local">うるま市</span>',badges:'<span class="hot-badge">HOT</span>'},
+  {n:'台湾料理 福楽 うるま店',g:'chinese',a:'うるま市/赤野',area_id:'uruma',lat:26.373503,lng:127.862686,d:'台湾出身の料理人による本格台湾料理。島豆腐を使った麻婆豆腐かけ炒飯が人気で辛さ調整も可能。',r:'麻婆豆腐かけ炒飯',h:'',tags:'<span class="tag tag-dinner">台湾料理</span><span class="tag tag-local">うるま市</span>',badges:''},
+  {n:'Hina’s Cafe',g:'cafe',a:'うるま市/石川白浜',area_id:'uruma',lat:26.427094,lng:127.827835,d:'居心地の良いウッディな空間。シェフによる本格的イタリアンが評判。',r:'スペシャルプレート / ベーグルテリヤキサンド',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-local">石川白浜</span>',badges:''},
+  {n:'ヒナタカフェ',g:'sweets',a:'うるま市/田場',area_id:'uruma',lat:26.368137,lng:127.867172,d:'伊計島特産の黄金芋を使ったチーズケーキが名物。甘さとねっとり食感が評判。',r:'黄金芋のチーズケーキ',h:'',tags:'<span class="tag tag-sweets">スイーツ</span><span class="tag tag-local">伊計島特産</span>',badges:''},
   {n:'Zazou',g:'bakery',a:'沖縄市/コザ',area_id:'okinawacity',lat:26.337262,lng:127.796927,tb:3.35,tbc:53,d:'1989年創業、国籍問わず愛され続ける街のベーカリー＋カフェ。ベーグル・ナンなど多種多様。',r:'デニッシュ各種',h:'',tags:'<span class="tag tag-cafe">パン屋</span><span class="tag tag-local">創業1989年</span>',badges:''},
-  {n:'PARLOR K’s Pit OKINAWA',g:'other',a:'うるま市/石川曙',area_id:'okinawacity',lat:26.421173,lng:127.826363,d:'2022年5月オープンのレトロアメリカン ハンバーガー＆スイーツ専門店。',r:'ボリューム満点ハンバーガー',h:'10:00〜18:00（L.O.17:00）',tags:'<span class="tag tag-lunch">ハンバーガー</span><span class="tag tag-local">石川曙</span>',badges:''},
-  {n:'肉や食堂 in へんざ',g:'yakiniku',a:'うるま市/平安座島',area_id:'okinawacity',lat:26.342779,lng:127.952919,d:'牛肉一筋の店主が贈るA5ランク宮崎牛をリーズナブルに堪能できる大人気食堂。海中道路を渡った先の平安座島にある。',r:'サーロインステーキ / 牛カツ',h:'ランチ11:00〜16:00 ディナー17:30〜20:30（金土日のみ・木曜定休）',tags:'<span class="tag tag-lunch">ステーキ</span><span class="tag tag-local">平安座島</span>',badges:''},
+  {n:'PARLOR K’s Pit OKINAWA',g:'other',a:'うるま市/石川曙',area_id:'uruma',lat:26.421173,lng:127.826363,d:'2022年5月オープンのレトロアメリカン ハンバーガー＆スイーツ専門店。',r:'ボリューム満点ハンバーガー',h:'10:00〜18:00（L.O.17:00）',tags:'<span class="tag tag-lunch">ハンバーガー</span><span class="tag tag-local">石川曙</span>',badges:''},
+  {n:'肉や食堂 in へんざ',g:'yakiniku',a:'うるま市/平安座島',area_id:'uruma',lat:26.342779,lng:127.952919,d:'牛肉一筋の店主が贈るA5ランク宮崎牛をリーズナブルに堪能できる大人気食堂。海中道路を渡った先の平安座島にある。',r:'サーロインステーキ / 牛カツ',h:'ランチ11:00〜16:00 ディナー17:30〜20:30（金土日のみ・木曜定休）',tags:'<span class="tag tag-lunch">ステーキ</span><span class="tag tag-local">平安座島</span>',badges:''},
   {n:'日本酒×魚 魚ぽぽ',g:'seafood',a:'沖縄市/泡瀬',area_id:'okinawacity',lat:26.316624,lng:127.83036,tb:3.09,tbc:27,d:'福岡の鮮魚市場から空輸した鮮度抜群の魚介。日本各地の銘酒40種以上と合わせて楽しめる。',r:'車エビの串 / ぐるくん唐揚げ',h:'17:00〜翌1:00（金土は〜翌2:00）年中無休',tags:'<span class="tag tag-dinner">海鮮</span><span class="tag tag-local">泡瀬</span>',badges:''},
   {n:'レストラン国',g:'yakiniku',a:'沖縄市',area_id:'okinawacity',lat:26.3209768,lng:127.8318541,tb:3.14,tbc:57,d:'上質なステーキやロブスターなど本格的な料理が味わえる老舗レストラン。ボリューム満点の「国ランチ」が名物。',r:'国ランチ（¥1,600）',h:'',tags:'<span class="tag tag-steak">ステーキ</span><span class="tag tag-dinner">洋食</span>',badges:''},
   {n:'まぜ麺マホロバコザ',g:'ramen',a:'沖縄市/中央',area_id:'okinawacity',lat:26.338614,lng:127.800522,d:'パークアベニューにあるまぜ麺専門店。クセになる風味と落ち着ける店内が評判。',r:'特製まぜ麺',h:'',tags:'<span class="tag tag-lunch">まぜ麺</span><span class="tag tag-local">パークアベニュー</span>',badges:'<span class="sns-badge">SNS</span>'},
@@ -1162,16 +1163,43 @@ const shops = [
   {n:'オン ザ ビーチ カフェ',g:'cafe',a:'今帰仁村/今泊',area_id:'motobu',lat:26.701887,lng:127.924029,tb:3.3,tbc:102,d:'長浜ビーチに面したカフェ。波音を聞きながらハンバーガーやハンバーグを。',r:'ハンバーガー / ハンバーグ',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">ビーチ</span>',badges:''},
   {n:'沖縄食堂 空橋',g:'washoku',a:'今帰仁村/古宇利',area_id:'motobu',lat:26.695961,lng:128.020486,tb:3.29,tbc:62,d:'古宇利島の駅ソラハシ内の食堂。沖縄そばや定食を手軽に。',r:'沖縄そば / 定食',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">食堂</span>',badges:''},
   {n:'おっぱ乳業 古宇利島の駅店',g:'sweets',a:'今帰仁村/古宇利',area_id:'motobu',lat:26.695961,lng:128.020486,tb:3.29,tbc:59,d:'名護のおっぱ乳業直営のジェラート店。古宇利島の駅ソラハシ内。',r:'ジェラート',h:'',tags:'<span class="tag tag-sweets">ジェラート</span>',badges:''},
+  {n:'榮料理店',g:'izakaya',a:'うるま市/石川伊波',area_id:'uruma',lat:26.435261,lng:127.808205,tb:3.53,tbc:90,d:'石川伊波の住宅地にある居酒屋。県産食材を使った沖縄料理を一品ずつ丁寧に。',r:'沖縄料理 / 泡盛',h:'',tags:'<span class="tag tag-dinner">居酒屋</span>',badges:''},
+  {n:'帆掛きそば',g:'soba',a:'うるま市/宇堅',area_id:'uruma',lat:26.379517,lng:127.866051,tb:3.51,tbc:127,d:'宇堅の海辺にほど近い沖縄そば店。澄んだスープと自家製麺が評判。',r:'ソーキそば / 三枚肉そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
+  {n:'古民家食堂てぃーらぶい',g:'washoku',a:'うるま市/勝連浜',area_id:'uruma',lat:26.326223,lng:127.952896,tb:3.45,tbc:215,d:'浜比嘉島の赤瓦古民家を使った食堂。島の食材でつくる沖縄料理を庭を眺めながら。',r:'てぃーらぶい定食 / もずくそば',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-view">古民家</span>',badges:''},
+  {n:'丸一食品 塩屋店',g:'other',a:'うるま市/塩屋',area_id:'uruma',lat:26.34461,lng:127.86039,tb:3.44,tbc:129,d:'いなり寿司とからあげのセットで知られる持ち帰り専門店。売り切れ次第終了。',r:'いなり寿司 / からあげ',h:'',tags:'<span class="tag tag-local">テイクアウト</span><span class="tag tag-lunch">いなり寿司</span>',badges:''},
+  {n:'海中茶屋',g:'cafe',a:'うるま市/与那城屋平',area_id:'uruma',lat:26.332584,lng:127.929159,tb:3.43,tbc:121,d:'海の駅あやはし館1階、海中道路を望むカフェ。ドライブの休憩に。',r:'ぜんざい / ソフトクリーム',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">海中道路</span>',badges:''},
+  {n:'うるまジェラート',g:'sweets',a:'うるま市/与那城照間',area_id:'uruma',lat:26.338373,lng:127.891083,tb:3.43,tbc:101,d:'県産の果物や紅芋を使った自家製ジェラートの店。季節ごとに味が変わる。',r:'ジェラート',h:'',tags:'<span class="tag tag-sweets">ジェラート</span>',badges:''},
+  {n:'キングタコス 与勝店',g:'other',a:'うるま市/与那城',area_id:'uruma',lat:26.327017,lng:127.897021,tb:3.42,tbc:206,d:'沖縄のタコライス発祥として知られるキングタコスの与勝店。量の多さで有名。',r:'タコライスチーズ野菜 / タコス',h:'',tags:'<span class="tag tag-lunch">タコライス</span><span class="tag tag-local">行列店</span>',badges:''},
+  {n:'マカンマカン',g:'chinese',a:'うるま市/石川伊波',area_id:'uruma',lat:26.420315,lng:127.819481,tb:3.4,tbc:90,d:'ココ ガーデンリゾート オキナワ内の中華レストラン。飲茶や点心を揃える。',r:'飲茶 / 点心',h:'',tags:'<span class="tag tag-dinner">中華</span>',badges:''},
+  {n:'うるま市民食堂',g:'washoku',a:'うるま市/前原',area_id:'uruma',lat:26.338776,lng:127.847054,tb:3.38,tbc:66,d:'農産物直売所うるマルシェ内のビュッフェ食堂。地元の島野菜が主役。',r:'島野菜ビュッフェ',h:'',tags:'<span class="tag tag-lunch">ビュッフェ</span><span class="tag tag-local">島野菜</span>',badges:''},
+  {n:'丸吉食品',g:'other',a:'うるま市/勝連浜',area_id:'uruma',lat:26.326979,lng:127.951775,tb:3.37,tbc:132,d:'勝連の持ち帰り専門店。いなり寿司とからあげの組み合わせが定番。',r:'いなり寿司 / からあげ',h:'',tags:'<span class="tag tag-local">テイクアウト</span>',badges:''},
+  {n:'タイヨー ステーキ ハウス',g:'yakiniku',a:'うるま市/栄野比',area_id:'uruma',lat:26.394018,lng:127.82461,tb:3.36,tbc:84,d:'TAIYO GOLF CLUB 2階のステーキハウス。米軍のゴルフ場内にあり基地の外からも利用できる。',r:'テンダーロインステーキ',h:'',tags:'<span class="tag tag-steak">ステーキ</span><span class="tag tag-local">基地内</span>',badges:''},
+  {n:'ニューロイヤル',g:'soba',a:'うるま市/喜仲',area_id:'uruma',lat:26.358017,lng:127.846092,tb:3.36,tbc:75,d:'喜仲の沖縄そば店。地元客に長く親しまれる一杯。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
+  {n:'キングタコス あげな店',g:'other',a:'うるま市/みどり町',area_id:'uruma',lat:26.376509,lng:127.854843,tb:3.3,tbc:75,d:'キングタコスのあげな店。タコスとタコライスをボリュームたっぷりで。',r:'タコス / タコライス',h:'',tags:'<span class="tag tag-lunch">タコライス</span>',badges:''},
+  {n:'たかはなり',g:'cafe',a:'うるま市/与那城宮城',area_id:'uruma',lat:26.372847,lng:127.989555,tb:3.29,tbc:73,d:'宮城島の「ぬちうなー」内にあるカフェ。高台から東海岸を見渡せる。',r:'ぬちまーすを使ったスイーツ',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">絶景</span>',badges:''},
+  {n:'新垣そば',g:'soba',a:'うるま市/宮里',area_id:'uruma',lat:26.35095,lng:127.836281,tb:3.29,tbc:67,d:'宮里の沖縄そば店。あっさりしたスープの定番の一杯。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
+  {n:'海畑食堂 てぃあんだ',g:'washoku',a:'うるま市/与那城桃原',area_id:'uruma',lat:26.355822,lng:127.971512,tb:3.29,tbc:23,d:'宮城島の食堂。地元で揚がった魚介を使った定食を出す。',r:'魚定食 / 海鮮丼',h:'',tags:'<span class="tag tag-local">食堂</span>',badges:''},
+  {n:'沖縄イイダコ屋 うるマルシェ店',g:'other',a:'うるま市/前原',area_id:'uruma',lat:26.338776,lng:127.847054,tb:3.28,tbc:48,d:'うるマルシェ内のたこ焼き店。県産のイイダコを使った一口サイズ。',r:'イイダコ焼き',h:'',tags:'<span class="tag tag-lunch">たこ焼き</span>',badges:''},
+  {n:'かね食堂 与那城店',g:'washoku',a:'うるま市/与那城屋慶名',area_id:'uruma',lat:26.32983,lng:127.901314,tb:3.27,tbc:80,d:'与那城の食堂。沖縄料理の定食を手ごろな値段で揃える。',r:'ちゃんぷるー定食 / そば',h:'',tags:'<span class="tag tag-local">沖縄料理</span><span class="tag tag-lunch">食堂</span>',badges:''},
+  {n:'味華',g:'seafood',a:'うるま市/与那城平安座',area_id:'uruma',lat:26.338929,lng:127.958028,tb:3.24,tbc:45,d:'平安座漁港の一角にある海鮮食堂。その日の魚を刺身や汁物で。',r:'海鮮丼 / 刺身定食',h:'11:30〜17:00（月曜定休）',tags:'<span class="tag tag-local">海鮮</span>',badges:''},
+  {n:'うるまキッチン ネリネ',g:'other',a:'うるま市/宮里',area_id:'uruma',lat:26.353743,lng:127.834625,tb:3.24,tbc:19,d:'宮里の洋食店。ハンバーグやオムライスなど定番を揃える。',r:'ハンバーグ / オムライス',h:'',tags:'<span class="tag tag-lunch">洋食</span>',badges:''},
+  {n:'丸一食品 本店',g:'other',a:'うるま市/勝連平敷屋',area_id:'uruma',lat:26.309015,lng:127.912643,tb:3.23,tbc:43,d:'いなり寿司とからあげで知られる丸一食品の本店。勝連平敷屋にある。',r:'いなり寿司 / からあげ',h:'',tags:'<span class="tag tag-local">テイクアウト</span>',badges:''},
+  {n:'Sado',g:'yakiniku',a:'うるま市/高江洲',area_id:'uruma',lat:26.358007,lng:127.839569,tb:3.23,tbc:24,d:'高江洲のステーキと洋食の店。鉄板で仕上げる肉料理が中心。',r:'ステーキ / 洋食',h:'',tags:'<span class="tag tag-steak">ステーキ</span>',badges:''},
+  {n:'たまご屋',g:'sweets',a:'うるま市/赤道',area_id:'uruma',lat:26.360147,lng:127.823143,tb:3.22,tbc:47,d:'赤道にある卵にこだわった洋菓子店。シュークリームやロールケーキを。',r:'シュークリーム / ロールケーキ',h:'',tags:'<span class="tag tag-sweets">ケーキ</span>',badges:''},
+  {n:'Restaurant B・B・R',g:'other',a:'うるま市/大田',area_id:'uruma',lat:26.351969,lng:127.86689,tb:3.21,tbc:41,d:'大田にあるフレンチレストラン。コース仕立てで県産食材を出す。',r:'フレンチコース',h:'',tags:'<span class="tag tag-dinner">フレンチ</span>',badges:''},
+  {n:'大宝そば',g:'soba',a:'うるま市/具志川',area_id:'uruma',lat:26.361151,lng:127.862068,tb:3.21,tbc:31,d:'具志川の沖縄そば店。地元客中心の落ち着いた一軒。',r:'沖縄そば',h:'',tags:'<span class="tag tag-soba">沖縄そば</span>',badges:''},
+  {n:'raise244.',g:'cafe',a:'うるま市/勝連浜',area_id:'uruma',lat:26.325701,lng:127.960557,tb:3.2,tbc:32,d:'浜比嘉島に向かう海沿いのカフェ＆バー。夕暮れどきの眺めがよい。',r:'コーヒー / カクテル',h:'',tags:'<span class="tag tag-cafe">カフェ</span><span class="tag tag-view">海沿い</span>',badges:''},
+  {n:'テットウ コーヒー',g:'cafe',a:'うるま市/栄野比',area_id:'uruma',lat:26.390167,lng:127.834465,tb:3.19,tbc:30,d:'栄野比の自家焙煎コーヒー店。豆の販売も行う。',r:'自家焙煎コーヒー',h:'',tags:'<span class="tag tag-cafe">コーヒー</span>',badges:''},
 ];
 
 const AREA_META = {
-  nago:['🌿','名護・北部'], motobu:['🐠','本部・今帰仁'], kin:['🌮','金武'], ginoza:['⚾','宜野座'], onna:['🌊','恩納村'], yomitan:['🏺','読谷'],
+  nago:['🌿','名護・北部'], motobu:['🐠','本部・今帰仁'], kin:['🌮','金武'], ginoza:['⚾','宜野座'], uruma:['🌉','うるま'], onna:['🌊','恩納村'], yomitan:['🏺','読谷'],
   chatan:['🎡','北谷'], kadena:['✈️','嘉手納'], ginowan:['🏛️','宜野湾'],
-  // okinawacity はうるま市・北中城村の店も含むため「沖縄市・中部」表記
+  // okinawacity は北中城村の店も含むため「沖縄市・中部」表記
   urasoe:['🎪','浦添'], naha:['🎵','那覇'], okinawacity:['🎠','沖縄市・中部'],
   tomigusuku:['🏯','豊見城'], itoman:['🎣','糸満'], nanjo:['🌸','南城']
 };
-const AREA_ORDER = ['nago','motobu','kin','ginoza','onna','yomitan','chatan','kadena','ginowan','urasoe','naha','okinawacity','tomigusuku','itoman','nanjo'];
+const AREA_ORDER = ['nago','motobu','kin','ginoza','uruma','onna','yomitan','chatan','kadena','ginowan','urasoe','naha','okinawacity','tomigusuku','itoman','nanjo'];
 
 const GENRE_COLORS = {
   cafe:'#2a78d6', ramen:'#eb6834', soba:'#1baf7a', washoku:'#eda100',
