@@ -10606,5 +10606,617 @@
   "name": "小さな酒バル 盃",
   "score": 3.08,
   "count": 15
+ },
+ {
+  "area_id": "nago",
+  "name": "煮干し中華そば かいしんのいちげき!",
+  "score": 3.1,
+  "count": 24
+ },
+ {
+  "area_id": "nago",
+  "name": "赤犬子",
+  "score": 3.09,
+  "count": 33
+ },
+ {
+  "area_id": "nago",
+  "name": "餃子の河童軒",
+  "score": 3.09,
+  "count": 32
+ },
+ {
+  "area_id": "nago",
+  "name": "坦々厨房",
+  "score": 3.07,
+  "count": 19
+ },
+ {
+  "area_id": "nago",
+  "name": "沖縄油そば アガイ",
+  "score": 3.08,
+  "count": 24
+ },
+ {
+  "area_id": "motobu",
+  "name": "島豚家",
+  "score": 3.33,
+  "count": 65
+ },
+ {
+  "area_id": "motobu",
+  "name": "かどや製麺所",
+  "score": 3.09,
+  "count": 31
+ },
+ {
+  "area_id": "motobu",
+  "name": "ラーメン 大将",
+  "score": 3.04,
+  "count": 10
+ },
+ {
+  "area_id": "motobu",
+  "name": "大浜商店",
+  "score": 3.02,
+  "count": 10
+ },
+ {
+  "area_id": "motobu",
+  "name": "博多だるま84号線",
+  "score": 3.02,
+  "count": 9
+ },
+ {
+  "area_id": "uruma",
+  "name": "麺福 なかむら",
+  "score": 3.12,
+  "count": 31
+ },
+ {
+  "area_id": "uruma",
+  "name": "風雲丸 MEGAドン・キホーテうるま店",
+  "score": 3.07,
+  "count": 24
+ },
+ {
+  "area_id": "uruma",
+  "name": "かめ家",
+  "score": 3.07,
+  "count": 22
+ },
+ {
+  "area_id": "uruma",
+  "name": "らぁ麺 あかつき",
+  "score": 3.07,
+  "count": 11
+ },
+ {
+  "area_id": "uruma",
+  "name": "ラーメン屋 等凰",
+  "score": 3.06,
+  "count": 26
+ },
+ {
+  "area_id": "yomitan",
+  "name": "中華ラーメン醤",
+  "score": 3.09,
+  "count": 35
+ },
+ {
+  "area_id": "yomitan",
+  "name": "オカゲサマ製麺食堂",
+  "score": 3.09,
+  "count": 34
+ },
+ {
+  "area_id": "yomitan",
+  "name": "追風丸 読谷店",
+  "score": 3.02,
+  "count": 12
+ },
+ {
+  "area_id": "yomitan",
+  "name": "琉球油そば 陽珠",
+  "score": 3.02,
+  "count": 2
+ },
+ {
+  "area_id": "chatan",
+  "name": "裕次郎そば",
+  "score": 3.12,
+  "count": 26
+ },
+ {
+  "area_id": "chatan",
+  "name": "牛骨琉球ラーメン マルマロ 北谷店",
+  "score": 3.07,
+  "count": 18
+ },
+ {
+  "area_id": "chatan",
+  "name": "北海道ラーメン奥原流 追風丸 北谷店",
+  "score": 3.06,
+  "count": 44
+ },
+ {
+  "area_id": "chatan",
+  "name": "麺やKEIJIRO 北谷店",
+  "score": 3.06,
+  "count": 13
+ },
+ {
+  "area_id": "kadena",
+  "name": "SPICY KING MOTONARI",
+  "score": 3.01,
+  "count": 2
+ },
+ {
+  "area_id": "kadena",
+  "name": "麺-PLUS",
+  "score": 3.01,
+  "count": 1
+ },
+ {
+  "area_id": "ginowan",
+  "name": "ラーメン工場 無双",
+  "score": 3.08,
+  "count": 43
+ },
+ {
+  "area_id": "ginowan",
+  "name": "札幌や 伊佐店",
+  "score": 3.08,
+  "count": 27
+ },
+ {
+  "area_id": "tomigusuku",
+  "name": "あぐに製麺所",
+  "score": 3.08,
+  "count": 26
+ },
+ {
+  "area_id": "tomigusuku",
+  "name": "追風丸 豊崎店",
+  "score": 3.07,
+  "count": 43
+ },
+ {
+  "area_id": "itoman",
+  "name": "らーめん工房麺太 糸満店",
+  "score": 3.02,
+  "count": 4
+ },
+ {
+  "area_id": "itoman",
+  "name": "らあめん花月嵐 糸満店",
+  "score": 3.01,
+  "count": 16
+ },
+ {
+  "area_id": "itoman",
+  "name": "新潟発祥 なおじ 糸満店",
+  "score": 3.01,
+  "count": 4
+ },
+ {
+  "area_id": "itoman",
+  "name": "ちーちーかーかー",
+  "score": 3,
+  "count": 1
+ },
+ {
+  "area_id": "nakagusuku",
+  "name": "つけ麺 舎楽 イオンモール沖縄ライカム店",
+  "score": 3.07,
+  "count": 20
+ },
+ {
+  "area_id": "nakagusuku",
+  "name": "ラーメン大桜 沖縄泡瀬店",
+  "score": 3.05,
+  "count": 53
+ },
+ {
+  "area_id": "nakagusuku",
+  "name": "ラーメン魁力屋 イオンモール沖縄ライカム店",
+  "score": 3.03,
+  "count": 46
+ },
+ {
+  "area_id": "nakagusuku",
+  "name": "辛麺屋 桝元 イオンモール沖縄ライカム店",
+  "score": 3.03,
+  "count": 32
+ },
+ {
+  "area_id": "nakagusuku",
+  "name": "味千拉麺 中城ハイウェイショップ上り店",
+  "score": 3.02,
+  "count": 42
+ },
+ {
+  "area_id": "haebaru",
+  "name": "きちんと 南風原山川店",
+  "score": 3.08,
+  "count": 19
+ },
+ {
+  "area_id": "haebaru",
+  "name": "鶏と煮干しラーメンの店 みなや",
+  "score": 3.07,
+  "count": 16
+ },
+ {
+  "area_id": "haebaru",
+  "name": "支那そば かでかる 琉大病院前店",
+  "score": 3.04,
+  "count": 11
+ },
+ {
+  "area_id": "haebaru",
+  "name": "麺や KEIJIRO 南風原店",
+  "score": 3.04,
+  "count": 7
+ },
+ {
+  "area_id": "haebaru",
+  "name": "ラーメン まこと屋 南風原店",
+  "score": 3.02,
+  "count": 28
+ },
+ {
+  "area_id": "yaese",
+  "name": "悠心",
+  "score": 3.06,
+  "count": 19
+ },
+ {
+  "area_id": "kin",
+  "name": "鶴味家",
+  "score": 3.04,
+  "count": 15
+ },
+ {
+  "area_id": "kin",
+  "name": "麺処 千代",
+  "score": 3.03,
+  "count": 13
+ },
+ {
+  "area_id": "nago",
+  "name": "なつめとりこ",
+  "score": 3.2,
+  "count": 34
+ },
+ {
+  "area_id": "nago",
+  "name": "パイ工房 おしゃれ",
+  "score": 3.13,
+  "count": 28
+ },
+ {
+  "area_id": "nago",
+  "name": "ホームベーカリー リンドン",
+  "score": 3.1,
+  "count": 22
+ },
+ {
+  "area_id": "nago",
+  "name": "Noël",
+  "score": 3.07,
+  "count": 9
+ },
+ {
+  "area_id": "motobu",
+  "name": "古宇利島ジャックマニー",
+  "score": 3.26,
+  "count": 29
+ },
+ {
+  "area_id": "motobu",
+  "name": "マーブルー",
+  "score": 3.14,
+  "count": 28
+ },
+ {
+  "area_id": "motobu",
+  "name": "八重岳ベーカリー",
+  "score": 3.13,
+  "count": 41
+ },
+ {
+  "area_id": "motobu",
+  "name": "THE KEY BAKERY",
+  "score": 3.11,
+  "count": 12
+ },
+ {
+  "area_id": "motobu",
+  "name": "むぎ畑",
+  "score": 3.1,
+  "count": 14
+ },
+ {
+  "area_id": "uruma",
+  "name": "ブロンジェリーカフェヤマシタ",
+  "score": 3.15,
+  "count": 30
+ },
+ {
+  "area_id": "uruma",
+  "name": "キャプフル",
+  "score": 3.12,
+  "count": 35
+ },
+ {
+  "area_id": "uruma",
+  "name": "ベーカリー アデモック うるま店",
+  "score": 3.11,
+  "count": 11
+ },
+ {
+  "area_id": "uruma",
+  "name": "うるたま",
+  "score": 3.09,
+  "count": 15
+ },
+ {
+  "area_id": "uruma",
+  "name": "プティ・フール 石川店",
+  "score": 3.09,
+  "count": 13
+ },
+ {
+  "area_id": "onna",
+  "name": "パレット",
+  "score": 3.19,
+  "count": 45
+ },
+ {
+  "area_id": "onna",
+  "name": "Grano @OIST",
+  "score": 3.13,
+  "count": 21
+ },
+ {
+  "area_id": "onna",
+  "name": "マエダ ブリーズ",
+  "score": 3.1,
+  "count": 17
+ },
+ {
+  "area_id": "onna",
+  "name": "sea Heart",
+  "score": 3.08,
+  "count": 14
+ },
+ {
+  "area_id": "onna",
+  "name": "パンの耳",
+  "score": 3,
+  "count": 3
+ },
+ {
+  "area_id": "yomitan",
+  "name": "BAYWICH",
+  "score": 3.09,
+  "count": 21
+ },
+ {
+  "area_id": "yomitan",
+  "name": "ベーカリー＆カフェ ポッド",
+  "score": 3.05,
+  "count": 8
+ },
+ {
+  "area_id": "yomitan",
+  "name": "マルミベーグル",
+  "score": 3.03,
+  "count": 5
+ },
+ {
+  "area_id": "chatan",
+  "name": "サンライズ",
+  "score": 3.1,
+  "count": 18
+ },
+ {
+  "area_id": "chatan",
+  "name": "コーヒー&ブレッド カラカラ 沖縄",
+  "score": 3.09,
+  "count": 26
+ },
+ {
+  "area_id": "chatan",
+  "name": "WAKE & BAGLE",
+  "score": 3.09,
+  "count": 14
+ },
+ {
+  "area_id": "kadena",
+  "name": "ぱん工房 RARA",
+  "score": 3,
+  "count": 1
+ },
+ {
+  "area_id": "ginowan",
+  "name": "茶のま乃ぱん処",
+  "score": 3.08,
+  "count": 14
+ },
+ {
+  "area_id": "ginowan",
+  "name": "コルネとサンドの店 pippi",
+  "score": 3.07,
+  "count": 32
+ },
+ {
+  "area_id": "ginowan",
+  "name": "パン工房 Pao",
+  "score": 3.07,
+  "count": 17
+ },
+ {
+  "area_id": "urasoe",
+  "name": "BAGEL FARM",
+  "score": 3.08,
+  "count": 12
+ },
+ {
+  "area_id": "urasoe",
+  "name": "PIER'S BAKERY サンエーパルコ浦添店",
+  "score": 3.07,
+  "count": 15
+ },
+ {
+  "area_id": "urasoe",
+  "name": "ヒロシ屋",
+  "score": 3.07,
+  "count": 10
+ },
+ {
+  "area_id": "tomigusuku",
+  "name": "スマイル＆ハッピーファクトリー",
+  "score": 3.07,
+  "count": 9
+ },
+ {
+  "area_id": "tomigusuku",
+  "name": "かめしま 豊見城店",
+  "score": 3.05,
+  "count": 5
+ },
+ {
+  "area_id": "tomigusuku",
+  "name": "Les Traces de MA",
+  "score": 3.03,
+  "count": 5
+ },
+ {
+  "area_id": "tomigusuku",
+  "name": "スウィートリー",
+  "score": 3.03,
+  "count": 5
+ },
+ {
+  "area_id": "tomigusuku",
+  "name": "小麦の奴隷 豊崎トミトン店",
+  "score": 3.01,
+  "count": 5
+ },
+ {
+  "area_id": "itoman",
+  "name": "パンの店つばさ",
+  "score": 3.01,
+  "count": 1
+ },
+ {
+  "area_id": "itoman",
+  "name": "サミダレ ワークス 269",
+  "score": 3.06,
+  "count": 5
+ },
+ {
+  "area_id": "itoman",
+  "name": "全粒粉のトリコ",
+  "score": 3.02,
+  "count": 4
+ },
+ {
+  "area_id": "nanjo",
+  "name": "おおきな木",
+  "score": 3.03,
+  "count": 2
+ },
+ {
+  "area_id": "nakagusuku",
+  "name": "美ら パネッテリーア",
+  "score": 3.05,
+  "count": 11
+ },
+ {
+  "area_id": "nakagusuku",
+  "name": "石窯パン処 ときはや",
+  "score": 3.16,
+  "count": 23
+ },
+ {
+  "area_id": "nakagusuku",
+  "name": "AIEN BAKERY",
+  "score": 3.13,
+  "count": 19
+ },
+ {
+  "area_id": "nakagusuku",
+  "name": "フクギパン",
+  "score": 3.04,
+  "count": 301
+ },
+ {
+  "area_id": "nakagusuku",
+  "name": "かめしまパン 南上原店",
+  "score": 3.04,
+  "count": 55
+ },
+ {
+  "area_id": "haebaru",
+  "name": "ラ・クンチーナ 西原さわふじマルシェ店",
+  "score": 3.05,
+  "count": 6
+ },
+ {
+  "area_id": "haebaru",
+  "name": "アコリノ",
+  "score": 3.05,
+  "count": 5
+ },
+ {
+  "area_id": "haebaru",
+  "name": "Chefs Bakery mugi",
+  "score": 3.04,
+  "count": 3
+ },
+ {
+  "area_id": "haebaru",
+  "name": "アズールベーカリー",
+  "score": 3.04,
+  "count": 5
+ },
+ {
+  "area_id": "haebaru",
+  "name": "ノア・ド・ココ",
+  "score": 3.03,
+  "count": 3
+ },
+ {
+  "area_id": "yaese",
+  "name": "Boulangerie enne",
+  "score": 3.07,
+  "count": 8
+ },
+ {
+  "area_id": "yaese",
+  "name": "丘の上のBAKERY コパン",
+  "score": 3.06,
+  "count": 12
+ },
+ {
+  "area_id": "yaese",
+  "name": "マジョパン",
+  "score": 3.06,
+  "count": 7
+ },
+ {
+  "area_id": "yaese",
+  "name": "パンとケーキのお店 デゼレト",
+  "score": 3.02,
+  "count": 3
+ },
+ {
+  "area_id": "yaese",
+  "name": "エスピーガ・デ・オロ",
+  "score": 3.05,
+  "count": 5
  }
 ]
