@@ -11,7 +11,8 @@ const before = h;
 h = h.replace(/src="img\/cover-1000\.jpg"/, `src="data:image/jpeg;base64,${b64}"`);
 h = h.replace(/\s*srcset="img\/cover-[^"]*"\r?\n?/, '\n');
 if (h === before) throw new Error('cover markup not found — 埋め込みに失敗');
-if (/img\/cover-/.test(h)) throw new Error('img/cover- の参照が残っている');
+// 相対参照だけを見る。OGPの og:image は絶対URL(https://…/img/cover-1254.jpg)なので対象外
+if (/["'\s,]img\/cover-/.test(h)) throw new Error('img/cover- の相対参照が残っている');
 
 fs.writeFileSync(dest, h, 'utf8');
 console.log('synced:', (h.length / 1024).toFixed(0) + 'KB ->', dest);
