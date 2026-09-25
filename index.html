@@ -4,9 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ひーちゃん放浪記 沖縄版 2026</title>
+<meta name="description" content="沖縄本島の沖縄そば・ラーメン・カフェ・パン屋・居酒屋などを地図とカードで探せるグルメガイド。エリア・ジャンル・店名で絞り込めます。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ひーちゃん放浪記 沖縄版 2026">
+<meta property="og:description" content="沖縄本島のグルメを地図で探せるガイド。エリア・ジャンル・店名で絞り込めます。">
+<meta property="og:url" content="https://sobecode.github.io/hichan-map-okinawa/">
+<meta property="og:image" content="https://sobecode.github.io/hichan-map-okinawa/img/cover-1254.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Zen+Maru+Gothic:wght@400;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
 <style>
 :root{--coral:#FF6B6B;--ocean:#4ECDC4;--sand:#FFF9F0;--deep:#2C3E50;--hibiscus:#E91E8C;--gold:#F5A623;--mint:#A8E6CF;--sky:#74B9FF;}
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -61,6 +70,25 @@ body{font-family:'Zen Maru Gothic','Noto Sans JP',sans-serif;background:var(--sa
 .genre-btn[data-genre="other"]::before{background:#008300;}
 .area-section.section-hidden{display:none;}
 .shop-card.card-hidden{display:none;}
+/* ピンのまとまり。島全体を見たときに千本超のピンが塊にならないよう、件数の丸にする */
+.pin-cluster{background:rgba(26,61,92,.18);border-radius:50%;display:flex;align-items:center;justify-content:center;}
+.pin-cluster div{background:#1a3d5c;color:#fff;border:3px solid #fff;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,.35);
+  display:flex;align-items:center;justify-content:center;font:700 12px/1 'Noto Sans JP',sans-serif;}
+.search-row{display:flex;gap:7px;padding:0 14px 8px;align-items:center;}
+.search-box{flex:1;min-width:0;position:relative;}
+.search-box input{width:100%;box-sizing:border-box;border:1px solid #ddd;border-radius:20px;padding:8px 34px 8px 34px;font-size:16px;font-family:inherit;background:#fafafa;color:var(--deep);-webkit-appearance:none;appearance:none;}
+.search-box input::-webkit-search-cancel-button{display:none;}
+.search-box input:focus{outline:none;border-color:var(--ocean);background:#fff;}
+.search-box::before{content:'🔍';position:absolute;left:11px;top:50%;transform:translateY(-50%);font-size:14px;pointer-events:none;}
+.search-clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:#ddd;color:#555;width:24px;height:24px;border-radius:50%;font-size:13px;line-height:24px;cursor:pointer;display:none;padding:0;}
+.search-box.has-q .search-clear{display:block;}
+.locate-btn{flex-shrink:0;border:1px solid #ddd;background:#fff;border-radius:20px;padding:8px 12px;font-size:12px;font-weight:700;font-family:inherit;color:var(--deep);cursor:pointer;white-space:nowrap;}
+.locate-btn:disabled{opacity:.6;}
+.search-status{padding:0 14px 6px;font-size:12px;color:#888;display:none;}
+.search-status.on{display:block;}
+.no-hit{display:none;text-align:center;color:#999;padding:40px 16px;font-size:14px;}
+.no-hit.on{display:block;}
+.me-dot{width:16px;height:16px;background:#2a78d6;border:3px solid #fff;border-radius:50%;box-shadow:0 0 0 6px rgba(42,120,214,.25);}
 .container{max-width:960px;margin:0 auto;padding:26px 14px 60px;}
 .route-label{text-align:center;font-size:11px;letter-spacing:3px;color:#bbb;margin-bottom:26px;}
 /* 固定ナビの下に飛び先の見出しが潜り込まないよう、スクロール停止位置をずらす。
@@ -254,7 +282,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
     <div class="hero-region">OKINAWA ISLAND FOOD GUIDE</div>
     <div class="hero-stats">
       <div class="stat-pill">🍜 <span id="shop-count">742</span>店舗</div>
-      <div class="stat-pill">📍 14エリア</div>
+      <div class="stat-pill">📍 <span id="area-total">20</span>エリア</div>
       <div class="stat-pill">🍥 ジャンル別検索対応</div>
       <div class="stat-pill">☀️🌙 昼・夜の営業表示</div>
     </div>
@@ -264,12 +292,20 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
 <div class="map-wrap">
   <div class="map-header">
     <h2>🗺️ インタラクティブマップ</h2>
-    <p>ピンをタップ → 店舗情報・営業時間・Googleマップリンク ／ カードをタップ → マップが移動してピンが開く ／ 下のジャンルボタンで絞り込みも可能</p>
+    <p>ピンをタップ → 店舗情報・営業時間・Googleマップリンク ／ カードをタップ → マップが移動してピンが開く ／ 下の検索欄・ジャンルボタンで絞り込みも可能</p>
   </div>
   <div id="map"></div>
 </div>
 
 <nav class="filter-nav">
+  <div class="search-row">
+    <label class="search-box" id="search-box">
+      <input id="shop-search" type="search" placeholder="店名・料理・地名で探す" autocomplete="off" enterkeyhint="search" aria-label="店名・料理・地名で探す">
+      <button type="button" class="search-clear" onclick="clearSearch()" aria-label="検索をクリア">✕</button>
+    </label>
+    <button type="button" class="locate-btn" id="locate-btn" onclick="locateMe()">📍 現在地</button>
+  </div>
+  <div class="search-status" id="search-status"></div>
   <div class="area-nav-inner">
     <button class="area-btn" onclick="jumpTo('yanbaru',26.72,128.16,11,this)">🌳 やんばる</button>
     <button class="area-btn" onclick="jumpTo('nago',26.59,127.99,12,this)">🌿 名護</button>
@@ -313,6 +349,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
   <div class="route-label">▼ 北 か ら 南 へ 縦 断 ル ー ト</div>
 
   <div id="shop-sections"></div>
+  <div class="no-hit" id="no-hit">該当するお店がありません。<br>言葉を変えるか、ジャンルを「すべて」にしてみてください。</div>
 
   <section class="matrix-section">
     <div class="matrix-head"><span class="area-emoji">📊</span><span class="area-name">エリア×ジャンル集計</span></div>
@@ -1630,7 +1667,7 @@ function renderShopSections() {
     if (!list.length) return;
     const [emoji, name] = AREA_META[areaId];
     const cardsHtml = list.map(([s, i]) => `
-      <div class="shop-card" onclick="flyAndOpen(${i})" data-genre="${s.g}">
+      <div class="shop-card" onclick="flyAndOpen(${i})" data-genre="${s.g}" data-i="${i}">
         <div class="shop-top"><div class="shop-name">${escHtml(s.n)}</div><div class="badge-row">${ratingHtml(s)}${mealBadgeHtml(s)}${s.badges}</div></div>
         <div class="tag-group">${s.tags}</div>
         <div class="shop-desc">${s.d}</div>
@@ -1651,6 +1688,7 @@ renderShopSections();
 renderMatrix();
 fillNavCounts();
 document.getElementById('shop-count').textContent = shops.length;
+document.getElementById('area-total').textContent = AREA_ORDER.filter(a => shops.some(s => s.area_id === a)).length;
 
 // 固定ナビの実測高さを CSS 変数へ。ボタンの大きさが画面幅で変わっても
 // area-section の scroll-margin-top が追従し、飛び先の見出しが隠れない
@@ -1713,12 +1751,27 @@ function makeIcon(c) {
   });
 }
 
+// 島全体では千本超のピンが重なって押せないので、近いピンを件数の丸にまとめる。
+// 同じ建物の店はズームしきってもまとまったままなので、タップで放射状に広げる(spiderfy)
+const cluster = L.markerClusterGroup({
+  showCoverageOnHover: false,
+  spiderfyOnMaxZoom: true,
+  chunkedLoading: true,
+  maxClusterRadius: z => z >= 15 ? 28 : 48,
+  iconCreateFunction: c => {
+    const n = c.getChildCount();
+    const d = n < 10 ? 30 : n < 100 ? 36 : 44;
+    return L.divIcon({html: `<div style="width:${d}px;height:${d}px">${n}</div>`, className: 'pin-cluster', iconSize: [d + 10, d + 10]});
+  }
+});
+map.addLayer(cluster);
+
 // 同一座標の店舗(ホテル内・商業施設内など)が上書きされないよう、店舗のindexで1対1に保持する
 const markers = [];
 shops.forEach((s, i) => {
   // 定休日だけで時刻を含まない h は時計アイコンだとちぐはぐなのでカレンダーにする
   const h = s.h ? `<div class="p-hours">${/\d{1,2}:\d{2}/.test(s.h) ? '🕐' : '📅'} ${s.h}</div>` : '';
-  const m = L.marker([s.lat, s.lng], {icon: makeIcon(GENRE_COLORS[s.g] || '#999999')}).addTo(map);
+  const m = L.marker([s.lat, s.lng], {icon: makeIcon(GENRE_COLORS[s.g] || '#999999')});
   m.bindPopup(`
     <div style="font-family:'Noto Sans JP',sans-serif;min-width:200px;padding:2px 0;">
       <div class="p-area">📍 ${escHtml(s.a)}</div>
@@ -1732,14 +1785,19 @@ shops.forEach((s, i) => {
   `, {maxWidth: 260});
   markers[i] = m;
 });
+cluster.addLayers(markers);
 
 function flyAndOpen(i) {
   const s = shops[i];
   if (!s) return;
-  map.flyTo([s.lat, s.lng], 16, {animate: true, duration: 1});
+  const m = markers[i];
   holdNavForJump();
   document.getElementById('map').scrollIntoView({behavior: 'smooth', block: 'center'});
-  setTimeout(() => { if (markers[i]) markers[i].openPopup(); }, 1100);
+  if (!m) return;
+  // 検索や絞り込みで外れているピンでも、カードから来たなら出して開く
+  if (!cluster.hasLayer(m)) cluster.addLayer(m);
+  map.flyTo([s.lat, s.lng], 17, {animate: true, duration: 1});
+  map.once('moveend', () => cluster.zoomToShowLayer(m, () => m.openPopup()));
 }
 
 // 集計表のセル・内訳チップから「このエリアのこのジャンル」に絞り込む
@@ -1765,22 +1823,60 @@ function jumpTo(id, lat, lng, zoom, btn) {
   map.flyTo([lat, lng], zoom, {animate: true, duration: 1.2});
 }
 
+/*
+ * 絞り込みはジャンルと検索語の2つの掛け合わせ。どちらを変えても applyFilters() で
+ * カード・ピン・エリア見出しの件数を一度に作り直す。
+ */
+let currentGenre = 'all';
+let currentQuery = '';
+
+// ひらがな/カタカナ・全角/半角・大小文字の違いで取りこぼさないよう、両側を同じ形に畳む
+function normText(t) {
+  return String(t || '').normalize('NFKC').toLowerCase()
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/[\u30a1-\u30f6]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60))
+    .replace(/[\s・\/／、。,.]+/g, ' ');
+}
+const SEARCH_TEXT = shops.map(s => normText([s.n, s.a, s.d, s.r, s.tags, GENRE_LABEL[s.g] || '', (AREA_META[s.area_id] || [])[1] || ''].join(' ')));
+
+function shopMatches(i) {
+  if (currentGenre !== 'all' && shops[i].g !== currentGenre) return false;
+  if (!currentQuery) return true;
+  return currentQuery.split(' ').every(w => SEARCH_TEXT[i].includes(w));
+}
+
 function setGenre(g) {
+  currentGenre = g;
+  applyFilters();
+}
+
+function applyFilters() {
+  const g = currentGenre;
   document.querySelectorAll('.genre-btn').forEach(b => b.classList.toggle('active', b.dataset.genre === g));
   document.querySelectorAll('.bd-chip').forEach(c => c.classList.toggle('on', g !== 'all' && c.dataset.genre === g));
 
+  let hit = 0;
   document.querySelectorAll('.shop-card').forEach(card => {
-    const match = g === 'all' || card.dataset.genre === g;
+    const match = shopMatches(Number(card.dataset.i));
+    if (match) hit++;
     card.classList.toggle('card-hidden', !match);
   });
 
+  const show = [], hide = [];
   shops.forEach((s, i) => {
     const m = markers[i];
     if (!m) return;
-    const match = g === 'all' || s.g === g;
-    if (match) { if (!map.hasLayer(m)) map.addLayer(m); }
-    else { if (map.hasLayer(m)) map.removeLayer(m); }
+    const on = cluster.hasLayer(m);
+    if (shopMatches(i)) { if (!on) show.push(m); }
+    else if (on) hide.push(m);
   });
+  if (hide.length) cluster.removeLayers(hide);
+  if (show.length) cluster.addLayers(show);
+
+  const status = document.getElementById('search-status');
+  status.classList.toggle('on', !!currentQuery);
+  status.textContent = currentQuery ? `「${document.getElementById('shop-search').value.trim()}」${hit}件` : '';
+  document.getElementById('no-hit').classList.toggle('on', hit === 0);
 
   document.querySelectorAll('.area-section').forEach(section => {
     const visibleCount = section.querySelectorAll('.shop-card:not(.card-hidden)').length;
@@ -1788,6 +1884,61 @@ function setGenre(g) {
     const countEl = section.querySelector('.area-count');
     if (countEl) countEl.textContent = visibleCount + '店舗';
   });
+}
+
+// 検索: 1文字ごとに作り直すと千件超のカードで入力がもたつくので、打ち終わりを待つ
+let searchTimer = null;
+const searchInput = document.getElementById('shop-search');
+searchInput.addEventListener('input', () => {
+  document.getElementById('search-box').classList.toggle('has-q', !!searchInput.value);
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(runSearch, 250);
+});
+searchInput.addEventListener('keydown', e => { if (e.key === 'Enter') { clearTimeout(searchTimer); runSearch(); searchInput.blur(); } });
+function runSearch() {
+  const q = normText(searchInput.value).trim();
+  if (q === currentQuery) return;
+  currentQuery = q;
+  applyFilters();
+  if (!q) return;
+  // 当たった店が地図に収まるように寄せる。1件ならその店へ
+  const hits = shops.filter((s, i) => shopMatches(i));
+  if (hits.length === 1) map.flyTo([hits[0].lat, hits[0].lng], 16, {duration: 1});
+  else if (hits.length) map.flyToBounds(L.latLngBounds(hits.map(s => [s.lat, s.lng])), {padding: [30, 30], maxZoom: 15, duration: 1});
+  // ページの下の方で探したとき、絞り込まれた一覧が画面より上に隠れないよう先頭へ戻す
+  const list = document.getElementById('shop-sections');
+  if (list.getBoundingClientRect().top < 0) { holdNavForJump(); list.scrollIntoView({behavior: 'smooth', block: 'start'}); }
+}
+function clearSearch() {
+  searchInput.value = '';
+  document.getElementById('search-box').classList.remove('has-q');
+  currentQuery = '';
+  applyFilters();
+}
+
+// 現在地: 旅行中に「近くの店」を地図で見るための入口
+let meMarker = null;
+function locateMe() {
+  const btn = document.getElementById('locate-btn');
+  if (!navigator.geolocation) { noticeLocate('この端末では現在地を取得できません'); return; }
+  btn.disabled = true; btn.textContent = '📍 取得中…';
+  navigator.geolocation.getCurrentPosition(pos => {
+    btn.disabled = false; btn.textContent = '📍 現在地';
+    const ll = [pos.coords.latitude, pos.coords.longitude];
+    if (meMarker) meMarker.setLatLng(ll);
+    else meMarker = L.marker(ll, {icon: L.divIcon({className: '', html: '<div class="me-dot"></div>', iconSize: [16, 16], iconAnchor: [8, 8]}), zIndexOffset: 1000}).addTo(map).bindPopup('現在地');
+    holdNavForJump();
+    document.getElementById('map').scrollIntoView({behavior: 'smooth', block: 'center'});
+    map.flyTo(ll, 15, {duration: 1});
+  }, err => {
+    btn.disabled = false; btn.textContent = '📍 現在地';
+    noticeLocate(err.code === 1 ? '位置情報の利用が許可されていません。ブラウザの設定で許可してください' : '現在地を取得できませんでした');
+  }, {enableHighAccuracy: true, timeout: 10000, maximumAge: 60000});
+}
+function noticeLocate(msg) {
+  const st = document.getElementById('search-status');
+  st.textContent = msg; st.classList.add('on');
+  setTimeout(() => { if (!currentQuery) st.classList.remove('on'); }, 4000);
 }
 </script>
 </body>
