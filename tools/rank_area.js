@@ -35,7 +35,7 @@ function parse(h) {
     const ag = (p.match(/list-rst__area-genre[^>]*>([^<]*)</) || [])[1] || '';
     const sc = (p.match(/list-rst__rating-val">([0-9.]+)/) || [])[1];
     const rv = (p.match(/list-rst__rvw-count-num[^>]*>([0-9,]+)/) || [])[1];
-    return {tl: m[1], name: decode(m[2].trim()), areaGenre: decode(ag.trim()),
+    return {tl: m[1], name: decode(m[2].trim()).normalize('NFC'), areaGenre: decode(ag.trim()),
       tb: sc ? Number(sc) : null, tbc: rv ? Number(rv.replace(/,/g, '')) : null};
   }).filter(Boolean);
 }

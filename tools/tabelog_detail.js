@@ -30,7 +30,9 @@ function cell(h, label) {
 (async () => {
   const out = [];
   for (const n of names) {
-    const x = rank.find(r => r.name === n);
+    // 食べログ側の名前に全角空白・nbspや、濁点を分けた文字(NFD)が混ざる
+    const sp = s => s.normalize('NFC').replace(/\s+/g, ' ');
+    const x = rank.find(r => sp(r.name) === sp(n));
     if (!x) { console.error('ランキングに無い: ' + n); continue; }
     const r = await fetch(`https://tabelog.com/okinawa/${x.tl}/`, {headers: {'User-Agent': UA, 'Accept-Language': 'ja'}});
     const h = await r.text();
