@@ -58,19 +58,25 @@ function parse(h) {
       if (seen.has(x.tl)) continue;   // 広告枠と通常枠の重複
       seen.add(x.tl);
       let match = null;
+      // 0.75 は「語を1つ共有しているだけ」で別店が大半(本部で 美ら海太郎→美ら パネッテリーア 等)。
+      // 収録とみなすのは URL一致か、同じ市町村の店と0.9以上で一致したときだけ。それ未満は「似」として見せる
+      let like = null;
       if (known.has(x.tl)) match = {n: shops.find(s => s.tl === x.tl).n, sim: 'URL'};
       else {
+        const muni = x.areaGenre.split('/')[0].trim().replace(/^.*郡/, '');
         for (const s of shops) {
           const v = dice(s.n, x.name);
-          if (v >= 0.66 && (!match || v > match.sim)) match = {n: s.n, sim: v};
+          if (v >= 0.9 && s.a.startsWith(muni) && (!match || v > match.sim)) match = {n: s.n, sim: v};
+          else if (v >= 0.66 && (!like || v > like.sim)) like = {n: s.n, sim: v};
         }
       }
-      out.push({...x, match});
+      out.push({...x, match, like});
     }
     fs.writeFileSync(path.join(__dirname, `rank_${code}${GENRE ? '_' + GENRE.slice(0, -1) : ''}.json`), JSON.stringify(out, null, 1));
     console.log(`\n=== ${code} ${GENRE} (${out.length}件) ===`);
     out.forEach((x, i) => console.log(
       `${String(i + 1).padStart(2)} ${x.tb == null ? ' -  ' : x.tb.toFixed(2)} (${x.tbc ?? 0}) ${x.match ? '収録 ' : '★新 '}${x.name} ｜ ${x.areaGenre}` +
-      (x.match && x.match.sim !== 'URL' ? `  ≒ ${x.match.n} (${x.match.sim.toFixed(2)})` : '')));
+      (x.match && x.match.sim !== 'URL' ? `  ≒ ${x.match.n} (${x.match.sim.toFixed(2)})` : '') +
+      (!x.match && x.like ? `  (似: ${x.like.n} ${x.like.sim.toFixed(2)})` : '')));
   }
 })();

@@ -1,0 +1,1040 @@
+[
+ {
+  "tl": "A4702/A470202/47022252",
+  "name": "6",
+  "areaGenre": "国頭郡今帰仁村 / イノベーティブ、フレンチ",
+  "tb": 3.94,
+  "tbc": 252,
+  "match": {
+   "n": "6",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47028361",
+  "name": "La BOMBANCE 古宇利島",
+  "areaGenre": "国頭郡今帰仁村 / 創作料理、豚しゃぶ",
+  "tb": 3.69,
+  "tbc": 106,
+  "match": {
+   "n": "La BOMBANCE 古宇利島",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47016234",
+  "name": "今帰仁そば",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄そば",
+  "tb": 3.65,
+  "tbc": 400,
+  "match": {
+   "n": "今帰仁そば",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47025065",
+  "name": "今帰仁 いち藤",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄そば",
+  "tb": 3.57,
+  "tbc": 135,
+  "match": {
+   "n": "今帰仁 いち藤",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47032321",
+  "name": "うっちや～",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄そば",
+  "tb": 3.51,
+  "tbc": 88,
+  "match": {
+   "n": "うっちや～",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47024391",
+  "name": "KOURI SHRIMP",
+  "areaGenre": "国頭郡今帰仁村 / ハワイ料理、カフェ、シーフード",
+  "tb": 3.47,
+  "tbc": 396,
+  "match": {
+   "n": "KOURI SHRIMP",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47017151",
+  "name": "Restaurant L LOTA",
+  "areaGenre": "国頭郡今帰仁村 / 創作料理、野菜料理、カフェ",
+  "tb": 3.44,
+  "tbc": 226,
+  "match": {
+   "n": "Restaurant L LOTA",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47033548",
+  "name": "PANORAMA DINING",
+  "areaGenre": "国頭郡今帰仁村 / レストラン",
+  "tb": 3.43,
+  "tbc": 166,
+  "match": {
+   "n": "PANORAMA DINING",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47002467",
+  "name": "長堂屋",
+  "areaGenre": "国頭郡今帰仁村 / 豚しゃぶ、焼肉、豚料理",
+  "tb": 3.42,
+  "tbc": 200,
+  "match": {
+   "n": "長堂屋",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47004332",
+  "name": "しらさ",
+  "areaGenre": "国頭郡今帰仁村 / 海鮮丼、食堂、沖縄料理",
+  "tb": 3.41,
+  "tbc": 163,
+  "match": {
+   "n": "しらさ",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47001365",
+  "name": "Cafe フクルビ",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、沖縄料理、ピザ",
+  "tb": 3.41,
+  "tbc": 140,
+  "match": {
+   "n": "Cafe フクルビ",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47009741",
+  "name": "ちまぐ～",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄そば、沖縄料理、食堂",
+  "tb": 3.37,
+  "tbc": 71,
+  "match": {
+   "n": "ちまぐ～",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47028936",
+  "name": "シンメイコーヒー",
+  "areaGenre": "国頭郡今帰仁村 / カフェ",
+  "tb": 3.35,
+  "tbc": 57,
+  "match": {
+   "n": "シンメイコーヒー",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47010061",
+  "name": "カフェ こくう",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、オーガニック、野菜料理",
+  "tb": 3.34,
+  "tbc": 75,
+  "match": {
+   "n": "カフェ こくう",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47033546",
+  "name": "WILD BANQUET",
+  "areaGenre": "国頭郡今帰仁村 / レストラン",
+  "tb": 3.33,
+  "tbc": 104,
+  "match": {
+   "n": "WILD BANQUET",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47032280",
+  "name": "CASA SOL",
+  "areaGenre": "国頭郡今帰仁村 / カフェ",
+  "tb": 3.33,
+  "tbc": 69,
+  "match": {
+   "n": "CASA SOL",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47030656",
+  "name": "おっぱ乳業",
+  "areaGenre": "国頭郡今帰仁村 / ジェラート・アイスクリーム",
+  "tb": 3.31,
+  "tbc": 67,
+  "match": {
+   "n": "おっぱ乳業 古宇利島の駅店",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47013631",
+  "name": "オーシャンブルー",
+  "areaGenre": "国頭郡今帰仁村 / ピザ、カレー、カフェ",
+  "tb": 3.3,
+  "tbc": 94,
+  "match": null,
+  "like": {
+   "n": "オーシャンブルー",
+   "sim": 1
+  }
+ },
+ {
+  "tl": "A4702/A470202/47029803",
+  "name": "沖縄食堂 空橋",
+  "areaGenre": "国頭郡今帰仁村 / 食堂",
+  "tb": 3.3,
+  "tbc": 72,
+  "match": {
+   "n": "沖縄食堂 空橋",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47007766",
+  "name": "とうらく",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、沖縄料理、洋食",
+  "tb": 3.28,
+  "tbc": 74,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47020005",
+  "name": "錦屋",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄料理、海鮮丼、郷土料理",
+  "tb": 3.28,
+  "tbc": 56,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47032874",
+  "name": "OCTO",
+  "areaGenre": "国頭郡今帰仁村 / イタリアン、ピザ、ステーキ",
+  "tb": 3.28,
+  "tbc": 52,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47007871",
+  "name": "まんてん",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄そば、食堂",
+  "tb": 3.28,
+  "tbc": 47,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47014642",
+  "name": "オン ザ ビーチ カフェ",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、ハンバーグ、ハンバーガー",
+  "tb": 3.27,
+  "tbc": 103,
+  "match": {
+   "n": "オン ザ ビーチ カフェ",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47015263",
+  "name": "城の茶屋",
+  "areaGenre": "国頭郡今帰仁村 / カフェ",
+  "tb": 3.26,
+  "tbc": 36,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47028705",
+  "name": "Haamine'S",
+  "areaGenre": "国頭郡今帰仁村 / スリランカ料理、カレー",
+  "tb": 3.25,
+  "tbc": 29,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47025917",
+  "name": "古宇利島ジャックマニー",
+  "areaGenre": "国頭郡今帰仁村 / ハンバーガー、カフェ、パン",
+  "tb": 3.25,
+  "tbc": 28,
+  "match": {
+   "n": "古宇利島ジャックマニー",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47011538",
+  "name": "昭和居酒屋 北山食堂",
+  "areaGenre": "国頭郡今帰仁村 / 居酒屋、沖縄料理、海鮮",
+  "tb": 3.24,
+  "tbc": 86,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47029229",
+  "name": "O ICE CAFE",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、かき氷、ジェラート・アイスクリーム",
+  "tb": 3.24,
+  "tbc": 32,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47030423",
+  "name": "なきじん食堂",
+  "areaGenre": "国頭郡今帰仁村 / 食堂",
+  "tb": 3.23,
+  "tbc": 23,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47029627",
+  "name": "シマノカクレガ",
+  "areaGenre": "国頭郡今帰仁村 / カフェ",
+  "tb": 3.22,
+  "tbc": 35,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47031976",
+  "name": "5910 sa-ta-cafe",
+  "areaGenre": "国頭郡今帰仁村 / カフェ",
+  "tb": 3.21,
+  "tbc": 38,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47033547",
+  "name": "TROPICAL OASIS",
+  "areaGenre": "国頭郡今帰仁村 / レストラン、バー",
+  "tb": 3.2,
+  "tbc": 35,
+  "match": null,
+  "like": {
+   "n": "OASIS",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47026276",
+  "name": "ライス ボウル ファクトリー オキナワ",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、丼",
+  "tb": 3.19,
+  "tbc": 62,
+  "match": null,
+  "like": {
+   "n": "Pink Palace アサイーボウル",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47029379",
+  "name": "One Suite THE GRAND",
+  "areaGenre": "国頭郡今帰仁村 / ホテル",
+  "tb": 3.18,
+  "tbc": 25,
+  "match": null,
+  "like": {
+   "n": "SOLiS GRANDE",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47032512",
+  "name": "あぐー豚と寿司の島居酒屋 まーさっさー",
+  "areaGenre": "国頭郡今帰仁村 / 居酒屋、豚しゃぶ、寿司",
+  "tb": 3.17,
+  "tbc": 41,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47004289",
+  "name": "今帰仁の駅　そ～れ",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄そば、食堂、スイーツ",
+  "tb": 3.17,
+  "tbc": 24,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47024723",
+  "name": "アイランド",
+  "areaGenre": "国頭郡今帰仁村 / ヨーロッパ料理、カフェ",
+  "tb": 3.16,
+  "tbc": 37,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47026915",
+  "name": "ベニーズ",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、フルーツパーラー",
+  "tb": 3.16,
+  "tbc": 32,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47006915",
+  "name": "キッチン・テラス ココニール",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、レストラン、イタリアン",
+  "tb": 3.15,
+  "tbc": 39,
+  "match": null,
+  "like": {
+   "n": "ノア・ド・ココ",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47013125",
+  "name": "リゾートホテル　ベル・パライソ",
+  "areaGenre": "国頭郡今帰仁村 / ホテル",
+  "tb": 3.15,
+  "tbc": 17,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47025403",
+  "name": "ワンスイート ザ テラス",
+  "areaGenre": "国頭郡今帰仁村 / ホテル",
+  "tb": 3.15,
+  "tbc": 11,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47012782",
+  "name": "DRIVE IN リカリカワルミ",
+  "areaGenre": "国頭郡今帰仁村 / その他",
+  "tb": 3.14,
+  "tbc": 68,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47030788",
+  "name": "NoBi",
+  "areaGenre": "国頭郡今帰仁村 / ハンバーガー",
+  "tb": 3.14,
+  "tbc": 13,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47002300",
+  "name": "むらの茶屋",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、食堂、沖縄そば",
+  "tb": 3.13,
+  "tbc": 34,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47031357",
+  "name": "yummy",
+  "areaGenre": "国頭郡今帰仁村 / ドーナツ",
+  "tb": 3.11,
+  "tbc": 17,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47030787",
+  "name": "GREAT EGRET COFFEE",
+  "areaGenre": "国頭郡今帰仁村 / コーヒースタンド",
+  "tb": 3.11,
+  "tbc": 15,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47023858",
+  "name": "古宇利家",
+  "areaGenre": "国頭郡今帰仁村 / カフェ",
+  "tb": 3.11,
+  "tbc": 14,
+  "match": null,
+  "like": {
+   "n": "古宇利cafe' Charm（シャルム）",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47030724",
+  "name": "島ちょぼ",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、居酒屋",
+  "tb": 3.11,
+  "tbc": 13,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47009451",
+  "name": "ホテル カヴァ",
+  "areaGenre": "国頭郡今帰仁村 / ホテル",
+  "tb": 3.11,
+  "tbc": 7,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47028042",
+  "name": "ロワジール テラス&ヴィラズ ​古宇利",
+  "areaGenre": "国頭郡今帰仁村 / ホテル",
+  "tb": 3.11,
+  "tbc": 7,
+  "match": null,
+  "like": {
+   "n": "古宇利cafe' Charm（シャルム）",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47023177",
+  "name": "波羅蜜",
+  "areaGenre": "国頭郡今帰仁村 / カフェ",
+  "tb": 3.1,
+  "tbc": 39,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47034210",
+  "name": "たくし農園 ちゅらふる",
+  "areaGenre": "国頭郡今帰仁村 / 売店、カフェ",
+  "tb": 3.1,
+  "tbc": 6,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47032272",
+  "name": "YAWN YARD sea",
+  "areaGenre": "国頭郡今帰仁村 / 旅館・民宿",
+  "tb": 3.1,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470201/47034045",
+  "name": "バルーンカート",
+  "areaGenre": "国頭郡今帰仁村 / 売店",
+  "tb": 3.1,
+  "tbc": 5,
+  "match": null,
+  "like": {
+   "n": "バル・ステーキ",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47008697",
+  "name": "まるや",
+  "areaGenre": "国頭郡今帰仁村 / 旅館・民宿",
+  "tb": 3.1,
+  "tbc": 5,
+  "match": null,
+  "like": {
+   "n": "豚骨ラーメン まる・安",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47031196",
+  "name": "ソラハシMARKET",
+  "areaGenre": "国頭郡今帰仁村 / その他",
+  "tb": 3.09,
+  "tbc": 49,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47029372",
+  "name": "森の巣箱",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、バー",
+  "tb": 3.09,
+  "tbc": 29,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47020846",
+  "name": "ホルモン焼肉居酒屋 Usi no ibukuro",
+  "areaGenre": "国頭郡今帰仁村 / 焼肉、ホルモン、居酒屋",
+  "tb": 3.09,
+  "tbc": 24,
+  "match": null,
+  "like": {
+   "n": "炭火ホルモンふくちゃん",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47028839",
+  "name": "NAKIJIN BURGER",
+  "areaGenre": "国頭郡今帰仁村 / ハンバーガー、カフェ、ソフトクリーム",
+  "tb": 3.09,
+  "tbc": 24,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47031394",
+  "name": "古宇利島うみんちゅSeaFood",
+  "areaGenre": "国頭郡今帰仁村 / シーフード",
+  "tb": 3.09,
+  "tbc": 18,
+  "match": null,
+  "like": {
+   "n": "La BOMBANCE 古宇利島",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47027877",
+  "name": "琉球古民家 肉処 うむい",
+  "areaGenre": "国頭郡今帰仁村 / 焼肉、沖縄料理",
+  "tb": 3.09,
+  "tbc": 18,
+  "match": null,
+  "like": {
+   "n": "やんばるダイニング 松の古民家",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470201/47030558",
+  "name": "SUNNY KITCHEN",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、パンケーキ",
+  "tb": 3.09,
+  "tbc": 17,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47034630",
+  "name": "古宇利島パリッティ",
+  "areaGenre": "国頭郡今帰仁村 / カフェ",
+  "tb": 3.09,
+  "tbc": 14,
+  "match": null,
+  "like": {
+   "n": "La BOMBANCE 古宇利島",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47033730",
+  "name": "今帰仁の森",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄そば",
+  "tb": 3.09,
+  "tbc": 11,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47031540",
+  "name": "沖縄そば の～ぶ～",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄そば",
+  "tb": 3.09,
+  "tbc": 11,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47031356",
+  "name": "古民家カフェ くるる NAKIJIN",
+  "areaGenre": "国頭郡今帰仁村 / カフェ",
+  "tb": 3.09,
+  "tbc": 10,
+  "match": null,
+  "like": {
+   "n": "やんばるダイニング 松の古民家",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47002926",
+  "name": "ケ・イキ ビーチハウス＆カフェ",
+  "areaGenre": "国頭郡今帰仁村 / 旅館・民宿",
+  "tb": 3.09,
+  "tbc": 6,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47017281",
+  "name": "ホテルオーシャンズ今帰仁",
+  "areaGenre": "国頭郡今帰仁村 / ホテル",
+  "tb": 3.09,
+  "tbc": 4,
+  "match": null,
+  "like": {
+   "n": "オーシャンブルー",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47015650",
+  "name": "古宇利島市場",
+  "areaGenre": "国頭郡今帰仁村 / その他",
+  "tb": 3.08,
+  "tbc": 42,
+  "match": null,
+  "like": {
+   "n": "古宇利cafe' Charm（シャルム）",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47004702",
+  "name": "お食事処 文ちゃん",
+  "areaGenre": "国頭郡今帰仁村 / 食堂、海鮮",
+  "tb": 3.08,
+  "tbc": 26,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47030767",
+  "name": "レストラン 珊瑚テーブル",
+  "areaGenre": "国頭郡今帰仁村 / レストラン",
+  "tb": 3.08,
+  "tbc": 17,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47016235",
+  "name": "山原食堂Kuni",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、中華料理、食堂",
+  "tb": 3.08,
+  "tbc": 17,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47031204",
+  "name": "chura天てん",
+  "areaGenre": "国頭郡今帰仁村 / ドーナツ、沖縄料理",
+  "tb": 3.08,
+  "tbc": 13,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47029165",
+  "name": "わが家 今帰仁店",
+  "areaGenre": "国頭郡今帰仁村 / 居酒屋、海鮮、食堂",
+  "tb": 3.08,
+  "tbc": 12,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47019080",
+  "name": "Aコープ 今帰仁店",
+  "areaGenre": "国頭郡今帰仁村 / コンビニ・スーパー",
+  "tb": 3.08,
+  "tbc": 6,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47024248",
+  "name": "きなスーパー",
+  "areaGenre": "国頭郡今帰仁村 / コンビニ・スーパー",
+  "tb": 3.08,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47032115",
+  "name": "民宿あわい",
+  "areaGenre": "国頭郡今帰仁村 / 旅館・民宿",
+  "tb": 3.08,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47006834",
+  "name": "道のそば",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄そば",
+  "tb": 3.07,
+  "tbc": 18,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47027831",
+  "name": "今帰仁亭",
+  "areaGenre": "国頭郡今帰仁村 / ラーメン",
+  "tb": 3.07,
+  "tbc": 16,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47013464",
+  "name": "古宇利オーシャンタワー",
+  "areaGenre": "国頭郡今帰仁村 / その他",
+  "tb": 3.07,
+  "tbc": 16,
+  "match": {
+   "n": "オーシャンブルー 古宇利オーシャンタワー店",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47022197",
+  "name": "よなみね屋",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄そば",
+  "tb": 3.07,
+  "tbc": 16,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47009561",
+  "name": "ダチョウらんど沖縄",
+  "areaGenre": "国頭郡今帰仁村 / 食堂、鳥料理、肉料理",
+  "tb": 3.07,
+  "tbc": 15,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47018514",
+  "name": "むぎ畑",
+  "areaGenre": "国頭郡今帰仁村 / パン",
+  "tb": 3.07,
+  "tbc": 14,
+  "match": {
+   "n": "むぎ畑",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47007409",
+  "name": "恋島",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、食堂",
+  "tb": 3.07,
+  "tbc": 14,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47025999",
+  "name": "赤瓦そば まる屋",
+  "areaGenre": "国頭郡今帰仁村 / 沖縄料理、郷土料理、沖縄そば",
+  "tb": 3.07,
+  "tbc": 12,
+  "match": null,
+  "like": {
+   "n": "豚骨ラーメン まる・安",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47032840",
+  "name": "ブルーシール 古宇利島パーラー",
+  "areaGenre": "国頭郡今帰仁村 / ジェラート・アイスクリーム",
+  "tb": 3.07,
+  "tbc": 11,
+  "match": null,
+  "like": {
+   "n": "古宇利cafe' Charm（シャルム）",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47029844",
+  "name": "パーラーくりやま家",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、かき氷",
+  "tb": 3.07,
+  "tbc": 9,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47029900",
+  "name": "petit a petit",
+  "areaGenre": "国頭郡今帰仁村 / パンケーキ、かき氷、カフェ",
+  "tb": 3.07,
+  "tbc": 6,
+  "match": null,
+  "like": {
+   "n": "atelier un petit peu",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47013176",
+  "name": "カヤ・リゾート 古宇利島",
+  "areaGenre": "国頭郡今帰仁村 / 旅館・民宿",
+  "tb": 3.07,
+  "tbc": 2,
+  "match": null,
+  "like": {
+   "n": "古宇利cafe' Charm（シャルム）",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47001389",
+  "name": "今帰仁村グスク交流センター喫茶　ＳＨＩＮＪＯ",
+  "areaGenre": "国頭郡今帰仁村 / 喫茶店、カレー、ジェラート・アイスクリーム",
+  "tb": 3.06,
+  "tbc": 12,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47025592",
+  "name": "スパイスカレー ストラム",
+  "areaGenre": "国頭郡今帰仁村 / カレー、バー",
+  "tb": 3.06,
+  "tbc": 12,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47032776",
+  "name": "うどん飩棒",
+  "areaGenre": "国頭郡今帰仁村 / うどん",
+  "tb": 3.06,
+  "tbc": 10,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47008148",
+  "name": "割烹あじろ",
+  "areaGenre": "国頭郡今帰仁村 / 日本料理、寿司",
+  "tb": 3.06,
+  "tbc": 10,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47025189",
+  "name": "カフェ カナサ",
+  "areaGenre": "国頭郡今帰仁村 / カフェ",
+  "tb": 3.06,
+  "tbc": 8,
+  "match": null,
+  "like": {
+   "n": "カナ",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47032454",
+  "name": "あぐー・石垣牛 琉球しゃぶしゃぶ 純",
+  "areaGenre": "国頭郡今帰仁村 / しゃぶしゃぶ",
+  "tb": 3.06,
+  "tbc": 7,
+  "match": null,
+  "like": {
+   "n": "石垣牛 康八",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47013177",
+  "name": "風来荘",
+  "areaGenre": "国頭郡今帰仁村 / 旅館・民宿",
+  "tb": 3.06,
+  "tbc": 7,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47027204",
+  "name": "ハートアイランドパーラー",
+  "areaGenre": "国頭郡今帰仁村 / ジェラート・アイスクリーム",
+  "tb": 3.06,
+  "tbc": 6,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470202/47033265",
+  "name": "なんくるKITCHEN",
+  "areaGenre": "国頭郡今帰仁村 / カフェ、スイーツ、フルーツパーラー",
+  "tb": 3.06,
+  "tbc": 5,
+  "match": null,
+  "like": {
+   "n": "なんくる家",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4702/A470202/47030794",
+  "name": "Hanalee Villa Kouri",
+  "areaGenre": "国頭郡今帰仁村 / ホテル",
+  "tb": 3.06,
+  "tbc": 2,
+  "match": null,
+  "like": {
+   "n": "地球村酒場 EARTH VILLAGE IZAKAYA",
+   "sim": 0.75
+  }
+ }
+]
