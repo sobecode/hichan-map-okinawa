@@ -53,7 +53,10 @@ module.exports = function addRows({area_id, muni, detail, rows}) {
   let added = 0;
   for (const [n] of rows) {
     const x = det.find(v => v.name === n);
-    if (x.tb == null || t.some(r => r.area_id === area_id && r.name === n)) continue;
+    if (x.tb == null) continue;
+    // 古いランキングの行が残っていると apply_tabelog.js がそれで上書きするので、今回の値に揃える
+    const old = t.find(r => r.area_id === area_id && r.name === n);
+    if (old) { old.score = x.tb; old.count = x.tbc; continue; }
     t.push({area_id, name: n, score: x.tb, count: x.tbc}); added++;
   }
   fs.writeFileSync(tj, JSON.stringify(t, null, 1));

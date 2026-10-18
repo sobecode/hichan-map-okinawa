@@ -848,32 +848,32 @@
  {
   "area_id": "nago",
   "name": "ラ・ティーダ",
-  "score": 3.67,
-  "count": 276
+  "score": 3.68,
+  "count": 288
  },
  {
   "area_id": "nago",
   "name": "喜瀬",
-  "score": 3.67,
-  "count": 155
+  "score": 3.59,
+  "count": 160
  },
  {
   "area_id": "nago",
   "name": "鉄板焼 朝日",
   "score": 3.67,
-  "count": 152
+  "count": 164
  },
  {
   "area_id": "nago",
   "name": "琉球銘菓 三矢",
   "score": 3.65,
-  "count": 778
+  "count": 807
  },
  {
   "area_id": "nago",
   "name": "グスク",
-  "score": 3.65,
-  "count": 184
+  "score": 3.57,
+  "count": 186
  },
  {
   "area_id": "nago",
@@ -896,8 +896,8 @@
  {
   "area_id": "nago",
   "name": "レストラン ふりっぱー",
-  "score": 3.56,
-  "count": 391
+  "score": 3.55,
+  "count": 403
  },
  {
   "area_id": "nago",
@@ -1005,7 +1005,7 @@
   "area_id": "nago",
   "name": "ゆきの",
   "score": 3.45,
-  "count": 198
+  "count": 202
  },
  {
   "area_id": "nago",
@@ -1029,13 +1029,13 @@
   "area_id": "nago",
   "name": "真南風",
   "score": 3.42,
-  "count": 154
+  "count": 162
  },
  {
   "area_id": "nago",
   "name": "キャプテンカンガルー タコライス",
   "score": 3.41,
-  "count": 108
+  "count": 110
  },
  {
   "area_id": "nago",
@@ -1058,8 +1058,8 @@
  {
   "area_id": "nago",
   "name": "具志堅多幸寿",
-  "score": 3.4,
-  "count": 106
+  "score": 3.41,
+  "count": 121
  },
  {
   "area_id": "nago",
@@ -1076,8 +1076,8 @@
  {
   "area_id": "nago",
   "name": "焼肉乃我那覇 本店",
-  "score": 3.37,
-  "count": 136
+  "score": 3.36,
+  "count": 139
  },
  {
   "area_id": "itoman",
@@ -2084,8 +2084,8 @@
  {
   "area_id": "onna",
   "name": "三矢本舗 おんなの駅なかゆくい市場店",
-  "score": 3.58,
-  "count": 357
+  "score": 3.57,
+  "count": 379
  },
  {
   "area_id": "onna",
@@ -2097,13 +2097,13 @@
   "area_id": "onna",
   "name": "ハウス ウィズアウト ア キー",
   "score": 3.55,
-  "count": 388
+  "count": 405
  },
  {
   "area_id": "onna",
   "name": "あぐー豚しゃぶしゃぶ専門店オーシャンBoo！ 恩納村店",
-  "score": 3.55,
-  "count": 298
+  "score": 3.57,
+  "count": 324
  },
  {
   "area_id": "onna",
@@ -2114,14 +2114,14 @@
  {
   "area_id": "onna",
   "name": "クッチーナ セラーレ",
-  "score": 3.54,
-  "count": 86
+  "score": 3.52,
+  "count": 91
  },
  {
   "area_id": "onna",
   "name": "SUNSET BAR SPECTRA",
   "score": 3.52,
-  "count": 109
+  "count": 116
  },
  {
   "area_id": "onna",
@@ -2151,7 +2151,7 @@
   "area_id": "onna",
   "name": "ブルー エントランス キッチン",
   "score": 3.49,
-  "count": 364
+  "count": 405
  },
  {
   "area_id": "onna",
@@ -2163,7 +2163,7 @@
   "area_id": "onna",
   "name": "三矢本舗 絶景万座毛店",
   "score": 3.48,
-  "count": 116
+  "count": 125
  },
  {
   "area_id": "onna",
@@ -2174,8 +2174,8 @@
  {
   "area_id": "onna",
   "name": "ザ ブロス サンドイッチ スタンド",
-  "score": 3.47,
-  "count": 130
+  "score": 3.46,
+  "count": 131
  },
  {
   "area_id": "onna",
@@ -2192,14 +2192,14 @@
  {
   "area_id": "onna",
   "name": "鉄板焼ステーキハウス jam 沖縄恩納村店",
-  "score": 3.45,
-  "count": 306
+  "score": 3.44,
+  "count": 312
  },
  {
   "area_id": "onna",
   "name": "Wine & Dining The Orange",
   "score": 3.45,
-  "count": 256
+  "count": 267
  },
  {
   "area_id": "onna",
@@ -2223,7 +2223,7 @@
   "area_id": "onna",
   "name": "海風よ",
   "score": 3.42,
-  "count": 196
+  "count": 203
  },
  {
   "area_id": "onna",
@@ -2253,13 +2253,13 @@
   "area_id": "onna",
   "name": "沖縄とんかつ食堂しまぶた屋 前兼久店",
   "score": 3.41,
-  "count": 193
+  "count": 198
  },
  {
   "area_id": "onna",
   "name": "セイルフィッシュ カフェ",
-  "score": 3.41,
-  "count": 128
+  "score": 3.4,
+  "count": 131
  },
  {
   "area_id": "onna",
@@ -2270,26 +2270,26 @@
  {
   "area_id": "onna",
   "name": "ぬーじ",
-  "score": 3.41,
-  "count": 35
+  "score": 3.4,
+  "count": 38
  },
  {
   "area_id": "onna",
   "name": "沖縄料理しまぶた屋 恩納店",
   "score": 3.4,
-  "count": 244
+  "count": 248
  },
  {
   "area_id": "yomitan",
   "name": "読谷 石窯ピザ酒場まるき",
-  "score": 3.63,
-  "count": 88
+  "score": 3.64,
+  "count": 95
  },
  {
   "area_id": "yomitan",
   "name": "星のや沖縄 ダイニング",
-  "score": 3.6,
-  "count": 51
+  "score": 3.59,
+  "count": 54
  },
  {
   "area_id": "yomitan",
@@ -2301,7 +2301,7 @@
   "area_id": "yomitan",
   "name": "マジュン・リッカ",
   "score": 3.56,
-  "count": 125
+  "count": 131
  },
  {
   "area_id": "yomitan",
@@ -2330,8 +2330,8 @@
  {
   "area_id": "yomitan",
   "name": "ブラッスリー・ベルデマール",
-  "score": 3.46,
-  "count": 213
+  "score": 3.45,
+  "count": 214
  },
  {
   "area_id": "yomitan",
@@ -2348,20 +2348,20 @@
  {
   "area_id": "yomitan",
   "name": "パンケーキハウス ヤッケブース",
-  "score": 3.44,
-  "count": 172
+  "score": 3.43,
+  "count": 174
  },
  {
   "area_id": "yomitan",
   "name": "佐和",
   "score": 3.43,
-  "count": 168
+  "count": 171
  },
  {
   "area_id": "yomitan",
   "name": "オールーグリル by 星野リゾート",
   "score": 3.43,
-  "count": 118
+  "count": 121
  },
  {
   "area_id": "yomitan",
@@ -2384,20 +2384,20 @@
  {
   "area_id": "yomitan",
   "name": "ケープ ザンパ ドライブイン",
-  "score": 3.41,
-  "count": 97
+  "score": 3.4,
+  "count": 105
  },
  {
   "area_id": "yomitan",
   "name": "ハナハナ",
   "score": 3.38,
-  "count": 115
+  "count": 118
  },
  {
   "area_id": "yomitan",
   "name": "Mexican Food OBBLIGATO",
-  "score": 3.38,
-  "count": 113
+  "score": 3.39,
+  "count": 116
  },
  {
   "area_id": "yomitan",
@@ -2408,20 +2408,20 @@
  {
   "area_id": "yomitan",
   "name": "ラウンジ アリアカラ",
-  "score": 3.34,
-  "count": 87
+  "score": 3.35,
+  "count": 88
  },
  {
   "area_id": "yomitan",
   "name": "外食家 くじら",
-  "score": 3.34,
-  "count": 72
+  "score": 3.32,
+  "count": 74
  },
  {
   "area_id": "yomitan",
   "name": "JoieJoie326",
-  "score": 3.34,
-  "count": 56
+  "score": 3.32,
+  "count": 57
  },
  {
   "area_id": "yomitan",
@@ -2438,8 +2438,8 @@
  {
   "area_id": "yomitan",
   "name": "atabii's 読谷店",
-  "score": 3.3,
-  "count": 30
+  "score": 3.32,
+  "count": 38
  },
  {
   "area_id": "yomitan",
@@ -3722,14 +3722,14 @@
  {
   "area_id": "nago",
   "name": "コロンバン",
-  "score": 3.36,
-  "count": 118
+  "score": 3.35,
+  "count": 123
  },
  {
   "area_id": "nago",
   "name": "和食レストラン 神着",
   "score": 3.36,
-  "count": 115
+  "count": 121
  },
  {
   "area_id": "nago",
@@ -3740,20 +3740,20 @@
  {
   "area_id": "nago",
   "name": "さくら食堂",
-  "score": 3.35,
-  "count": 102
+  "score": 3.34,
+  "count": 105
  },
  {
   "area_id": "nago",
   "name": "フィーフィーパーラー",
-  "score": 3.35,
-  "count": 78
+  "score": 3.36,
+  "count": 83
  },
  {
   "area_id": "nago",
   "name": "ランブルフィッシュ",
-  "score": 3.35,
-  "count": 73
+  "score": 3.36,
+  "count": 80
  },
  {
   "area_id": "nago",
@@ -3765,25 +3765,25 @@
   "area_id": "nago",
   "name": "居酒屋 春海",
   "score": 3.35,
-  "count": 37
+  "count": 39
  },
  {
   "area_id": "nago",
   "name": "和タコス",
-  "score": 3.34,
-  "count": 109
+  "score": 3.33,
+  "count": 118
  },
  {
   "area_id": "nago",
   "name": "沖縄料理の店 くすくす",
   "score": 3.34,
-  "count": 80
+  "count": 81
  },
  {
   "area_id": "nago",
   "name": "サニータコス",
-  "score": 3.34,
-  "count": 57
+  "score": 3.5,
+  "count": 66
  },
  {
   "area_id": "nago",
@@ -3794,7 +3794,7 @@
  {
   "area_id": "nago",
   "name": "古酒蔵 山桜",
-  "score": 3.34,
+  "score": 3.33,
   "count": 44
  },
  {
@@ -3813,25 +3813,25 @@
   "area_id": "nago",
   "name": "やんばる物産センター 天ぷら店",
   "score": 3.33,
-  "count": 149
+  "count": 155
  },
  {
   "area_id": "nago",
   "name": "玉家jr",
-  "score": 3.33,
-  "count": 97
+  "score": 3.32,
+  "count": 98
  },
  {
   "area_id": "nago",
   "name": "HEY",
-  "score": 3.33,
+  "score": 3.32,
   "count": 44
  },
  {
   "area_id": "nago",
   "name": "Ryukyu Dining 家守家",
-  "score": 3.32,
-  "count": 101
+  "score": 3.34,
+  "count": 107
  },
  {
   "area_id": "nago",
@@ -3842,7 +3842,7 @@
  {
   "area_id": "nago",
   "name": "尚風亭",
-  "score": 3.32,
+  "score": 3.31,
   "count": 50
  },
  {
@@ -3854,14 +3854,14 @@
  {
   "area_id": "nago",
   "name": "カジュアルダイニング Paradis",
-  "score": 3.31,
-  "count": 71
+  "score": 3.33,
+  "count": 76
  },
  {
   "area_id": "nago",
   "name": "ステーキハウス88Jr. 名護店",
-  "score": 3.3,
-  "count": 67
+  "score": 3.33,
+  "count": 81
  },
  {
   "area_id": "nago",
@@ -3878,8 +3878,8 @@
  {
   "area_id": "nago",
   "name": "大城そば家",
-  "score": 3.29,
-  "count": 75
+  "score": 3.32,
+  "count": 83
  },
  {
   "area_id": "nago",
@@ -3902,8 +3902,8 @@
  {
   "area_id": "nago",
   "name": "食堂 ペリカノ",
-  "score": 3.28,
-  "count": 43
+  "score": 3.53,
+  "count": 47
  },
  {
   "area_id": "nago",
@@ -4196,26 +4196,26 @@
  {
   "area_id": "onna",
   "name": "海物語 本店",
-  "score": 3.4,
-  "count": 223
+  "score": 3.41,
+  "count": 233
  },
  {
   "area_id": "onna",
   "name": "808 POKEBOWLS OKINAWA",
-  "score": 3.4,
-  "count": 171
+  "score": 3.39,
+  "count": 181
  },
  {
   "area_id": "onna",
   "name": "恩納村水産物直売店 浜の家",
   "score": 3.39,
-  "count": 137
+  "count": 142
  },
  {
   "area_id": "onna",
   "name": "海の家",
   "score": 3.39,
-  "count": 128
+  "count": 138
  },
  {
   "area_id": "onna",
@@ -4226,14 +4226,14 @@
  {
   "area_id": "onna",
   "name": "アクアベル",
-  "score": 3.39,
-  "count": 115
+  "score": 3.38,
+  "count": 120
  },
  {
   "area_id": "onna",
   "name": "かふぅ 瀬良垣店",
-  "score": 3.39,
-  "count": 96
+  "score": 3.4,
+  "count": 103
  },
  {
   "area_id": "onna",
@@ -4250,20 +4250,20 @@
  {
   "area_id": "onna",
   "name": "日本料理 彩",
-  "score": 3.38,
-  "count": 90
+  "score": 3.37,
+  "count": 95
  },
  {
   "area_id": "onna",
   "name": "ヒルサイド グリル レストラン",
-  "score": 3.38,
-  "count": 82
+  "score": 3.39,
+  "count": 84
  },
  {
   "area_id": "onna",
   "name": "雲海",
-  "score": 3.37,
-  "count": 82
+  "score": 3.36,
+  "count": 83
  },
  {
   "area_id": "onna",
@@ -4274,26 +4274,26 @@
  {
   "area_id": "onna",
   "name": "島炉ばた 冨士",
-  "score": 3.36,
-  "count": 87
+  "score": 3.37,
+  "count": 91
  },
  {
   "area_id": "onna",
   "name": "アグーしゃぶしゃぶ みるく 恩納村万座店",
-  "score": 3.36,
-  "count": 86
+  "score": 3.37,
+  "count": 87
  },
  {
   "area_id": "onna",
   "name": "シラカチ 炉端",
-  "score": 3.36,
-  "count": 75
+  "score": 3.37,
+  "count": 79
  },
  {
   "area_id": "onna",
   "name": "あぐーの店 山城亭",
-  "score": 3.35,
-  "count": 129
+  "score": 3.34,
+  "count": 133
  },
  {
   "area_id": "onna",
@@ -4304,8 +4304,8 @@
  {
   "area_id": "onna",
   "name": "おJi～",
-  "score": 3.35,
-  "count": 74
+  "score": 3.34,
+  "count": 79
  },
  {
   "area_id": "onna",
@@ -5732,8 +5732,8 @@
  {
   "area_id": "onna",
   "name": "hale'aina HOA Okinawa",
-  "score": 3.34,
-  "count": 135
+  "score": 3.36,
+  "count": 142
  },
  {
   "area_id": "onna",
@@ -5744,14 +5744,14 @@
  {
   "area_id": "onna",
   "name": "ステーキハウス88 恩納店",
-  "score": 3.33,
-  "count": 271
+  "score": 3.35,
+  "count": 292
  },
  {
   "area_id": "onna",
   "name": "琉球焼肉NAKAMA",
-  "score": 3.33,
-  "count": 184
+  "score": 3.34,
+  "count": 200
  },
  {
   "area_id": "onna",
@@ -5774,13 +5774,13 @@
  {
   "area_id": "onna",
   "name": "シーフォレスト ホテルモントレ沖縄 スパ＆リゾート",
-  "score": 3.32,
+  "score": 3.31,
   "count": 67
  },
  {
   "area_id": "onna",
   "name": "まるい珈琲",
-  "score": 3.32,
+  "score": 3.33,
   "count": 49
  },
  {
@@ -5840,8 +5840,8 @@
  {
   "area_id": "onna",
   "name": "沖縄食材酒家 なかや",
-  "score": 3.28,
-  "count": 129
+  "score": 3.31,
+  "count": 143
  },
  {
   "area_id": "onna",
@@ -7136,8 +7136,8 @@
  {
   "area_id": "onna",
   "name": "沖縄料理　万座テーブル",
-  "score": 3.31,
-  "count": 74
+  "score": 3.32,
+  "count": 76
  },
  {
   "area_id": "onna",
@@ -11416,5 +11416,23 @@
   "name": "イタリアンレストラン セマーレ",
   "score": 3.33,
   "count": 58
+ },
+ {
+  "area_id": "kin",
+  "name": "Alo Edesse",
+  "score": 3.59,
+  "count": 31
+ },
+ {
+  "area_id": "yomitan",
+  "name": "花織そば",
+  "score": 3.4,
+  "count": 232
+ },
+ {
+  "area_id": "onna",
+  "name": "浜の家",
+  "score": 3.25,
+  "count": 94
  }
 ]

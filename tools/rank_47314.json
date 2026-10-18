@@ -1,0 +1,1019 @@
+[
+ {
+  "tl": "A4703/A470302/47029153",
+  "name": "Alo Edesse",
+  "areaGenre": "国頭郡金武町 / フレンチ、イノベーティブ、ステーキ",
+  "tb": 3.59,
+  "tbc": 31,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47011602",
+  "name": "キングタコス 金武本店",
+  "areaGenre": "国頭郡金武町 / タコス、アメリカ料理",
+  "tb": 3.49,
+  "tbc": 1016,
+  "match": {
+   "n": "キングタコス 金武本店",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47000151",
+  "name": "GATE1",
+  "areaGenre": "国頭郡金武町 / メキシコ料理、ハンバーガー、東南アジア料理",
+  "tb": 3.34,
+  "tbc": 71,
+  "match": {
+   "n": "GATE1",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47021821",
+  "name": "嘉海食堂",
+  "areaGenre": "国頭郡金武町 / 食堂、沖縄そば",
+  "tb": 3.27,
+  "tbc": 64,
+  "match": {
+   "n": "嘉海食堂",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47006370",
+  "name": "がらまんじゃく",
+  "areaGenre": "国頭郡金武町 / 沖縄料理、オーガニック、薬膳",
+  "tb": 3.24,
+  "tbc": 47,
+  "match": {
+   "n": "がらまんじゃく",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47005403",
+  "name": "伊芸サービスエリア（上り）レストラン",
+  "areaGenre": "国頭郡金武町 / 沖縄そば、食堂、ジェラート・アイスクリーム",
+  "tb": 3.16,
+  "tbc": 48,
+  "match": {
+   "n": "伊芸サービスエリア（上り）レストラン",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47001109",
+  "name": "伊芸サービスエリア（下り）レストラン",
+  "areaGenre": "国頭郡金武町 / その他",
+  "tb": 3.15,
+  "tbc": 106,
+  "match": {
+   "n": "伊芸サービスエリア（下り）レストラン",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47009775",
+  "name": "並松そば",
+  "areaGenre": "国頭郡金武町 / 沖縄そば",
+  "tb": 3.12,
+  "tbc": 24,
+  "match": {
+   "n": "並松そば",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47007247",
+  "name": "久松食堂",
+  "areaGenre": "国頭郡金武町 / 沖縄料理、食堂、沖縄そば",
+  "tb": 3.12,
+  "tbc": 23,
+  "match": {
+   "n": "久松食堂",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47029073",
+  "name": "CHAMP CHICKEN",
+  "areaGenre": "国頭郡金武町 / 鳥料理、洋食",
+  "tb": 3.09,
+  "tbc": 7,
+  "match": {
+   "n": "CHAMP CHICKEN",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47034470",
+  "name": "ブルーエントランスキッチン EastTerrace店",
+  "areaGenre": "国頭郡金武町 / タコス",
+  "tb": 3.08,
+  "tbc": 25,
+  "match": {
+   "n": "ブルーエントランスキッチン EastTerrace店",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47031125",
+  "name": "SABROSO 金武店",
+  "areaGenre": "国頭郡金武町 / タコス、メキシコ料理、カフェ",
+  "tb": 3.08,
+  "tbc": 15,
+  "match": {
+   "n": "SABROSO 金武店",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47028804",
+  "name": "ネイバーフッドコーヒーハウス",
+  "areaGenre": "国頭郡金武町 / カフェ",
+  "tb": 3.08,
+  "tbc": 12,
+  "match": {
+   "n": "ネイバーフッドコーヒーハウス",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47026349",
+  "name": "伊芸サービスエリア 下り線 ショッピングコーナー",
+  "areaGenre": "国頭郡金武町 / その他",
+  "tb": 3.07,
+  "tbc": 31,
+  "match": null,
+  "like": {
+   "n": "伊芸サービスエリア（上り）レストラン",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47000360",
+  "name": "カフェレストラン長楽",
+  "areaGenre": "国頭郡金武町 / 沖縄料理、野菜料理、洋食",
+  "tb": 3.07,
+  "tbc": 23,
+  "match": {
+   "n": "カフェレストラン長楽",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47008463",
+  "name": "きん田 金武店",
+  "areaGenre": "国頭郡金武町 / ケーキ、和菓子",
+  "tb": 3.07,
+  "tbc": 14,
+  "match": {
+   "n": "きん田 金武店",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4702/A470201/47020909",
+  "name": "ざまみ食堂",
+  "areaGenre": "国頭郡金武町 / 食堂",
+  "tb": 3.07,
+  "tbc": 13,
+  "match": {
+   "n": "ざまみ食堂",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47019148",
+  "name": "伊芸サービスエリア(上り線) ショッピングコーナー",
+  "areaGenre": "国頭郡金武町 / その他",
+  "tb": 3.06,
+  "tbc": 21,
+  "match": null,
+  "like": {
+   "n": "伊芸サービスエリア（上り）レストラン",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47022809",
+  "name": "ちゃんぷるー食堂",
+  "areaGenre": "国頭郡金武町 / 食堂、沖縄そば",
+  "tb": 3.06,
+  "tbc": 18,
+  "match": {
+   "n": "ちゃんぷるー食堂",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47003403",
+  "name": "リカモカ カフェ",
+  "areaGenre": "国頭郡金武町 / カフェ、かき氷",
+  "tb": 3.06,
+  "tbc": 16,
+  "match": {
+   "n": "リカモカ カフェ",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47012784",
+  "name": "鶏八亭",
+  "areaGenre": "国頭郡金武町 / 弁当",
+  "tb": 3.06,
+  "tbc": 9,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47012328",
+  "name": "パティスリー モンクレア 金武店",
+  "areaGenre": "国頭郡金武町 / ケーキ、チョコレート、洋菓子",
+  "tb": 3.06,
+  "tbc": 8,
+  "match": null,
+  "like": {
+   "n": "パティスリー アカヒロ",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47009407",
+  "name": "リトルキッチン",
+  "areaGenre": "国頭郡金武町 / 洋食、メキシコ料理、タコス",
+  "tb": 3.06,
+  "tbc": 8,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47033625",
+  "name": "a bagel oKINawa",
+  "areaGenre": "国頭郡金武町 / ベーグル",
+  "tb": 3.06,
+  "tbc": 6,
+  "match": {
+   "n": "a bagel oKINawa",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47033132",
+  "name": "やんばる入口食品",
+  "areaGenre": "国頭郡金武町 / 和菓子",
+  "tb": 3.06,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47030522",
+  "name": "CC's Chicken & Waffles 金武店",
+  "areaGenre": "国頭郡金武町 / アメリカ料理",
+  "tb": 3.05,
+  "tbc": 7,
+  "match": null,
+  "like": {
+   "n": "CHAMP CHICKEN",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47017189",
+  "name": "金海",
+  "areaGenre": "国頭郡金武町 / 居酒屋",
+  "tb": 3.05,
+  "tbc": 7,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47034044",
+  "name": "√329食堂美里",
+  "areaGenre": "国頭郡金武町 / そば、沖縄料理、郷土料理",
+  "tb": 3.05,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47034992",
+  "name": "Morning Hills",
+  "areaGenre": "国頭郡金武町 / カフェ",
+  "tb": 3.05,
+  "tbc": 5,
+  "match": null,
+  "like": {
+   "n": "MORNING WORKS",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47014443",
+  "name": "じんじん",
+  "areaGenre": "国頭郡金武町 / 居酒屋",
+  "tb": 3.05,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47031000",
+  "name": "IL MATTARELLO PASTA E PIZZA",
+  "areaGenre": "国頭郡金武町 / イタリアン、パスタ、ピザ",
+  "tb": 3.05,
+  "tbc": 4,
+  "match": null,
+  "like": {
+   "n": "Pasta Pizza Panino PEPEPE",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47003174",
+  "name": "鶴味家",
+  "areaGenre": "国頭郡金武町 / ラーメン",
+  "tb": 3.04,
+  "tbc": 14,
+  "match": {
+   "n": "鶴味家",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47030236",
+  "name": "kin cafe vivant",
+  "areaGenre": "国頭郡金武町 / カフェ、パンケーキ",
+  "tb": 3.04,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47019058",
+  "name": "麺処 千代",
+  "areaGenre": "国頭郡金武町 / ラーメン、食堂",
+  "tb": 3.03,
+  "tbc": 13,
+  "match": {
+   "n": "麺処 千代",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47004282",
+  "name": "ホワイトキッチン",
+  "areaGenre": "国頭郡金武町 / ハンバーガー、タコス、焼きそば",
+  "tb": 3.03,
+  "tbc": 7,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47018017",
+  "name": "かね八",
+  "areaGenre": "国頭郡金武町 / 居酒屋",
+  "tb": 3.03,
+  "tbc": 5,
+  "match": null,
+  "like": {
+   "n": "かね食堂 与那城店",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47014440",
+  "name": "菜菜",
+  "areaGenre": "国頭郡金武町 / 弁当",
+  "tb": 3.03,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47014436",
+  "name": "ぼん",
+  "areaGenre": "国頭郡金武町 / 食堂",
+  "tb": 3.03,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47008136",
+  "name": "島ダイニング 三代目OH!さまや",
+  "areaGenre": "国頭郡金武町 / 居酒屋、沖縄料理",
+  "tb": 3.03,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47028237",
+  "name": "THE BURGER BARN",
+  "areaGenre": "国頭郡金武町 / ハンバーガー",
+  "tb": 3.03,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47010064",
+  "name": "にく家 牛円",
+  "areaGenre": "国頭郡金武町 / 焼肉",
+  "tb": 3.03,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47018020",
+  "name": "平之丞",
+  "areaGenre": "国頭郡金武町 / 沖縄そば",
+  "tb": 3.03,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47031167",
+  "name": "ゆかり弁当 屋嘉店",
+  "areaGenre": "国頭郡金武町 / 弁当",
+  "tb": 3.03,
+  "tbc": 3,
+  "match": null,
+  "like": {
+   "n": "ゆかり食堂",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47015204",
+  "name": "崎山酒造廠",
+  "areaGenre": "国頭郡金武町 / その他",
+  "tb": 3.02,
+  "tbc": 7,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47034810",
+  "name": "BOSS CHICKEN",
+  "areaGenre": "国頭郡金武町 / アメリカ料理",
+  "tb": 3.02,
+  "tbc": 2,
+  "match": null,
+  "like": {
+   "n": "CHAMP CHICKEN",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47032502",
+  "name": "お肉の国代商店",
+  "areaGenre": "国頭郡金武町 / 弁当",
+  "tb": 3.02,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470201/47006733",
+  "name": "南龍園",
+  "areaGenre": "国頭郡金武町 / 中華料理",
+  "tb": 3.01,
+  "tbc": 6,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47006873",
+  "name": "マルメロ",
+  "areaGenre": "国頭郡金武町 / ケーキ",
+  "tb": 3.01,
+  "tbc": 6,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47025060",
+  "name": "並里みるく堂",
+  "areaGenre": "国頭郡金武町 / かき氷、クレープ・ガレット",
+  "tb": 3.01,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47018032",
+  "name": "食堂 味乃屋",
+  "areaGenre": "国頭郡金武町 / 食堂、天ぷら、沖縄そば",
+  "tb": 3.01,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47023981",
+  "name": "カフェバル ジャンキー",
+  "areaGenre": "国頭郡金武町 / ダイニングバー",
+  "tb": 3.01,
+  "tbc": 2,
+  "match": null,
+  "like": {
+   "n": "ハンタバール",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47008095",
+  "name": "パーラーアップル",
+  "areaGenre": "国頭郡金武町 / サンドイッチ、ハンバーガー、弁当",
+  "tb": 3,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47014385",
+  "name": "インド料理 SHIVA 金武店",
+  "areaGenre": "国頭郡金武町 / インド料理、パキスタン料理、インドカレー",
+  "tb": 3,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47009906",
+  "name": "ほっともっと 金武店",
+  "areaGenre": "国頭郡金武町 / 弁当",
+  "tb": 3,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47032605",
+  "name": "山川鮮魚店",
+  "areaGenre": "国頭郡金武町 / 売店、海鮮",
+  "tb": null,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47004421",
+  "name": "PIZZAパルコ 金武GATE1店",
+  "areaGenre": "国頭郡金武町 / ピザ",
+  "tb": null,
+  "tbc": 2,
+  "match": null,
+  "like": {
+   "n": "叙々苑 沖縄浦添パルコシティ店",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47009007",
+  "name": "民宿鶴味家",
+  "areaGenre": "国頭郡金武町 / 旅館・民宿",
+  "tb": null,
+  "tbc": 1,
+  "match": {
+   "n": "鶴味家",
+   "sim": 0.95
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47033896",
+  "name": "マックスバリュ 金武店",
+  "areaGenre": "国頭郡金武町 / コンビニ・スーパー",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47015384",
+  "name": "観音茶屋",
+  "areaGenre": "国頭郡金武町 / バー、その他",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47023661",
+  "name": "タウンプラザかねひで 金武鍾乳洞市場",
+  "areaGenre": "国頭郡金武町 / コンビニ・スーパー",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47035318",
+  "name": "umi no soba",
+  "areaGenre": "国頭郡金武町 / 沖縄そば",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47018105",
+  "name": "Peace",
+  "areaGenre": "国頭郡金武町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47018089",
+  "name": "アンダーグラウンド 金武",
+  "areaGenre": "国頭郡金武町 / パブ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47022292",
+  "name": "ママカフェ",
+  "areaGenre": "国頭郡金武町 / パン、カフェ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47018029",
+  "name": "ティールーム まっちょ",
+  "areaGenre": "国頭郡金武町 / バー、喫茶店",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47018090",
+  "name": "チアーズ",
+  "areaGenre": "国頭郡金武町 / パブ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47023968",
+  "name": "キッチンブラジル",
+  "areaGenre": "国頭郡金武町 / ブラジル料理",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47018021",
+  "name": "どりーむ",
+  "areaGenre": "国頭郡金武町 / パン",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47028302",
+  "name": "創作ダイニング 東屋",
+  "areaGenre": "国頭郡金武町 / 居酒屋",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "沖縄創作居酒屋 天の川食堂 てぃんがーら",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47023832",
+  "name": "金武の花",
+  "areaGenre": "国頭郡金武町 / 居酒屋",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47018014",
+  "name": "めーかちわったーまちSHOP",
+  "areaGenre": "国頭郡金武町 / その他",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47011236",
+  "name": "おふくろ弁当",
+  "areaGenre": "国頭郡金武町 / 弁当",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47023971",
+  "name": "バー アンド カフェ ブラジル",
+  "areaGenre": "国頭郡金武町 / バー、ブラジル料理",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47032181",
+  "name": "キッチンとまと",
+  "areaGenre": "国頭郡金武町 / 弁当",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47023972",
+  "name": "カレーハウス ハバハバ",
+  "areaGenre": "国頭郡金武町 / カレー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47018096",
+  "name": "ダーツ バー ドラゴン",
+  "areaGenre": "国頭郡金武町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "中華食堂ドラゴン",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47018095",
+  "name": "ともみ",
+  "areaGenre": "国頭郡金武町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47035228",
+  "name": "FF POKE",
+  "areaGenre": "国頭郡金武町 / ハワイ料理",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47027921",
+  "name": "居酒屋 たぬき",
+  "areaGenre": "国頭郡金武町 / 居酒屋",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47019057",
+  "name": "チキパラ",
+  "areaGenre": "国頭郡金武町 / 焼き鳥、居酒屋、食堂",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47030452",
+  "name": "KINサンライズビーチ",
+  "areaGenre": "国頭郡金武町 / バーベキュー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "サンライズ",
+   "sim": 0.95
+  }
+ },
+ {
+  "tl": "A4703/A470302/47018023",
+  "name": "南風",
+  "areaGenre": "国頭郡金武町 / 居酒屋、沖縄料理",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "南風堂",
+   "sim": 0.95
+  }
+ },
+ {
+  "tl": "A4703/A470302/47023978",
+  "name": "パトラ",
+  "areaGenre": "国頭郡金武町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47020043",
+  "name": "金太郎",
+  "areaGenre": "国頭郡金武町 / 弁当、食堂",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "沖縄大衆酒場 おでんの金太郎",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47023975",
+  "name": "ビンゴズパブ",
+  "areaGenre": "国頭郡金武町 / パブ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47020886",
+  "name": "SUNハート",
+  "areaGenre": "国頭郡金武町 / 食堂、居酒屋",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47028811",
+  "name": "Chingones Cantina",
+  "areaGenre": "国頭郡金武町 / メキシコ料理",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47018022",
+  "name": "琉リハレストラン",
+  "areaGenre": "国頭郡金武町 / 学生食堂",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "レストラン国",
+   "sim": 0.6666666666666666
+  }
+ },
+ {
+  "tl": "A4703/A470302/47020032",
+  "name": "サルーン",
+  "areaGenre": "国頭郡金武町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47023979",
+  "name": "ゾーン",
+  "areaGenre": "国頭郡金武町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47023967",
+  "name": "パーラートミー",
+  "areaGenre": "国頭郡金武町 / 弁当",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470201/47008852",
+  "name": "盆栽村",
+  "areaGenre": "国頭郡金武町 / 旅館・民宿",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47023970",
+  "name": "コパカバーナ",
+  "areaGenre": "国頭郡金武町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47023980",
+  "name": "ムラタストアー",
+  "areaGenre": "国頭郡金武町 / その他",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47034007",
+  "name": "66 Diner",
+  "areaGenre": "国頭郡金武町 / アメリカ料理",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47013586",
+  "name": "オーシャンヒルズ長楽ステイ",
+  "areaGenre": "国頭郡金武町 / 沖縄料理、オーベルジュ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4702/A470201/47014444",
+  "name": "パーラーべつ腹",
+  "areaGenre": "国頭郡金武町 / 弁当",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47026099",
+  "name": "パン工房 カプレット",
+  "areaGenre": "国頭郡金武町 / パン、カフェ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "パン工房 きしもと",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470302/47023833",
+  "name": "パーラーニコニコ",
+  "areaGenre": "国頭郡金武町 / 弁当、ハンバーガー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470302/47015197",
+  "name": "くいしん坊",
+  "areaGenre": "国頭郡金武町 / ラーメン、餃子",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ }
+]
