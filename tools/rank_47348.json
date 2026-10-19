@@ -1,0 +1,1019 @@
+[
+ {
+  "tl": "A4704/A470405/47023888",
+  "name": "ナギサ",
+  "areaGenre": "島尻郡与那原町 / ラーメン",
+  "tb": 3.51,
+  "tbc": 119,
+  "match": {
+   "n": "ナギサ",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47000281",
+  "name": "与那原家",
+  "areaGenre": "島尻郡与那原町 / 沖縄そば",
+  "tb": 3.45,
+  "tbc": 208,
+  "match": {
+   "n": "与那原家",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47000148",
+  "name": "ジェフ 与那原店",
+  "areaGenre": "島尻郡与那原町 / ハンバーガー、サンドイッチ、カフェ",
+  "tb": 3.31,
+  "tbc": 110,
+  "match": {
+   "n": "ジェフ 与那原店",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47011786",
+  "name": "まつどべーかりぃ",
+  "areaGenre": "島尻郡与那原町 / パン、サンドイッチ",
+  "tb": 3.12,
+  "tbc": 25,
+  "match": {
+   "n": "まつどべーかりぃ",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47027632",
+  "name": "カフェ アール",
+  "areaGenre": "島尻郡与那原町 / カフェ",
+  "tb": 3.11,
+  "tbc": 13,
+  "match": {
+   "n": "カフェ アール",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470401/47026766",
+  "name": "ラ パウザ ドルチェ",
+  "areaGenre": "島尻郡与那原町 / ケーキ、ジェラート・アイスクリーム、カフェ",
+  "tb": 3.08,
+  "tbc": 14,
+  "match": {
+   "n": "ラ パウザ ドルチェ",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47016872",
+  "name": "えびすそば",
+  "areaGenre": "島尻郡与那原町 / 沖縄そば、食堂",
+  "tb": 3.07,
+  "tbc": 17,
+  "match": {
+   "n": "えびすそば",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47010639",
+  "name": "らんらん家",
+  "areaGenre": "島尻郡与那原町 / ケーキ",
+  "tb": 3.07,
+  "tbc": 14,
+  "match": {
+   "n": "らんらん家",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47023731",
+  "name": "くずし割烹 魚しき",
+  "areaGenre": "島尻郡与那原町 / 日本料理、居酒屋、寿司",
+  "tb": 3.07,
+  "tbc": 10,
+  "match": {
+   "n": "くずし割烹 魚しき",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47022272",
+  "name": "まんぷく光食堂",
+  "areaGenre": "島尻郡与那原町 / 食堂、肉料理、沖縄料理",
+  "tb": 3.06,
+  "tbc": 12,
+  "match": {
+   "n": "まんぷく光食堂",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47004373",
+  "name": "ボヌール",
+  "areaGenre": "島尻郡与那原町 / ケーキ",
+  "tb": 3.06,
+  "tbc": 11,
+  "match": {
+   "n": "ボヌール",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470401/47022787",
+  "name": "マリナーズ カフェ",
+  "areaGenre": "島尻郡与那原町 / カフェ",
+  "tb": 3.06,
+  "tbc": 8,
+  "match": {
+   "n": "マリナーズ カフェ",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47032508",
+  "name": "ミージマ共同売店",
+  "areaGenre": "島尻郡与那原町 / 食堂",
+  "tb": 3.06,
+  "tbc": 8,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47018494",
+  "name": "A&W マリンタウンあがり浜店",
+  "areaGenre": "島尻郡与那原町 / ハンバーガー、サンドイッチ",
+  "tb": 3.05,
+  "tbc": 36,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47016549",
+  "name": "○匠",
+  "areaGenre": "島尻郡与那原町 / お好み焼き、たこ焼き、居酒屋",
+  "tb": 3.05,
+  "tbc": 10,
+  "match": {
+   "n": "○匠",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470401/47000114",
+  "name": "おくはま",
+  "areaGenre": "島尻郡与那原町 / パン、洋菓子",
+  "tb": 3.05,
+  "tbc": 9,
+  "match": {
+   "n": "おくはま",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47028894",
+  "name": "EURO BAR DIVA est DIVA est与那原東店",
+  "areaGenre": "島尻郡与那原町 / イタリアン、パスタ、ワインバー",
+  "tb": 3.05,
+  "tbc": 7,
+  "match": {
+   "n": "EURO BAR DIVA est",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47007055",
+  "name": "BIJOU",
+  "areaGenre": "島尻郡与那原町 / パン",
+  "tb": 3.05,
+  "tbc": 6,
+  "match": {
+   "n": "BIJOU",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470403/47022361",
+  "name": "炭火焼居酒屋 夢家",
+  "areaGenre": "島尻郡与那原町 / 居酒屋、焼肉",
+  "tb": 3.05,
+  "tbc": 4,
+  "match": null,
+  "like": {
+   "n": "炭火焼とりながた 宜野湾店",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47019766",
+  "name": "お肉の台所1129",
+  "areaGenre": "島尻郡与那原町 / 焼肉、ホルモン、居酒屋",
+  "tb": 3.04,
+  "tbc": 9,
+  "match": {
+   "n": "お肉の台所1129",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47012842",
+  "name": "ヨルノアシオト/洋食タロウ",
+  "areaGenre": "島尻郡与那原町 / ビストロ、バル",
+  "tb": 3.04,
+  "tbc": 8,
+  "match": {
+   "n": "ヨルノアシオト/洋食タロウ",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47016775",
+  "name": "うさぎ",
+  "areaGenre": "島尻郡与那原町 / うどん、居酒屋",
+  "tb": 3.04,
+  "tbc": 7,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47020771",
+  "name": "鳥正",
+  "areaGenre": "島尻郡与那原町 / 焼き鳥、居酒屋",
+  "tb": 3.04,
+  "tbc": 6,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47034141",
+  "name": "手登根珈琲",
+  "areaGenre": "島尻郡与那原町 / カフェ",
+  "tb": 3.04,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47012073",
+  "name": "モヒカン",
+  "areaGenre": "島尻郡与那原町 / バー",
+  "tb": 3.04,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47009079",
+  "name": "ＨａｔｃｈｅｒＭａｎＣｌｕｂ",
+  "areaGenre": "島尻郡与那原町 / バー",
+  "tb": 3.04,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47006261",
+  "name": "パーラーキッズ",
+  "areaGenre": "島尻郡与那原町 / 食堂",
+  "tb": 3.04,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47003957",
+  "name": "磯蔵",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": 3.03,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47006169",
+  "name": "たけとんぼ",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": 3.03,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470401/47025964",
+  "name": "炙バル",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": 3.03,
+  "tbc": 3,
+  "match": null,
+  "like": {
+   "n": "バル・ステーキ",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47007058",
+  "name": "ノア・ド・ココ",
+  "areaGenre": "島尻郡与那原町 / パン",
+  "tb": 3.03,
+  "tbc": 3,
+  "match": {
+   "n": "ノア・ド・ココ",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47033736",
+  "name": "酒とつまみと器　浜門",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": 3.03,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4701/A470102/47032368",
+  "name": "大衆居酒屋 ちょげれつ",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": 3.03,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47026913",
+  "name": "焼肉 なべしま 与那原店",
+  "areaGenre": "島尻郡与那原町 / 焼肉",
+  "tb": 3.02,
+  "tbc": 13,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47032127",
+  "name": "武虎 与那原店",
+  "areaGenre": "島尻郡与那原町 / ラーメン",
+  "tb": 3.02,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47004330",
+  "name": "彩幸",
+  "areaGenre": "島尻郡与那原町 / 沖縄そば、食堂",
+  "tb": 3.02,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47020519",
+  "name": "餃子屋たぬき",
+  "areaGenre": "島尻郡与那原町 / 餃子、居酒屋",
+  "tb": 3.02,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47017597",
+  "name": "Jake",
+  "areaGenre": "島尻郡与那原町 / バー",
+  "tb": 3.02,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47034208",
+  "name": "Patisserie Le Lien Louer",
+  "areaGenre": "島尻郡与那原町 / ケーキ",
+  "tb": 3.02,
+  "tbc": 1,
+  "match": null,
+  "like": {
+   "n": "mucnotonari × lien",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47032413",
+  "name": "成そば 与那原店",
+  "areaGenre": "島尻郡与那原町 / 沖縄そば",
+  "tb": 3.02,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47032189",
+  "name": "お食事処 月代や",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": 3.02,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47030195",
+  "name": "Reemoco",
+  "areaGenre": "島尻郡与那原町 / カフェ",
+  "tb": 3.02,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47034693",
+  "name": "みんなの台所わが家",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": 3.02,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "みんなの食堂",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47011978",
+  "name": "吉野家 329号線与那原店",
+  "areaGenre": "島尻郡与那原町 / 牛丼",
+  "tb": 3.01,
+  "tbc": 8,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470403/47022328",
+  "name": "和風亭 板良敷店",
+  "areaGenre": "島尻郡与那原町 / ファミレス",
+  "tb": 3.01,
+  "tbc": 6,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47017231",
+  "name": "ファーマーズマーケット与那原 あがりはま市場",
+  "areaGenre": "島尻郡与那原町 / その他、弁当",
+  "tb": 3.01,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47021972",
+  "name": "ファースト",
+  "areaGenre": "島尻郡与那原町 / バー",
+  "tb": 3.01,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47028189",
+  "name": "booboo kitchen",
+  "areaGenre": "島尻郡与那原町 / 鳥料理",
+  "tb": 3.01,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47010162",
+  "name": "ピザーラ 与那原店",
+  "areaGenre": "島尻郡与那原町 / ピザ",
+  "tb": 3.01,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47030026",
+  "name": "マクドナルド 329与那原店",
+  "areaGenre": "島尻郡与那原町 / ハンバーガー、カフェ",
+  "tb": 3.01,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47023693",
+  "name": "北の酒場 食うかい 与那原店",
+  "areaGenre": "島尻郡与那原町 / 居酒屋、郷土料理",
+  "tb": 3.01,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47018965",
+  "name": "ゆいまーる",
+  "areaGenre": "島尻郡与那原町 / 天ぷら、そば",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": {
+   "n": "豚骨ラーメン まる・安",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47020738",
+  "name": "ぶんぶん",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47022422",
+  "name": "カフェ スムージー",
+  "areaGenre": "島尻郡与那原町 / カフェ",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47020916",
+  "name": "弁当カフェ むすび",
+  "areaGenre": "島尻郡与那原町 / 弁当",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47022891",
+  "name": "酒肴菜ダイニング 結人",
+  "areaGenre": "島尻郡与那原町 / 居酒屋、肉料理",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47022412",
+  "name": "ゆがふ",
+  "areaGenre": "島尻郡与那原町 / おでん",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47021964",
+  "name": "食彩肴屋 いろり",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47030810",
+  "name": "AGARIHAMA BREWERY",
+  "areaGenre": "島尻郡与那原町 / ビアバー",
+  "tb": 3,
+  "tbc": 8,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47019869",
+  "name": "旬采SHOYA",
+  "areaGenre": "島尻郡与那原町 / 居酒屋、海鮮、焼き鳥",
+  "tb": 3,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47034033",
+  "name": "個室完備 大衆とり酒場 とりいちず 与那原店",
+  "areaGenre": "島尻郡与那原町 / 居酒屋、焼き鳥、水炊き",
+  "tb": 3,
+  "tbc": 3,
+  "match": null,
+  "like": {
+   "n": "大衆とり酒場 とりいちず",
+   "sim": 0.95
+  }
+ },
+ {
+  "tl": "A4704/A470405/47025618",
+  "name": "たまるや 東浜店",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": 3,
+  "tbc": 3,
+  "match": null,
+  "like": {
+   "n": "豚骨ラーメン まる・安",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4701/A470102/47032507",
+  "name": "与那バル酒場 酔",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": 3,
+  "tbc": 2,
+  "match": null,
+  "like": {
+   "n": "バル・ステーキ",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47029034",
+  "name": "Flat",
+  "areaGenre": "島尻郡与那原町 / ビストロ、パスタ",
+  "tb": 3,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47027481",
+  "name": "たけの子弁当",
+  "areaGenre": "島尻郡与那原町 / 弁当",
+  "tb": 3,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47031703",
+  "name": "昭和博物館～私はレトロ～",
+  "areaGenre": "島尻郡与那原町 / その他",
+  "tb": 3,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47027733",
+  "name": "僕ができること。 ファーマーズマーケット与那原あがりはま店",
+  "areaGenre": "島尻郡与那原町 / パン",
+  "tb": 3,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4701/A470102/47012934",
+  "name": "カネマサミート",
+  "areaGenre": "島尻郡与那原町 / 惣菜・デリ、豚料理",
+  "tb": null,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47028346",
+  "name": "セブンイレブン 与那原町与那原店",
+  "areaGenre": "島尻郡与那原町 / コンビニ・スーパー",
+  "tb": null,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47034825",
+  "name": "シホノカリー",
+  "areaGenre": "島尻郡与那原町 / カレー",
+  "tb": null,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47026597",
+  "name": "ユーロバール ディーバ",
+  "areaGenre": "島尻郡与那原町 / バル、イタリアン",
+  "tb": null,
+  "tbc": 2,
+  "match": null,
+  "like": {
+   "n": "バル・ステーキ",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47034286",
+  "name": "大衆酒場 足立屋",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": null,
+  "tbc": 2,
+  "match": null,
+  "like": {
+   "n": "大衆ろばた焼酒場 足立屋",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47029440",
+  "name": "ケンタッキーフライドチキン 与那原店",
+  "areaGenre": "島尻郡与那原町 / レストラン",
+  "tb": null,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47027585",
+  "name": "Coast kitchen Akabanaa～",
+  "areaGenre": "島尻郡与那原町 / カフェ",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47024967",
+  "name": "グリーンハウス",
+  "areaGenre": "島尻郡与那原町 / 食堂",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": {
+   "n": "グリーン フィールド",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47034804",
+  "name": "堀川商店",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47028146",
+  "name": "上原ミート ファーマーズマーケット与那原 あがりはま市場店",
+  "areaGenre": "島尻郡与那原町 / その他",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": {
+   "n": "上原そば",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4701/A470102/47032832",
+  "name": "なごみ屋",
+  "areaGenre": "島尻郡与那原町 / ケーキ",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": {
+   "n": "和（なごみ）",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4701/A470102/47033335",
+  "name": "よなばる精肉店",
+  "areaGenre": "島尻郡与那原町 / コロッケ、肉料理",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47029632",
+  "name": "レストラン サーカス",
+  "areaGenre": "島尻郡与那原町 / 食堂",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": {
+   "n": "レストラン国",
+   "sim": 0.6666666666666666
+  }
+ },
+ {
+  "tl": "A4704/A470405/47033692",
+  "name": "角打ち酒場 ジロウ",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47022440",
+  "name": "酒処 姉妹",
+  "areaGenre": "島尻郡与那原町 / バー",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": {
+   "n": "家庭料理の店 三姉妹",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47002898",
+  "name": "居酒屋ゆかり食道",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": {
+   "n": "ゆかり食堂",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47016499",
+  "name": "ちぶみ",
+  "areaGenre": "島尻郡与那原町 / 居酒屋",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47022429",
+  "name": "ミュージックバーウイッシュ",
+  "areaGenre": "島尻郡与那原町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47023636",
+  "name": "丸大 与那原東店",
+  "areaGenre": "島尻郡与那原町 / コンビニ・スーパー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47022455",
+  "name": "フェスティバル",
+  "areaGenre": "島尻郡与那原町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47027559",
+  "name": "ひまわり",
+  "areaGenre": "島尻郡与那原町 / 食堂",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "食堂 ひまわり",
+   "sim": 0.95
+  }
+ },
+ {
+  "tl": "A4704/A470405/47023058",
+  "name": "神谷茶舗",
+  "areaGenre": "島尻郡与那原町 / その他",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47022432",
+  "name": "パライーソ",
+  "areaGenre": "島尻郡与那原町 / バー、東南アジア料理",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47010533",
+  "name": "グランマ",
+  "areaGenre": "島尻郡与那原町 / 野菜料理、カフェ、オーガニック",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47027420",
+  "name": "しにやす焼き鳥 与那原店",
+  "areaGenre": "島尻郡与那原町 / 焼き鳥",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47022457",
+  "name": "ゆう",
+  "areaGenre": "島尻郡与那原町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "はなゆう",
+   "sim": 0.95
+  }
+ },
+ {
+  "tl": "A4704/A470405/47022452",
+  "name": "リリーフ",
+  "areaGenre": "島尻郡与那原町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47028765",
+  "name": "おにぎり屋 まちやぐゎー",
+  "areaGenre": "島尻郡与那原町 / おにぎり",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47034954",
+  "name": "喫茶 百菓",
+  "areaGenre": "島尻郡与那原町 / カフェ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "喫茶 あがち森",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47035110",
+  "name": "カラオケ★スナック Pretty？",
+  "areaGenre": "島尻郡与那原町 / その他",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "BOULANGERIE Le Pret a Porter",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4704/A470405/47022436",
+  "name": "ビバビバ",
+  "areaGenre": "島尻郡与那原町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47022421",
+  "name": "ケイズ カフェ&バー",
+  "areaGenre": "島尻郡与那原町 / カフェ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4704/A470405/47022420",
+  "name": "サンニーキュウオキナワ",
+  "areaGenre": "島尻郡与那原町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ }
+]

@@ -380,8 +380,8 @@
  {
   "area_id": "ginowan",
   "name": "ゆんちゃんね",
-  "score": 3.56,
-  "count": 32
+  "score": 3.55,
+  "count": 33
  },
  {
   "area_id": "ginowan",
@@ -393,7 +393,7 @@
   "area_id": "ginowan",
   "name": "キングタコス 長田店",
   "score": 3.54,
-  "count": 555
+  "count": 587
  },
  {
   "area_id": "ginowan",
@@ -458,8 +458,8 @@
  {
   "area_id": "ginowan",
   "name": "ルーラーズ タコライス 宜野湾本店",
-  "score": 3.36,
-  "count": 93
+  "score": 3.37,
+  "count": 98
  },
  {
   "area_id": "ginowan",
@@ -470,8 +470,8 @@
  {
   "area_id": "ginowan",
   "name": "とりとたまごの専門店 EggFarm 鳥玉 大謝名店",
-  "score": 3.34,
-  "count": 66
+  "score": 3.33,
+  "count": 71
  },
  {
   "area_id": "ginowan",
@@ -482,20 +482,20 @@
  {
   "area_id": "ginowan",
   "name": "オイナリアン ぎのわん本店",
-  "score": 3.33,
-  "count": 81
+  "score": 3.32,
+  "count": 82
  },
  {
   "area_id": "ginowan",
   "name": "タコマリア",
-  "score": 3.33,
-  "count": 68
+  "score": 3.34,
+  "count": 73
  },
  {
   "area_id": "ginowan",
   "name": "パセオガーデン",
   "score": 3.32,
-  "count": 66
+  "count": 67
  },
  {
   "area_id": "ginowan",
@@ -531,13 +531,13 @@
   "area_id": "ginowan",
   "name": "カフネ",
   "score": 3.3,
-  "count": 34
+  "count": 35
  },
  {
   "area_id": "ginowan",
   "name": "沖縄料理としゃぶしゃぶのお店 赤瓦",
-  "score": 3.29,
-  "count": 76
+  "score": 3.32,
+  "count": 85
  },
  {
   "area_id": "ginowan",
@@ -608,14 +608,14 @@
  {
   "area_id": "urasoe",
   "name": "ブエノチキン 浦添店",
-  "score": 3.62,
-  "count": 450
+  "score": 3.61,
+  "count": 480
  },
  {
   "area_id": "urasoe",
   "name": "トルティーヤ",
   "score": 3.57,
-  "count": 268
+  "count": 289
  },
  {
   "area_id": "urasoe",
@@ -668,8 +668,8 @@
  {
   "area_id": "urasoe",
   "name": "A&W 牧港店",
-  "score": 3.38,
-  "count": 856
+  "score": 3.39,
+  "count": 917
  },
  {
   "area_id": "urasoe",
@@ -680,7 +680,7 @@
  {
   "area_id": "urasoe",
   "name": "タンタン",
-  "score": 3.37,
+  "score": 3.36,
   "count": 88
  },
  {
@@ -705,7 +705,7 @@
   "area_id": "urasoe",
   "name": "あがり家",
   "score": 3.34,
-  "count": 118
+  "count": 119
  },
  {
   "area_id": "urasoe",
@@ -722,8 +722,8 @@
  {
   "area_id": "urasoe",
   "name": "みそ汁亭 秀 牧港店",
-  "score": 3.31,
-  "count": 61
+  "score": 3.33,
+  "count": 66
  },
  {
   "area_id": "urasoe",
@@ -1322,14 +1322,14 @@
  {
   "area_id": "okinawacity",
   "name": "BURRATA",
-  "score": 3.76,
-  "count": 247
+  "score": 3.74,
+  "count": 258
  },
  {
   "area_id": "okinawacity",
   "name": "ラルフズ バーガーレストラン",
-  "score": 3.72,
-  "count": 340
+  "score": 3.71,
+  "count": 359
  },
  {
   "area_id": "okinawacity",
@@ -1346,14 +1346,14 @@
  {
   "area_id": "okinawacity",
   "name": "Areko",
-  "score": 3.52,
+  "score": 3.61,
   "count": 22
  },
  {
   "area_id": "okinawacity",
   "name": "ダカーポ食萄",
-  "score": 3.51,
-  "count": 14
+  "score": 3.5,
+  "count": 15
  },
  {
   "area_id": "okinawacity",
@@ -1395,7 +1395,7 @@
   "area_id": "okinawacity",
   "name": "鉄板焼ステーキハウス 四季 本店",
   "score": 3.36,
-  "count": 89
+  "count": 90
  },
  {
   "area_id": "okinawacity",
@@ -1413,7 +1413,7 @@
   "area_id": "okinawacity",
   "name": "サムズ バイ ザ シー 泡瀬店",
   "score": 3.35,
-  "count": 165
+  "count": 174
  },
  {
   "area_id": "okinawacity",
@@ -1443,7 +1443,7 @@
   "area_id": "okinawacity",
   "name": "大衆劇場 足立屋",
   "score": 3.34,
-  "count": 66
+  "count": 68
  },
  {
   "area_id": "okinawacity",
@@ -1473,7 +1473,7 @@
   "area_id": "okinawacity",
   "name": "根夢",
   "score": 3.31,
-  "count": 69
+  "count": 73
  },
  {
   "area_id": "okinawacity",
@@ -1485,13 +1485,13 @@
   "area_id": "okinawacity",
   "name": "カフェ オーシャン",
   "score": 3.31,
-  "count": 36
+  "count": 37
  },
  {
   "area_id": "okinawacity",
   "name": "Fluffy Coconut",
-  "score": 3.3,
-  "count": 47
+  "score": 3.31,
+  "count": 50
  },
  {
   "area_id": "okinawacity",
@@ -1593,7 +1593,7 @@
   "area_id": "tomigusuku",
   "name": "PHILLY Kingrolls",
   "score": 3.44,
-  "count": 144
+  "count": 153
  },
  {
   "area_id": "tomigusuku",
@@ -1610,26 +1610,26 @@
  {
   "area_id": "tomigusuku",
   "name": "氾濫バーガー チムフガス",
-  "score": 3.39,
-  "count": 200
+  "score": 3.38,
+  "count": 201
  },
  {
   "area_id": "tomigusuku",
   "name": "A&W イーアス沖縄豊崎店",
-  "score": 3.39,
-  "count": 143
+  "score": 3.38,
+  "count": 150
  },
  {
   "area_id": "tomigusuku",
   "name": "MARCY'S OKINAWA",
-  "score": 3.39,
-  "count": 119
+  "score": 3.41,
+  "count": 130
  },
  {
   "area_id": "tomigusuku",
   "name": "ステーキハウスうっしっしぃ",
   "score": 3.39,
-  "count": 98
+  "count": 101
  },
  {
   "area_id": "tomigusuku",
@@ -1646,8 +1646,8 @@
  {
   "area_id": "tomigusuku",
   "name": "豊見城タコライス",
-  "score": 3.34,
-  "count": 111
+  "score": 3.33,
+  "count": 116
  },
  {
   "area_id": "tomigusuku",
@@ -1676,8 +1676,8 @@
  {
   "area_id": "tomigusuku",
   "name": "POKE BOO ウミカジテラス店",
-  "score": 3.3,
-  "count": 74
+  "score": 3.31,
+  "count": 88
  },
  {
   "area_id": "tomigusuku",
@@ -1730,8 +1730,8 @@
  {
   "area_id": "tomigusuku",
   "name": "笑輪咲",
-  "score": 3.28,
-  "count": 32
+  "score": 3.31,
+  "count": 36
  },
  {
   "area_id": "tomigusuku",
@@ -2522,8 +2522,8 @@
  {
   "area_id": "kadena",
   "name": "シーサイド",
-  "score": 3.47,
-  "count": 360
+  "score": 3.48,
+  "count": 367
  },
  {
   "area_id": "kadena",
@@ -2762,32 +2762,32 @@
  {
   "area_id": "chatan",
   "name": "タコス専門店 MEXICO 北谷店",
-  "score": 3.63,
-  "count": 423
+  "score": 3.62,
+  "count": 549
  },
  {
   "area_id": "chatan",
   "name": "ブルーシール 北谷店",
-  "score": 3.59,
-  "count": 555
+  "score": 3.6,
+  "count": 591
  },
  {
   "area_id": "chatan",
   "name": "BLUE OCEAN STEAK",
   "score": 3.59,
-  "count": 177
+  "count": 181
  },
  {
   "area_id": "chatan",
   "name": "ひとしずく",
-  "score": 3.58,
-  "count": 92
+  "score": 3.61,
+  "count": 94
  },
  {
   "area_id": "chatan",
   "name": "和牛鉄板焼 SASUKE",
-  "score": 3.57,
-  "count": 22
+  "score": 3.61,
+  "count": 29
  },
  {
   "area_id": "chatan",
@@ -2810,20 +2810,20 @@
  {
   "area_id": "chatan",
   "name": "ジバゴ コーヒー ローステリー",
-  "score": 3.53,
-  "count": 371
+  "score": 3.54,
+  "count": 390
  },
  {
   "area_id": "chatan",
   "name": "ブルーシール デポアイランド店",
   "score": 3.53,
-  "count": 299
+  "count": 315
  },
  {
   "area_id": "chatan",
   "name": "ステーキハウス金松",
-  "score": 3.53,
-  "count": 261
+  "score": 3.51,
+  "count": 269
  },
  {
   "area_id": "chatan",
@@ -2835,7 +2835,7 @@
   "area_id": "chatan",
   "name": "ジバゴ コーヒー ワークス オキナワ",
   "score": 3.52,
-  "count": 396
+  "count": 418
  },
  {
   "area_id": "chatan",
@@ -2852,14 +2852,14 @@
  {
   "area_id": "chatan",
   "name": "ばくばく亭",
-  "score": 3.51,
+  "score": 3.52,
   "count": 97
  },
  {
   "area_id": "chatan",
   "name": "ビン",
-  "score": 3.51,
-  "count": 51
+  "score": 3.46,
+  "count": 50
  },
  {
   "area_id": "chatan",
@@ -2871,7 +2871,7 @@
   "area_id": "chatan",
   "name": "チャタン バーガー ベース アタビーズ",
   "score": 3.48,
-  "count": 282
+  "count": 296
  },
  {
   "area_id": "chatan",
@@ -2882,8 +2882,8 @@
  {
   "area_id": "chatan",
   "name": "チャタンハーバーブルワリー＆レストラン",
-  "score": 3.46,
-  "count": 246
+  "score": 3.45,
+  "count": 250
  },
  {
   "area_id": "chatan",
@@ -2894,20 +2894,20 @@
  {
   "area_id": "chatan",
   "name": "ステーキハウス88 北谷店",
-  "score": 3.45,
-  "count": 639
+  "score": 3.46,
+  "count": 692
  },
  {
   "area_id": "chatan",
   "name": "タコロコ",
-  "score": 3.45,
-  "count": 144
+  "score": 3.46,
+  "count": 150
  },
  {
   "area_id": "chatan",
   "name": "サンド ボックス",
   "score": 3.45,
-  "count": 66
+  "count": 71
  },
  {
   "area_id": "chatan",
@@ -2937,13 +2937,13 @@
   "area_id": "chatan",
   "name": "トランジット・カフェ",
   "score": 3.41,
-  "count": 259
+  "count": 262
  },
  {
   "area_id": "chatan",
   "name": "鉄板焼ステーキハウス 四季 北谷美浜店",
-  "score": 3.39,
-  "count": 123
+  "score": 3.38,
+  "count": 126
  },
  {
   "area_id": "chatan",
@@ -2960,8 +2960,8 @@
  {
   "area_id": "chatan",
   "name": "ジェッタバーガーマーケット",
-  "score": 3.37,
-  "count": 157
+  "score": 3.38,
+  "count": 170
  },
  {
   "area_id": "chatan",
@@ -2973,25 +2973,25 @@
   "area_id": "chatan",
   "name": "和牛カフェ カプカ",
   "score": 3.36,
-  "count": 131
+  "count": 132
  },
  {
   "area_id": "chatan",
   "name": "ステーキハウスBB",
-  "score": 3.36,
+  "score": 3.35,
   "count": 125
  },
  {
   "area_id": "chatan",
   "name": "シーフードハウス ピア54",
   "score": 3.35,
-  "count": 100
+  "count": 101
  },
  {
   "area_id": "chatan",
   "name": "ビュッフェレストラン スリユン",
   "score": 3.35,
-  "count": 93
+  "count": 96
  },
  {
   "area_id": "chatan",
@@ -3249,13 +3249,13 @@
   "area_id": "chatan",
   "name": "シーサイド ステーキ ビーフィーズ",
   "score": 3.34,
-  "count": 100
+  "count": 108
  },
  {
   "area_id": "chatan",
   "name": "和琉",
   "score": 3.34,
-  "count": 69
+  "count": 71
  },
  {
   "area_id": "chatan",
@@ -3272,14 +3272,14 @@
  {
   "area_id": "chatan",
   "name": "グルメ回転寿司市場 美浜店",
-  "score": 3.32,
-  "count": 87
+  "score": 3.31,
+  "count": 89
  },
  {
   "area_id": "chatan",
   "name": "とんかつ太郎 北谷店",
   "score": 3.32,
-  "count": 56
+  "count": 60
  },
  {
   "area_id": "chatan",
@@ -3290,20 +3290,20 @@
  {
   "area_id": "chatan",
   "name": "モーニングボウルズ",
-  "score": 3.31,
-  "count": 136
+  "score": 3.3,
+  "count": 146
  },
  {
   "area_id": "chatan",
   "name": "ポッケファーム",
-  "score": 3.31,
-  "count": 114
+  "score": 3.3,
+  "count": 117
  },
  {
   "area_id": "chatan",
   "name": "タコス屋 北谷店",
   "score": 3.31,
-  "count": 102
+  "count": 105
  },
  {
   "area_id": "chatan",
@@ -3314,8 +3314,8 @@
  {
   "area_id": "chatan",
   "name": "シュリンプ バス",
-  "score": 3.31,
-  "count": 61
+  "score": 3.34,
+  "count": 63
  },
  {
   "area_id": "chatan",
@@ -3332,8 +3332,8 @@
  {
   "area_id": "chatan",
   "name": "ピッツエリア バール アリッチャ",
-  "score": 3.29,
-  "count": 95
+  "score": 3.32,
+  "count": 103
  },
  {
   "area_id": "chatan",
@@ -3350,8 +3350,8 @@
  {
   "area_id": "chatan",
   "name": "オステリア ラ ペッショリーナ",
-  "score": 3.29,
-  "count": 37
+  "score": 3.31,
+  "count": 39
  },
  {
   "area_id": "chatan",
@@ -3380,8 +3380,8 @@
  {
   "area_id": "chatan",
   "name": "目からうろこ",
-  "score": 3.28,
-  "count": 30
+  "score": 3.31,
+  "count": 34
  },
  {
   "area_id": "chatan",
@@ -5174,8 +5174,8 @@
  {
   "area_id": "ginowan",
   "name": "宮平料理店",
-  "score": 3.21,
-  "count": 44
+  "score": 3.5,
+  "count": 48
  },
  {
   "area_id": "ginowan",
@@ -11434,5 +11434,17 @@
   "name": "浜の家",
   "score": 3.25,
   "count": 94
+ },
+ {
+  "area_id": "chatan",
+  "name": "ESPARZA’S TACOS & COFFEE",
+  "score": 3.36,
+  "count": 109
+ },
+ {
+  "area_id": "urasoe",
+  "name": "PIZZA HOUSE 本店",
+  "score": 3.38,
+  "count": 118
  }
 ]

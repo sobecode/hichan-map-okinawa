@@ -1,0 +1,1037 @@
+[
+ {
+  "tl": "A4703/A470304/47007650",
+  "name": "シーサイド",
+  "areaGenre": "中頭郡嘉手納町 / アメリカ料理",
+  "tb": 3.48,
+  "tbc": 367,
+  "match": null,
+  "like": {
+   "n": "シーサイドドライブイン",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47005185",
+  "name": "みよ家",
+  "areaGenre": "中頭郡嘉手納町 / 沖縄そば、食堂",
+  "tb": 3.35,
+  "tbc": 83,
+  "match": {
+   "n": "みよ家",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47005879",
+  "name": "日本そば工房・せい家",
+  "areaGenre": "中頭郡嘉手納町 / そば",
+  "tb": 3.28,
+  "tbc": 49,
+  "match": {
+   "n": "日本そば工房・せい家",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47004550",
+  "name": "道の駅かでな",
+  "areaGenre": "中頭郡嘉手納町 / 道の駅",
+  "tb": 3.22,
+  "tbc": 68,
+  "match": {
+   "n": "道の駅かでな展望カフェ",
+   "sim": 0.95
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47029934",
+  "name": "MORNING WORKS",
+  "areaGenre": "中頭郡嘉手納町 / カフェ、ハワイ料理、パンケーキ",
+  "tb": 3.22,
+  "tbc": 63,
+  "match": {
+   "n": "MORNING WORKS",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47013533",
+  "name": "南国製菓",
+  "areaGenre": "中頭郡嘉手納町 / 洋菓子、和菓子、スイーツ",
+  "tb": 3.22,
+  "tbc": 37,
+  "match": {
+   "n": "南国製菓",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47000629",
+  "name": "海が見えるそば家",
+  "areaGenre": "中頭郡嘉手納町 / 沖縄そば",
+  "tb": 3.2,
+  "tbc": 55,
+  "match": {
+   "n": "海が見えるそば家",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47029027",
+  "name": "3S BURGER",
+  "areaGenre": "中頭郡嘉手納町 / ハンバーガー",
+  "tb": 3.2,
+  "tbc": 29,
+  "match": {
+   "n": "3S BURGER",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47027560",
+  "name": "ロータリードライブイン",
+  "areaGenre": "中頭郡嘉手納町 / ハンバーガー",
+  "tb": 3.19,
+  "tbc": 28,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47024375",
+  "name": "ルークタコス",
+  "areaGenre": "中頭郡嘉手納町 / タコス、メキシコ料理",
+  "tb": 3.18,
+  "tbc": 26,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47029031",
+  "name": "ハングリーアングリー",
+  "areaGenre": "中頭郡嘉手納町 / ドーナツ",
+  "tb": 3.15,
+  "tbc": 18,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47029038",
+  "name": "ハチサンハウス",
+  "areaGenre": "中頭郡嘉手納町 / ソフトクリーム",
+  "tb": 3.15,
+  "tbc": 9,
+  "match": null,
+  "like": {
+   "n": "地鶏 焼き鳥鍋 サン 那覇の店",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47029056",
+  "name": "亀そば",
+  "areaGenre": "中頭郡嘉手納町 / 沖縄そば",
+  "tb": 3.14,
+  "tbc": 9,
+  "match": {
+   "n": "亀そば",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47023046",
+  "name": "ワッツザストーリー",
+  "areaGenre": "中頭郡嘉手納町 / カフェ、ダイニングバー、居酒屋",
+  "tb": 3.12,
+  "tbc": 33,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034168",
+  "name": "Shima Buns",
+  "areaGenre": "中頭郡嘉手納町 / パン",
+  "tb": 3.11,
+  "tbc": 22,
+  "match": {
+   "n": "Shima Buns",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47028935",
+  "name": "ウールベーカリー",
+  "areaGenre": "中頭郡嘉手納町 / パン",
+  "tb": 3.11,
+  "tbc": 11,
+  "match": null,
+  "like": {
+   "n": "アズールベーカリー",
+   "sim": 0.6666666666666666
+  }
+ },
+ {
+  "tl": "A4703/A470304/47025853",
+  "name": "珈琲喫茶 カメシマ",
+  "areaGenre": "中頭郡嘉手納町 / 喫茶店",
+  "tb": 3.1,
+  "tbc": 13,
+  "match": {
+   "n": "珈琲喫茶カメシマ",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47007988",
+  "name": "食堂ウミユリ",
+  "areaGenre": "中頭郡嘉手納町 / 創作料理、餃子",
+  "tb": 3.09,
+  "tbc": 19,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47030029",
+  "name": "TACOBOX",
+  "areaGenre": "中頭郡嘉手納町 / タコス",
+  "tb": 3.09,
+  "tbc": 16,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47027660",
+  "name": "さしだ商店",
+  "areaGenre": "中頭郡嘉手納町 / ラーメン",
+  "tb": 3.08,
+  "tbc": 21,
+  "match": {
+   "n": "さしだ商店",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47029030",
+  "name": "ゴールデン ウィングチキン 道の駅かでな店",
+  "areaGenre": "中頭郡嘉手納町 / からあげ",
+  "tb": 3.08,
+  "tbc": 20,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034120",
+  "name": "ファットバーガー 沖縄",
+  "areaGenre": "中頭郡嘉手納町 / ハンバーガー",
+  "tb": 3.08,
+  "tbc": 19,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47005807",
+  "name": "リパロ",
+  "areaGenre": "中頭郡嘉手納町 / もつ鍋",
+  "tb": 3.07,
+  "tbc": 19,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47005184",
+  "name": "嘉手納そば",
+  "areaGenre": "中頭郡嘉手納町 / 沖縄そば、食堂、居酒屋",
+  "tb": 3.07,
+  "tbc": 17,
+  "match": {
+   "n": "嘉手納そば",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47005965",
+  "name": "琉球茶屋なーび屋",
+  "areaGenre": "中頭郡嘉手納町 / 沖縄そば、甘味処",
+  "tb": 3.06,
+  "tbc": 13,
+  "match": {
+   "n": "琉球茶屋なーび屋",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47028637",
+  "name": "永當蕎麦 嘉手納店",
+  "areaGenre": "中頭郡嘉手納町 / そば、うどん、天ぷら",
+  "tb": 3.06,
+  "tbc": 12,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47002464",
+  "name": "なんくる家",
+  "areaGenre": "中頭郡嘉手納町 / 食堂、海鮮",
+  "tb": 3.06,
+  "tbc": 12,
+  "match": {
+   "n": "なんくる家",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47007995",
+  "name": "八茶坊",
+  "areaGenre": "中頭郡嘉手納町 / ラーメン、餃子",
+  "tb": 3.05,
+  "tbc": 20,
+  "match": {
+   "n": "八茶坊",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47010644",
+  "name": "沖鮮市場",
+  "areaGenre": "中頭郡嘉手納町 / 海鮮、食堂",
+  "tb": 3.05,
+  "tbc": 17,
+  "match": {
+   "n": "沖鮮市場",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47030136",
+  "name": "広島お好み焼き54",
+  "areaGenre": "中頭郡嘉手納町 / お好み焼き",
+  "tb": 3.05,
+  "tbc": 8,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47029021",
+  "name": "パーラーオオアタリ",
+  "areaGenre": "中頭郡嘉手納町 / 豚料理",
+  "tb": 3.05,
+  "tbc": 7,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47010331",
+  "name": "エランド",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋、肉料理、ハンバーグ",
+  "tb": 3.04,
+  "tbc": 9,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47007444",
+  "name": "葵",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋、食堂",
+  "tb": 3.04,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47019168",
+  "name": "スカイラウンジ",
+  "areaGenre": "中頭郡嘉手納町 / カフェ",
+  "tb": 3.04,
+  "tbc": 4,
+  "match": null,
+  "like": {
+   "n": "ラウンジ アリアカラ",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47010568",
+  "name": "ジミー 嘉手納店",
+  "areaGenre": "中頭郡嘉手納町 / ケーキ、パン、惣菜・デリ",
+  "tb": 3.03,
+  "tbc": 14,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47004608",
+  "name": "海風のダイニングバー",
+  "areaGenre": "中頭郡嘉手納町 / ダイニングバー",
+  "tb": 3.03,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47014301",
+  "name": "でっち亭",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋、海鮮、馬肉料理",
+  "tb": 3.03,
+  "tbc": 5,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47033412",
+  "name": "OKINAWA Diner Hi31BASE",
+  "areaGenre": "中頭郡嘉手納町 / アメリカ料理、カフェ",
+  "tb": 3.03,
+  "tbc": 5,
+  "match": {
+   "n": "沖縄Diner Hi31BASE（ハイサイベース）",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47024566",
+  "name": "残波水産",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋、海鮮",
+  "tb": 3.03,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47029028",
+  "name": "Gennaro PIZZA",
+  "areaGenre": "中頭郡嘉手納町 / ピザ",
+  "tb": 3.03,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47015392",
+  "name": "カフェ トゥー ピース",
+  "areaGenre": "中頭郡嘉手納町 / カフェ、ジューススタンド",
+  "tb": 3.03,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47014113",
+  "name": "金槻",
+  "areaGenre": "中頭郡嘉手納町 / ダイニングバー",
+  "tb": 3.03,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47007668",
+  "name": "食堂 せいうん",
+  "areaGenre": "中頭郡嘉手納町 / 食堂、沖縄そば",
+  "tb": 3.03,
+  "tbc": 2,
+  "match": {
+   "n": "食堂 せいうん",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47025003",
+  "name": "ロッカー エンリステッド クラブ",
+  "areaGenre": "中頭郡嘉手納町 / アメリカ料理、スポーツバー",
+  "tb": 3.03,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47022204",
+  "name": "カルネ",
+  "areaGenre": "中頭郡嘉手納町 / ワインバー、ダイニングバー",
+  "tb": 3.03,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47033456",
+  "name": "みんなの食堂",
+  "areaGenre": "中頭郡嘉手納町 / 食堂",
+  "tb": 3.03,
+  "tbc": 2,
+  "match": {
+   "n": "みんなの食堂",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034685",
+  "name": "ALTO COFFEE",
+  "areaGenre": "中頭郡嘉手納町 / カフェ",
+  "tb": 3.03,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47001117",
+  "name": "さびら",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋、沖縄料理",
+  "tb": 3.03,
+  "tbc": 2,
+  "match": {
+   "n": "さびら 嘉手納店",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034138",
+  "name": "ロータリーおはし",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋",
+  "tb": 3.02,
+  "tbc": 4,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47019550",
+  "name": "ピースキッチン",
+  "areaGenre": "中頭郡嘉手納町 / からあげ、弁当",
+  "tb": 3.02,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47014303",
+  "name": "charm",
+  "areaGenre": "中頭郡嘉手納町 / 洋菓子",
+  "tb": 3.02,
+  "tbc": 3,
+  "match": null,
+  "like": {
+   "n": "古宇利cafe' Charm（シャルム）",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47022088",
+  "name": "パティスリー ルージュ",
+  "areaGenre": "中頭郡嘉手納町 / ケーキ",
+  "tb": 3.02,
+  "tbc": 2,
+  "match": null,
+  "like": {
+   "n": "パティスリー アカヒロ",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47014296",
+  "name": "親泊弁当",
+  "areaGenre": "中頭郡嘉手納町 / 弁当、うなぎ",
+  "tb": 3.02,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034420",
+  "name": "Burrito Cafe Alley",
+  "areaGenre": "中頭郡嘉手納町 / カフェ",
+  "tb": 3.02,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034227",
+  "name": "BONEBROTH STAND OKINAWA",
+  "areaGenre": "中頭郡嘉手納町 / スープ、カフェ、パン",
+  "tb": 3.02,
+  "tbc": 2,
+  "match": {
+   "n": "BONEBROTH STAND OKINAWA",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034404",
+  "name": "ファミリーマート 嘉手納兼久店",
+  "areaGenre": "中頭郡嘉手納町 / コンビニ・スーパー",
+  "tb": 3.02,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47033176",
+  "name": "Pepperloni Kitchen",
+  "areaGenre": "中頭郡嘉手納町 / 中南米料理、ハンバーガー、アメリカ料理",
+  "tb": 3.02,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47007880",
+  "name": "ＣｏＣｏ壱番屋 沖縄嘉手納店",
+  "areaGenre": "中頭郡嘉手納町 / カレー",
+  "tb": 3.01,
+  "tbc": 8,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47007673",
+  "name": "マクドナルド ５８号嘉手納店",
+  "areaGenre": "中頭郡嘉手納町 / ハンバーガー",
+  "tb": 3.01,
+  "tbc": 7,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47016947",
+  "name": "自家焙煎珈琲 凡",
+  "areaGenre": "中頭郡嘉手納町 / カフェ、ケーキ",
+  "tb": 3.01,
+  "tbc": 4,
+  "match": null,
+  "like": {
+   "n": "自家製麺沖縄そば 海と麦と",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47009909",
+  "name": "ほっともっと 嘉手納店",
+  "areaGenre": "中頭郡嘉手納町 / 弁当",
+  "tb": 3.01,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47008011",
+  "name": "ケンタッキーフライドチキン 嘉手納店",
+  "areaGenre": "中頭郡嘉手納町 / 鳥料理、ハンバーガー",
+  "tb": 3.01,
+  "tbc": 3,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47025538",
+  "name": "波之屋 嘉手納店",
+  "areaGenre": "中頭郡嘉手納町 / 焼肉、ホルモン",
+  "tb": 3.01,
+  "tbc": 2,
+  "match": {
+   "n": "波之屋 嘉手納店",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47001153",
+  "name": "和",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋",
+  "tb": 3.01,
+  "tbc": 2,
+  "match": {
+   "n": "和（なごみ）",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47009342",
+  "name": "カフェ プラス",
+  "areaGenre": "中頭郡嘉手納町 / カフェ、喫茶店",
+  "tb": 3.01,
+  "tbc": 2,
+  "match": {
+   "n": "カフェ プラス",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034712",
+  "name": "SPICY KING MOTONARI",
+  "areaGenre": "中頭郡嘉手納町 / ラーメン",
+  "tb": 3.01,
+  "tbc": 2,
+  "match": {
+   "n": "SPICY KING MOTONARI",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47017959",
+  "name": "ヤーグナの空",
+  "areaGenre": "中頭郡嘉手納町 / その他",
+  "tb": 3.01,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47012893",
+  "name": "桂食堂",
+  "areaGenre": "中頭郡嘉手納町 / 社員食堂",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47014300",
+  "name": "志村亭",
+  "areaGenre": "中頭郡嘉手納町 / 焼き鳥",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": {
+   "n": "志村亭",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47006437",
+  "name": "茶んPら～",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47022386",
+  "name": "ジーカルネ ビーオーアール",
+  "areaGenre": "中頭郡嘉手納町 / 弁当、カフェ",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": {
+   "n": "カフェ アール",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47026270",
+  "name": "ハングリーアングリー",
+  "areaGenre": "中頭郡嘉手納町 / カフェ、ハワイ料理",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47014295",
+  "name": "創",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47014117",
+  "name": "ごっつもりもり 沖縄店",
+  "areaGenre": "中頭郡嘉手納町 / 焼き鳥",
+  "tb": 3.01,
+  "tbc": 1,
+  "match": null,
+  "like": {
+   "n": "居酒屋もりもり",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47009492",
+  "name": "ひまわり 水釜店",
+  "areaGenre": "中頭郡嘉手納町 / 食堂",
+  "tb": 3,
+  "tbc": 1,
+  "match": null,
+  "like": {
+   "n": "食堂 ひまわり",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47021370",
+  "name": "LAWSON 嘉手納屋良店",
+  "areaGenre": "中頭郡嘉手納町 / コンビニ・スーパー",
+  "tb": null,
+  "tbc": 2,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47011723",
+  "name": "友遊亭",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋",
+  "tb": null,
+  "tbc": 1,
+  "match": {
+   "n": "友遊亭",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47021166",
+  "name": "パーラー雅",
+  "areaGenre": "中頭郡嘉手納町 / 弁当",
+  "tb": null,
+  "tbc": 1,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47024196",
+  "name": "やまぶき",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋",
+  "tb": null,
+  "tbc": 1,
+  "match": {
+   "n": "やまぶき",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47023066",
+  "name": "食事＆喫茶 リン",
+  "areaGenre": "中頭郡嘉手納町 / 社員食堂、弁当",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "喫茶 あがち森",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47011219",
+  "name": "ティールームＴ．Ｐ",
+  "areaGenre": "中頭郡嘉手納町 / 喫茶店",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47023755",
+  "name": "いっぱいや絆",
+  "areaGenre": "中頭郡嘉手納町 / おでん、日本料理",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47028656",
+  "name": "サラダとさつまいものお店 green patate",
+  "areaGenre": "中頭郡嘉手納町 / サラダ、惣菜・デリ、野菜料理",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47026506",
+  "name": "ケンズバー",
+  "areaGenre": "中頭郡嘉手納町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47026320",
+  "name": "ニクプラス",
+  "areaGenre": "中頭郡嘉手納町 / ステーキ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "カフェ プラス",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47030166",
+  "name": "カリッジュ 嘉手納店",
+  "areaGenre": "中頭郡嘉手納町 / からあげ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47019055",
+  "name": "メイプルカフェ",
+  "areaGenre": "中頭郡嘉手納町 / カフェ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034374",
+  "name": "居酒屋 清たか",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47019364",
+  "name": "TKM食堂",
+  "areaGenre": "中頭郡嘉手納町 / 沖縄そば、食堂、居酒屋",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47027508",
+  "name": "いずみや",
+  "areaGenre": "中頭郡嘉手納町 / 日本料理、おでん、居酒屋",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "食事処 みーやー",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47016127",
+  "name": "政",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034784",
+  "name": "Charleys Cheesesteaks",
+  "areaGenre": "中頭郡嘉手納町 / サンドイッチ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47008184",
+  "name": "中華苑",
+  "areaGenre": "中頭郡嘉手納町 / 中華料理",
+  "tb": null,
+  "tbc": null,
+  "match": {
+   "n": "中華苑",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034752",
+  "name": "バーガーキング",
+  "areaGenre": "中頭郡嘉手納町 / ハンバーガー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "キングダム（KINGDOM）",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47035261",
+  "name": "鼓動 HEARTBEAT",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋",
+  "tb": null,
+  "tbc": null,
+  "match": {
+   "n": "鼓動 HEARTBEAT ハートビート",
+   "sim": "URL"
+  },
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47034240",
+  "name": "Trattoria バンビーノ",
+  "areaGenre": "中頭郡嘉手納町 / カフェ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47024509",
+  "name": "いち",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋、おでん",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": {
+   "n": "焼肉うしいち 名護別邸",
+   "sim": 0.75
+  }
+ },
+ {
+  "tl": "A4703/A470304/47027969",
+  "name": "ロータリー弁当",
+  "areaGenre": "中頭郡嘉手納町 / 弁当、ビュッフェ",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47020462",
+  "name": "kitchen＆bar360°",
+  "areaGenre": "中頭郡嘉手納町 / バー",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ },
+ {
+  "tl": "A4703/A470304/47004946",
+  "name": "むうみん",
+  "areaGenre": "中頭郡嘉手納町 / 居酒屋",
+  "tb": null,
+  "tbc": null,
+  "match": null,
+  "like": null
+ }
+]
