@@ -38,8 +38,26 @@ body{font-family:'Zen Maru Gothic','Noto Sans JP',sans-serif;background:var(--sa
 .hero-title{font-size:clamp(38px,9vw,68px);font-weight:900;color:#FFD86B;text-shadow:0 2px 4px rgba(0,0,0,.55),0 0 22px rgba(0,0,0,.4);text-align:center;line-height:1;}
 .hero-sub{font-size:clamp(20px,5vw,34px);font-weight:700;color:#fff;text-shadow:0 2px 5px rgba(0,0,0,.6);text-align:center;margin-top:4px;}
 .hero-region{font-size:12px;letter-spacing:3px;color:rgba(255,255,255,.9);text-shadow:0 1px 3px rgba(0,0,0,.6);margin-top:6px;}
-.hero-stats{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;justify-content:center;}
-.stat-pill{background:#fff;border-radius:30px;padding:6px 14px;font-size:12px;font-weight:700;color:var(--deep);box-shadow:0 3px 10px rgba(0,0,0,.1);}
+/*
+ * 表紙の数字。半透明の濃紺ガラスの帯に4つ並べ、数字を大きく金色で見せる。
+ * 数字は読み込み時に0から数え上げる(動きを減らす設定の人には最終値をそのまま出す)。
+ */
+.hero-stats{display:grid;grid-template-columns:repeat(4,auto);margin-top:20px;
+  background:linear-gradient(180deg,rgba(8,40,58,.72),rgba(4,26,40,.82));
+  -webkit-backdrop-filter:blur(10px) saturate(140%);backdrop-filter:blur(10px) saturate(140%);
+  border:1px solid rgba(255,216,107,.45);border-radius:18px;
+  box-shadow:0 10px 30px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.12);
+  padding:12px 6px;position:relative;}
+.hero-stats::before{content:'';position:absolute;left:18%;right:18%;top:-1px;height:2px;border-radius:2px;
+  background:linear-gradient(90deg,transparent,#FFD86B,var(--hibiscus),#FFD86B,transparent);}
+.stat{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding:0 clamp(12px,2.6vw,26px);position:relative;}
+.stat+.stat::before{content:'';position:absolute;left:0;top:12%;bottom:12%;width:1px;
+  background:linear-gradient(180deg,transparent,rgba(255,216,107,.5),transparent);}
+.stat-num{font-family:'Noto Sans JP',sans-serif;font-weight:900;font-size:clamp(24px,5.6vw,36px);line-height:1;
+  letter-spacing:-.5px;color:#FFD86B;text-shadow:0 2px 10px rgba(255,180,40,.35);font-variant-numeric:tabular-nums;white-space:nowrap;}
+.stat-num small{font-size:.48em;font-weight:700;margin-left:2px;letter-spacing:0;color:#FFE9A8;}
+.stat-num.word{font-size:clamp(17px,3.9vw,25px);letter-spacing:1px;padding-bottom:2px;}
+.stat-label{margin-top:6px;font-size:clamp(10px,2.4vw,12px);font-weight:700;letter-spacing:2px;color:rgba(255,255,255,.88);white-space:nowrap;}
 .map-wrap{background:#fff;}
 .map-header{text-align:center;padding:18px 16px 10px;}
 .map-header h2{font-size:17px;font-weight:900;}
@@ -274,6 +292,9 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
 /* 320px幅では表紙バッジの末尾の絵文字が2行目に折れてピルが崩れるので詰めて1行に収める */
 @media(max-width:380px){
   .hero-badge{font-size:10px;letter-spacing:1px;padding:4px 11px;white-space:nowrap;}
+  .hero-stats{padding:10px 2px;border-radius:14px;}
+  .stat{padding:0 9px;}
+  .stat-label{letter-spacing:1px;}
 }
 </style>
 </head>
@@ -285,17 +306,17 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
   <img class="hero-img" src="img/cover-1000.jpg"
        srcset="img/cover-750.jpg 750w, img/cover-1000.jpg 1000w, img/cover-1254.jpg 1254w"
        sizes="100vw" width="1254" height="1254" fetchpriority="high" decoding="async"
-       alt="沖縄本島をかたどった緑の島と、沖縄そば・ゴーヤーチャンプルー・ステーキ・ソーキ・海ぶどう・サーターアンダギー・シーサー・パイナップル・マンゴーなどが並ぶ表紙イラスト">
+       alt="紅型風の波模様が入った紺の海に浮かぶ沖縄本島と、沖縄そば・ゴーヤーチャンプルー・ステーキ・海ぶどう・サーターアンダギー・マンゴー・パイナップル・ハイビスカス・一対のシーサー・赤瓦を描いた表紙イラスト">
   <div class="hero-inner">
     <div class="hero-badge">🌺 OKINAWA GOURMET GUIDE 2026 🌺</div>
     <div class="hero-title">ひーちゃん</div>
     <div class="hero-sub">放浪記 沖縄版</div>
     <div class="hero-region">OKINAWA ISLAND FOOD GUIDE</div>
     <div class="hero-stats">
-      <div class="stat-pill">🍜 <span id="shop-count">742</span>店舗</div>
-      <div class="stat-pill">📍 <span id="area-total">20</span>エリア</div>
-      <div class="stat-pill">🍥 ジャンル別検索対応</div>
-      <div class="stat-pill">☀️🌙 昼・夜の営業表示</div>
+      <div class="stat"><div class="stat-num"><span id="shop-count" data-count>742</span><small>店</small></div><div class="stat-label">掲載店舗</div></div>
+      <div class="stat"><div class="stat-num"><span id="area-total" data-count>20</span></div><div class="stat-label">エリア</div></div>
+      <div class="stat"><div class="stat-num"><span id="genre-total" data-count>12</span></div><div class="stat-label">ジャンル</div></div>
+      <div class="stat"><div class="stat-num word">昼・夜</div><div class="stat-label">営業表示</div></div>
     </div>
   </div>
 </div>
@@ -1910,6 +1931,19 @@ renderMatrix();
 fillNavCounts();
 document.getElementById('shop-count').textContent = shops.length;
 document.getElementById('area-total').textContent = AREA_ORDER.filter(a => shops.some(s => s.area_id === a)).length;
+document.getElementById('genre-total').textContent = GENRE_ORDER.filter(g => shops.some(s => s.g === g)).length;
+// 表紙の数字を0から数え上げる。動きを減らす設定なら最終値のまま(桁区切りだけ付ける)
+document.querySelectorAll('[data-count]').forEach(el => {
+  const end = +el.textContent, fmt = v => v.toLocaleString('ja-JP');
+  if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) { el.textContent = fmt(end); return; }
+  const t0 = performance.now(), dur = 1100;
+  const step = t => {
+    const p = Math.min(1, (t - t0) / dur);
+    el.textContent = fmt(Math.round(end * (1 - Math.pow(1 - p, 3))));
+    if (p < 1) requestAnimationFrame(step);
+  };
+  el.textContent = '0'; requestAnimationFrame(step);
+});
 
 // 固定ナビの実測高さを CSS 変数へ。ボタンの大きさが画面幅で変わっても
 // area-section の scroll-margin-top が追従し、飛び先の見出しが隠れない
