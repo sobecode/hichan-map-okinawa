@@ -5,12 +5,11 @@
  */
 'use strict';
 const add = require('./add_rows');
-add({
-  area_id: 'kadena', muni: '嘉手納町', detail: 'detail_rank_47325.json',
-  rows: [
-    ['シーサイド', 'other', '野国', '嘉手納マリーナの中の、米空軍が運営するダイニング。店内は完全にアメリカで、海を眺めながらTボーンステーキやバーガーを。', 'Tボーンステーキ / バーガー', null, [['steak', 'ステーキ'], ['view', '海']], {gsi: '兼久'}],
-  ],
-});
+// 嘉手納のシーサイドは一度足したが、既存の Seaside（シーサイド）と同じ店だった(ピンが約100m離れていて近接チェックを抜けた)。
+// 行は消し、既存の行に tl と営業時間を付けた。
+if (!process.argv.includes('--dry')) {
+  require('./fix_rows')('kadena', [{n: 'Seaside（シーサイド）', a: '嘉手納町/野国', row: 'シーサイド', tl: 'A4703/A470304/47007650', tb: 3.48, tbc: 367, h: '10:30〜21:00（土・日は9:00〜21:00）（月・火定休）'}]);
+}
 add({
   area_id: 'ginowan', muni: '宜野湾市', detail: 'detail_rank_47205.json',
   rows: [
