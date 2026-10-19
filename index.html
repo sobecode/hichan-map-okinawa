@@ -64,10 +64,30 @@ body{font-family:'Zen Maru Gothic','Noto Sans JP',sans-serif;background:var(--sa
 .map-header p{font-size:11px;color:#999;margin-top:3px;}
 #map{width:100%;height:460px;}
 .filter-nav{background:#fff;box-shadow:0 2px 12px rgba(0,0,0,.08);position:sticky;top:0;z-index:500;padding:10px 0 8px;}
-.area-nav-inner{display:flex;gap:7px;overflow-x:auto;padding:0 14px;scrollbar-width:none;}
+/*
+ * エリアは北部・中部・南部の切り替えにして、選んだ地域のエリアだけを1行に並べる。
+ * 20個を1行で横に流すと端の南城まで指が届かないため。区分は県の圏域に合わせた(浦添は南部)。
+ */
+.area-row{display:flex;align-items:center;gap:8px;padding:0 0 0 14px;}
+.region-seg{flex-shrink:0;display:flex;background:var(--deep);border-radius:20px;padding:3px;gap:2px;box-shadow:inset 0 1px 3px rgba(0,0,0,.25);}
+.region-btn{background:transparent;border:none;border-radius:16px;padding:6px 11px;font-size:12px;font-weight:900;font-family:inherit;cursor:pointer;color:rgba(255,255,255,.72);letter-spacing:1px;transition:all .2s;white-space:nowrap;}
+.region-btn:hover{color:#fff;}
+/* 地域ごとの色。北部=やんばるの森の緑、中部=西海岸の海の青、南部=夕日の珊瑚色 */
+.region-btn[data-region="north"],.area-btn[data-region="north"]{--rc:#2E9D5B;--rt:#E5F4EB;}
+.region-btn[data-region="central"],.area-btn[data-region="central"]{--rc:#1C86C8;--rt:#E2F0FA;}
+.region-btn[data-region="south"],.area-btn[data-region="south"]{--rc:#E2603F;--rt:#FDEBE5;}
+.region-btn::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--rc);margin-right:5px;vertical-align:1px;}
+.region-btn.active{background:var(--rc);color:#fff;box-shadow:0 1px 4px rgba(0,0,0,.25);}
+.region-btn.active::before{background:#fff;}
+.area-nav-inner{flex:1;min-width:0;display:flex;gap:7px;overflow-x:auto;padding:0 14px 0 0;scrollbar-width:none;}
+.area-nav-inner[data-region="north"] .area-btn:not([data-region="north"]),
+.area-nav-inner[data-region="central"] .area-btn:not([data-region="central"]),
+.area-nav-inner[data-region="south"] .area-btn:not([data-region="south"]){display:none;}
 .area-nav-inner::-webkit-scrollbar{display:none;}
 .area-btn{flex-shrink:0;background:#f5f5f5;border:none;border-radius:20px;padding:7px 13px;font-size:12px;font-weight:700;font-family:inherit;cursor:pointer;transition:all .2s;white-space:nowrap;color:var(--deep);}
 .area-btn:hover,.area-btn.active{background:var(--hibiscus);color:#fff;}
+.area-btn[data-region]{background:var(--rt);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--rc) 35%,transparent);}
+.area-btn[data-region]:hover,.area-btn[data-region].active{background:var(--rc);color:#fff;box-shadow:none;}
 .genre-nav-inner{display:flex;gap:6px;overflow-x:auto;padding:8px 14px 0;margin-top:6px;border-top:1px dashed #eee;scrollbar-width:none;}
 .genre-nav-inner::-webkit-scrollbar{display:none;}
 .genre-btn{flex-shrink:0;background:#f5f5f5;border:1px solid transparent;border-radius:20px;padding:6px 12px;font-size:11px;font-weight:700;font-family:inherit;cursor:pointer;transition:all .2s;white-space:nowrap;color:var(--deep);}
@@ -261,6 +281,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
   .bd-num{font-size:11.5px;}
   /* 31〜32px のフィルタボタンを38px前後に */
   .area-btn{padding:10px 14px;font-size:12.5px;}
+  .region-btn{padding:8px 10px;font-size:12.5px;}
   .genre-btn{padding:10px 13px;font-size:12px;}
   .btn-count{font-size:10.5px;line-height:17px;}
   /* 29px だった集計表のセルを38px前後に */
@@ -338,27 +359,34 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
     <button type="button" class="locate-btn" id="locate-btn" onclick="locateMe()">📍 現在地</button>
   </div>
   <div class="search-status" id="search-status"></div>
-  <div class="area-nav-inner">
-    <button class="area-btn" onclick="jumpTo('yanbaru',26.72,128.16,11,this)">🌳 やんばる</button>
-    <button class="area-btn" onclick="jumpTo('nago',26.59,127.99,12,this)">🌿 名護</button>
-    <button class="area-btn" onclick="jumpTo('motobu',26.672,127.945,12,this)">🐠 本部・今帰仁</button>
-    <button class="area-btn" onclick="jumpTo('kin',26.456,127.895,13,this)">🌮 金武</button>
-    <button class="area-btn" onclick="jumpTo('ginoza',26.487,127.976,13,this)">⚾ 宜野座</button>
-    <button class="area-btn" onclick="jumpTo('uruma',26.36,127.89,12,this)">🌉 うるま</button>
-    <button class="area-btn" onclick="jumpTo('onna',26.45,127.81,12,this)">🌊 恩納村</button>
-    <button class="area-btn" onclick="jumpTo('yomitan',26.42,127.72,12,this)">🏺 読谷</button>
-    <button class="area-btn" onclick="jumpTo('chatan',26.32,127.75,13,this)">🎡 北谷</button>
-    <button class="area-btn" onclick="jumpTo('kadena',26.36,127.75,13,this)">✈️ 嘉手納</button>
-    <button class="area-btn" onclick="jumpTo('ginowan',26.28,127.77,13,this)">🏛️ 宜野湾</button>
-    <button class="area-btn" onclick="jumpTo('urasoe',26.25,127.73,13,this)">🎪 浦添</button>
-    <button class="area-btn" onclick="jumpTo('naha',26.22,127.68,13,this)">🎵 那覇</button>
-    <button class="area-btn" onclick="jumpTo('okinawacity',26.34,127.80,12,this)">🎠 沖縄市</button>
-    <button class="area-btn" onclick="jumpTo('nakagusuku',26.28,127.79,13,this)">🛒 中城・北中城</button>
-    <button class="area-btn" onclick="jumpTo('haebaru',26.21,127.75,12,this)">🌾 南風原・西原・与那原</button>
-    <button class="area-btn" onclick="jumpTo('tomigusuku',26.18,127.67,13,this)">🏯 豊見城</button>
-    <button class="area-btn" onclick="jumpTo('itoman',26.12,127.67,12,this)">🎣 糸満</button>
-    <button class="area-btn" onclick="jumpTo('yaese',26.14,127.73,13,this)">🍃 八重瀬</button>
-    <button class="area-btn" onclick="jumpTo('nanjo',26.16,127.78,12,this)">🌸 南城</button>
+  <div class="area-row">
+    <div class="region-seg" role="tablist" aria-label="地域">
+      <button type="button" class="region-btn active" data-region="north" onclick="setRegion('north')">北部</button>
+      <button type="button" class="region-btn" data-region="central" onclick="setRegion('central')">中部</button>
+      <button type="button" class="region-btn" data-region="south" onclick="setRegion('south')">南部</button>
+    </div>
+    <div class="area-nav-inner" data-region="north">
+      <button class="area-btn" data-region="north" onclick="jumpTo('yanbaru',26.72,128.16,11,this)">🌳 やんばる</button>
+      <button class="area-btn" data-region="north" onclick="jumpTo('motobu',26.672,127.945,12,this)">🐠 本部・今帰仁</button>
+      <button class="area-btn" data-region="north" onclick="jumpTo('nago',26.59,127.99,12,this)">🌿 名護</button>
+      <button class="area-btn" data-region="north" onclick="jumpTo('onna',26.45,127.81,12,this)">🌊 恩納村</button>
+      <button class="area-btn" data-region="north" onclick="jumpTo('ginoza',26.487,127.976,13,this)">⚾ 宜野座</button>
+      <button class="area-btn" data-region="north" onclick="jumpTo('kin',26.456,127.895,13,this)">🌮 金武</button>
+      <button class="area-btn" data-region="central" onclick="jumpTo('uruma',26.36,127.89,12,this)">🌉 うるま</button>
+      <button class="area-btn" data-region="central" onclick="jumpTo('yomitan',26.42,127.72,12,this)">🏺 読谷</button>
+      <button class="area-btn" data-region="central" onclick="jumpTo('kadena',26.36,127.75,13,this)">✈️ 嘉手納</button>
+      <button class="area-btn" data-region="central" onclick="jumpTo('okinawacity',26.34,127.80,12,this)">🎠 沖縄市</button>
+      <button class="area-btn" data-region="central" onclick="jumpTo('chatan',26.32,127.75,13,this)">🎡 北谷</button>
+      <button class="area-btn" data-region="central" onclick="jumpTo('nakagusuku',26.28,127.79,13,this)">🛒 中城・北中城</button>
+      <button class="area-btn" data-region="central" onclick="jumpTo('ginowan',26.28,127.77,13,this)">🏛️ 宜野湾</button>
+      <button class="area-btn" data-region="south" onclick="jumpTo('urasoe',26.25,127.73,13,this)">🎪 浦添</button>
+      <button class="area-btn" data-region="south" onclick="jumpTo('naha',26.22,127.68,13,this)">🎵 那覇</button>
+      <button class="area-btn" data-region="south" onclick="jumpTo('haebaru',26.21,127.75,12,this)">🌾 南風原・西原・与那原</button>
+      <button class="area-btn" data-region="south" onclick="jumpTo('tomigusuku',26.18,127.67,13,this)">🏯 豊見城</button>
+      <button class="area-btn" data-region="south" onclick="jumpTo('nanjo',26.16,127.78,12,this)">🌸 南城</button>
+      <button class="area-btn" data-region="south" onclick="jumpTo('yaese',26.14,127.73,13,this)">🍃 八重瀬</button>
+      <button class="area-btn" data-region="south" onclick="jumpTo('itoman',26.12,127.67,12,this)">🎣 糸満</button>
+    </div>
   </div>
   <div class="genre-nav-inner">
     <button class="genre-btn all-btn active" data-genre="all" onclick="setGenre('all')">✨ すべて</button>
@@ -2068,6 +2096,14 @@ function pickCombo(areaId, g) {
   const hits = shops.filter(s => s.area_id === areaId && (g === 'all' || s.g === g));
   if (hits.length === 1) map.flyTo([hits[0].lat, hits[0].lng], 15, {animate: true, duration: 1.2});
   else if (hits.length) map.flyToBounds(L.latLngBounds(hits.map(s => [s.lat, s.lng])), {padding: [40, 40], duration: 1.2});
+}
+
+// 地域の切り替え。エリアの行を先頭に戻し、見えているボタンだけにする
+function setRegion(r) {
+  document.querySelectorAll('.region-btn').forEach(b => b.classList.toggle('active', b.dataset.region === r));
+  const inner = document.querySelector('.area-nav-inner');
+  inner.dataset.region = r;
+  inner.scrollLeft = 0;
 }
 
 function jumpTo(id, lat, lng, zoom, btn) {
