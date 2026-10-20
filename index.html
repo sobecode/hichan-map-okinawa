@@ -125,6 +125,12 @@ body{font-family:'Zen Maru Gothic','Noto Sans JP',sans-serif;background:var(--sa
 .locate-btn:disabled{opacity:.6;}
 .search-status{padding:0 14px 6px;font-size:12px;color:#888;display:none;}
 .search-status.on{display:block;}
+/* 検索中: 結果だけを詰めて見せる。帯は固定ナビの下に来るよう scroll-margin を取る */
+.result-bar{display:none;align-items:center;justify-content:space-between;gap:10px;background:var(--deep);color:#fff;border-radius:14px;padding:10px 14px;margin:4px 0 18px;font-size:14px;font-weight:700;scroll-margin-top:calc(var(--nav-h, 96px) + 10px);}
+.result-bar button{border:0;background:rgba(255,255,255,.18);color:#fff;border-radius:999px;padding:8px 12px;font-size:12.5px;font-weight:700;font-family:inherit;cursor:pointer;white-space:nowrap;}
+body.searching .result-bar{display:flex;}
+body.searching .route-label,body.searching .wave-divider,body.searching .area-breakdown{display:none;}
+body.searching .area-section{margin-bottom:22px;}
 .no-hit{display:none;text-align:center;color:#999;padding:40px 16px;font-size:14px;}
 .no-hit.on{display:block;}
 .me-dot{width:16px;height:16px;background:#2a78d6;border:3px solid #fff;border-radius:50%;box-shadow:0 0 0 6px rgba(42,120,214,.25);}
@@ -408,6 +414,7 @@ table.matrix tfoot .mx-grand{color:var(--hibiscus);cursor:default;}
 <div class="container">
   <div class="route-label">▼ 北 か ら 南 へ 縦 断 ル ー ト</div>
 
+  <div class="result-bar" id="result-bar"><span id="result-label"></span><button type="button" onclick="clearSearch()">✕ 検索をやめる</button></div>
   <div id="shop-sections"></div>
   <div class="no-hit" id="no-hit">該当するお店がありません。<br>言葉を変えるか、ジャンルを「すべて」にしてみてください。</div>
 
@@ -2282,15 +2289,44 @@ let currentQuery = '';
 function normText(t) {
   return String(t || '').normalize('NFKC').toLowerCase()
     .replace(/<[^>]*>/g, ' ')
-    .replace(/[\u30a1-\u30f6]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60))
+    .replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60))
     .replace(/[\s・\/／、。,.]+/g, ' ');
 }
 const SEARCH_TEXT = shops.map(s => normText([s.n, s.a, s.d, s.r, s.tags, GENRE_LABEL[s.g] || '', (AREA_META[s.area_id] || [])[1] || ''].join(' ')));
 
+/*
+ * 同じものを指す言い方の束。検索語がどれかと一致したら、束のどれかを含む店を当てる。
+ * 地名は漢字が読めない人がひらがなで打つので読みを入れておく。
+ * 「海」のような1文字は海鮮・海ぶどうまで拾うので、眺めの束には入れない。
+ */
+const SYNONYMS = [
+  ['すし', '寿司', '鮨', '鮓'], ['そば', '蕎麦'], ['すば', 'そば'], ['やきとり', '焼き鳥', '焼鳥'], ['やきにく', '焼肉', '焼き肉'],
+  ['てんぷら', '天ぷら', '天麩羅'], ['ぎょうざ', '餃子'], ['ごーやー', 'ごーや'], ['ていしょく', '定食'], ['ちゅうか', '中華', '中国料理'],
+  ['あいす', 'じぇらーと', 'そふとくりーむ'], ['かきごおり', 'かき氷', 'ぜんざい'], ['こーひー', '珈琲', 'coffee'],
+  ['朝ごはん', '朝食', 'もーにんぐ', '朝そば'], ['持ち帰り', 'ていくあうと'],
+  ['沖縄料理', '郷土料理', '琉球料理', '家庭料理'],
+  ['海が見える', 'おーしゃんびゅー', 'おーしゃんふろんと', '海沿い', '海辺', '海の見える', '海を望む', '海一望', '絶景'],
+  ['すたば', 'すたーばっくす', 'starbucks'], ['えーあんどだぶりゅー', 'a&w'],
+  ['なは', '那覇'], ['ちゃたん', '北谷'], ['おんな', '恩納'], ['よみたん', '読谷'], ['なご', '名護'], ['もとぶ', '本部'],
+  ['なきじん', '今帰仁'], ['こうり', '古宇利'], ['ぎのわん', '宜野湾'], ['うらそえ', '浦添'], ['いとまん', '糸満'],
+  ['なんじょう', '南城'], ['とみぐすく', '豊見城'], ['かでな', '嘉手納'], ['きん', '金武'], ['ぎのざ', '宜野座'],
+  ['やえせ', '八重瀬'], ['はえばる', '南風原'], ['にしはら', '西原'], ['よなばる', '与那原'], ['なかぐすく', '中城'],
+  ['くにがみ', '国頭'], ['おきなわし', '沖縄市'], ['しゅり', '首里'], ['つぼや', '壺屋'], ['まきし', '牧志'],
+  ['くもじ', '久茂地'], ['まつやま', '松山'], ['さかえまち', '栄町'], ['あさと', '安里'], ['こくさいどおり', '国際通り'],
+  ['しんとしん', '新都心', 'おもろまち'], ['みはま', '美浜', 'あめりかんびれっじ'], ['せながじま', '瀬長島'],
+  ['とよさき', '豊崎'], ['ちゅらうみ', '美ら海'], ['くうこう', '空港'],
+].map(g => g.map(w => normText(w).trim()));
+
+// 検索語1つを、当てにいく語の候補に広げる。「すば」→「そば」は片道だけ(「そば」で「らいすばー」を拾わないため)
+function expandWord(w) {
+  return SYNONYMS.find(g => g.includes(w)) || [w];
+}
+let currentTerms = [];
+
 function shopMatches(i) {
   if (currentGenre !== 'all' && shops[i].g !== currentGenre) return false;
   if (!currentQuery) return true;
-  return currentQuery.split(' ').every(w => SEARCH_TEXT[i].includes(w));
+  return currentTerms.every(ws => ws.some(w => SEARCH_TEXT[i].includes(w)));
 }
 
 function setGenre(g) {
@@ -2323,7 +2359,11 @@ function applyFilters() {
 
   const status = document.getElementById('search-status');
   status.classList.toggle('on', !!currentQuery);
-  status.textContent = currentQuery ? `「${document.getElementById('shop-search').value.trim()}」${hit}件` : '';
+  const label = currentQuery ? `「${escHtml(document.getElementById('shop-search').value.trim())}」${hit}件` : '';
+  status.textContent = label.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+  // 検索中は一覧を結果だけに詰める(エリアの内訳チップ・区切りを隠す)。帯から検索をやめられるようにする
+  document.body.classList.toggle('searching', !!currentQuery);
+  document.getElementById('result-label').innerHTML = label;
   document.getElementById('no-hit').classList.toggle('on', hit === 0);
 
   document.querySelectorAll('.area-section').forEach(section => {
@@ -2347,21 +2387,23 @@ function runSearch() {
   const q = normText(searchInput.value).trim();
   if (q === currentQuery) return;
   currentQuery = q;
+  currentTerms = q ? q.split(' ').map(expandWord) : [];
   applyFilters();
   if (!q) return;
   // 当たった店が地図に収まるように寄せる。1件ならその店へ
   const hits = shops.filter((s, i) => shopMatches(i));
   if (hits.length === 1) map.flyTo([hits[0].lat, hits[0].lng], 16, {duration: 1});
   else if (hits.length) map.flyToBounds(L.latLngBounds(hits.map(s => [s.lat, s.lng])), {padding: [30, 30], maxZoom: 15, duration: 1});
-  // ページの下の方で探したとき、絞り込まれた一覧が画面より上に隠れないよう先頭へ戻す
-  const list = document.getElementById('shop-sections');
-  if (list.getBoundingClientRect().top < 0) { holdNavForJump(); list.scrollIntoView({behavior: 'smooth', block: 'start'}); }
+  // ページの下の方で探したとき、絞り込まれた一覧が画面より上に隠れないよう、結果の帯へ戻す
+  const bar = document.getElementById('result-bar');
+  if (bar.getBoundingClientRect().top < 0) { holdNavForJump(); bar.scrollIntoView({behavior: 'smooth', block: 'start'}); }
 }
 function resetSearch() {
   clearTimeout(searchTimer);
   searchInput.value = '';
   document.getElementById('search-box').classList.remove('has-q');
   currentQuery = '';
+  currentTerms = [];
 }
 function clearSearch() {
   resetSearch();
