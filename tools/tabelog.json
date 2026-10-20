@@ -6081,13 +6081,13 @@
   "area_id": "naha",
   "name": "空港食堂",
   "score": 3.49,
-  "count": 2043
+  "count": 2125
  },
  {
   "area_id": "naha",
   "name": "みかど",
   "score": 3.49,
-  "count": 1339
+  "count": 1377
  },
  {
   "area_id": "okinawacity",
@@ -7353,13 +7353,13 @@
   "area_id": "naha",
   "name": "ステーキハウス８８ 辻本店",
   "score": 3.49,
-  "count": 1163
+  "count": 1212
  },
  {
   "area_id": "naha",
   "name": "ステーキハウス 88 国際通り店",
-  "score": 3.48,
-  "count": 1075
+  "score": 3.49,
+  "count": 1132
  },
  {
   "area_id": "naha",
@@ -7442,14 +7442,14 @@
  {
   "area_id": "naha",
   "name": "タコス屋 新都心店",
-  "score": 3.47,
-  "count": 370
+  "score": 3.49,
+  "count": 382
  },
  {
   "area_id": "naha",
   "name": "ベターガール",
   "score": 3.47,
-  "count": 142
+  "count": 146
  },
  {
   "area_id": "naha",
@@ -7472,8 +7472,8 @@
  {
   "area_id": "naha",
   "name": "LUCKY TACOS",
-  "score": 3.44,
-  "count": 201
+  "score": 3.48,
+  "count": 211
  },
  {
   "area_id": "naha",
@@ -7628,8 +7628,8 @@
  {
   "area_id": "naha",
   "name": "Jef サンライズなは店",
-  "score": 3.47,
-  "count": 329
+  "score": 3.49,
+  "count": 331
  },
  {
   "area_id": "naha",
@@ -8469,7 +8469,7 @@
   "area_id": "naha",
   "name": "ブルーシールパーラー 大湾店",
   "score": 3.49,
-  "count": 188
+  "count": 195
  },
  {
   "area_id": "naha",
@@ -8517,19 +8517,19 @@
   "area_id": "naha",
   "name": "べんり屋 玉玲瓏",
   "score": 3.49,
-  "count": 590
+  "count": 604
  },
  {
   "area_id": "naha",
   "name": "一番餃子 栄町店",
-  "score": 3.46,
-  "count": 227
+  "score": 3.48,
+  "count": 229
  },
  {
   "area_id": "naha",
   "name": "金燕楼",
-  "score": 3.46,
-  "count": 208
+  "score": 3.48,
+  "count": 217
  },
  {
   "area_id": "naha",
@@ -10118,20 +10118,20 @@
  {
   "area_id": "naha",
   "name": "ちゅらさん亭",
-  "score": 3.48,
-  "count": 397
+  "score": 3.49,
+  "count": 404
  },
  {
   "area_id": "naha",
   "name": "大衆串揚酒場 足立屋",
-  "score": 3.48,
-  "count": 394
+  "score": 3.49,
+  "count": 414
  },
  {
   "area_id": "naha",
   "name": "あっぱりしゃん",
-  "score": 3.48,
-  "count": 380
+  "score": 3.49,
+  "count": 385
  },
  {
   "area_id": "naha",
@@ -10148,8 +10148,8 @@
  {
   "area_id": "naha",
   "name": "大安丸",
-  "score": 3.48,
-  "count": 239
+  "score": 3.49,
+  "count": 241
  },
  {
   "area_id": "urasoe",
@@ -11524,5 +11524,389 @@
   "name": "ヘリオス那覇エアポートブルワリー",
   "score": 3.51,
   "count": 119
+ },
+ {
+  "area_id": "naha",
+  "name": "ステーキハウス88 那覇空港店",
+  "score": 3.49,
+  "count": 886
+ },
+ {
+  "area_id": "naha",
+  "name": "琉球村 那覇空港店",
+  "score": 3.49,
+  "count": 637
+ },
+ {
+  "area_id": "naha",
+  "name": "琉球回転寿司 海來",
+  "score": 3.49,
+  "count": 623
+ },
+ {
+  "area_id": "naha",
+  "name": "どんぶりの店 志貴",
+  "score": 3.48,
+  "count": 431
+ },
+ {
+  "area_id": "naha",
+  "name": "Ａ＆Ｗ 那覇空港店",
+  "score": 3.47,
+  "count": 1707
+ },
+ {
+  "area_id": "naha",
+  "name": "レストラン風月 那覇空港店",
+  "score": 3.47,
+  "count": 359
+ },
+ {
+  "area_id": "naha",
+  "name": "ケンミン食堂",
+  "score": 3.47,
+  "count": 265
+ },
+ {
+  "area_id": "naha",
+  "name": "キリンビア＆スナック",
+  "score": 3.47,
+  "count": 188
+ },
+ {
+  "area_id": "naha",
+  "name": "三丁目そば",
+  "score": 3.49,
+  "count": 370
+ },
+ {
+  "area_id": "naha",
+  "name": "島しゃぶしゃぶNAKAMA",
+  "score": 3.48,
+  "count": 406
+ },
+ {
+  "area_id": "naha",
+  "name": "居酒屋野郎 りょう次",
+  "score": 3.48,
+  "count": 229
+ },
+ {
+  "area_id": "naha",
+  "name": "やまや",
+  "score": 3.48,
+  "count": 189
+ },
+ {
+  "area_id": "naha",
+  "name": "焼乃魚島",
+  "score": 3.48,
+  "count": 186
+ },
+ {
+  "area_id": "naha",
+  "name": "サムズ アンカーイン 国際通り店",
+  "score": 3.47,
+  "count": 334
+ },
+ {
+  "area_id": "naha",
+  "name": "味噌めしや まるたま",
+  "score": 3.49,
+  "count": 419
+ },
+ {
+  "area_id": "naha",
+  "name": "あさひ（泉崎）",
+  "score": 3.49,
+  "count": 318
+ },
+ {
+  "area_id": "naha",
+  "name": "天妃そば",
+  "score": 3.49,
+  "count": 363
+ },
+ {
+  "area_id": "naha",
+  "name": "琉球麺屋かりゆしそば",
+  "score": 3.48,
+  "count": 205
+ },
+ {
+  "area_id": "naha",
+  "name": "風林火山",
+  "score": 3.48,
+  "count": 125
+ },
+ {
+  "area_id": "naha",
+  "name": "喜作",
+  "score": 3.48,
+  "count": 226
+ },
+ {
+  "area_id": "naha",
+  "name": "魚屋直営すし食堂 魚まる",
+  "score": 3.48,
+  "count": 209
+ },
+ {
+  "area_id": "naha",
+  "name": "海のちんぼらぁ",
+  "score": 3.47,
+  "count": 204
+ },
+ {
+  "area_id": "naha",
+  "name": "あぐん茶",
+  "score": 3.47,
+  "count": 146
+ },
+ {
+  "area_id": "naha",
+  "name": "高良食堂",
+  "score": 3.48,
+  "count": 383
+ },
+ {
+  "area_id": "naha",
+  "name": "亀かめそば",
+  "score": 3.48,
+  "count": 346
+ },
+ {
+  "area_id": "naha",
+  "name": "田舎 公設市場南店",
+  "score": 3.49,
+  "count": 754
+ },
+ {
+  "area_id": "naha",
+  "name": "いつでも朝ごはん 本店",
+  "score": 3.48,
+  "count": 255
+ },
+ {
+  "area_id": "naha",
+  "name": "牧志そば",
+  "score": 3.48,
+  "count": 228
+ },
+ {
+  "area_id": "naha",
+  "name": "末廣ブルース",
+  "score": 3.48,
+  "count": 227
+ },
+ {
+  "area_id": "naha",
+  "name": "パーラー 小やじ",
+  "score": 3.48,
+  "count": 198
+ },
+ {
+  "area_id": "naha",
+  "name": "川かみ鮮魚 魚坊",
+  "score": 3.48,
+  "count": 166
+ },
+ {
+  "area_id": "naha",
+  "name": "ステーキハウス88 国際通り西口店",
+  "score": 3.47,
+  "count": 383
+ },
+ {
+  "area_id": "naha",
+  "name": "赤とんぼ",
+  "score": 3.47,
+  "count": 314
+ },
+ {
+  "area_id": "naha",
+  "name": "米仙",
+  "score": 3.47,
+  "count": 126
+ },
+ {
+  "area_id": "naha",
+  "name": "大衆立呑酒場 垂れ屋",
+  "score": 3.47,
+  "count": 120
+ },
+ {
+  "area_id": "naha",
+  "name": "海音",
+  "score": 3.49,
+  "count": 615
+ },
+ {
+  "area_id": "naha",
+  "name": "沖縄そば タイラ製麺所 国際通り店",
+  "score": 3.49,
+  "count": 291
+ },
+ {
+  "area_id": "naha",
+  "name": "小桜",
+  "score": 3.49,
+  "count": 273
+ },
+ {
+  "area_id": "naha",
+  "name": "花はな商店",
+  "score": 3.49,
+  "count": 214
+ },
+ {
+  "area_id": "naha",
+  "name": "波照間 国際通り店",
+  "score": 3.48,
+  "count": 494
+ },
+ {
+  "area_id": "naha",
+  "name": "宮古そば SAIGA",
+  "score": 3.48,
+  "count": 158
+ },
+ {
+  "area_id": "naha",
+  "name": "花笠食堂",
+  "score": 3.47,
+  "count": 404
+ },
+ {
+  "area_id": "naha",
+  "name": "サムズセーラーイン 国際通り店",
+  "score": 3.47,
+  "count": 348
+ },
+ {
+  "area_id": "naha",
+  "name": "島唄と地料理 とぅばらーま 国際通り店",
+  "score": 3.47,
+  "count": 323
+ },
+ {
+  "area_id": "naha",
+  "name": "金武アグーと山城牛のしゃぶしゃぶ 琉球 別邸",
+  "score": 3.47,
+  "count": 204
+ },
+ {
+  "area_id": "naha",
+  "name": "大衆酒場 ヱイクラ",
+  "score": 3.47,
+  "count": 121
+ },
+ {
+  "area_id": "naha",
+  "name": "三笠 松山店",
+  "score": 3.49,
+  "count": 709
+ },
+ {
+  "area_id": "naha",
+  "name": "すばやー 松山店",
+  "score": 3.49,
+  "count": 620
+ },
+ {
+  "area_id": "naha",
+  "name": "ステーキヒカル",
+  "score": 3.49,
+  "count": 365
+ },
+ {
+  "area_id": "naha",
+  "name": "ステーキハウス チャコオキナワ",
+  "score": 3.49,
+  "count": 229
+ },
+ {
+  "area_id": "naha",
+  "name": "めし屋 げんてん",
+  "score": 3.48,
+  "count": 200
+ },
+ {
+  "area_id": "naha",
+  "name": "家庭料理の店 まんじゅまい",
+  "score": 3.47,
+  "count": 94
+ },
+ {
+  "area_id": "naha",
+  "name": "うりずん（栄町）",
+  "score": 3.49,
+  "count": 1253
+ },
+ {
+  "area_id": "naha",
+  "name": "小梅",
+  "score": 3.48,
+  "count": 228
+ },
+ {
+  "area_id": "naha",
+  "name": "アメリカ食堂　サンズ・ダイナー",
+  "score": 3.47,
+  "count": 239
+ },
+ {
+  "area_id": "naha",
+  "name": "トミヤランドリー",
+  "score": 3.47,
+  "count": 118
+ },
+ {
+  "area_id": "naha",
+  "name": "THE ORION BEER DINING",
+  "score": 3.47,
+  "count": 112
+ },
+ {
+  "area_id": "naha",
+  "name": "けんぱーのすばやー",
+  "score": 3.49,
+  "count": 522
+ },
+ {
+  "area_id": "naha",
+  "name": "吉﨑食堂 おもろまち店",
+  "score": 3.47,
+  "count": 204
+ },
+ {
+  "area_id": "naha",
+  "name": "てぃしらじそば",
+  "score": 3.48,
+  "count": 154
+ },
+ {
+  "area_id": "naha",
+  "name": "守礼そば",
+  "score": 3.49,
+  "count": 445
+ },
+ {
+  "area_id": "naha",
+  "name": "東江そば 小禄店",
+  "score": 3.47,
+  "count": 181
+ },
+ {
+  "area_id": "naha",
+  "name": "そば処 こどら",
+  "score": 3.48,
+  "count": 190
+ },
+ {
+  "area_id": "naha",
+  "name": "マーベリック",
+  "score": 3.48,
+  "count": 174
  }
 ]
