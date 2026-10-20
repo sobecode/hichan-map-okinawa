@@ -2301,6 +2301,7 @@ const SEARCH_TEXT = shops.map(s => normText([s.n, s.a, s.d, s.r, s.tags, GENRE_L
  */
 const SYNONYMS = [
   ['すし', '寿司', '鮨', '鮓'], ['そば', '蕎麦'], ['すば', 'そば'], ['やきとり', '焼き鳥', '焼鳥'], ['やきにく', '焼肉', '焼き肉'],
+  ['らーめん', '拉麺', 'ramen', 'らあめん'], ['とんこつ', '豚骨'], ['みそ', '味噌'], ['しょうゆ', '醤油'], ['しお', '塩'],
   ['てんぷら', '天ぷら', '天麩羅'], ['ぎょうざ', '餃子'], ['ごーやー', 'ごーや'], ['ていしょく', '定食'], ['ちゅうか', '中華', '中国料理'],
   ['あいす', 'じぇらーと', 'そふとくりーむ'], ['かきごおり', 'かき氷', 'ぜんざい'], ['こーひー', '珈琲', 'coffee'],
   ['朝ごはん', '朝食', 'もーにんぐ', '朝そば'], ['持ち帰り', 'ていくあうと'],
@@ -2318,8 +2319,26 @@ const SYNONYMS = [
 ].map(g => g.map(w => normText(w).trim()));
 
 // 検索語1つを、当てにいく語の候補に広げる。「すば」→「そば」は片道だけ(「そば」で「らいすばー」を拾わないため)
+// 「ラーメン屋」「そば店」のような語尾は外す
 function expandWord(w) {
+  const t = w.replace(/(やさん|屋|店)$/, '');
+  if (t.length >= 2 && t !== w) w = t;
   return SYNONYMS.find(g => g.includes(w)) || [w];
+}
+
+/*
+ * 「塩ラーメン」「沖縄そば屋」のように料理名に言葉が付いた語は、本文にその並びが無いと0件になる。
+ * そのままで1件も当たらないときだけ、料理名の前で2語に分けて探し直す。
+ */
+const DISHES = ['らーめん', 'そば', 'すば', 'かふぇ', 'かれー', 'ぱん', 'すし', '寿司', 'やきにく', '焼肉', 'やきとり', '焼き鳥',
+  'ていしょく', '定食', 'ぴざ', 'ぱすた', 'たこす', 'ばーがー', 'ちゃんぷるー', 'ぜんざい', 'すてーき'].map(w => normText(w).trim());
+function termsFor(q) {
+  return q.split(' ').flatMap(w => {
+    const ws = expandWord(w);
+    if (SEARCH_TEXT.some(t => ws.some(v => t.includes(v)))) return [ws];
+    const d = DISHES.find(d => w.endsWith(d) && w.length > d.length);
+    return d ? [expandWord(w.slice(0, -d.length)), expandWord(d)] : [ws];
+  });
 }
 let currentTerms = [];
 
@@ -2387,7 +2406,7 @@ function runSearch() {
   const q = normText(searchInput.value).trim();
   if (q === currentQuery) return;
   currentQuery = q;
-  currentTerms = q ? q.split(' ').map(expandWord) : [];
+  currentTerms = q ? termsFor(q) : [];
   applyFilters();
   if (!q) return;
   // 当たった店が地図に収まるように寄せる。1件ならその店へ
